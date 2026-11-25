@@ -1,0 +1,317 @@
+{
+ "engineVersion": "0.12.0",
+ "questions": {
+  "ch5.angles.lines.angle_chase@1/L1/1": {
+   "signature": "6e880ccd",
+   "prompt": "Die Geraden $g$ und $t$ schneiden sich. Es ist $\\beta$ $= 73^\\circ$. Berechne $\\delta$.",
+   "diagramAlt": "Zwei Geraden g und t schneiden sich im Punkt S. Markiert sind die Winkel β und δ.",
+   "diagramElements": 5,
+   "answerType": "integer",
+   "canonical": "73",
+   "result": "$\\delta$ = $73$°"
+  },
+  "ch5.angles.lines.angle_chase@1/L1/2": {
+   "signature": "b3bb6bee",
+   "prompt": "Die Geraden $g$ und $t$ schneiden sich. Es ist $\\alpha$ $= 112^\\circ$. Berechne $\\delta$.",
+   "diagramAlt": "Zwei Geraden g und t schneiden sich im Punkt S. Markiert sind die Winkel α und δ.",
+   "diagramElements": 5,
+   "answerType": "integer",
+   "canonical": "68",
+   "result": "$\\delta$ = $68$°"
+  },
+  "ch5.angles.lines.angle_chase@1/L1/3": {
+   "signature": "17a98d6d",
+   "prompt": "Die Geraden $g$ und $t$ schneiden sich. Es ist $\\delta$ $= 117^\\circ$. Berechne $\\alpha$.",
+   "diagramAlt": "Zwei Geraden g und t schneiden sich im Punkt S. Markiert sind die Winkel δ und α.",
+   "diagramElements": 5,
+   "answerType": "integer",
+   "canonical": "63",
+   "result": "$\\alpha$ = $63$°"
+  },
+  "ch5.angles.lines.angle_chase@1/L2/1": {
+   "signature": "c9d9ab18",
+   "prompt": "Die Geraden $g$ und $h$ sind parallel. Es ist $\\delta'$ $= 73^\\circ$. Berechne $\\alpha$.",
+   "diagramAlt": "Zwei parallele Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel δ′ und α.",
+   "diagramElements": 7,
+   "answerType": "integer",
+   "canonical": "107",
+   "result": "$\\alpha$ = $107$°"
+  },
+  "ch5.angles.lines.angle_chase@1/L2/2": {
+   "signature": "4cb94e10",
+   "prompt": "Die Geraden $g$ und $h$ sind parallel. Es ist $\\delta$ $= 68^\\circ$. Berechne $\\gamma'$.",
+   "diagramAlt": "Zwei parallele Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel δ und γ′.",
+   "diagramElements": 7,
+   "answerType": "integer",
+   "canonical": "112",
+   "result": "$\\gamma'$ = $112$°"
+  },
+  "ch5.angles.lines.angle_chase@1/L2/3": {
+   "signature": "6c58ab53",
+   "prompt": "Die Geraden $g$ und $h$ sind parallel. Es ist $\\alpha'$ $= 63^\\circ$. Berechne $\\beta$.",
+   "diagramAlt": "Zwei parallele Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel α′ und β.",
+   "diagramElements": 7,
+   "answerType": "integer",
+   "canonical": "117",
+   "result": "$\\beta$ = $117$°"
+  },
+  "ch5.angles.lines.angle_chase@1/L3/1": {
+   "signature": "d0f8acc1",
+   "prompt": "Die Geraden $g$ und $h$ sind parallel. Es gilt $\\delta$ $= \\left(x+69\\right)^\\circ$ und $\\alpha$ $= \\left(5x+87\\right)^\\circ$. Berechne $x$ und die Größe von $\\delta$.",
+   "diagramAlt": "Zwei parallele Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel δ und α.",
+   "diagramElements": 7,
+   "answerType": "table",
+   "canonical": {
+    "x": "4",
+    "w": "73"
+   },
+   "result": "$x = 4$; $\\delta$ $= 73^\\circ$"
+  },
+  "ch5.angles.lines.angle_chase@1/L3/2": {
+   "signature": "0577d27e",
+   "prompt": "Die Geraden $g$ und $h$ sind parallel. Es gilt $\\beta$ $= \\left(4x+4\\right)^\\circ$ und $\\delta$ $= \\left(5x-12\\right)^\\circ$. Berechne $x$ und die Größe von $\\beta$.",
+   "diagramAlt": "Zwei parallele Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel β und δ.",
+   "diagramElements": 7,
+   "answerType": "table",
+   "canonical": {
+    "x": "16",
+    "w": "68"
+   },
+   "result": "$x = 16$; $\\beta$ $= 68^\\circ$"
+  },
+  "ch5.angles.lines.angle_chase@1/L3/3": {
+   "signature": "a4ce6179",
+   "prompt": "Die Geraden $g$ und $h$ sind parallel. Es gilt $\\beta'$ $= \\left(4x+65\\right)^\\circ$ und $\\delta$ $= \\left(3x+78\\right)^\\circ$. Berechne $x$ und die Größe von $\\beta'$.",
+   "diagramAlt": "Zwei parallele Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel β′ und δ.",
+   "diagramElements": 7,
+   "answerType": "table",
+   "canonical": {
+    "x": "13",
+    "w": "117"
+   },
+   "result": "$x = 13$; $\\beta'$ $= 117^\\circ$"
+  },
+  "ch5.angles.lines.name_relation@1/L1/1": {
+   "signature": "f2a5a7b5",
+   "prompt": "Wie heißen die Winkel $\\delta$ und $\\alpha$ zueinander?",
+   "diagramAlt": "Zwei parallele Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel δ und α.",
+   "diagramElements": 7,
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "Nebenwinkel"
+  },
+  "ch5.angles.lines.name_relation@1/L1/2": {
+   "signature": "6b306c5e",
+   "prompt": "Wie heißen die Winkel $\\beta'$ und $\\delta'$ zueinander?",
+   "diagramAlt": "Zwei parallele Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel β′ und δ′.",
+   "diagramElements": 7,
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "Scheitelwinkel"
+  },
+  "ch5.angles.lines.name_relation@1/L1/3": {
+   "signature": "899eedd0",
+   "prompt": "Wie heißen die Winkel $\\beta'$ und $\\delta$ zueinander?",
+   "diagramAlt": "Zwei parallele Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel β′ und δ.",
+   "diagramElements": 7,
+   "answerType": "choice",
+   "canonical": "d",
+   "result": "Wechselwinkel"
+  },
+  "ch5.angles.lines.name_relation@1/L3/1": {
+   "signature": "656029f8",
+   "prompt": "Die Gerade $t$ schneidet die Geraden $g$ und $h$. Es ist $\\delta$ $= 73^\\circ$ und $\\beta'$ $= 69^\\circ$. Sind $g$ und $h$ parallel?",
+   "diagramAlt": "Zwei Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel δ und β′.",
+   "diagramElements": 5,
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "Nein. $\\delta$ und $\\beta'$ sind Wechselwinkel, aber nicht gleich groß."
+  },
+  "ch5.angles.lines.name_relation@1/L3/2": {
+   "signature": "d54157b5",
+   "prompt": "Die Gerade $t$ schneidet die Geraden $g$ und $h$. Es ist $\\delta'$ $= 68^\\circ$ und $\\delta$ $= 68^\\circ$. Sind $g$ und $h$ parallel?",
+   "diagramAlt": "Zwei Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel δ′ und δ.",
+   "diagramElements": 5,
+   "answerType": "choice",
+   "canonical": "d",
+   "result": "Ja. $\\delta'$ und $\\delta$ sind Stufenwinkel und gleich groß."
+  },
+  "ch5.angles.lines.name_relation@1/L3/3": {
+   "signature": "30f00190",
+   "prompt": "Die Gerade $t$ schneidet die Geraden $g$ und $h$. Es ist $\\beta'$ $= 123^\\circ$ und $\\delta$ $= 117^\\circ$. Sind $g$ und $h$ parallel?",
+   "diagramAlt": "Zwei Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel β′ und δ.",
+   "diagramElements": 5,
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "Nein. $\\beta'$ und $\\delta$ sind Wechselwinkel, aber nicht gleich groß."
+  },
+  "ch5.angles.lines.name_relation@1/L4/1": {
+   "signature": "dfeecc26",
+   "prompt": "Die Geraden $g$ und $h$ sind parallel. Es ist $\\delta$ $= 73^\\circ$. Welche Begründung für die Größe von $\\beta'$ ist richtig?",
+   "diagramAlt": "Zwei parallele Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel δ und β′.",
+   "diagramElements": 7,
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "$\\beta'$ $= 73^\\circ$, weil $\\delta$ und $\\beta'$ Wechselwinkel an den Parallelen $g$ und $h$ sind."
+  },
+  "ch5.angles.lines.name_relation@1/L4/2": {
+   "signature": "7759cbba",
+   "prompt": "Die Geraden $g$ und $h$ sind parallel. Es ist $\\delta'$ $= 68^\\circ$. Welche Begründung für die Größe von $\\delta$ ist richtig?",
+   "diagramAlt": "Zwei parallele Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel δ′ und δ.",
+   "diagramElements": 7,
+   "answerType": "choice",
+   "canonical": "d",
+   "result": "$\\delta$ $= 68^\\circ$, weil $\\delta'$ und $\\delta$ Stufenwinkel an den Parallelen $g$ und $h$ sind."
+  },
+  "ch5.angles.lines.name_relation@1/L4/3": {
+   "signature": "f5ece8af",
+   "prompt": "Die Geraden $g$ und $h$ sind parallel. Es ist $\\beta'$ $= 117^\\circ$. Welche Begründung für die Größe von $\\delta$ ist richtig?",
+   "diagramAlt": "Zwei parallele Geraden g und h werden von der Geraden t geschnitten. Markiert sind die Winkel β′ und δ.",
+   "diagramElements": 7,
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "$\\delta$ $= 117^\\circ$, weil $\\beta'$ und $\\delta$ Wechselwinkel an den Parallelen $g$ und $h$ sind."
+  },
+  "ch5.angles.triangle_sum.missing_angle@1/L1/1": {
+   "signature": "88ea7302",
+   "prompt": "Im Dreieck $ABC$ ist $\\alpha = 72^\\circ$ und $\\beta = 48^\\circ$. Berechne $\\gamma$.",
+   "diagramAlt": "Dreieck ABC mit den Winkeln α bei A, β bei B und γ bei C; gesucht ist γ.",
+   "diagramElements": 7,
+   "answerType": "integer",
+   "canonical": "60",
+   "result": "$\\gamma$ = $60$°"
+  },
+  "ch5.angles.triangle_sum.missing_angle@1/L1/2": {
+   "signature": "1e9c43d1",
+   "prompt": "Im Dreieck $ABC$ ist $\\alpha = 97^\\circ$ und $\\gamma = 54^\\circ$. Berechne $\\beta$.",
+   "diagramAlt": "Dreieck ABC mit den Winkeln α bei A, β bei B und γ bei C; gesucht ist β.",
+   "diagramElements": 7,
+   "answerType": "integer",
+   "canonical": "29",
+   "result": "$\\beta$ = $29$°"
+  },
+  "ch5.angles.triangle_sum.missing_angle@1/L1/3": {
+   "signature": "03b9ab49",
+   "prompt": "Im Dreieck $ABC$ ist $\\alpha = 81^\\circ$ und $\\beta = 70^\\circ$. Berechne $\\gamma$.",
+   "diagramAlt": "Dreieck ABC mit den Winkeln α bei A, β bei B und γ bei C; gesucht ist γ.",
+   "diagramElements": 7,
+   "answerType": "integer",
+   "canonical": "29",
+   "result": "$\\gamma$ = $29$°"
+  },
+  "ch5.angles.triangle_sum.missing_angle@1/L2/1": {
+   "signature": "ef992ab3",
+   "prompt": "Im Dreieck $ABC$ gilt $\\alpha = \\left(3x-36\\right)^\\circ$, $\\beta = \\left(x\\right)^\\circ$ und $\\gamma = \\left(3x+34\\right)^\\circ$. Berechne $x$ und die drei Winkel.",
+   "diagramAlt": "Dreieck ABC mit den Winkeln α bei A, β bei B und γ bei C.",
+   "diagramElements": 7,
+   "answerType": "table",
+   "canonical": {
+    "x": "26",
+    "a": "42",
+    "b": "26",
+    "c": "112"
+   },
+   "result": "$x = 26$; $\\alpha = 42^\\circ$, $\\beta = 26^\\circ$, $\\gamma = 112^\\circ$"
+  },
+  "ch5.angles.triangle_sum.missing_angle@1/L2/2": {
+   "signature": "629a6bed",
+   "prompt": "Im Dreieck $ABC$ gilt $\\alpha = \\left(2x\\right)^\\circ$, $\\beta = \\left(2x+16\\right)^\\circ$ und $\\gamma = \\left(3x-4\\right)^\\circ$. Berechne $x$ und die drei Winkel.",
+   "diagramAlt": "Dreieck ABC mit den Winkeln α bei A, β bei B und γ bei C.",
+   "diagramElements": 7,
+   "answerType": "table",
+   "canonical": {
+    "x": "24",
+    "a": "48",
+    "b": "64",
+    "c": "68"
+   },
+   "result": "$x = 24$; $\\alpha = 48^\\circ$, $\\beta = 64^\\circ$, $\\gamma = 68^\\circ$"
+  },
+  "ch5.angles.triangle_sum.missing_angle@1/L2/3": {
+   "signature": "4c12b823",
+   "prompt": "Im Dreieck $ABC$ gilt $\\alpha = \\left(3x+1\\right)^\\circ$, $\\beta = \\left(x+64\\right)^\\circ$ und $\\gamma = \\left(x\\right)^\\circ$. Berechne $x$ und die drei Winkel.",
+   "diagramAlt": "Dreieck ABC mit den Winkeln α bei A, β bei B und γ bei C.",
+   "diagramElements": 7,
+   "answerType": "table",
+   "canonical": {
+    "x": "23",
+    "a": "70",
+    "b": "87",
+    "c": "23"
+   },
+   "result": "$x = 23$; $\\alpha = 70^\\circ$, $\\beta = 87^\\circ$, $\\gamma = 23^\\circ$"
+  },
+  "ch5.angles.triangle_sum.missing_angle@1/L3/1": {
+   "signature": "fbec11b0",
+   "prompt": "Die Seite $BC$ des Dreiecks $ABC$ ist über $C$ hinaus verlängert. Es ist $\\beta = 48^\\circ$ und der Außenwinkel $\\varepsilon = 120^\\circ$. Berechne $\\alpha$.",
+   "diagramAlt": "Dreieck ABC. Die Seite BC ist über C hinaus verlängert; dort liegt der Außenwinkel ε. Markiert sind α, β und ε.",
+   "diagramElements": 8,
+   "answerType": "integer",
+   "canonical": "72",
+   "result": "$\\alpha$ = $72$°"
+  },
+  "ch5.angles.triangle_sum.missing_angle@1/L3/2": {
+   "signature": "875a5482",
+   "prompt": "Die Seite $BC$ des Dreiecks $ABC$ ist über $C$ hinaus verlängert. Es ist $\\beta = 29^\\circ$ und der Außenwinkel $\\varepsilon = 126^\\circ$. Berechne $\\alpha$.",
+   "diagramAlt": "Dreieck ABC. Die Seite BC ist über C hinaus verlängert; dort liegt der Außenwinkel ε. Markiert sind α, β und ε.",
+   "diagramElements": 8,
+   "answerType": "integer",
+   "canonical": "97",
+   "result": "$\\alpha$ = $97$°"
+  },
+  "ch5.angles.triangle_sum.missing_angle@1/L3/3": {
+   "signature": "079adc37",
+   "prompt": "Die Seite $BC$ des Dreiecks $ABC$ ist über $C$ hinaus verlängert. Es ist $\\beta = 70^\\circ$ und der Außenwinkel $\\varepsilon = 151^\\circ$. Berechne $\\alpha$.",
+   "diagramAlt": "Dreieck ABC. Die Seite BC ist über C hinaus verlängert; dort liegt der Außenwinkel ε. Markiert sind α, β und ε.",
+   "diagramElements": 8,
+   "answerType": "integer",
+   "canonical": "81",
+   "result": "$\\alpha$ = $81$°"
+  },
+  "ch5.angles.triangle_sum.proof_order@1/L4/1": {
+   "signature": "0f0e48e5",
+   "prompt": "Bringe die Schritte des Beweises für den Winkelsummensatz im Dreieck in die richtige Reihenfolge.",
+   "diagramAlt": "Dreieck ABC mit der Parallelen p zu AB durch C und der Verlängerung von BC über C hinaus. Bei C liegen die Winkel α′, γ und β′.",
+   "diagramElements": 11,
+   "answerType": "ordering",
+   "canonical": [
+    "s2",
+    "s4",
+    "s1",
+    "s3",
+    "s5"
+   ],
+   "result": "Zeichne durch $C$ die Parallele $p$ zu $AB$ und verlängere $BC$ über $C$ hinaus. → $\\alpha$ und $\\alpha'$ sind Wechselwinkel an den Parallelen $AB$ und $p$, also $\\alpha' = \\alpha$. → $\\beta$ und $\\beta'$ sind Stufenwinkel an den Parallelen $AB$ und $p$, also $\\beta' = \\beta$. → $\\gamma$, $\\alpha'$ und $\\beta'$ ergeben zusammen den gestreckten Winkel an der Geraden $BC$: $\\gamma + \\alpha' + \\beta' = 180^\\circ$. → Setzt man ein, erhält man $\\alpha + \\beta + \\gamma = 180^\\circ$."
+  },
+  "ch5.angles.triangle_sum.proof_order@1/L4/2": {
+   "signature": "bd6781f5",
+   "prompt": "Bringe die Schritte des Beweises für den Winkelsummensatz im Dreieck in die richtige Reihenfolge.",
+   "diagramAlt": "Dreieck ABC mit der Parallelen p zu AB durch C und der Verlängerung von BC über C hinaus. Bei C liegen die Winkel α′, γ und β′.",
+   "diagramElements": 11,
+   "answerType": "ordering",
+   "canonical": [
+    "s1",
+    "s4",
+    "s2",
+    "s5",
+    "s3"
+   ],
+   "result": "Zeichne durch $C$ die Parallele $p$ zu $AB$ und verlängere $BC$ über $C$ hinaus. → $\\alpha$ und $\\alpha'$ sind Wechselwinkel an den Parallelen $AB$ und $p$, also $\\alpha' = \\alpha$. → $\\beta$ und $\\beta'$ sind Stufenwinkel an den Parallelen $AB$ und $p$, also $\\beta' = \\beta$. → $\\gamma$, $\\alpha'$ und $\\beta'$ ergeben zusammen den gestreckten Winkel an der Geraden $BC$: $\\gamma + \\alpha' + \\beta' = 180^\\circ$. → Setzt man ein, erhält man $\\alpha + \\beta + \\gamma = 180^\\circ$."
+  },
+  "ch5.angles.triangle_sum.proof_order@1/L4/3": {
+   "signature": "3416b868",
+   "prompt": "Bringe die Schritte des Beweises für den Winkelsummensatz im Dreieck in die richtige Reihenfolge.",
+   "diagramAlt": "Dreieck ABC mit der Parallelen p zu AB durch C. Bei C liegen die Winkel α′, γ und β′.",
+   "diagramElements": 10,
+   "answerType": "ordering",
+   "canonical": [
+    "s4",
+    "s2",
+    "s5",
+    "s3",
+    "s1"
+   ],
+   "result": "Zeichne durch $C$ die Parallele $p$ zu $AB$. → $\\alpha$ und $\\alpha'$ sind Wechselwinkel an den Parallelen $AB$ und $p$, also $\\alpha' = \\alpha$. → $\\beta$ und $\\beta'$ sind Wechselwinkel an den Parallelen $AB$ und $p$, also $\\beta' = \\beta$. → $\\alpha'$, $\\gamma$ und $\\beta'$ liegen bei $C$ nebeneinander an der Geraden $p$: $\\alpha' + \\gamma + \\beta' = 180^\\circ$. → Setzt man ein, erhält man $\\alpha + \\beta + \\gamma = 180^\\circ$."
+  }
+ }
+}

@@ -1,0 +1,660 @@
+{
+ "engineVersion": "0.12.0",
+ "questions": {
+  "ch2.prop.recognize_compute.table@1/L1/1": {
+   "signature": "67ad8e66",
+   "prompt": "Ein Zug fährt mit gleichbleibender Geschwindigkeit. Die Tabelle zeigt Fahrzeit und Strecke. Die Zuordnung ist proportional. Fülle die Tabelle aus.",
+   "answerType": "table",
+   "canonical": {
+    "y1": "200",
+    "y2": "400",
+    "y3": "600"
+   },
+   "result": "Strecke (km) zu 2 h: 200 · Strecke (km) zu 4 h: 400 · Strecke (km) zu 6 h: 600"
+  },
+  "ch2.prop.recognize_compute.table@1/L1/2": {
+   "signature": "44d568a1",
+   "prompt": "Die Tabelle zeigt Preise für einen Stoff, der meterweise verkauft wird. Die Zuordnung ist proportional. Fülle die Tabelle aus.",
+   "answerType": "table",
+   "canonical": {
+    "y1": "40,00",
+    "y2": "48,00",
+    "y3": "56,00"
+   },
+   "result": "Preis (€) zu 5 m: 40,00 · Preis (€) zu 6 m: 48,00 · Preis (€) zu 7 m: 56,00"
+  },
+  "ch2.prop.recognize_compute.table@1/L1/3": {
+   "signature": "becd5d8f",
+   "prompt": "Die Tabelle vergleicht das Alter von Lena mit dem Alter ihres älteren Bruders. Ist die Zuordnung proportional?",
+   "promptTable": {
+    "columns": [
+     "Alter von Lena (Jahre)",
+     "Alter ihres Bruders (Jahre)"
+    ],
+    "rows": [
+     [
+      "$5$",
+      "$9$"
+     ],
+     [
+      "$8$",
+      "$12$"
+     ],
+     [
+      "$10$",
+      "$14$"
+     ],
+     [
+      "$13$",
+      "$17$"
+     ]
+    ]
+   },
+   "answerType": "choice",
+   "canonical": "n",
+   "result": "Die Zuordnung ist nicht proportional."
+  },
+  "ch2.prop.recognize_compute.table@1/L2/1": {
+   "signature": "bfa2ec76",
+   "prompt": "Ein Zug fährt mit gleichbleibender Geschwindigkeit. Die Tabelle zeigt Fahrzeit und Strecke. Die Zuordnung ist proportional. Fülle die Tabelle aus.",
+   "answerType": "table",
+   "canonical": {
+    "x0": "2",
+    "y1": "450",
+    "y2": "600"
+   },
+   "result": "Fahrzeit (h) zu 300 km: 2 · Strecke (km) zu 3 h: 450 · Strecke (km) zu 4 h: 600"
+  },
+  "ch2.prop.recognize_compute.table@1/L2/2": {
+   "signature": "8aeec869",
+   "prompt": "Die Tabelle zeigt Preise für einen Stoff, der meterweise verkauft wird. Die Zuordnung ist proportional. Fülle die Tabelle aus.",
+   "answerType": "table",
+   "canonical": {
+    "y0": "25,20",
+    "y2": "42,00",
+    "x4": "9"
+   },
+   "result": "Preis (€) zu 3 m: 25,20 · Preis (€) zu 5 m: 42,00 · Stofflänge (m) zu 75,60 €: 9"
+  },
+  "ch2.prop.recognize_compute.table@1/L2/3": {
+   "signature": "76d82681",
+   "prompt": "Ein Wasserhahn ist gleichmäßig geöffnet. Die Tabelle zeigt, wie viel Wasser in einer bestimmten Zeit fließt. Ist die Zuordnung proportional? Wähle die Aussage mit der richtigen Begründung.",
+   "promptTable": {
+    "columns": [
+     "Zeit (min)",
+     "Wasser (l)"
+    ],
+    "rows": [
+     [
+      "$4$",
+      "$32$"
+     ],
+     [
+      "$8$",
+      "$64$"
+     ],
+     [
+      "$9$",
+      "$72$"
+     ],
+     [
+      "$10$",
+      "$80$"
+     ],
+     [
+      "$11$",
+      "$88$"
+     ]
+    ]
+   },
+   "answerType": "choice",
+   "canonical": "p",
+   "result": "Proportional, denn alle Quotienten (zweiter Wert : erster Wert) sind gleich."
+  },
+  "ch2.prop.recognize_compute.table@1/L3/1": {
+   "signature": "76603e0b",
+   "prompt": "Ein Zug fährt mit gleichbleibender Geschwindigkeit. Die Tabelle zeigt Fahrzeit und Strecke. Die Zuordnung ist proportional. Fülle die Tabelle aus.",
+   "answerType": "table",
+   "canonical": {
+    "x0": "2",
+    "y1": "210",
+    "y2": "280",
+    "x4": "6"
+   },
+   "result": "Fahrzeit (h) zu 140 km: 2 · Strecke (km) zu 3 h: 210 · Strecke (km) zu 4 h: 280 · Fahrzeit (h) zu 420 km: 6"
+  },
+  "ch2.prop.recognize_compute.table@1/L3/2": {
+   "signature": "54ee1c52",
+   "prompt": "Die Tabelle zeigt Preise für einen Stoff, der meterweise verkauft wird. Die Zuordnung ist proportional. Fülle die Tabelle aus.",
+   "answerType": "table",
+   "canonical": {
+    "y0": "19,20",
+    "x1": "3",
+    "y2": "38,40",
+    "x4": "6"
+   },
+   "result": "Preis (€) zu 2 m: 19,20 · Stofflänge (m) zu 28,80 €: 3 · Preis (€) zu 4 m: 38,40 · Stofflänge (m) zu 57,60 €: 6"
+  },
+  "ch2.prop.recognize_compute.table@1/L3/3": {
+   "signature": "5af0eb92",
+   "prompt": "Ein Wasserhahn ist gleichmäßig geöffnet. Die Tabelle zeigt, wie viel Wasser in einer bestimmten Zeit fließt. Ist die Zuordnung proportional? Wähle die Aussage mit der richtigen Begründung.",
+   "promptTable": {
+    "columns": [
+     "Zeit (min)",
+     "Wasser (l)"
+    ],
+    "rows": [
+     [
+      "$3{,}5$",
+      "$43{,}75$"
+     ],
+     [
+      "$4{,}5$",
+      "$56{,}25$"
+     ],
+     [
+      "$6{,}5$",
+      "$81{,}25$"
+     ],
+     [
+      "$7{,}5$",
+      "$93{,}75$"
+     ],
+     [
+      "$8{,}5$",
+      "$106{,}25$"
+     ]
+    ]
+   },
+   "answerType": "choice",
+   "canonical": "p",
+   "result": "Proportional, denn alle Quotienten (zweiter Wert : erster Wert) sind gleich."
+  },
+  "ch2.prop.recognize_compute.dreisatz@1/L2/1": {
+   "signature": "b7fbe817",
+   "prompt": "Für 45 l Benzin bezahlt man 85,50 €. Wie viel kosten 50 l Benzin?",
+   "answerType": "decimal",
+   "canonical": "95,00",
+   "result": "$95{,}00$ €"
+  },
+  "ch2.prop.recognize_compute.dreisatz@1/L2/2": {
+   "signature": "32ca7381",
+   "prompt": "Für ein Rezept für 12 Personen braucht man 900 g Mehl. Wie viel Mehl braucht man für 9 Personen?",
+   "answerType": "integer",
+   "canonical": "675",
+   "result": "$675$ g"
+  },
+  "ch2.prop.recognize_compute.dreisatz@1/L2/3": {
+   "signature": "33385635",
+   "prompt": "2 m Stoff kosten 12 €. Wie viel kosten 5 m Stoff?",
+   "answerType": "decimal",
+   "canonical": "30,00",
+   "result": "$30{,}00$ €"
+  },
+  "ch2.prop.recognize_compute.dreisatz@1/L3/1": {
+   "signature": "7c9b487e",
+   "prompt": "Für 16 l Benzin bezahlt man 26,40 €. Wie viel Liter Benzin bekommt man für 51,15 €?",
+   "answerType": "integer",
+   "canonical": "31",
+   "result": "$31$ l"
+  },
+  "ch2.prop.recognize_compute.dreisatz@1/L3/2": {
+   "signature": "2b0f4061",
+   "prompt": "Für ein Rezept für 6 Personen braucht man 225 g Mehl. Wie viel Mehl braucht man für 11 Personen?",
+   "answerType": "decimal",
+   "canonical": "412,5",
+   "result": "$412{,}5$ g"
+  },
+  "ch2.prop.recognize_compute.dreisatz@1/L3/3": {
+   "signature": "aee0c076",
+   "prompt": "6 m Stoff kosten 67,20 €. Wie viele Meter Stoff bekommt man für 16,80 €?",
+   "answerType": "decimal",
+   "canonical": "1,5",
+   "result": "$1{,}5$ m"
+  },
+  "ch2.prop.recognize_compute.dreisatz@1/L4/1": {
+   "signature": "2a8074df",
+   "prompt": "Tom überlegt: „Für ein Rezept für 11 Personen braucht man 1375 g Mehl. Dann braucht man für 5 Personen 3025 g Mehl.“ Beurteile die Überlegung.",
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "Das Modell passt zur Situation, aber die Rechnung ist falsch."
+  },
+  "ch2.prop.recognize_compute.dreisatz@1/L4/2": {
+   "signature": "9eb30d9a",
+   "prompt": "Jonas überlegt: „5 T-Shirts trocknen auf der Wäscheleine in 3 h. Dann trocknen 10 T-Shirts in 6 h.“ Beurteile die Überlegung.",
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "Die Rechnung passt zum Modell, aber eine proportionale Zuordnung passt nicht zur Situation."
+  },
+  "ch2.prop.recognize_compute.dreisatz@1/L4/3": {
+   "signature": "8553c9ec",
+   "prompt": "Noah überlegt: „Aus einem Wasserhahn fließen gleichmäßig in 9 min 54 l Wasser. Dann fließen in 4 min 121,5 l Wasser.“ Beurteile die Überlegung.",
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "Das Modell passt zur Situation, aber die Rechnung ist falsch."
+  },
+  "ch2.prop.recognize_compute.graph@1/L2/1": {
+   "signature": "4eb7b34f",
+   "prompt": "Der Graph einer proportionalen Zuordnung ist eine Gerade durch den Ursprung. Sie geht durch den Punkt $P(2 \\mid 5)$. Der Punkt Q liegt auch auf dieser Geraden. Q hat den $y$-Wert $25$. Welchen $x$-Wert hat Q?",
+   "answerType": "integer",
+   "canonical": "10",
+   "result": "$x = 10$"
+  },
+  "ch2.prop.recognize_compute.graph@1/L2/2": {
+   "signature": "c996c9d4",
+   "prompt": "Der Graph einer proportionalen Zuordnung ist eine Gerade durch den Ursprung. Sie geht durch den Punkt $P(11 \\mid 16{,}5)$. Der Punkt Q liegt auch auf dieser Geraden. Q hat den $y$-Wert $7{,}5$. Welchen $x$-Wert hat Q?",
+   "answerType": "integer",
+   "canonical": "5",
+   "result": "$x = 5$"
+  },
+  "ch2.prop.recognize_compute.graph@1/L2/3": {
+   "signature": "c0fc16a7",
+   "prompt": "Der Graph einer proportionalen Zuordnung ist eine Gerade durch den Ursprung. Sie geht durch den Punkt $P(4 \\mid 8)$. Der Punkt Q liegt auch auf dieser Geraden. Q hat den $x$-Wert $12$. Welchen $y$-Wert hat Q?",
+   "answerType": "integer",
+   "canonical": "24",
+   "result": "$y = 24$"
+  },
+  "ch2.prop.recognize_compute.graph@1/L3/1": {
+   "signature": "d0be69ff",
+   "prompt": "Du trägst die Wertepaare der Tabelle als Punkte in ein Koordinatensystem ein. Worauf liegen die Punkte?",
+   "promptTable": {
+    "columns": [
+     "$x$",
+     "$y$"
+    ],
+    "rows": [
+     [
+      "$1$",
+      "$0{,}5$"
+     ],
+     [
+      "$2$",
+      "$2$"
+     ],
+     [
+      "$4$",
+      "$8$"
+     ],
+     [
+      "$5$",
+      "$12{,}5$"
+     ],
+     [
+      "$6$",
+      "$18$"
+     ]
+    ]
+   },
+   "answerType": "choice",
+   "canonical": "s",
+   "result": "Die Punkte liegen auf einer steigenden Kurve, die immer steiler wird (keine Gerade)."
+  },
+  "ch2.prop.recognize_compute.graph@1/L3/2": {
+   "signature": "b42dd5f7",
+   "prompt": "Du trägst die Wertepaare der Tabelle als Punkte in ein Koordinatensystem ein. Worauf liegen die Punkte?",
+   "promptTable": {
+    "columns": [
+     "$x$",
+     "$y$"
+    ],
+    "rows": [
+     [
+      "$4$",
+      "$10$"
+     ],
+     [
+      "$5$",
+      "$12$"
+     ],
+     [
+      "$6$",
+      "$14$"
+     ],
+     [
+      "$7$",
+      "$16$"
+     ],
+     [
+      "$9$",
+      "$20$"
+     ]
+    ]
+   },
+   "answerType": "choice",
+   "canonical": "n",
+   "result": "Die Punkte liegen auf einer Geraden, die nicht durch den Ursprung geht."
+  },
+  "ch2.prop.recognize_compute.graph@1/L3/3": {
+   "signature": "5f88fed1",
+   "prompt": "Du trägst die Wertepaare der Tabelle als Punkte in ein Koordinatensystem ein. Worauf liegen die Punkte?",
+   "promptTable": {
+    "columns": [
+     "$x$",
+     "$y$"
+    ],
+    "rows": [
+     [
+      "$1$",
+      "$12$"
+     ],
+     [
+      "$2$",
+      "$6$"
+     ],
+     [
+      "$3$",
+      "$4$"
+     ],
+     [
+      "$6$",
+      "$2$"
+     ],
+     [
+      "$12$",
+      "$1$"
+     ]
+    ]
+   },
+   "answerType": "choice",
+   "canonical": "h",
+   "result": "Die Punkte liegen auf einer fallenden Kurve, die sich beiden Achsen immer mehr annähert."
+  },
+  "ch2.antiprop.recognize_compute.table@1/L1/1": {
+   "signature": "0cf5110a",
+   "prompt": "Rechteckige Beete haben alle denselben Flächeninhalt. Die Zuordnung ist antiproportional. Fülle die Tabelle aus.",
+   "answerType": "table",
+   "canonical": {
+    "y1": "18",
+    "y2": "9",
+    "y3": "6"
+   },
+   "result": "Länge (m) zu 2 m: 18 · Länge (m) zu 4 m: 9 · Länge (m) zu 6 m: 6"
+  },
+  "ch2.antiprop.recognize_compute.table@1/L1/2": {
+   "signature": "1e3765c1",
+   "prompt": "Ein Futtervorrat wird an Pferde verfüttert; jedes Pferd frisst gleich viel. Die Zuordnung ist antiproportional. Fülle die Tabelle aus.",
+   "answerType": "table",
+   "canonical": {
+    "y1": "30",
+    "y2": "24",
+    "y3": "20"
+   },
+   "result": "Dauer (Tage) zu 4 Pferde: 30 · Dauer (Tage) zu 5 Pferde: 24 · Dauer (Tage) zu 6 Pferde: 20"
+  },
+  "ch2.antiprop.recognize_compute.table@1/L1/3": {
+   "signature": "5f21c099",
+   "prompt": "Eine Strecke wird mit verschiedenen Durchschnittsgeschwindigkeiten gefahren. Welche Art von Zuordnung liegt vor?",
+   "promptTable": {
+    "columns": [
+     "Geschwindigkeit (km/h)",
+     "Fahrzeit (h)"
+    ],
+    "rows": [
+     [
+      "$40$",
+      "$3$"
+     ],
+     [
+      "$60$",
+      "$2$"
+     ],
+     [
+      "$80$",
+      "$1{,}5$"
+     ],
+     [
+      "$120$",
+      "$1$"
+     ]
+    ]
+   },
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "Die Zuordnung ist antiproportional."
+  },
+  "ch2.antiprop.recognize_compute.table@1/L2/1": {
+   "signature": "c68a7dd2",
+   "prompt": "Rechteckige Beete haben alle denselben Flächeninhalt. Die Zuordnung ist antiproportional. Fülle die Tabelle aus.",
+   "answerType": "table",
+   "canonical": {
+    "x0": "2",
+    "y1": "8",
+    "y2": "6"
+   },
+   "result": "Breite (m) zu 12 m: 2 · Länge (m) zu 3 m: 8 · Länge (m) zu 4 m: 6"
+  },
+  "ch2.antiprop.recognize_compute.table@1/L2/2": {
+   "signature": "c3b1f9bb",
+   "prompt": "Ein Futtervorrat wird an Pferde verfüttert; jedes Pferd frisst gleich viel. Die Zuordnung ist antiproportional. Fülle die Tabelle aus.",
+   "answerType": "table",
+   "canonical": {
+    "y0": "45",
+    "y2": "30",
+    "x4": "12"
+   },
+   "result": "Dauer (Tage) zu 4 Pferde: 45 · Dauer (Tage) zu 6 Pferde: 30 · Anzahl der Pferde zu 15 Tage: 12"
+  },
+  "ch2.antiprop.recognize_compute.table@1/L2/3": {
+   "signature": "f84b57f5",
+   "prompt": "Die Tabelle zeigt für verschiedene Klassen gleicher Größe die Anzahl der Mädchen und der Jungen. Welche Art von Zuordnung liegt vor? Wähle die Aussage mit der richtigen Begründung.",
+   "promptTable": {
+    "columns": [
+     "Anzahl der Mädchen",
+     "Anzahl der Jungen"
+    ],
+    "rows": [
+     [
+      "$10$",
+      "$14$"
+     ],
+     [
+      "$14$",
+      "$10$"
+     ],
+     [
+      "$15$",
+      "$9$"
+     ],
+     [
+      "$17$",
+      "$7$"
+     ],
+     [
+      "$18$",
+      "$6$"
+     ]
+    ]
+   },
+   "answerType": "choice",
+   "canonical": "w",
+   "result": "Die Zuordnung ist weder proportional noch antiproportional."
+  },
+  "ch2.antiprop.recognize_compute.table@1/L3/1": {
+   "signature": "6540c892",
+   "prompt": "Rechteckige Beete haben alle denselben Flächeninhalt. Die Zuordnung ist antiproportional. Fülle die Tabelle aus.",
+   "answerType": "table",
+   "canonical": {
+    "x0": "2,5",
+    "y1": "6",
+    "y2": "4,5",
+    "x4": "7,5"
+   },
+   "result": "Breite (m) zu 7,2 m: 2,5 · Länge (m) zu 3 m: 6 · Länge (m) zu 4 m: 4,5 · Breite (m) zu 2,4 m: 7,5"
+  },
+  "ch2.antiprop.recognize_compute.table@1/L3/2": {
+   "signature": "3cdcdb27",
+   "prompt": "Eine Kerze brennt gleichmäßig ab. Die Tabelle zeigt ihre Länge. Welche Art von Zuordnung liegt vor? Wähle die Aussage mit der richtigen Begründung.",
+   "promptTable": {
+    "columns": [
+     "Brenndauer (h)",
+     "Länge der Kerze (cm)"
+    ],
+    "rows": [
+     [
+      "$2$",
+      "$17$"
+     ],
+     [
+      "$2{,}5$",
+      "$15{,}5$"
+     ],
+     [
+      "$3$",
+      "$14$"
+     ],
+     [
+      "$4$",
+      "$11$"
+     ],
+     [
+      "$6$",
+      "$5$"
+     ]
+    ]
+   },
+   "answerType": "choice",
+   "canonical": "w",
+   "result": "Die Zuordnung ist weder proportional noch antiproportional."
+  },
+  "ch2.antiprop.recognize_compute.table@1/L3/3": {
+   "signature": "9fde8434",
+   "prompt": "Die Tabelle zeigt für verschiedene Klassen gleicher Größe die Anzahl der Mädchen und der Jungen. Welche Art von Zuordnung liegt vor? Wähle die Aussage mit der richtigen Begründung.",
+   "promptTable": {
+    "columns": [
+     "Anzahl der Mädchen",
+     "Anzahl der Jungen"
+    ],
+    "rows": [
+     [
+      "$10$",
+      "$14$"
+     ],
+     [
+      "$14$",
+      "$10$"
+     ],
+     [
+      "$15$",
+      "$9$"
+     ],
+     [
+      "$17$",
+      "$7$"
+     ],
+     [
+      "$18$",
+      "$6$"
+     ]
+    ]
+   },
+   "answerType": "choice",
+   "canonical": "w",
+   "result": "Die Zuordnung ist weder proportional noch antiproportional."
+  },
+  "ch2.antiprop.recognize_compute.dreisatz@1/L2/1": {
+   "signature": "af3f8e32",
+   "prompt": "4 gleich starke Pumpen leeren ein Becken in 15 h. Wie lange brauchen 5 Pumpen für dasselbe Becken?",
+   "answerType": "integer",
+   "canonical": "12",
+   "result": "$12$ h"
+  },
+  "ch2.antiprop.recognize_compute.dreisatz@1/L2/2": {
+   "signature": "3445d379",
+   "prompt": "Bei einer Durchschnittsgeschwindigkeit von 100 km/h dauert eine Fahrt 1,8 h. Wie lange dauert dieselbe Fahrt bei 120 km/h?",
+   "answerType": "decimal",
+   "canonical": "1,5",
+   "result": "$1{,}5$ h"
+  },
+  "ch2.antiprop.recognize_compute.dreisatz@1/L2/3": {
+   "signature": "acd6579c",
+   "prompt": "Ein Futtervorrat reicht für 3 Pferde 40 Tage. Wie lange reicht derselbe Vorrat für 6 Pferde?",
+   "answerType": "integer",
+   "canonical": "20",
+   "result": "$20$ Tage"
+  },
+  "ch2.antiprop.recognize_compute.dreisatz@1/L3/1": {
+   "signature": "c80eaf1d",
+   "prompt": "6 gleich starke Pumpen leeren ein Becken in 7,5 h. Wie viele Pumpen braucht man, um das Becken in 5 h zu leeren?",
+   "answerType": "integer",
+   "canonical": "9",
+   "result": "$9$ Pumpen"
+  },
+  "ch2.antiprop.recognize_compute.dreisatz@1/L3/2": {
+   "signature": "17ed1f88",
+   "prompt": "Ein Bäcker verteilt Kekse auf Tüten. Mit je 12 Keksen pro Tüte füllt er 15 Tüten. Wie viele Tüten füllt er mit je 15 Keksen pro Tüte?",
+   "answerType": "integer",
+   "canonical": "12",
+   "result": "$12$ Tüten"
+  },
+  "ch2.antiprop.recognize_compute.dreisatz@1/L3/3": {
+   "signature": "9ac804de",
+   "prompt": "3 gleich starke Pumpen leeren ein Becken in 18 h. Wie lange brauchen 6 Pumpen für dasselbe Becken?",
+   "answerType": "integer",
+   "canonical": "9",
+   "result": "$9$ h"
+  },
+  "ch2.antiprop.recognize_compute.dreisatz@1/L4/1": {
+   "signature": "00d0cfe6",
+   "prompt": "Luca überlegt: „2 Maler streichen ein Zimmer in 12 h. Dann streichen 48 Maler das Zimmer in 0,5 h.“ Beurteile die Überlegung.",
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "Die Rechnung passt zum Modell, aber eine antiproportionale Zuordnung passt nicht zur Situation."
+  },
+  "ch2.antiprop.recognize_compute.dreisatz@1/L4/2": {
+   "signature": "0181f83e",
+   "prompt": "Emma überlegt: „3 Maler streichen ein Zimmer in 6 h. Dann streichen 36 Maler das Zimmer in 0,5 h.“ Beurteile die Überlegung.",
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "Die Rechnung passt zum Modell, aber eine antiproportionale Zuordnung passt nicht zur Situation."
+  },
+  "ch2.antiprop.recognize_compute.dreisatz@1/L4/3": {
+   "signature": "99c55811",
+   "prompt": "Mia überlegt: „Ein rechteckiges Beet ist 3 m breit und 20 m lang. Dann ist ein gleich großes Beet mit 6 m Breite 40 m lang.“ Beurteile die Überlegung.",
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "Das Modell passt zur Situation, aber die Rechnung ist falsch."
+  },
+  "ch2.antiprop.recognize_compute.decide@1/L1/1": {
+   "signature": "782db506",
+   "prompt": "Rechtecke haben alle den Flächeninhalt 24 cm². Zuordnung: Breite → Länge. Welche Art von Zuordnung liegt vor?",
+   "answerType": "choice",
+   "canonical": "anti",
+   "result": "Die Zuordnung ist antiproportional."
+  },
+  "ch2.antiprop.recognize_compute.decide@1/L1/2": {
+   "signature": "1fba490c",
+   "prompt": "60 Bonbons werden gerecht an Kinder verteilt. Zuordnung: Anzahl der Kinder → Bonbons pro Kind. Welche Art von Zuordnung liegt vor?",
+   "answerType": "choice",
+   "canonical": "anti",
+   "result": "Die Zuordnung ist antiproportional."
+  },
+  "ch2.antiprop.recognize_compute.decide@1/L1/3": {
+   "signature": "9afd8c79",
+   "prompt": "Rechtecke haben alle den Flächeninhalt 36 cm². Zuordnung: Breite → Länge. Welche Art von Zuordnung liegt vor?",
+   "answerType": "choice",
+   "canonical": "anti",
+   "result": "Die Zuordnung ist antiproportional."
+  },
+  "ch2.antiprop.recognize_compute.decide@1/L3/1": {
+   "signature": "b1371ddc",
+   "prompt": "Ein rechteckiges Beet ist 5 m breit und 3,6 m lang. Wie lang muss ein gleich großes rechteckiges Beet sein, das 2 m breit ist?",
+   "answerType": "integer",
+   "canonical": "9",
+   "result": "$9$ m"
+  },
+  "ch2.antiprop.recognize_compute.decide@1/L3/2": {
+   "signature": "5d9b5010",
+   "prompt": "Ein Futtervorrat reicht für 3 Pferde 50 Tage. Wie lange reicht derselbe Vorrat für 15 Pferde?",
+   "answerType": "integer",
+   "canonical": "10",
+   "result": "$10$ Tage"
+  },
+  "ch2.antiprop.recognize_compute.decide@1/L3/3": {
+   "signature": "6a65a1e2",
+   "prompt": "Ein Zug fährt mit gleichbleibender Geschwindigkeit und legt in 4,5 h 405 km zurück. Wie weit kommt der Zug in 2 h?",
+   "answerType": "integer",
+   "canonical": "180",
+   "result": "$180$ km"
+  }
+ }
+}

@@ -1,0 +1,1481 @@
+{
+ "engineVersion": "0.12.0",
+ "questions": {
+  "ch1.numterms.evaluate.order_ops@1/L1/1": {
+   "signature": "72d0edda",
+   "prompt": "Berechne $9-4\\cdot 2$.",
+   "answerType": "integer",
+   "canonical": "1",
+   "result": "$1$"
+  },
+  "ch1.numterms.evaluate.order_ops@1/L1/2": {
+   "signature": "988d8d6a",
+   "prompt": "Berechne $11-5\\cdot 2$.",
+   "answerType": "integer",
+   "canonical": "1",
+   "result": "$1$"
+  },
+  "ch1.numterms.evaluate.order_ops@1/L1/3": {
+   "signature": "0080bf19",
+   "prompt": "Berechne $\\left(13+6\\right)\\cdot 9$.",
+   "answerType": "integer",
+   "canonical": "171",
+   "result": "$171$"
+  },
+  "ch1.numterms.evaluate.order_ops@1/L2/1": {
+   "signature": "86f27b88",
+   "prompt": "Berechne $\\left(-4\\right)\\cdot 9-\\left(-9\\right)\\cdot \\left(-10\\right)$.",
+   "answerType": "integer",
+   "canonical": "-126",
+   "result": "$-126$"
+  },
+  "ch1.numterms.evaluate.order_ops@1/L2/2": {
+   "signature": "0e9413e7",
+   "prompt": "Berechne $-10-\\left(-4\\right)\\cdot \\left(-5\\right)$.",
+   "answerType": "integer",
+   "canonical": "-30",
+   "result": "$-30$"
+  },
+  "ch1.numterms.evaluate.order_ops@1/L2/3": {
+   "signature": "ec12be14",
+   "prompt": "Berechne $\\left(3-11\\right)\\cdot \\left(-11\\right)$.",
+   "answerType": "integer",
+   "canonical": "88",
+   "result": "$88$"
+  },
+  "ch1.numterms.evaluate.order_ops@1/L3/1": {
+   "signature": "5147a64a",
+   "prompt": "Berechne $-2{,}4+\\left(-\\frac{1}{5}\\right)\\cdot \\left(-8\\right)$.",
+   "answerType": "fraction",
+   "canonical": "-0,8",
+   "result": "$-0{,}8$"
+  },
+  "ch1.numterms.evaluate.order_ops@1/L3/2": {
+   "signature": "2f44521c",
+   "prompt": "Berechne $4{,}6+\\frac{7}{4}\\cdot \\left(-5\\right)$.",
+   "answerType": "fraction",
+   "canonical": "-4,15",
+   "result": "$-4{,}15$"
+  },
+  "ch1.numterms.evaluate.order_ops@1/L3/3": {
+   "signature": "887b7e33",
+   "prompt": "Berechne $\\left(-\\frac{8}{5}-6\\right)\\cdot 9$.",
+   "answerType": "fraction",
+   "canonical": "-342/5",
+   "result": "$-\\frac{342}{5}$"
+  },
+  "ch1.numterms.evaluate.insert_brackets@1/L2/1": {
+   "signature": "d2fffc3e",
+   "prompt": "Setze in $3\\cdot 9+4+2$ genau ein Klammerpaar so, dass der Wert $41$ herauskommt.",
+   "answerType": "choice",
+   "canonical": "d",
+   "result": "$3\\left(9+4\\right)+2$"
+  },
+  "ch1.numterms.evaluate.insert_brackets@1/L2/2": {
+   "signature": "148cb6ed",
+   "prompt": "Setze in $3\\cdot 8-5+2$ genau ein Klammerpaar so, dass der Wert $15$ herauskommt.",
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "$3\\left(8-5+2\\right)$"
+  },
+  "ch1.numterms.evaluate.insert_brackets@1/L2/3": {
+   "signature": "9b6fd612",
+   "prompt": "Setze in $4+7\\cdot 6+7$ genau ein Klammerpaar so, dass der Wert $95$ herauskommt.",
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "$4+7\\left(6+7\\right)$"
+  },
+  "ch1.numterms.evaluate.insert_brackets@1/L3/1": {
+   "signature": "027cf17a",
+   "prompt": "Setze in $3+9\\cdot 3+11$ genau ein Klammerpaar so, dass der Wert $47$ herauskommt.",
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "$\\left(3+9\\right)\\cdot 3+11$"
+  },
+  "ch1.numterms.evaluate.insert_brackets@1/L3/2": {
+   "signature": "e5812ae4",
+   "prompt": "Setze in $11\\cdot 4-5\\cdot 7$ genau ein Klammerpaar so, dass der Wert $-77$ herauskommt.",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "$11\\left(4-5\\right)\\cdot 7$"
+  },
+  "ch1.numterms.evaluate.insert_brackets@1/L3/3": {
+   "signature": "b9499236",
+   "prompt": "Setze in $4-6-12\\cdot 4$ genau ein Klammerpaar so, dass der Wert $28$ herauskommt.",
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "$4-\\left(6-12\\right)\\cdot 4$"
+  },
+  "ch1.numterms.evaluate.insert_brackets@1/L4/1": {
+   "signature": "e8c5750d",
+   "prompt": "Setze in $3+\\left(-9\\right)-3-11\\cdot 2$ genau ein Klammerpaar so, dass der Wert $10$ herauskommt.",
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "$3+\\left(-9\\right)-\\left(3-11\\right)\\cdot 2$"
+  },
+  "ch1.numterms.evaluate.insert_brackets@1/L4/2": {
+   "signature": "3bbbc19b",
+   "prompt": "Setze in $10+12+\\left(-6\\right)+3\\cdot 4$ genau ein Klammerpaar so, dass der Wert $46$ herauskommt.",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "$10+\\left(12+\\left(-6\\right)+3\\right)\\cdot 4$"
+  },
+  "ch1.numterms.evaluate.insert_brackets@1/L4/3": {
+   "signature": "4805589a",
+   "prompt": "Setze in $4\\cdot 6+12-\\left(-4\\right)+4$ genau ein Klammerpaar so, dass der Wert $104$ herauskommt.",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "$4\\left(6+12-\\left(-4\\right)+4\\right)$"
+  },
+  "ch1.numterms.evaluate.name_law@1/L1/1": {
+   "signature": "884f958c",
+   "prompt": "Welches Gesetz oder welche Regel wurde hier angewendet? $\\left(13+4\\right)+36 = 13+\\left(4+36\\right)$",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "Assoziativgesetz der Addition (AG+)"
+  },
+  "ch1.numterms.evaluate.name_law@1/L1/2": {
+   "signature": "5ef3482e",
+   "prompt": "Welches Gesetz oder welche Regel wurde hier angewendet? $36\\left(43\\cdot 19\\right) = \\left(36\\cdot 43\\right)\\cdot 19$",
+   "answerType": "choice",
+   "canonical": "d",
+   "result": "Assoziativgesetz der Multiplikation (AG·)"
+  },
+  "ch1.numterms.evaluate.name_law@1/L1/3": {
+   "signature": "e38f8650",
+   "prompt": "Welches Gesetz oder welche Regel wurde hier angewendet? $\\left(22+36\\right)+60 = 22+\\left(36+60\\right)$",
+   "answerType": "choice",
+   "canonical": "d",
+   "result": "Assoziativgesetz der Addition (AG+)"
+  },
+  "ch1.numterms.evaluate.name_law@1/L2/1": {
+   "signature": "5ca0472d",
+   "prompt": "Welches Gesetz oder welche Regel wurde hier angewendet? $0{,}4+0{,}75+3{,}5 = 0{,}75+0{,}4+3{,}5$",
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "Kommutativgesetz der Addition (KG+)"
+  },
+  "ch1.numterms.evaluate.name_law@1/L2/2": {
+   "signature": "29419c7e",
+   "prompt": "Welches Gesetz oder welche Regel wurde hier angewendet? $0{,}75\\left(1{,}5\\cdot 1{,}2\\right) = \\left(0{,}75\\cdot 1{,}5\\right)\\cdot 1{,}2$",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "Assoziativgesetz der Multiplikation (AG·)"
+  },
+  "ch1.numterms.evaluate.name_law@1/L2/3": {
+   "signature": "dcc360bb",
+   "prompt": "Welches Gesetz oder welche Regel wurde hier angewendet? $1{,}5+0{,}8-0{,}4 = 1{,}5+\\left(0{,}8-0{,}4\\right)$",
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "Plusklammerregel"
+  },
+  "ch1.numterms.evaluate.name_law@1/L3/1": {
+   "signature": "16a585e4",
+   "prompt": "Welche Gesetze wurden in dieser Umformung nacheinander angewendet?",
+   "promptLines": [
+    "Zeile 1: $1{,}5\\left(0{,}25+2{,}5\\right)$",
+    "Zeile 2: $= 1{,}5\\cdot 0{,}25+1{,}5\\cdot 2{,}5$",
+    "Zeile 3: $= 0{,}25\\cdot 1{,}5+1{,}5\\cdot 2{,}5$"
+   ],
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "erst DG, dann KG·"
+  },
+  "ch1.numterms.evaluate.name_law@1/L3/2": {
+   "signature": "1ed93d6b",
+   "prompt": "Welche Gesetze wurden in dieser Umformung nacheinander angewendet?",
+   "promptLines": [
+    "Zeile 1: $43+\\left(19-14\\right)$",
+    "Zeile 2: $= 43+19-14$",
+    "Zeile 3: $= 19+43-14$"
+   ],
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "erst Plusklammerregel, dann KG+"
+  },
+  "ch1.numterms.evaluate.name_law@1/L3/3": {
+   "signature": "7d8e63e8",
+   "prompt": "Welche Gesetze wurden in dieser Umformung nacheinander angewendet?",
+   "promptLines": [
+    "Zeile 1: $1{,}5+0{,}8+0{,}4$",
+    "Zeile 2: $= 0{,}8+1{,}5+0{,}4$",
+    "Zeile 3: $= 0{,}8+\\left(1{,}5+0{,}4\\right)$"
+   ],
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "erst KG+, dann AG+"
+  },
+  "ch1.numterms.evaluate.compute_cleverly@1/L2/1": {
+   "signature": "4e4bca41",
+   "prompt": "Berechne möglichst geschickt: $5\\cdot 67\\cdot 2$",
+   "answerType": "fraction",
+   "canonical": "670",
+   "result": "$670$"
+  },
+  "ch1.numterms.evaluate.compute_cleverly@1/L2/2": {
+   "signature": "77e0399e",
+   "prompt": "Berechne möglichst geschickt: $1{,}25\\cdot 17\\cdot 8$",
+   "answerType": "fraction",
+   "canonical": "170",
+   "result": "$170$"
+  },
+  "ch1.numterms.evaluate.compute_cleverly@1/L2/3": {
+   "signature": "68d35da0",
+   "prompt": "Berechne möglichst geschickt: $\\frac{7}{9}+\\frac{1}{2}+\\frac{2}{9}$",
+   "answerType": "fraction",
+   "canonical": "3/2",
+   "result": "$\\frac{3}{2}$"
+  },
+  "ch1.numterms.evaluate.compute_cleverly@1/L3/1": {
+   "signature": "9b2af246",
+   "prompt": "Berechne möglichst geschickt: $0{,}4\\cdot 34-0{,}4\\cdot 9$",
+   "answerType": "fraction",
+   "canonical": "10",
+   "result": "$10$"
+  },
+  "ch1.numterms.evaluate.compute_cleverly@1/L3/2": {
+   "signature": "ff381ce9",
+   "prompt": "Berechne möglichst geschickt: $0{,}6\\cdot 21+0{,}6\\cdot 19$",
+   "answerType": "fraction",
+   "canonical": "24",
+   "result": "$24$"
+  },
+  "ch1.numterms.evaluate.compute_cleverly@1/L3/3": {
+   "signature": "cc96cbcd",
+   "prompt": "Berechne möglichst geschickt: $2{,}5\\cdot 17+2{,}5\\cdot 11$",
+   "answerType": "fraction",
+   "canonical": "70",
+   "result": "$70$"
+  },
+  "ch1.numterms.evaluate.compute_cleverly@1/L4/1": {
+   "signature": "6672b76e",
+   "prompt": "Lena und Tim berechnen $0{,}4\\cdot 32+0{,}4\\cdot 28$ auf zwei Wegen. Welcher Weg ist geschickter?",
+   "promptLines": [
+    "Weg A: $0{,}4\\cdot 32+0{,}4\\cdot 28 = 0{,}4\\left(32+28\\right) = 0{,}4\\cdot 60 = 24$",
+    "Weg B: $0{,}4\\cdot 32+0{,}4\\cdot 28 = 12{,}8+11{,}2 = 24$"
+   ],
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "Weg A, weil $32$ und $28$ zusammen eine ganze Zahl ergeben."
+  },
+  "ch1.numterms.evaluate.compute_cleverly@1/L4/2": {
+   "signature": "68deed58",
+   "prompt": "Lena und Tim berechnen $0{,}6+1{,}8+1{,}4$ auf zwei Wegen. Welcher Weg ist geschickter?",
+   "promptLines": [
+    "Weg A: $0{,}6+1{,}8+1{,}4 = 0{,}6+1{,}4+1{,}8 = \\left(0{,}6+1{,}4\\right)+1{,}8 = 2+1{,}8 = 3{,}8$",
+    "Weg B: $0{,}6+1{,}8+1{,}4 = 2{,}4+1{,}4 = 3{,}8$"
+   ],
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "Weg A, weil $0{,}6$ und $1{,}4$ zusammen eine ganze Zahl ergeben."
+  },
+  "ch1.numterms.evaluate.compute_cleverly@1/L4/3": {
+   "signature": "189ebf6a",
+   "prompt": "Lena und Tim berechnen $\\frac{7}{9}+\\frac{1}{2}+\\frac{2}{9}$ auf zwei Wegen. Welcher Weg ist geschickter?",
+   "promptLines": [
+    "Weg A: $\\frac{7}{9}+\\frac{1}{2}+\\frac{2}{9} = \\frac{7}{9}+\\frac{2}{9}+\\frac{1}{2} = \\left(\\frac{7}{9}+\\frac{2}{9}\\right)+\\frac{1}{2} = 1+\\frac{1}{2} = \\frac{3}{2}$",
+    "Weg B: $\\frac{7}{9}+\\frac{1}{2}+\\frac{2}{9} = \\frac{23}{18}+\\frac{2}{9} = \\frac{3}{2}$"
+   ],
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "Weg A, weil $\\frac{7}{9}$ und $\\frac{2}{9}$ zusammen eine ganze Zahl ergeben."
+  },
+  "ch1.terms.translate.phrase_to_term@1/L1/1": {
+   "signature": "f2123c9d",
+   "prompt": "Schreibe als Term mit der Variablen $x$: die Hälfte von $x$.",
+   "answerType": "expression",
+   "canonical": "x/2",
+   "result": "$\\frac{x}{2}$"
+  },
+  "ch1.terms.translate.phrase_to_term@1/L1/2": {
+   "signature": "666d9719",
+   "prompt": "Schreibe als Term mit der Variablen $x$: die Zahl, die um $11$ kleiner ist als $x$.",
+   "answerType": "expression",
+   "canonical": "x-11",
+   "result": "$x-11$"
+  },
+  "ch1.terms.translate.phrase_to_term@1/L1/3": {
+   "signature": "6ade6c1b",
+   "prompt": "Schreibe als Term mit der Variablen $x$: der Quotient aus $x$ und $5$.",
+   "answerType": "expression",
+   "canonical": "x/5",
+   "result": "$\\frac{x}{5}$"
+  },
+  "ch1.terms.translate.phrase_to_term@1/L2/1": {
+   "signature": "9a3270e0",
+   "prompt": "Schreibe als Term mit der Variablen $x$: das Dreifache der Differenz aus $x$ und $13$.",
+   "answerType": "expression",
+   "canonical": "3(x-13)",
+   "result": "$3\\left(x-13\\right)$"
+  },
+  "ch1.terms.translate.phrase_to_term@1/L2/2": {
+   "signature": "63994438",
+   "prompt": "Schreibe als Term mit der Variablen $x$: die Zahl, die um $11$ kleiner ist als das Achtfache von $x$.",
+   "answerType": "expression",
+   "canonical": "8x-11",
+   "result": "$8x-11$"
+  },
+  "ch1.terms.translate.phrase_to_term@1/L2/3": {
+   "signature": "3b183700",
+   "prompt": "Schreibe als Term mit der Variablen $x$: das Fünffache der Differenz aus $x$ und $2$.",
+   "answerType": "expression",
+   "canonical": "5(x-2)",
+   "result": "$5\\left(x-2\\right)$"
+  },
+  "ch1.terms.translate.phrase_to_term@1/L3/1": {
+   "signature": "380ff818",
+   "prompt": "Ein gleichschenkliges Dreieck hat die Basis $x$ cm. Jeder Schenkel ist $13$ cm länger als die Basis. Gib einen Term für den Umfang in cm an.",
+   "answerType": "expression",
+   "canonical": "x+2(x+13)",
+   "result": "$x+2\\left(x+13\\right)$"
+  },
+  "ch1.terms.translate.phrase_to_term@1/L3/2": {
+   "signature": "55e905be",
+   "prompt": "Ein Rechteck ist $x$ cm breit. Die Länge ist das Achtfache der Breite. Gib einen Term für den Umfang in cm an.",
+   "answerType": "expression",
+   "canonical": "2x+2*8x",
+   "result": "$2x+2\\cdot 8x$"
+  },
+  "ch1.terms.translate.phrase_to_term@1/L3/3": {
+   "signature": "5b8556a6",
+   "prompt": "Ein gleichschenkliges Dreieck hat die Basis $x$ cm. Jeder Schenkel ist $2$ cm länger als die Basis. Gib einen Term für den Umfang in cm an.",
+   "answerType": "expression",
+   "canonical": "x+2(x+2)",
+   "result": "$x+2\\left(x+2\\right)$"
+  },
+  "ch1.terms.translate.sequence_to_term@1/L1/1": {
+   "signature": "f32a7992",
+   "prompt": "Eine Zahlenfolge beginnt mit $7;\\ 14;\\ 21;\\ 28;\\ \\ldots$. Gib einen Term für die $n$-te Zahl an.",
+   "answerType": "expression",
+   "canonical": "7n",
+   "result": "$7n$"
+  },
+  "ch1.terms.translate.sequence_to_term@1/L1/2": {
+   "signature": "43ff88ab",
+   "prompt": "Eine Zahlenfolge beginnt mit $11;\\ 22;\\ 33;\\ 44;\\ \\ldots$. Gib einen Term für die $n$-te Zahl an.",
+   "answerType": "expression",
+   "canonical": "11n",
+   "result": "$11n$"
+  },
+  "ch1.terms.translate.sequence_to_term@1/L1/3": {
+   "signature": "402151c9",
+   "prompt": "Eine Zahlenfolge beginnt mit $17;\\ 18;\\ 19;\\ 20;\\ \\ldots$. Gib einen Term für die $n$-te Zahl an.",
+   "answerType": "expression",
+   "canonical": "n+16",
+   "result": "$n+16$"
+  },
+  "ch1.terms.translate.sequence_to_term@1/L2/1": {
+   "signature": "4fa9c1d9",
+   "prompt": "Eine Zahlenfolge beginnt mit $12;\\ 17;\\ 22;\\ 27;\\ \\ldots$. Gib einen Term für die $n$-te Zahl an.",
+   "answerType": "expression",
+   "canonical": "5n+7",
+   "result": "$5n+7$"
+  },
+  "ch1.terms.translate.sequence_to_term@1/L2/2": {
+   "signature": "e3383cc0",
+   "prompt": "Eine Zahlenfolge beginnt mit $14;\\ 17;\\ 20;\\ 23;\\ \\ldots$. Gib einen Term für die $n$-te Zahl an.",
+   "answerType": "expression",
+   "canonical": "3n+11",
+   "result": "$3n+11$"
+  },
+  "ch1.terms.translate.sequence_to_term@1/L2/3": {
+   "signature": "85bb9fe5",
+   "prompt": "Eine Zahlenfolge beginnt mit $12;\\ 16;\\ 20;\\ 24;\\ \\ldots$. Gib einen Term für die $n$-te Zahl an.",
+   "answerType": "expression",
+   "canonical": "4n+8",
+   "result": "$4n+8$"
+  },
+  "ch1.terms.translate.sequence_to_term@1/L3/1": {
+   "signature": "4598242f",
+   "prompt": "Die geraden Zahlen lauten $2;\\ 4;\\ 6;\\ 8;\\ \\ldots$. Gib einen Term für die $n$-te Zahl an.",
+   "answerType": "expression",
+   "canonical": "2n",
+   "result": "$2n$"
+  },
+  "ch1.terms.translate.sequence_to_term@1/L3/2": {
+   "signature": "ebbc4871",
+   "prompt": "Eine Zahlenfolge beginnt mit $32;\\ 26;\\ 20;\\ 14;\\ \\ldots$. Gib einen Term für die $n$-te Zahl an.",
+   "answerType": "expression",
+   "canonical": "-6n+38",
+   "result": "$-6n+38$"
+  },
+  "ch1.terms.translate.sequence_to_term@1/L3/3": {
+   "signature": "490100a4",
+   "prompt": "Die ungeraden Zahlen lauten $1;\\ 3;\\ 5;\\ 7;\\ \\ldots$. Gib einen Term für die $n$-te Zahl an.",
+   "answerType": "expression",
+   "canonical": "2n-1",
+   "result": "$2n-1$"
+  },
+  "ch1.terms.translate.sequence_to_term@1/L4/1": {
+   "signature": "04649b33",
+   "prompt": "Eine Zahlenfolge beginnt mit $16;\\ 13;\\ 10;\\ 7;\\ \\ldots$. Welche Terme beschreiben die $n$-te Zahl der Folge? Wähle alle passenden aus.",
+   "answerType": "multiselect",
+   "canonical": [
+    "a",
+    "c"
+   ],
+   "result": "$-3\\left(n-1\\right)+16$, $19-3n$"
+  },
+  "ch1.terms.translate.sequence_to_term@1/L4/2": {
+   "signature": "9a6b38fb",
+   "prompt": "Eine Zahlenfolge beginnt mit $34;\\ 29;\\ 24;\\ 19;\\ \\ldots$. Welche Terme beschreiben die $n$-te Zahl der Folge? Wähle alle passenden aus.",
+   "answerType": "multiselect",
+   "canonical": [
+    "b",
+    "d"
+   ],
+   "result": "$39-5n$, $-5\\left(n-1\\right)+34$"
+  },
+  "ch1.terms.translate.sequence_to_term@1/L4/3": {
+   "signature": "90466eb1",
+   "prompt": "Eine Zahlenfolge beginnt mit $17;\\ 13;\\ 9;\\ 5;\\ \\ldots$. Welche Terme beschreiben die $n$-te Zahl der Folge? Wähle alle passenden aus.",
+   "answerType": "multiselect",
+   "canonical": [
+    "b",
+    "d"
+   ],
+   "result": "$21-4n$, $-4\\left(n-1\\right)+17$"
+  },
+  "ch1.terms.translate.match_term_situation@1/L1/1": {
+   "signature": "f465dc62",
+   "prompt": "$x$ ist die Anzahl der Anrufe mit einer Prepaid-Karte. Gesucht ist das Restguthaben in €, wenn die Karte mit $30$ € aufgeladen ist und jeder Anruf $2$ € kostet. Welcher Term passt?",
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "$30-2x$"
+  },
+  "ch1.terms.translate.match_term_situation@1/L1/2": {
+   "signature": "d5650a0a",
+   "prompt": "$x$ ist die Anzahl der Kinder einer Gruppe im Kino. Gesucht ist der Gesamtpreis in €, wenn jedes Kind $8$ € Eintritt zahlt und die Gruppe einmal $5$ € für Popcorn ausgibt. Welcher Term passt?",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "$8x+5$"
+  },
+  "ch1.terms.translate.match_term_situation@1/L1/3": {
+   "signature": "d59d7fc9",
+   "prompt": "$x$ ist die Anzahl der Anrufe mit einer Prepaid-Karte. Gesucht ist das Restguthaben in €, wenn die Karte mit $35$ € aufgeladen ist und jeder Anruf $2$ € kostet. Welcher Term passt?",
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "$35-2x$"
+  },
+  "ch1.terms.translate.match_term_situation@1/L2/1": {
+   "signature": "f2d937c7",
+   "prompt": "$x$ ist die Anzahl der Kinder einer Gruppe im Kino. Gesucht ist der Gesamtpreis in €, wenn jedes Kind $9$ € Eintritt zahlt und die Gruppe einmal $4$ € für Popcorn ausgibt. Welcher Term passt?",
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "$9x+4$"
+  },
+  "ch1.terms.translate.match_term_situation@1/L2/2": {
+   "signature": "f92a770d",
+   "prompt": "$x$ ist die Anzahl der Kekspackungen, die Tim hat. Gesucht ist die Anzahl der Kekse, wenn in jeder Packung $11$ Kekse sind und Tim insgesamt $5$ Kekse isst. Welcher Term passt?",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "$11x-5$"
+  },
+  "ch1.terms.translate.match_term_situation@1/L2/3": {
+   "signature": "5f1f528f",
+   "prompt": "$x$ ist die Anzahl der Kekspackungen, die Tim hat. Gesucht ist die Anzahl der Kekse, wenn in jeder Packung $8$ Kekse sind und Tim insgesamt $7$ Kekse isst. Welcher Term passt?",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "$8x-7$"
+  },
+  "ch1.terms.translate.match_term_situation@1/L3/1": {
+   "signature": "71f24d31",
+   "prompt": "$x$ ist die Anzahl der Kinder einer Gruppe im Kino. Welche Beschreibung passt zum Term $9x+4$?",
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "Der Gesamtpreis in €, wenn jedes Kind $9$ € Eintritt zahlt und die Gruppe einmal $4$ € für Popcorn ausgibt"
+  },
+  "ch1.terms.translate.match_term_situation@1/L3/2": {
+   "signature": "9c957de3",
+   "prompt": "$x$ ist die Anzahl der Kekspackungen, die Tim hat. Welche Beschreibung passt zum Term $11x-5$?",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "Die Anzahl der Kekse, wenn in jeder Packung $11$ Kekse sind und Tim insgesamt $5$ Kekse isst"
+  },
+  "ch1.terms.translate.match_term_situation@1/L3/3": {
+   "signature": "51bc6a63",
+   "prompt": "$x$ ist die Anzahl der Kekspackungen, die Tim hat. Welche Beschreibung passt zum Term $8x-7$?",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "Die Anzahl der Kekse, wenn in jeder Packung $8$ Kekse sind und Tim insgesamt $7$ Kekse isst"
+  },
+  "ch1.terms.translate.think_of_number@1/L4/1": {
+   "signature": "392493b3",
+   "prompt": "Untersuche den Zahlentrick. Welche Aussage über das Ergebnis ist für jede gedachte Zahl richtig?",
+   "promptLines": [
+    "Denke dir eine Zahl.",
+    "Addiere $2$.",
+    "Multipliziere das Ergebnis mit $2$.",
+    "Subtrahiere $5$.",
+    "Subtrahiere die gedachte Zahl."
+   ],
+   "answerType": "choice",
+   "canonical": "c",
+   "result": "Das Ergebnis ist um $1$ kleiner als die gedachte Zahl."
+  },
+  "ch1.terms.translate.think_of_number@1/L4/2": {
+   "signature": "b8f60f3b",
+   "prompt": "Spiele den Zahlentrick mit der Variablen $x$ für die gedachte Zahl durch. Gib einen möglichst einfachen Term für das Ergebnis an.",
+   "promptLines": [
+    "Denke dir eine Zahl.",
+    "Multipliziere sie mit $4$.",
+    "Addiere $12$.",
+    "Teile das Ergebnis durch $4$.",
+    "Subtrahiere die gedachte Zahl.",
+    "Teile das Ergebnis durch $3$."
+   ],
+   "answerType": "expression",
+   "canonical": "1",
+   "result": "$1$"
+  },
+  "ch1.terms.translate.think_of_number@1/L4/3": {
+   "signature": "4afee79e",
+   "prompt": "Untersuche den Zahlentrick. Welche Aussage über das Ergebnis ist für jede gedachte Zahl richtig?",
+   "promptLines": [
+    "Denke dir eine Zahl.",
+    "Multipliziere sie mit $4$.",
+    "Subtrahiere $6$.",
+    "Teile das Ergebnis durch $2$.",
+    "Subtrahiere die gedachte Zahl.",
+    "Addiere $2$."
+   ],
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "Das Ergebnis ist um $1$ kleiner als die gedachte Zahl."
+  },
+  "ch1.terms.evaluate.single_value@1/L1/1": {
+   "signature": "e5a72991",
+   "prompt": "Berechne den Wert des Terms $9\\left(x+11\\right)$ für $x = 9$.",
+   "answerType": "integer",
+   "canonical": "180",
+   "result": "$180$"
+  },
+  "ch1.terms.evaluate.single_value@1/L1/2": {
+   "signature": "256ce46e",
+   "prompt": "Berechne den Wert des Terms $8\\left(x+8\\right)$ für $x = 9$.",
+   "answerType": "integer",
+   "canonical": "136",
+   "result": "$136$"
+  },
+  "ch1.terms.evaluate.single_value@1/L1/3": {
+   "signature": "17d7d404",
+   "prompt": "Berechne den Wert des Terms $5x-9$ für $x = 2$.",
+   "answerType": "integer",
+   "canonical": "1",
+   "result": "$1$"
+  },
+  "ch1.terms.evaluate.single_value@1/L2/1": {
+   "signature": "632a87b3",
+   "prompt": "Berechne den Wert des Terms $3-12x$ für $x = -9$.",
+   "answerType": "integer",
+   "canonical": "111",
+   "result": "$111$"
+  },
+  "ch1.terms.evaluate.single_value@1/L2/2": {
+   "signature": "3f42ffc8",
+   "prompt": "Berechne den Wert des Terms $8\\left(x-8\\right)$ für $x = -9$.",
+   "answerType": "integer",
+   "canonical": "-136",
+   "result": "$-136$"
+  },
+  "ch1.terms.evaluate.single_value@1/L2/3": {
+   "signature": "b9becae5",
+   "prompt": "Berechne den Wert des Terms $5-9x$ für $x = -1$.",
+   "answerType": "integer",
+   "canonical": "14",
+   "result": "$14$"
+  },
+  "ch1.terms.evaluate.single_value@1/L3/1": {
+   "signature": "fe3502f7",
+   "prompt": "Berechne den Wert des Terms $3x^{2}+x$ für $x = -\\frac{1}{2}$.",
+   "answerType": "fraction",
+   "canonical": "1/4",
+   "result": "$\\frac{1}{4}$"
+  },
+  "ch1.terms.evaluate.single_value@1/L3/2": {
+   "signature": "b950d356",
+   "prompt": "Berechne den Wert des Terms $x^{2}-9$ für $x = 0{,}5$.",
+   "answerType": "fraction",
+   "canonical": "-8,75",
+   "result": "$-8{,}75$"
+  },
+  "ch1.terms.evaluate.single_value@1/L3/3": {
+   "signature": "4d423bb8",
+   "prompt": "Berechne den Wert des Terms $-x^{2}-1$ für $x = -4$.",
+   "answerType": "fraction",
+   "canonical": "-17",
+   "result": "$-17$"
+  },
+  "ch1.terms.evaluate.value_table@1/L1/1": {
+   "signature": "7b5aaa45",
+   "prompt": "Fülle die Wertetabelle für den Term $9\\left(x+11\\right)$ aus.",
+   "answerType": "table",
+   "canonical": {
+    "c0": "99",
+    "c1": "108",
+    "c2": "117",
+    "c3": "126"
+   },
+   "result": "$x = 0$: $99$, $x = 1$: $108$, $x = 2$: $117$, $x = 3$: $126$"
+  },
+  "ch1.terms.evaluate.value_table@1/L1/2": {
+   "signature": "85ec568c",
+   "prompt": "Fülle die Wertetabelle für den Term $8\\left(x+8\\right)$ aus.",
+   "answerType": "table",
+   "canonical": {
+    "c0": "64",
+    "c1": "72",
+    "c2": "80",
+    "c3": "88"
+   },
+   "result": "$x = 0$: $64$, $x = 1$: $72$, $x = 2$: $80$, $x = 3$: $88$"
+  },
+  "ch1.terms.evaluate.value_table@1/L1/3": {
+   "signature": "705f7b61",
+   "prompt": "Fülle die Wertetabelle für den Term $5x-9$ aus.",
+   "answerType": "table",
+   "canonical": {
+    "c0": "6",
+    "c1": "11",
+    "c2": "16",
+    "c3": "21"
+   },
+   "result": "$x = 3$: $6$, $x = 4$: $11$, $x = 5$: $16$, $x = 6$: $21$"
+  },
+  "ch1.terms.evaluate.value_table@1/L2/1": {
+   "signature": "984f6090",
+   "prompt": "Fülle die Wertetabelle für den Term $3-12x$ aus.",
+   "answerType": "table",
+   "canonical": {
+    "c0": "27",
+    "c1": "15",
+    "c2": "3",
+    "c3": "-9"
+   },
+   "result": "$x = -2$: $27$, $x = -1$: $15$, $x = 0$: $3$, $x = 1$: $-9$"
+  },
+  "ch1.terms.evaluate.value_table@1/L2/2": {
+   "signature": "773b310c",
+   "prompt": "Fülle die Wertetabelle für den Term $8\\left(x-8\\right)$ aus.",
+   "answerType": "table",
+   "canonical": {
+    "c0": "-88",
+    "c1": "-80",
+    "c2": "-72",
+    "c3": "-64"
+   },
+   "result": "$x = -3$: $-88$, $x = -2$: $-80$, $x = -1$: $-72$, $x = 0$: $-64$"
+  },
+  "ch1.terms.evaluate.value_table@1/L2/3": {
+   "signature": "24eb5916",
+   "prompt": "Fülle die Wertetabelle für den Term $5-9x$ aus.",
+   "answerType": "table",
+   "canonical": {
+    "c0": "5",
+    "c1": "-4",
+    "c2": "-13",
+    "c3": "-22"
+   },
+   "result": "$x = 0$: $5$, $x = 1$: $-4$, $x = 2$: $-13$, $x = 3$: $-22$"
+  },
+  "ch1.terms.evaluate.value_table@1/L3/1": {
+   "signature": "b9d65cda",
+   "prompt": "Fülle die Wertetabelle für den Term $3x^{2}+x$ aus.",
+   "answerType": "table",
+   "canonical": {
+    "c0": "65/4",
+    "c1": "5,25",
+    "c2": "2/3"
+   },
+   "result": "$x = -\\frac{5}{2}$: $\\frac{65}{4}$, $x = -1{,}5$: $5{,}25$, $x = -\\frac{2}{3}$: $\\frac{2}{3}$"
+  },
+  "ch1.terms.evaluate.value_table@1/L3/2": {
+   "signature": "76f577ac",
+   "prompt": "Fülle die Wertetabelle für den Term $x^{2}-9$ aus.",
+   "answerType": "table",
+   "canonical": {
+    "c0": "7",
+    "c1": "-11/4",
+    "c2": "-35/4"
+   },
+   "result": "$x = -4$: $7$, $x = -\\frac{5}{2}$: $-\\frac{11}{4}$, $x = \\frac{1}{2}$: $-\\frac{35}{4}$"
+  },
+  "ch1.terms.evaluate.value_table@1/L3/3": {
+   "signature": "e4573a1d",
+   "prompt": "Fülle die Wertetabelle für den Term $-x^{2}-1$ aus.",
+   "answerType": "table",
+   "canonical": {
+    "c0": "-3,25",
+    "c1": "-5/4",
+    "c2": "-25/16"
+   },
+   "result": "$x = -1{,}5$: $-3{,}25$, $x = \\frac{1}{2}$: $-\\frac{5}{4}$, $x = \\frac{3}{4}$: $-\\frac{25}{16}$"
+  },
+  "ch1.terms.evaluate.find_input@1/L2/1": {
+   "signature": "ca61402f",
+   "prompt": "Für welche natürliche Zahl $x$ hat der Term $3x+12$ den Wert $36$?",
+   "answerType": "integer",
+   "canonical": "8",
+   "result": "$x = 8$"
+  },
+  "ch1.terms.evaluate.find_input@1/L2/2": {
+   "signature": "8c4efdc5",
+   "prompt": "Für welche natürliche Zahl $x$ hat der Term $8x+8$ den Wert $40$?",
+   "answerType": "integer",
+   "canonical": "4",
+   "result": "$x = 4$"
+  },
+  "ch1.terms.evaluate.find_input@1/L2/3": {
+   "signature": "986b4ed6",
+   "prompt": "Für welche natürliche Zahl $x$ hat der Term $5x+9$ den Wert $24$?",
+   "answerType": "integer",
+   "canonical": "3",
+   "result": "$x = 3$"
+  },
+  "ch1.terms.evaluate.find_input@1/L3/1": {
+   "signature": "d9a321fb",
+   "prompt": "Für welche ganze Zahl $x$ hat der Term $5\\left(x-9\\right)$ den Wert $-5$?",
+   "answerType": "integer",
+   "canonical": "8",
+   "result": "$x = 8$"
+  },
+  "ch1.terms.evaluate.find_input@1/L3/2": {
+   "signature": "1b427e0c",
+   "prompt": "Für welche ganze Zahl $x$ hat der Term $5-7x$ den Wert $75$?",
+   "answerType": "integer",
+   "canonical": "-10",
+   "result": "$x = -10$"
+  },
+  "ch1.terms.evaluate.find_input@1/L3/3": {
+   "signature": "64439503",
+   "prompt": "Für welche ganze Zahl $x$ hat der Term $7\\left(x-4\\right)$ den Wert $-84$?",
+   "answerType": "integer",
+   "canonical": "-8",
+   "result": "$x = -8$"
+  },
+  "ch1.terms.evaluate.find_input@1/L4/1": {
+   "signature": "36284e3d",
+   "prompt": "Für welche ganze Zahl $x$ haben die Terme $-3x-8$ und $3x-26$ denselben Wert?",
+   "answerType": "integer",
+   "canonical": "3",
+   "result": "$x = 3$"
+  },
+  "ch1.terms.evaluate.find_input@1/L4/2": {
+   "signature": "4590b76f",
+   "prompt": "Für welche ganze Zahl $x$ haben die Terme $-5x+13$ und $5x+23$ denselben Wert?",
+   "answerType": "integer",
+   "canonical": "-1",
+   "result": "$x = -1$"
+  },
+  "ch1.terms.evaluate.find_input@1/L4/3": {
+   "signature": "a7178d77",
+   "prompt": "Für welche ganze Zahl $x$ haben die Terme $-3x+3$ und $-6x+18$ denselben Wert?",
+   "answerType": "integer",
+   "canonical": "5",
+   "result": "$x = 5$"
+  },
+  "ch1.terms.collect_like.collect@1/L1/1": {
+   "signature": "acbc490e",
+   "prompt": "Vereinfache den Term $10x-6x$.",
+   "answerType": "expression",
+   "canonical": "4x",
+   "result": "$4x$"
+  },
+  "ch1.terms.collect_like.collect@1/L1/2": {
+   "signature": "a1d59d4a",
+   "prompt": "Vereinfache den Term $11x-9x-10x$.",
+   "answerType": "expression",
+   "canonical": "-8x",
+   "result": "$-8x$"
+  },
+  "ch1.terms.collect_like.collect@1/L1/3": {
+   "signature": "ba529a76",
+   "prompt": "Vereinfache den Term $4x+4x$.",
+   "answerType": "expression",
+   "canonical": "8x",
+   "result": "$8x$"
+  },
+  "ch1.terms.collect_like.collect@1/L2/1": {
+   "signature": "35b52e98",
+   "prompt": "Vereinfache den Term $8x+1-12-7x$.",
+   "answerType": "expression",
+   "canonical": "x-11",
+   "result": "$x-11$"
+  },
+  "ch1.terms.collect_like.collect@1/L2/2": {
+   "signature": "51704871",
+   "prompt": "Vereinfache den Term $6x-10+6x+8$.",
+   "answerType": "expression",
+   "canonical": "12x-2",
+   "result": "$12x-2$"
+  },
+  "ch1.terms.collect_like.collect@1/L2/3": {
+   "signature": "e9a7638e",
+   "prompt": "Vereinfache den Term $11x+6-2x-9$.",
+   "answerType": "expression",
+   "canonical": "9x-3",
+   "result": "$9x-3$"
+  },
+  "ch1.terms.collect_like.collect@1/L3/1": {
+   "signature": "431b52ed",
+   "prompt": "Vereinfache den Term $0{,}8x-5x+0{,}2-0{,}2x-0{,}8$.",
+   "answerType": "expression",
+   "canonical": "-4,4x-0,6",
+   "result": "$-4{,}4x-0{,}6$"
+  },
+  "ch1.terms.collect_like.collect@1/L3/2": {
+   "signature": "b7905bb9",
+   "prompt": "Vereinfache den Term $1{,}5x-1{,}2+4x-1{,}2$.",
+   "answerType": "expression",
+   "canonical": "5,5x-2,4",
+   "result": "$5{,}5x-2{,}4$"
+  },
+  "ch1.terms.collect_like.collect@1/L3/3": {
+   "signature": "7774b13f",
+   "prompt": "Vereinfache den Term $\\frac{5}{4}x-8x-\\frac{3}{4}-\\frac{3}{4}-4x$.",
+   "answerType": "expression",
+   "canonical": "-43/4x-3/2",
+   "result": "$-\\frac{43}{4}x-\\frac{3}{2}$"
+  },
+  "ch1.terms.collect_like.spot_error@1/L2/1": {
+   "signature": "f71c3ad7",
+   "prompt": "In der folgenden Rechnung steckt genau ein Fehler. In welcher Zeile steht er zum ersten Mal?",
+   "promptLines": [
+    "$8x+1-12-7x$",
+    "Zeile 1: $= 8x-7x+1-12$",
+    "Zeile 2: $= \\left(8-7\\right)x+\\left(1-12\\right)$",
+    "Zeile 3: $= 2x-11$"
+   ],
+   "answerType": "choice",
+   "canonical": "z3",
+   "result": "Zeile 3"
+  },
+  "ch1.terms.collect_like.spot_error@1/L2/2": {
+   "signature": "1211875b",
+   "prompt": "In der folgenden Rechnung steckt genau ein Fehler. In welcher Zeile steht er zum ersten Mal?",
+   "promptLines": [
+    "$6x-10+6x+8$",
+    "Zeile 1: $= 6x+6x-10+8$",
+    "Zeile 2: $= \\left(6+6\\right)x+\\left(-10+8\\right)$",
+    "Zeile 3: $= 12x+2$"
+   ],
+   "answerType": "choice",
+   "canonical": "z3",
+   "result": "Zeile 3"
+  },
+  "ch1.terms.collect_like.spot_error@1/L2/3": {
+   "signature": "0bc7d314",
+   "prompt": "In der folgenden Rechnung steckt genau ein Fehler. In welcher Zeile steht er zum ersten Mal?",
+   "promptLines": [
+    "$11x+6-2x-9$",
+    "Zeile 1: $= 11x-2x+6+9$",
+    "Zeile 2: $= \\left(11-2\\right)x+\\left(6+9\\right)$",
+    "Zeile 3: $= 9x+15$"
+   ],
+   "answerType": "choice",
+   "canonical": "z1",
+   "result": "Zeile 1"
+  },
+  "ch1.terms.collect_like.spot_error@1/L3/1": {
+   "signature": "10c82db7",
+   "prompt": "In der folgenden Rechnung steckt genau ein Fehler. In welcher Zeile steht er zum ersten Mal?",
+   "promptLines": [
+    "$0{,}8x-5x+0{,}2-0{,}2x-0{,}8$",
+    "Zeile 1: $= 0{,}8x-5x-0{,}2x+0{,}2-0{,}8$",
+    "Zeile 2: $= \\left(0{,}8-5-0{,}2+0{,}2-0{,}8\\right)x$",
+    "Zeile 3: $= -5x$"
+   ],
+   "answerType": "choice",
+   "canonical": "z2",
+   "result": "Zeile 2"
+  },
+  "ch1.terms.collect_like.spot_error@1/L3/2": {
+   "signature": "5a4ecb47",
+   "prompt": "In der folgenden Rechnung steckt genau ein Fehler. In welcher Zeile steht er zum ersten Mal?",
+   "promptLines": [
+    "$1{,}5x-1{,}2+4x-1{,}2$",
+    "Zeile 1: $= 1{,}5x+4x-1{,}2-1{,}2$",
+    "Zeile 2: $= \\left(1{,}5+4-1{,}2-1{,}2\\right)x$",
+    "Zeile 3: $= 3{,}1x$"
+   ],
+   "answerType": "choice",
+   "canonical": "z2",
+   "result": "Zeile 2"
+  },
+  "ch1.terms.collect_like.spot_error@1/L3/3": {
+   "signature": "70388208",
+   "prompt": "In der folgenden Rechnung steckt genau ein Fehler. In welcher Zeile steht er zum ersten Mal?",
+   "promptLines": [
+    "$\\frac{5}{4}x-8x-\\frac{3}{4}-\\frac{3}{4}-4x$",
+    "Zeile 1: $= \\frac{5}{4}x-8x-4x-\\frac{3}{4}-\\frac{3}{4}$",
+    "Zeile 2: $= \\left(\\frac{5}{4}-8-4\\right)x+\\left(-\\frac{3}{4}-\\frac{3}{4}\\right)$",
+    "Zeile 3: $= -\\frac{43}{4}x+\\frac{3}{2}$"
+   ],
+   "answerType": "choice",
+   "canonical": "z3",
+   "result": "Zeile 3"
+  },
+  "ch1.terms.collect_like.spot_error@1/L4/1": {
+   "signature": "f9394032",
+   "prompt": "In der folgenden Rechnung steckt genau ein Fehler. In welcher Zeile steht er zum ersten Mal?",
+   "promptLines": [
+    "$2x-1{,}5-3{,}5+2{,}5x+3-2x$",
+    "Zeile 1: $= 2x+2{,}5x-2x-1{,}5+3{,}5+3$",
+    "Zeile 2: $= \\left(2+2{,}5-2\\right)x+\\left(-1{,}5+3{,}5+3\\right)$",
+    "Zeile 3: $= 2{,}5x+5$"
+   ],
+   "answerType": "choice",
+   "canonical": "z1",
+   "result": "Zeile 1"
+  },
+  "ch1.terms.collect_like.spot_error@1/L4/2": {
+   "signature": "fa791b2c",
+   "prompt": "In der folgenden Rechnung steckt genau ein Fehler. In welcher Zeile steht er zum ersten Mal?",
+   "promptLines": [
+    "$2{,}5x-0{,}8-3{,}5-4x-1{,}2x+1{,}2$",
+    "Zeile 1: $= 2{,}5x-4x-1{,}2x-0{,}8-3{,}5+1{,}2$",
+    "Zeile 2: $= \\left(2{,}5-4-1{,}2-0{,}8-3{,}5+1{,}2\\right)x$",
+    "Zeile 3: $= -5{,}8x$"
+   ],
+   "answerType": "choice",
+   "canonical": "z2",
+   "result": "Zeile 2"
+  },
+  "ch1.terms.collect_like.spot_error@1/L4/3": {
+   "signature": "4a3231d3",
+   "prompt": "In der folgenden Rechnung steckt genau ein Fehler. In welcher Zeile steht er zum ersten Mal?",
+   "promptLines": [
+    "$1{,}2x-1{,}2x-2{,}5-2x-1{,}2-0{,}2$",
+    "Zeile 1: $= 1{,}2x-1{,}2x-2x-2{,}5-1{,}2-0{,}2$",
+    "Zeile 2: $= \\left(1{,}2-1{,}2-2-2{,}5-1{,}2-0{,}2\\right)x$",
+    "Zeile 3: $= -5{,}9x$"
+   ],
+   "answerType": "choice",
+   "canonical": "z2",
+   "result": "Zeile 2"
+  },
+  "ch1.terms.collect_like.equivalence_check@1/L1/1": {
+   "signature": "f7e562d6",
+   "prompt": "Sind die Terme $8x+x+12$ und $21x$ gleichwertig?",
+   "answerType": "choice",
+   "canonical": "nein",
+   "result": "Nein, die Terme sind nicht gleichwertig."
+  },
+  "ch1.terms.collect_like.equivalence_check@1/L1/2": {
+   "signature": "5b43ec55",
+   "prompt": "Sind die Terme $3x+2x+8$ und $5x+8$ gleichwertig?",
+   "answerType": "choice",
+   "canonical": "ja",
+   "result": "Ja, die Terme sind gleichwertig."
+  },
+  "ch1.terms.collect_like.equivalence_check@1/L1/3": {
+   "signature": "9767c132",
+   "prompt": "Sind die Terme $7x+9+2x$ und $9x-9$ gleichwertig?",
+   "answerType": "choice",
+   "canonical": "nein",
+   "result": "Nein, die Terme sind nicht gleichwertig."
+  },
+  "ch1.terms.collect_like.equivalence_check@1/L2/1": {
+   "signature": "0ca496ac",
+   "prompt": "Welche Terme sind gleichwertig zu $9-10-4x-7x$? Wähle alle passenden aus.",
+   "answerType": "multiselect",
+   "canonical": [
+    "a",
+    "c",
+    "d"
+   ],
+   "result": "$-1-11x$, $-11x-1$, $-7x-1-4x$"
+  },
+  "ch1.terms.collect_like.equivalence_check@1/L2/2": {
+   "signature": "b3a781bd",
+   "prompt": "Welche Terme sind gleichwertig zu $-4+11-2x-9x$? Wähle alle passenden aus.",
+   "answerType": "multiselect",
+   "canonical": [
+    "a",
+    "c",
+    "d"
+   ],
+   "result": "$7-11x$, $-11x+7$, $-9x+7-2x$"
+  },
+  "ch1.terms.collect_like.equivalence_check@1/L2/3": {
+   "signature": "3ed2837f",
+   "prompt": "Welche Terme sind gleichwertig zu $2x-7x+9+11$? Wähle alle passenden aus.",
+   "answerType": "multiselect",
+   "canonical": [
+    "b",
+    "d"
+   ],
+   "result": "$20-5x$, $-7x+20+2x$"
+  },
+  "ch1.terms.collect_like.equivalence_check@1/L3/1": {
+   "signature": "095ca86f",
+   "prompt": "Welche Terme sind gleichwertig zu $-8x+4+9{,}5+3{,}5x$? Wähle alle passenden aus.",
+   "answerType": "multiselect",
+   "canonical": [
+    "a",
+    "c"
+   ],
+   "result": "$13{,}5-4{,}5x$, $-4{,}5x+13{,}5$"
+  },
+  "ch1.terms.collect_like.equivalence_check@1/L3/2": {
+   "signature": "f3256004",
+   "prompt": "Welche Terme sind gleichwertig zu $-1{,}5x-7x-7{,}5$? Wähle alle passenden aus.",
+   "answerType": "multiselect",
+   "canonical": [
+    "d"
+   ],
+   "result": "$-7x-7{,}5-1{,}5x$"
+  },
+  "ch1.terms.collect_like.equivalence_check@1/L3/3": {
+   "signature": "a5cd84f9",
+   "prompt": "Welche Terme sind gleichwertig zu $-5x-7{,}5x+10+5{,}5$? Wähle alle passenden aus.",
+   "answerType": "multiselect",
+   "canonical": [
+    "b",
+    "d"
+   ],
+   "result": "$15{,}5-12{,}5x$, $-7{,}5x+15{,}5-5x$"
+  },
+  "ch1.terms.collect_like.equivalence_check@1/L4/1": {
+   "signature": "0359aab2",
+   "prompt": "Jan setzt $x=4$ in die Terme $7+2-2x+5x$ und $8+5x+1-2x$ ein. Beide Male erhält er $21$. Er sagt: „Die Terme sind gleichwertig.“ Welche Antwort ist richtig?",
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "Ja. Fasst man beide Terme zusammen, erhält man jeweils $3x+9$."
+  },
+  "ch1.terms.collect_like.equivalence_check@1/L4/2": {
+   "signature": "dd06767b",
+   "prompt": "Jan setzt $x=3$ in die Terme $-5x-5+1+10x$ und $-9-6x+5+11x$ ein. Beide Male erhält er $11$. Er sagt: „Die Terme sind gleichwertig.“ Welche Antwort ist richtig?",
+   "answerType": "choice",
+   "canonical": "d",
+   "result": "Ja. Fasst man beide Terme zusammen, erhält man jeweils $5x-4$."
+  },
+  "ch1.terms.collect_like.equivalence_check@1/L4/3": {
+   "signature": "40ef47a1",
+   "prompt": "Jan setzt $x=2$ in die Terme $5+6x-x+6$ und $-11+15x-9x+20$ ein. Beide Male erhält er $21$. Er sagt: „Die Terme sind gleichwertig.“ Welche Antwort ist richtig?",
+   "answerType": "choice",
+   "canonical": "d",
+   "result": "Nein. Für $x=3$ hat der erste Term den Wert $26$, der zweite den Wert $27$."
+  },
+  "ch1.terms.simplify_products.number_times_term@1/L1/1": {
+   "signature": "7a0c6cb0",
+   "prompt": "Vereinfache das Produkt $3\\cdot 9x$.",
+   "answerType": "expression",
+   "canonical": "27x",
+   "result": "$27x$"
+  },
+  "ch1.terms.simplify_products.number_times_term@1/L1/2": {
+   "signature": "a06c715b",
+   "prompt": "Vereinfache das Produkt $8\\cdot 9x$.",
+   "answerType": "expression",
+   "canonical": "72x",
+   "result": "$72x$"
+  },
+  "ch1.terms.simplify_products.number_times_term@1/L1/3": {
+   "signature": "ebad5bd6",
+   "prompt": "Vereinfache das Produkt $3x\\cdot 9$.",
+   "answerType": "expression",
+   "canonical": "27x",
+   "result": "$27x$"
+  },
+  "ch1.terms.simplify_products.number_times_term@1/L2/1": {
+   "signature": "926abbdf",
+   "prompt": "Vereinfache das Produkt $9x\\cdot 2\\cdot \\left(-6\\right)$.",
+   "answerType": "expression",
+   "canonical": "-108x",
+   "result": "$-108x$"
+  },
+  "ch1.terms.simplify_products.number_times_term@1/L2/2": {
+   "signature": "964ab26f",
+   "prompt": "Vereinfache das Produkt $-6x\\cdot 5$.",
+   "answerType": "expression",
+   "canonical": "-30x",
+   "result": "$-30x$"
+  },
+  "ch1.terms.simplify_products.number_times_term@1/L2/3": {
+   "signature": "8f9e95cc",
+   "prompt": "Vereinfache das Produkt $-9\\cdot \\left(-8x\\right)$.",
+   "answerType": "expression",
+   "canonical": "72x",
+   "result": "$72x$"
+  },
+  "ch1.terms.simplify_products.number_times_term@1/L3/1": {
+   "signature": "86e024d5",
+   "prompt": "Vereinfache das Produkt $2{,}5x\\cdot \\left(-10\\right)\\cdot 7$.",
+   "answerType": "expression",
+   "canonical": "-175x",
+   "result": "$-175x$"
+  },
+  "ch1.terms.simplify_products.number_times_term@1/L3/2": {
+   "signature": "e9542a5c",
+   "prompt": "Vereinfache das Produkt $-0{,}2\\cdot 2{,}5x\\cdot \\left(-0{,}4\\right)$.",
+   "answerType": "expression",
+   "canonical": "0,2x",
+   "result": "$0{,}2x$"
+  },
+  "ch1.terms.simplify_products.number_times_term@1/L3/3": {
+   "signature": "b2cedcd1",
+   "prompt": "Vereinfache das Produkt $0{,}2\\cdot \\left(-2{,}5\\right)\\cdot \\left(-7x\\right)$.",
+   "answerType": "expression",
+   "canonical": "3,5x",
+   "result": "$3{,}5x$"
+  },
+  "ch1.terms.simplify_products.area_terms@1/L2/1": {
+   "signature": "d42de34e",
+   "prompt": "Ein Rechteck ist $x$ cm lang und $5$ cm breit. Gib einen möglichst einfachen Term für seinen Flächeninhalt in cm² an.",
+   "answerType": "expression",
+   "canonical": "5x",
+   "result": "$5x$"
+  },
+  "ch1.terms.simplify_products.area_terms@1/L2/2": {
+   "signature": "a02f9e99",
+   "prompt": "Ein Rechteck ist $2x$ cm lang und $3$ cm breit. Gib einen möglichst einfachen Term für seinen Flächeninhalt in cm² an.",
+   "answerType": "expression",
+   "canonical": "6x",
+   "result": "$6x$"
+  },
+  "ch1.terms.simplify_products.area_terms@1/L2/3": {
+   "signature": "74d880ea",
+   "prompt": "Ein Rechteck ist $7x$ cm lang und $4$ cm breit. Gib einen möglichst einfachen Term für seinen Flächeninhalt in cm² an.",
+   "answerType": "expression",
+   "canonical": "28x",
+   "result": "$28x$"
+  },
+  "ch1.terms.simplify_products.area_terms@1/L3/1": {
+   "signature": "62c19c8b",
+   "prompt": "Ein Dreieck hat die Grundseite $2x$ cm und die zugehörige Höhe $9$ cm. Gib einen möglichst einfachen Term für seinen Flächeninhalt in cm² an.",
+   "answerType": "expression",
+   "canonical": "9x",
+   "result": "$9x$"
+  },
+  "ch1.terms.simplify_products.area_terms@1/L3/2": {
+   "signature": "3d2174cd",
+   "prompt": "Ein Dreieck hat die Grundseite $8x$ cm und die zugehörige Höhe $8$ cm. Gib einen möglichst einfachen Term für seinen Flächeninhalt in cm² an.",
+   "answerType": "expression",
+   "canonical": "32x",
+   "result": "$32x$"
+  },
+  "ch1.terms.simplify_products.area_terms@1/L3/3": {
+   "signature": "03f9c90c",
+   "prompt": "Ein Quader hat die Kantenlängen $5$ cm, $9$ cm und $3x$ cm. Gib einen möglichst einfachen Term für sein Volumen in cm³ an.",
+   "answerType": "expression",
+   "canonical": "135x",
+   "result": "$135x$"
+  },
+  "ch1.terms.simplify_products.area_terms@1/L4/1": {
+   "signature": "9ed254d9",
+   "prompt": "Ein Quader hat die Kantenlängen $3$ cm, $7$ cm und $x$ cm. Gib einen möglichst einfachen Term für seinen Oberflächeninhalt in cm² an.",
+   "answerType": "expression",
+   "canonical": "20x+42",
+   "result": "$20x+42$"
+  },
+  "ch1.terms.simplify_products.area_terms@1/L4/2": {
+   "signature": "f157070b",
+   "prompt": "Ein Quader hat die Kantenlängen $8$ cm, $2$ cm und $x$ cm. Gib einen möglichst einfachen Term für seinen Oberflächeninhalt in cm² an.",
+   "answerType": "expression",
+   "canonical": "20x+32",
+   "result": "$20x+32$"
+  },
+  "ch1.terms.simplify_products.area_terms@1/L4/3": {
+   "signature": "cb24f4a8",
+   "prompt": "Eine Fläche besteht aus zwei Rechtecken, die sich nicht überlappen: Das erste ist $5$ cm breit und $3x$ cm lang, das zweite ist $9$ cm breit und $2x$ cm lang. Gib einen möglichst einfachen Term für den Flächeninhalt der ganzen Fläche in cm² an.",
+   "answerType": "expression",
+   "canonical": "33x",
+   "result": "$33x$"
+  },
+  "ch1.terms.simplify_products.quotient@1/L1/1": {
+   "signature": "d8aaf0ea",
+   "prompt": "Schreibe als Produkt bzw. Summe ohne Quotient und vereinfache: $15x:5$",
+   "answerType": "expression",
+   "canonical": "3x",
+   "result": "$3x$"
+  },
+  "ch1.terms.simplify_products.quotient@1/L1/2": {
+   "signature": "6e30a204",
+   "prompt": "Schreibe als Produkt bzw. Summe ohne Quotient und vereinfache: $24x:3$",
+   "answerType": "expression",
+   "canonical": "8x",
+   "result": "$8x$"
+  },
+  "ch1.terms.simplify_products.quotient@1/L1/3": {
+   "signature": "4040c5d7",
+   "prompt": "Schreibe als Produkt bzw. Summe ohne Quotient und vereinfache: $\\left(20x\\right):4$",
+   "answerType": "expression",
+   "canonical": "5x",
+   "result": "$5x$"
+  },
+  "ch1.terms.simplify_products.quotient@1/L2/1": {
+   "signature": "c370f43a",
+   "prompt": "Schreibe als Produkt bzw. Summe ohne Quotient und vereinfache: $-19x:5$",
+   "answerType": "expression",
+   "canonical": "-19/5x",
+   "result": "$-\\frac{19}{5}x$"
+  },
+  "ch1.terms.simplify_products.quotient@1/L2/2": {
+   "signature": "e60b90c2",
+   "prompt": "Schreibe als Produkt bzw. Summe ohne Quotient und vereinfache: $-26x:3$",
+   "answerType": "expression",
+   "canonical": "-26/3x",
+   "result": "$-\\frac{26}{3}x$"
+  },
+  "ch1.terms.simplify_products.quotient@1/L2/3": {
+   "signature": "148665dd",
+   "prompt": "Schreibe als Produkt bzw. Summe ohne Quotient und vereinfache: $23x:\\left(-9\\right)$",
+   "answerType": "expression",
+   "canonical": "-23/9x",
+   "result": "$-\\frac{23}{9}x$"
+  },
+  "ch1.terms.simplify_products.quotient@1/L3/1": {
+   "signature": "c276f6b9",
+   "prompt": "Schreibe als Produkt bzw. Summe ohne Quotient und vereinfache: $\\frac{32x-22}{4}$",
+   "answerType": "expression",
+   "canonical": "8x-11/2",
+   "result": "$8x-\\frac{11}{2}$"
+  },
+  "ch1.terms.simplify_products.quotient@1/L3/2": {
+   "signature": "4c0c4601",
+   "prompt": "Schreibe als Produkt bzw. Summe ohne Quotient und vereinfache: $\\frac{12x-15}{4}$",
+   "answerType": "expression",
+   "canonical": "3x-15/4",
+   "result": "$3x-\\frac{15}{4}$"
+  },
+  "ch1.terms.simplify_products.quotient@1/L3/3": {
+   "signature": "418254fd",
+   "prompt": "Schreibe als Produkt bzw. Summe ohne Quotient und vereinfache: $\\frac{10x-38}{5}$",
+   "answerType": "expression",
+   "canonical": "2x-38/5",
+   "result": "$2x-\\frac{38}{5}$"
+  },
+  "ch1.terms.simplify_products.term_type@1/L1/1": {
+   "signature": "13b2d3bf",
+   "prompt": "Welche Art von Term ist $2-4x$?",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "Differenz"
+  },
+  "ch1.terms.simplify_products.term_type@1/L1/2": {
+   "signature": "dcee3f09",
+   "prompt": "Welche Art von Term ist $x-7$?",
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "Differenz"
+  },
+  "ch1.terms.simplify_products.term_type@1/L1/3": {
+   "signature": "0a7c53fd",
+   "prompt": "Welche Art von Term ist $7x:4$?",
+   "answerType": "choice",
+   "canonical": "b",
+   "result": "Quotient"
+  },
+  "ch1.terms.expand_factor.expand@1/L1/1": {
+   "signature": "4fdabc8b",
+   "prompt": "Multipliziere aus und vereinfache: $5\\left(4x+12\\right)$.",
+   "answerType": "expression",
+   "canonical": "20x+60",
+   "result": "$20x+60$"
+  },
+  "ch1.terms.expand_factor.expand@1/L1/2": {
+   "signature": "42f98c13",
+   "prompt": "Multipliziere aus und vereinfache: $3\\left(8+5x\\right)$.",
+   "answerType": "expression",
+   "canonical": "15x+24",
+   "result": "$15x+24$"
+  },
+  "ch1.terms.expand_factor.expand@1/L1/3": {
+   "signature": "c41554ae",
+   "prompt": "Multipliziere aus und vereinfache: $4\\left(4x+9\\right)$.",
+   "answerType": "expression",
+   "canonical": "16x+36",
+   "result": "$16x+36$"
+  },
+  "ch1.terms.expand_factor.expand@1/L2/1": {
+   "signature": "56b90674",
+   "prompt": "Multipliziere aus und vereinfache: $-5\\left(9-6x\\right)$.",
+   "answerType": "expression",
+   "canonical": "30x-45",
+   "result": "$30x-45$"
+  },
+  "ch1.terms.expand_factor.expand@1/L2/2": {
+   "signature": "70b0a2ad",
+   "prompt": "Multipliziere aus und vereinfache: $-8\\left(2x-12\\right)$.",
+   "answerType": "expression",
+   "canonical": "-16x+96",
+   "result": "$-16x+96$"
+  },
+  "ch1.terms.expand_factor.expand@1/L2/3": {
+   "signature": "a491e2b2",
+   "prompt": "Multipliziere aus und vereinfache: $-6\\cdot \\left(-11+4x\\right)$.",
+   "answerType": "expression",
+   "canonical": "-24x+66",
+   "result": "$-24x+66$"
+  },
+  "ch1.terms.expand_factor.expand@1/L3/1": {
+   "signature": "4ed26d31",
+   "prompt": "Multipliziere aus und vereinfache: $3\\left(4-6x\\right)-5\\cdot \\left(-3+6x\\right)$.",
+   "answerType": "expression",
+   "canonical": "-48x+27",
+   "result": "$-48x+27$"
+  },
+  "ch1.terms.expand_factor.expand@1/L3/2": {
+   "signature": "e5395b28",
+   "prompt": "Multipliziere aus und vereinfache: $\\frac{1}{2}\\cdot \\left(8x+4\\right)-5x$.",
+   "answerType": "expression",
+   "canonical": "-x+2",
+   "result": "$-x+2$"
+  },
+  "ch1.terms.expand_factor.expand@1/L3/3": {
+   "signature": "96f7a223",
+   "prompt": "Multipliziere aus und vereinfache: $5\\cdot \\left(-3x+5\\right)-8\\cdot \\left(-4x-10\\right)$.",
+   "answerType": "expression",
+   "canonical": "17x+105",
+   "result": "$17x+105$"
+  },
+  "ch1.terms.expand_factor.expand@1/L4/1": {
+   "signature": "2f992a6b",
+   "prompt": "Multipliziere aus und vereinfache: $-5\\left(7+4x\\right)+3\\left(4x+5\\right)-4x$.",
+   "answerType": "expression",
+   "canonical": "-12x-20",
+   "result": "$-12x-20$"
+  },
+  "ch1.terms.expand_factor.expand@1/L4/2": {
+   "signature": "2a5b4aab",
+   "prompt": "Multipliziere aus und vereinfache: $-4\\cdot \\left(-4x-9\\right)+3\\cdot \\left(-5x-9\\right)-4x$.",
+   "answerType": "expression",
+   "canonical": "-3x+9",
+   "result": "$-3x+9$"
+  },
+  "ch1.terms.expand_factor.expand@1/L4/3": {
+   "signature": "0edf2ac5",
+   "prompt": "Multipliziere aus und vereinfache: $9\\cdot \\left(-3x-2\\right)-4\\cdot \\left(-5x+2\\right)+9x$.",
+   "answerType": "expression",
+   "canonical": "2x-26",
+   "result": "$2x-26$"
+  },
+  "ch1.terms.expand_factor.factor_out@1/L2/1": {
+   "signature": "9087df86",
+   "prompt": "Klammere den größten gemeinsamen Faktor aus: $60+5x$.",
+   "answerType": "expression",
+   "canonical": "5(12+x)",
+   "result": "$5\\left(12+x\\right)$"
+  },
+  "ch1.terms.expand_factor.factor_out@1/L2/2": {
+   "signature": "f6267081",
+   "prompt": "Klammere den größten gemeinsamen Faktor aus: $66+12x$.",
+   "answerType": "expression",
+   "canonical": "6(11+2x)",
+   "result": "$6\\left(11+2x\\right)$"
+  },
+  "ch1.terms.expand_factor.factor_out@1/L2/3": {
+   "signature": "7cb22cd5",
+   "prompt": "Klammere den größten gemeinsamen Faktor aus: $36+28x$.",
+   "answerType": "expression",
+   "canonical": "4(9+7x)",
+   "result": "$4\\left(9+7x\\right)$"
+  },
+  "ch1.terms.expand_factor.factor_out@1/L3/1": {
+   "signature": "0dc1c2be",
+   "prompt": "Klammere den größten gemeinsamen Faktor aus: $-15+3x$.",
+   "answerType": "expression",
+   "canonical": "3(-5+x)",
+   "result": "$3\\cdot \\left(-5+x\\right)$"
+  },
+  "ch1.terms.expand_factor.factor_out@1/L3/2": {
+   "signature": "a84d2578",
+   "prompt": "Klammere den größten gemeinsamen Faktor aus: $-42x-66$.",
+   "answerType": "expression",
+   "canonical": "-6(7x+11)",
+   "result": "$-6\\left(7x+11\\right)$"
+  },
+  "ch1.terms.expand_factor.factor_out@1/L3/3": {
+   "signature": "5f958377",
+   "prompt": "Klammere den größten gemeinsamen Faktor aus: $28x+4$.",
+   "answerType": "expression",
+   "canonical": "4(7x+1)",
+   "result": "$4\\left(7x+1\\right)$"
+  },
+  "ch1.terms.expand_factor.factor_out@1/L4/1": {
+   "signature": "ac779225",
+   "prompt": "Die Summe dreier aufeinanderfolgender gerader Zahlen lässt sich mit dem Term $2n+\\left(2n+2\\right)+\\left(2n+4\\right)$ beschreiben. Fasse zusammen und klammere den größten gemeinsamen Faktor aus.",
+   "answerType": "expression",
+   "canonical": "6(n+1)",
+   "result": "$6\\left(n+1\\right)$"
+  },
+  "ch1.terms.expand_factor.factor_out@1/L4/2": {
+   "signature": "91754ad2",
+   "prompt": "Die Summe dreier aufeinanderfolgender natürlicher Zahlen lässt sich mit dem Term $n+\\left(n+1\\right)+\\left(n+2\\right)$ beschreiben. Fasse zusammen und klammere den größten gemeinsamen Faktor aus.",
+   "answerType": "expression",
+   "canonical": "3(n+1)",
+   "result": "$3\\left(n+1\\right)$"
+  },
+  "ch1.terms.expand_factor.factor_out@1/L4/3": {
+   "signature": "bf05629c",
+   "prompt": "Berechne geschickt, indem du ausklammerst: $26\\cdot 2+26\\cdot 8$.",
+   "answerType": "integer",
+   "canonical": "260",
+   "result": "$260$"
+  },
+  "ch1.terms.expand_factor.fill_missing@1/L1/1": {
+   "signature": "d6dbdccc",
+   "prompt": "Ergänze die fehlende Zahl im Kästchen: $\\square \\cdot \\left(5x-6\\right) = 15x-18$",
+   "answerType": "integer",
+   "canonical": "3",
+   "result": "$3$"
+  },
+  "ch1.terms.expand_factor.fill_missing@1/L1/2": {
+   "signature": "fac33154",
+   "prompt": "Ergänze die fehlende Zahl im Kästchen: $8\\cdot \\left(5x-9\\right) = 40x-\\square $",
+   "answerType": "integer",
+   "canonical": "72",
+   "result": "$72$"
+  },
+  "ch1.terms.expand_factor.fill_missing@1/L1/3": {
+   "signature": "60770015",
+   "prompt": "Ergänze die fehlende Zahl im Kästchen: $\\square \\cdot \\left(6x+4\\right) = 30x+20$",
+   "answerType": "integer",
+   "canonical": "5",
+   "result": "$5$"
+  },
+  "ch1.terms.expand_factor.fill_missing@1/L2/1": {
+   "signature": "e76438a8",
+   "prompt": "Ergänze die fehlende Zahl im Kästchen: $3\\cdot \\left(5x-\\square \\right) = 15x-18$",
+   "answerType": "integer",
+   "canonical": "6",
+   "result": "$6$"
+  },
+  "ch1.terms.expand_factor.fill_missing@1/L2/2": {
+   "signature": "be8b922c",
+   "prompt": "Ergänze die fehlende Zahl im Kästchen: $8\\cdot \\left(5x-\\square \\right) = 40x-72$",
+   "answerType": "integer",
+   "canonical": "9",
+   "result": "$9$"
+  },
+  "ch1.terms.expand_factor.fill_missing@1/L2/3": {
+   "signature": "9db27427",
+   "prompt": "Ergänze die fehlende Zahl im Kästchen: $5\\cdot \\left(\\square x+4\\right) = 30x+20$",
+   "answerType": "integer",
+   "canonical": "6",
+   "result": "$6$"
+  },
+  "ch1.terms.expand_factor.fill_missing@1/L3/1": {
+   "signature": "8c2f256d",
+   "prompt": "Ergänze die fehlende Zahl im Kästchen: $-\\left(\\square x-6\\right) = -5x+6$",
+   "answerType": "integer",
+   "canonical": "5",
+   "result": "$5$"
+  },
+  "ch1.terms.expand_factor.fill_missing@1/L3/2": {
+   "signature": "ddeadc50",
+   "prompt": "Ergänze die fehlende Zahl im Kästchen: $-8\\cdot \\left(5x-\\square \\right) = -40x+72$",
+   "answerType": "integer",
+   "canonical": "9",
+   "result": "$9$"
+  },
+  "ch1.terms.expand_factor.fill_missing@1/L3/3": {
+   "signature": "8bd72548",
+   "prompt": "Ergänze die fehlende Zahl im Kästchen: $-\\left(\\square x+4\\right) = -6x-4$",
+   "answerType": "integer",
+   "canonical": "6",
+   "result": "$6$"
+  }
+ }
+}

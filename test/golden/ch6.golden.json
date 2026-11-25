@@ -1,0 +1,510 @@
+{
+ "engineVersion": "0.12.0",
+ "questions": {
+  "ch6.pct.compare.convert@1/L1/1": {
+   "signature": "c08660fa",
+   "prompt": "Schreibe $10\\,\\%$ als vollständig gekürzten Bruch.",
+   "answerType": "fraction",
+   "canonical": "1/10",
+   "result": "$\\frac{1}{10}$"
+  },
+  "ch6.pct.compare.convert@1/L1/2": {
+   "signature": "13efaba9",
+   "prompt": "Schreibe $50\\,\\%$ als vollständig gekürzten Bruch.",
+   "answerType": "fraction",
+   "canonical": "1/2",
+   "result": "$\\frac{1}{2}$"
+  },
+  "ch6.pct.compare.convert@1/L1/3": {
+   "signature": "881d867d",
+   "prompt": "Schreibe den Anteil $\\frac{4}{5}$ als Prozentsatz.",
+   "answerType": "decimal",
+   "canonical": "80",
+   "result": "$80\\,\\%$"
+  },
+  "ch6.pct.compare.convert@1/L2/1": {
+   "signature": "a4f0c679",
+   "prompt": "Schreibe $185\\,\\%$ als vollständig gekürzten Bruch.",
+   "answerType": "fraction",
+   "canonical": "37/20",
+   "result": "$\\frac{37}{20}$"
+  },
+  "ch6.pct.compare.convert@1/L2/2": {
+   "signature": "7974be02",
+   "prompt": "Schreibe $175\\,\\%$ als vollständig gekürzten Bruch.",
+   "answerType": "fraction",
+   "canonical": "7/4",
+   "result": "$\\frac{7}{4}$"
+  },
+  "ch6.pct.compare.convert@1/L2/3": {
+   "signature": "1f938822",
+   "prompt": "Schreibe die Dezimalzahl $1{,}75$ als Prozentsatz.",
+   "answerType": "decimal",
+   "canonical": "175",
+   "result": "$175\\,\\%$"
+  },
+  "ch6.pct.compare.shares@1/L1/1": {
+   "signature": "958ad4af",
+   "prompt": "Lea trifft bei 50 Freiwürfen 47-mal. Tom trifft bei 10 Freiwürfen 5-mal. Wer hat die bessere Trefferquote, also den größeren Anteil an Treffern?",
+   "answerType": "choice",
+   "canonical": "g0",
+   "result": "Lea hat den größeren Anteil."
+  },
+  "ch6.pct.compare.shares@1/L1/2": {
+   "signature": "a821c27e",
+   "prompt": "In Klassenstufe 8 kommen 26 von 50 Schülerinnen und Schülern mit dem Fahrrad. In Klassenstufe 5 kommen 13 von 20 Schülerinnen und Schülern mit dem Fahrrad. In welcher Klassenstufe ist der Anteil der Radfahrer größer?",
+   "answerType": "choice",
+   "canonical": "g1",
+   "result": "Klassenstufe 5 hat den größeren Anteil."
+  },
+  "ch6.pct.compare.shares@1/L1/3": {
+   "signature": "27161461",
+   "prompt": "Tom trifft bei 20 Freiwürfen 15-mal. Ben trifft bei 50 Freiwürfen 27-mal. Wer hat die bessere Trefferquote, also den größeren Anteil an Treffern?",
+   "answerType": "choice",
+   "canonical": "g0",
+   "result": "Tom hat den größeren Anteil."
+  },
+  "ch6.pct.compare.shares@1/L2/1": {
+   "signature": "cf9f48b5",
+   "prompt": "In der Klasse 7a haben 24 von 36 Kindern ein Haustier. In der Klasse 7b haben 20 von 30 Kindern ein Haustier. In welcher Klasse ist der Anteil der Kinder mit Haustier größer?",
+   "answerType": "choice",
+   "canonical": "eq",
+   "result": "Beide Anteile sind gleich groß."
+  },
+  "ch6.pct.compare.shares@1/L2/2": {
+   "signature": "96a2e02b",
+   "prompt": "In Klassenstufe 5 kommen 6 von 12 Schülerinnen und Schülern mit dem Fahrrad. In Klassenstufe 8 kommen 7 von 14 Schülerinnen und Schülern mit dem Fahrrad. In welcher Klassenstufe ist der Anteil der Radfahrer größer?",
+   "answerType": "choice",
+   "canonical": "eq",
+   "result": "Beide Anteile sind gleich groß."
+  },
+  "ch6.pct.compare.shares@1/L2/3": {
+   "signature": "3fb41fc8",
+   "prompt": "In der Klasse 7c haben 11 von 28 Kindern ein Haustier. In der Klasse 7d haben 10 von 15 Kindern ein Haustier. In welcher Klasse ist der Anteil der Kinder mit Haustier größer?",
+   "answerType": "choice",
+   "canonical": "g1",
+   "result": "Klasse 7d hat den größeren Anteil."
+  },
+  "ch6.pct.compare.shares@1/L3/1": {
+   "signature": "f06861e7",
+   "prompt": "In Klassenstufe 7 kommen 31 von 34 Schülerinnen und Schülern mit dem Fahrrad. In Klassenstufe 5 kommen 9 von 23 Schülerinnen und Schülern mit dem Fahrrad. In Klassenstufe 6 kommen 30 von 56 Schülerinnen und Schülern mit dem Fahrrad. In Klassenstufe 8 kommen 37 von 58 Schülerinnen und Schülern mit dem Fahrrad. Ordne die Klassenstufen nach dem Anteil der Radfahrer, den größten zuerst.",
+   "answerType": "ordering",
+   "canonical": [
+    "a",
+    "d",
+    "c",
+    "b"
+   ],
+   "result": "Klassenstufe 7 > Klassenstufe 8 > Klassenstufe 6 > Klassenstufe 5"
+  },
+  "ch6.pct.compare.shares@1/L3/2": {
+   "signature": "4b66137b",
+   "prompt": "In Klassenstufe 8 kommen 27 von 52 Schülerinnen und Schülern mit dem Fahrrad. In Klassenstufe 5 kommen 5 von 57 Schülerinnen und Schülern mit dem Fahrrad. In Klassenstufe 6 kommen 22 von 39 Schülerinnen und Schülern mit dem Fahrrad. In Klassenstufe 7 kommen 45 von 53 Schülerinnen und Schülern mit dem Fahrrad. Ordne die Klassenstufen nach dem Anteil der Radfahrer, den größten zuerst.",
+   "answerType": "ordering",
+   "canonical": [
+    "d",
+    "c",
+    "a",
+    "b"
+   ],
+   "result": "Klassenstufe 7 > Klassenstufe 6 > Klassenstufe 8 > Klassenstufe 5"
+  },
+  "ch6.pct.compare.shares@1/L3/3": {
+   "signature": "71b09656",
+   "prompt": "Lea trifft bei 56 Freiwürfen 38-mal. Ben trifft bei 29 Freiwürfen 14-mal. Aylin trifft bei 17 Freiwürfen 5-mal. Tom trifft bei 15 Freiwürfen 11-mal. Ordne nach der Trefferquote, die beste zuerst.",
+   "answerType": "ordering",
+   "canonical": [
+    "d",
+    "a",
+    "b",
+    "c"
+   ],
+   "result": "Tom > Lea > Ben > Aylin"
+  },
+  "ch6.pct.compare.shares@1/L4/1": {
+   "signature": "0d3c1522",
+   "prompt": "In der Klasse 7a haben 14 von 17 Kindern ein Haustier. In der Klasse 7b haben 11 von 13 Kindern ein Haustier. Welche Aussage ist richtig und richtig begründet?",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "Klasse 7b hat den größeren Anteil, denn $\\frac{11}{13} \\approx 84{,}6\\,\\%$ ist mehr als $\\frac{14}{17} \\approx 82{,}4\\,\\%$."
+  },
+  "ch6.pct.compare.shares@1/L4/2": {
+   "signature": "34295a76",
+   "prompt": "Lea trifft bei 22 Freiwürfen 11-mal. Tom trifft bei 38 Freiwürfen 14-mal. Welche Aussage ist richtig und richtig begründet?",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "Lea hat den größeren Anteil, denn $\\frac{11}{22} = 50\\,\\%$ ist mehr als $\\frac{14}{38} \\approx 36{,}8\\,\\%$."
+  },
+  "ch6.pct.compare.shares@1/L4/3": {
+   "signature": "9ad57e44",
+   "prompt": "Lea trifft bei 31 Freiwürfen 9-mal. Tom trifft bei 15 Freiwürfen 7-mal. Welche Aussage ist richtig und richtig begründet?",
+   "answerType": "choice",
+   "canonical": "a",
+   "result": "Tom hat den größeren Anteil, denn $\\frac{7}{15} \\approx 46{,}7\\,\\%$ ist mehr als $\\frac{9}{31} \\approx 29\\,\\%$."
+  },
+  "ch6.pct.basic_tasks.grundaufgaben@1/L1/1": {
+   "signature": "2ba29e54",
+   "prompt": "Wie viel Prozent sind 6 kg von 300 kg?",
+   "answerType": "decimal",
+   "canonical": "2",
+   "result": "$2\\,\\%$"
+  },
+  "ch6.pct.basic_tasks.grundaufgaben@1/L1/2": {
+   "signature": "8a420693",
+   "prompt": "10 % sind 9 m. Wie viel sind 100 %?",
+   "answerType": "decimal",
+   "canonical": "90",
+   "result": "$90$ m"
+  },
+  "ch6.pct.basic_tasks.grundaufgaben@1/L1/3": {
+   "signature": "c6fc663c",
+   "prompt": "Wie viel Prozent sind 156 von 208?",
+   "answerType": "decimal",
+   "canonical": "75",
+   "result": "$75\\,\\%$"
+  },
+  "ch6.pct.basic_tasks.grundaufgaben@1/L2/1": {
+   "signature": "41fecd53",
+   "prompt": "Tom hat 899,50 € gespart und gibt 755,58 € für ein Konzertticket aus. Wie viel Prozent des Ersparten sind das?",
+   "answerType": "decimal",
+   "canonical": "84",
+   "result": "$84\\,\\%$"
+  },
+  "ch6.pct.basic_tasks.grundaufgaben@1/L2/2": {
+   "signature": "d5eea073",
+   "prompt": "Bis zur Mittagspause schafft eine Wandergruppe 10,4 km. Das sind 65 % der ganzen Strecke. Wie lang ist die Strecke?",
+   "answerType": "decimal",
+   "canonical": "16",
+   "result": "$16$ km"
+  },
+  "ch6.pct.basic_tasks.grundaufgaben@1/L2/3": {
+   "signature": "0f22aa0c",
+   "prompt": "In einer Flasche mit 500 ml Fruchtsaftgetränk sind 210 ml Fruchtsaft. Wie viel Prozent Fruchtsaft enthält das Getränk?",
+   "answerType": "decimal",
+   "canonical": "42",
+   "result": "$42\\,\\%$"
+  },
+  "ch6.pct.basic_tasks.grundaufgaben@1/L3/1": {
+   "signature": "69659d9b",
+   "prompt": "Tom hat 899,50 € gespart und gibt 108,66 € für ein Konzertticket aus. Wie viel Prozent des Ersparten sind das?",
+   "answerType": "decimal",
+   "canonical": "12,1",
+   "result": "$12{,}1\\,\\%$"
+  },
+  "ch6.pct.basic_tasks.grundaufgaben@1/L3/2": {
+   "signature": "301169da",
+   "prompt": "In einer Flasche mit 330 ml Fruchtsaftgetränk sind 251 ml Fruchtsaft. Wie viel Prozent Fruchtsaft enthält das Getränk?",
+   "answerType": "decimal",
+   "canonical": "76,1",
+   "result": "$76{,}1\\,\\%$"
+  },
+  "ch6.pct.basic_tasks.grundaufgaben@1/L3/3": {
+   "signature": "ae287f5b",
+   "prompt": "Lea hat 613 € gespart und gibt 404,57 € für ein Konzertticket aus. Wie viel Prozent des Ersparten sind das?",
+   "answerType": "decimal",
+   "canonical": "66",
+   "result": "$66\\,\\%$"
+  },
+  "ch6.pct.basic_tasks.change@1/L2/1": {
+   "signature": "c5ffe030",
+   "prompt": "Ein Kopfhörer kostet 90 €. Der Preis wird um 8 % erhöht. Wie viel kostet der Kopfhörer danach?",
+   "answerType": "decimal",
+   "canonical": "97,20",
+   "result": "$97{,}20$ €"
+  },
+  "ch6.pct.basic_tasks.change@1/L2/2": {
+   "signature": "b6d97f5f",
+   "prompt": "Ein Sportverein hat 250 Mitglieder. Im nächsten Jahr steigt die Zahl der Mitglieder um 24 %. Wie viele Mitglieder hat der Verein dann?",
+   "answerType": "integer",
+   "canonical": "310",
+   "result": "$310$"
+  },
+  "ch6.pct.basic_tasks.change@1/L2/3": {
+   "signature": "0b0b2e0d",
+   "prompt": "Ein Kopfhörer kostet 245 €. Der Preis wird um 15 % gesenkt. Wie viel kostet der Kopfhörer danach?",
+   "answerType": "decimal",
+   "canonical": "208,25",
+   "result": "$208{,}25$ €"
+  },
+  "ch6.pct.basic_tasks.change@1/L3/1": {
+   "signature": "8bde7c4a",
+   "prompt": "Der Preis für den Kopfhörer steigt von 90 € auf 97,20 €. Um wie viel Prozent hat sich der Preis erhöht?",
+   "answerType": "decimal",
+   "canonical": "8",
+   "result": "$8\\,\\%$"
+  },
+  "ch6.pct.basic_tasks.change@1/L3/2": {
+   "signature": "3dea2729",
+   "prompt": "Der Preis für den Rucksack steigt von 60 € auf 66 €. Um wie viel Prozent hat sich der Preis erhöht?",
+   "answerType": "decimal",
+   "canonical": "10",
+   "result": "$10\\,\\%$"
+  },
+  "ch6.pct.basic_tasks.change@1/L3/3": {
+   "signature": "bbee28e5",
+   "prompt": "Ein Kopfhörer kostet nach einer Preissenkung um 15 % jetzt 208,25 €. Wie viel hat der Kopfhörer vorher gekostet?",
+   "answerType": "decimal",
+   "canonical": "245",
+   "result": "$245$ €"
+  },
+  "ch6.pct.basic_tasks.change@1/L4/1": {
+   "signature": "79adc530",
+   "prompt": "Zwei Läden verkaufen den Kopfhörer. Wo ist der Kopfhörer im Angebot günstiger?",
+   "promptLines": [
+    "Laden A: 280 €, im Angebot 10 % billiger.",
+    "Laden B: 310 €, im Angebot 30 % billiger."
+   ],
+   "answerType": "choice",
+   "canonical": "B",
+   "result": "Laden B ist günstiger (217 €)."
+  },
+  "ch6.pct.basic_tasks.change@1/L4/2": {
+   "signature": "8b6f7225",
+   "prompt": "Ein Rucksack kostet 95 €. Zuerst wird der Preis um 50 % erhöht, später wird der neue Preis um 50 % gesenkt. Wie viel kostet der Rucksack am Ende?",
+   "answerType": "decimal",
+   "canonical": "71,25",
+   "result": "$71{,}25$ €"
+  },
+  "ch6.pct.basic_tasks.change@1/L4/3": {
+   "signature": "6fd1e312",
+   "prompt": "Ein Kopfhörer kostet 245 €. Zuerst wird der Preis um 30 % erhöht, später wird der neue Preis um 40 % gesenkt. Wie viel kostet der Kopfhörer am Ende?",
+   "answerType": "decimal",
+   "canonical": "191,10",
+   "result": "$191{,}10$ €"
+  },
+  "ch6.interest.simple_compound.yearly@1/L1/1": {
+   "signature": "19ba28ca",
+   "prompt": "Noah legt 2850 € auf einem Sparkonto an. Die Bank zahlt 4 % Zinsen pro Jahr. Wie hoch ist das Guthaben nach einem Jahr?",
+   "answerType": "decimal",
+   "canonical": "2964,00",
+   "result": "$2964{,}00$ €"
+  },
+  "ch6.interest.simple_compound.yearly@1/L1/2": {
+   "signature": "7d23f20f",
+   "prompt": "Lea legt 3950 € auf einem Sparkonto an. Die Bank zahlt 2,25 % Zinsen pro Jahr. Wie hoch ist das Guthaben nach einem Jahr?",
+   "answerType": "decimal",
+   "canonical": "4038,88",
+   "result": "$4038{,}88$ €"
+  },
+  "ch6.interest.simple_compound.yearly@1/L1/3": {
+   "signature": "094c6ca0",
+   "prompt": "Luca legt 2475 € auf einem Sparkonto an. Die Bank zahlt 2,5 % Zinsen pro Jahr. Wie viel Zinsen bekommt Luca nach einem Jahr?",
+   "answerType": "decimal",
+   "canonical": "61,88",
+   "result": "$61{,}88$ €"
+  },
+  "ch6.interest.simple_compound.yearly@1/L2/1": {
+   "signature": "1f031f77",
+   "prompt": "Noah bekommt für ein Jahr 114 € Zinsen. Der Zinssatz beträgt 4 %. Wie viel Geld hat Noah angelegt?",
+   "answerType": "decimal",
+   "canonical": "2850,00",
+   "result": "$2850{,}00$ €"
+  },
+  "ch6.interest.simple_compound.yearly@1/L2/2": {
+   "signature": "0300b7c6",
+   "prompt": "Ben legt 3100 € ein Jahr lang auf einem Sparkonto an und bekommt dafür 108,50 € Zinsen. Wie hoch ist der Zinssatz?",
+   "answerType": "decimal",
+   "canonical": "3,5",
+   "result": "$3{,}5\\,\\%$"
+  },
+  "ch6.interest.simple_compound.yearly@1/L2/3": {
+   "signature": "cffe39b8",
+   "prompt": "Ben bekommt für ein Jahr 77,25 € Zinsen. Der Zinssatz beträgt 3 %. Wie viel Geld hat Ben angelegt?",
+   "answerType": "decimal",
+   "canonical": "2575,00",
+   "result": "$2575{,}00$ €"
+  },
+  "ch6.interest.simple_compound.compound@1/L3/1": {
+   "signature": "2d464dac",
+   "prompt": "Tom legt 5100 € zu einem Zinssatz von 1,25 % pro Jahr an. Die Zinsen werden jedes Jahr am Jahresende gutgeschrieben und im nächsten Jahr mitverzinst. Fülle die Tabelle aus.",
+   "answerType": "table",
+   "canonical": {
+    "z1": "63,75",
+    "k1": "5163,75",
+    "z2": "64,55",
+    "k2": "5228,30",
+    "z3": "65,35",
+    "k3": "5293,65"
+   },
+   "result": "Jahr 1: $63{,}75$ €; $5163{,}75$ € · Jahr 2: $64{,}55$ €; $5228{,}30$ € · Jahr 3: $65{,}35$ €; $5293{,}65$ €"
+  },
+  "ch6.interest.simple_compound.compound@1/L3/2": {
+   "signature": "d60f8dc8",
+   "prompt": "Mia legt 2800 € zu einem Zinssatz von 1,25 % pro Jahr an. Die Zinsen werden jedes Jahr am Jahresende gutgeschrieben und im nächsten Jahr mitverzinst. Wie hoch ist das Guthaben nach 3 Jahren?",
+   "answerType": "decimal",
+   "canonical": "2906,32",
+   "result": "$2906{,}32$ €"
+  },
+  "ch6.interest.simple_compound.compound@1/L3/3": {
+   "signature": "57725653",
+   "prompt": "Aylin legt 5700 € zu einem Zinssatz von 1,25 % pro Jahr an. Die Zinsen werden jedes Jahr am Jahresende gutgeschrieben und im nächsten Jahr mitverzinst. Fülle die Tabelle aus.",
+   "answerType": "table",
+   "canonical": {
+    "z1": "71,25",
+    "k1": "5771,25",
+    "z2": "72,14",
+    "k2": "5843,39"
+   },
+   "result": "Jahr 1: $71{,}25$ €; $5771{,}25$ € · Jahr 2: $72{,}14$ €; $5843{,}39$ €"
+  },
+  "ch6.interest.simple_compound.compound@1/L4/1": {
+   "signature": "36ceff0e",
+   "prompt": "Tom möchte 1500 € für 3 Jahre anlegen und vergleicht zwei Angebote. Welches bringt am Ende mehr Geld?",
+   "promptLines": [
+    "Angebot A: 2 % Zinsen pro Jahr, die Zinsen werden mitverzinst (Zinseszins).",
+    "Angebot B: Zinstreppe mit 0,75 % im 1. Jahr, 1,75 % im 2. Jahr, 2,75 % im 3. Jahr; die Zinsen werden mitverzinst."
+   ],
+   "answerType": "choice",
+   "canonical": "A",
+   "result": "Angebot A (1591,81 € gegenüber 1579,99 €)"
+  },
+  "ch6.interest.simple_compound.compound@1/L4/2": {
+   "signature": "790b2d41",
+   "prompt": "Ben möchte 2000 € für 3 Jahre anlegen und vergleicht zwei Angebote. Welches bringt am Ende mehr Geld?",
+   "promptLines": [
+    "Angebot A: 3 % Zinsen pro Jahr, die Zinsen werden mitverzinst (Zinseszins).",
+    "Angebot B: Zinstreppe mit 2 % im 1. Jahr, 3 % im 2. Jahr, 4 % im 3. Jahr; die Zinsen werden mitverzinst."
+   ],
+   "answerType": "choice",
+   "canonical": "A",
+   "result": "Angebot A (2185,45 € gegenüber 2185,25 €)"
+  },
+  "ch6.interest.simple_compound.compound@1/L4/3": {
+   "signature": "0588a188",
+   "prompt": "Aylin möchte 3000 € für 4 Jahre anlegen und vergleicht zwei Angebote. Welches bringt am Ende mehr Geld?",
+   "promptLines": [
+    "Angebot A: 3 % Zinsen pro Jahr, die Zinsen werden mitverzinst (Zinseszins).",
+    "Angebot B: 3,1 % Zinsen pro Jahr, die Zinsen werden aber jedes Jahr ausgezahlt (kein Zinseszins)."
+   ],
+   "answerType": "choice",
+   "canonical": "A",
+   "result": "Angebot A (3376,53 € gegenüber 3372 €)"
+  },
+  "ch6.interest.loan.table@1/L1/1": {
+   "signature": "da1fa178",
+   "prompt": "Für eine neue Maschine für eine Werkstatt wird ein Kredit über 14500 € aufgenommen. Der Zinssatz beträgt 3,5 % pro Jahr. Am Ende jedes Jahres werden 2500 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Fülle den Tilgungsplan für das erste Jahr aus.",
+   "answerType": "table",
+   "canonical": {
+    "z1": "507,50",
+    "t1": "1992,50",
+    "e1": "12507,50"
+   },
+   "result": "Jahr 1: $507{,}50$ €; $1992{,}50$ €; $12507{,}50$ €"
+  },
+  "ch6.interest.loan.table@1/L1/2": {
+   "signature": "1a465c00",
+   "prompt": "Für die Renovierung einer Wohnung wird ein Kredit über 9500 € aufgenommen. Der Zinssatz beträgt 7 % pro Jahr. Am Ende jedes Jahres werden 3300 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Fülle den Tilgungsplan für das erste Jahr aus.",
+   "answerType": "table",
+   "canonical": {
+    "z1": "665,00",
+    "t1": "2635,00",
+    "e1": "6865,00"
+   },
+   "result": "Jahr 1: $665{,}00$ €; $2635{,}00$ €; $6865{,}00$ €"
+  },
+  "ch6.interest.loan.table@1/L1/3": {
+   "signature": "84313ef5",
+   "prompt": "Für eine Solaranlage wird ein Kredit über 3500 € aufgenommen. Der Zinssatz beträgt 4,5 % pro Jahr. Am Ende jedes Jahres werden 1400 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Fülle den Tilgungsplan für das erste Jahr aus.",
+   "answerType": "table",
+   "canonical": {
+    "z1": "157,50",
+    "t1": "1242,50",
+    "e1": "2257,50"
+   },
+   "result": "Jahr 1: $157{,}50$ €; $1242{,}50$ €; $2257{,}50$ €"
+  },
+  "ch6.interest.loan.table@1/L2/1": {
+   "signature": "19b8efae",
+   "prompt": "Für eine neue Maschine für eine Werkstatt wird ein Kredit über 14500 € aufgenommen. Der Zinssatz beträgt 3,5 % pro Jahr. Am Ende jedes Jahres werden 2000 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Fülle den Tilgungsplan für die ersten 3 Jahre aus.",
+   "answerType": "table",
+   "canonical": {
+    "z1": "507,50",
+    "t1": "1492,50",
+    "e1": "13007,50",
+    "z2": "455,26",
+    "t2": "1544,74",
+    "e2": "11462,76",
+    "z3": "401,20",
+    "t3": "1598,80",
+    "e3": "9863,96"
+   },
+   "result": "Jahr 1: $507{,}50$ €; $1492{,}50$ €; $13007{,}50$ € · Jahr 2: $455{,}26$ €; $1544{,}74$ €; $11462{,}76$ € · Jahr 3: $401{,}20$ €; $1598{,}80$ €; $9863{,}96$ €"
+  },
+  "ch6.interest.loan.table@1/L2/2": {
+   "signature": "bf6e4b5d",
+   "prompt": "Für die Renovierung einer Wohnung wird ein Kredit über 9500 € aufgenommen. Der Zinssatz beträgt 7 % pro Jahr. Am Ende jedes Jahres werden 3300 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Fülle den Tilgungsplan für die ersten 3 Jahre aus.",
+   "answerType": "table",
+   "canonical": {
+    "z1": "665,00",
+    "t1": "2635,00",
+    "e1": "6865,00",
+    "z2": "480,55",
+    "t2": "2819,45",
+    "e2": "4045,55",
+    "z3": "283,19",
+    "t3": "3016,81",
+    "e3": "1028,74"
+   },
+   "result": "Jahr 1: $665{,}00$ €; $2635{,}00$ €; $6865{,}00$ € · Jahr 2: $480{,}55$ €; $2819{,}45$ €; $4045{,}55$ € · Jahr 3: $283{,}19$ €; $3016{,}81$ €; $1028{,}74$ €"
+  },
+  "ch6.interest.loan.table@1/L2/3": {
+   "signature": "4bb106f4",
+   "prompt": "Für eine Solaranlage wird ein Kredit über 3500 € aufgenommen. Der Zinssatz beträgt 4,5 % pro Jahr. Am Ende jedes Jahres werden 500 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Fülle den Tilgungsplan für die ersten 3 Jahre aus.",
+   "answerType": "table",
+   "canonical": {
+    "z1": "157,50",
+    "t1": "342,50",
+    "e1": "3157,50",
+    "z2": "142,09",
+    "t2": "357,91",
+    "e2": "2799,59",
+    "z3": "125,98",
+    "t3": "374,02",
+    "e3": "2425,57"
+   },
+   "result": "Jahr 1: $157{,}50$ €; $342{,}50$ €; $3157{,}50$ € · Jahr 2: $142{,}09$ €; $357{,}91$ €; $2799{,}59$ € · Jahr 3: $125{,}98$ €; $374{,}02$ €; $2425{,}57$ €"
+  },
+  "ch6.interest.loan.duration@1/L3/1": {
+   "signature": "e4853e50",
+   "prompt": "Für ein gebrauchtes Auto wird ein Kredit über 12000 € aufgenommen. Der Zinssatz beträgt 6 % pro Jahr. Am Ende jedes Jahres werden 2700 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Nach wie vielen Jahren ist der Kredit vollständig zurückgezahlt?",
+   "answerType": "integer",
+   "canonical": "6",
+   "result": "$6$ Jahre"
+  },
+  "ch6.interest.loan.duration@1/L3/2": {
+   "signature": "8c6fe517",
+   "prompt": "Für die Renovierung einer Wohnung wird ein Kredit über 6000 € aufgenommen. Der Zinssatz beträgt 2,5 % pro Jahr. Am Ende jedes Jahres werden 1300 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Nach wie vielen Jahren ist der Kredit vollständig zurückgezahlt?",
+   "answerType": "integer",
+   "canonical": "5",
+   "result": "$5$ Jahre"
+  },
+  "ch6.interest.loan.duration@1/L3/3": {
+   "signature": "94c0965a",
+   "prompt": "Für eine Solaranlage wird ein Kredit über 6000 € aufgenommen. Der Zinssatz beträgt 2 % pro Jahr. Am Ende jedes Jahres werden 1700 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Nach wie vielen Jahren ist der Kredit vollständig zurückgezahlt?",
+   "answerType": "integer",
+   "canonical": "4",
+   "result": "$4$ Jahre"
+  },
+  "ch6.interest.loan.duration@1/L4/1": {
+   "signature": "531f5adb",
+   "prompt": "Für ein gebrauchtes Auto wird ein Kredit über 12000 € aufgenommen. Der Zinssatz beträgt 6 % pro Jahr. Am Ende jedes Jahres werden 4300 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Wie viel Zinsen werden insgesamt bezahlt, bis der Kredit vollständig zurückgezahlt ist?",
+   "answerType": "decimal",
+   "canonical": "1538,87",
+   "result": "$1538{,}87$ €"
+  },
+  "ch6.interest.loan.duration@1/L4/2": {
+   "signature": "c0aeb4ac",
+   "prompt": "Für eine neue Maschine für eine Werkstatt wird ein Kredit über 12000 € aufgenommen. Der Zinssatz beträgt 7 % pro Jahr. Am Ende jedes Jahres werden 4300 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Wie viel Zinsen werden insgesamt bezahlt, bis der Kredit vollständig zurückgezahlt ist?",
+   "answerType": "decimal",
+   "canonical": "1837,80",
+   "result": "$1837{,}80$ €"
+  },
+  "ch6.interest.loan.duration@1/L4/3": {
+   "signature": "7fe404b9",
+   "prompt": "Für eine Solaranlage wird ein Kredit über 6000 € aufgenommen. Der Zinssatz beträgt 2 % pro Jahr. Am Ende jedes Jahres werden 2200 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Wie viel Zinsen werden insgesamt bezahlt, bis der Kredit vollständig zurückgezahlt ist?",
+   "answerType": "decimal",
+   "canonical": "234,37",
+   "result": "$234{,}37$ €"
+  }
+ }
+}

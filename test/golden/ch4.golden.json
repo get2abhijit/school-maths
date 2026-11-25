@@ -1,0 +1,527 @@
+{
+ "engineVersion": "0.12.0",
+ "questions": {
+  "ch4.eq.setup_trial.is_solution@1/L1/1": {
+   "signature": "b8661900",
+   "prompt": "Welche der Zahlen ist eine Lösung der Gleichung $3x = 12$?",
+   "answerType": "choice",
+   "canonical": "k2",
+   "result": "$x = 4$"
+  },
+  "ch4.eq.setup_trial.is_solution@1/L1/2": {
+   "signature": "685ee17e",
+   "prompt": "Welche der Zahlen ist eine Lösung der Gleichung $3x-20 = 7$?",
+   "answerType": "choice",
+   "canonical": "k2",
+   "result": "$x = 9$"
+  },
+  "ch4.eq.setup_trial.is_solution@1/L1/3": {
+   "signature": "a7bd163d",
+   "prompt": "Welche der Zahlen ist eine Lösung der Gleichung $x+13 = 27$?",
+   "answerType": "choice",
+   "canonical": "k3",
+   "result": "$x = 14$"
+  },
+  "ch4.eq.setup_trial.is_solution@1/L2/1": {
+   "signature": "ef606407",
+   "prompt": "Welche der Zahlen ist eine Lösung der Gleichung $3x-8+x = -8$?",
+   "answerType": "choice",
+   "canonical": "k1",
+   "result": "$x = 0$"
+  },
+  "ch4.eq.setup_trial.is_solution@1/L2/2": {
+   "signature": "fd6baed9",
+   "prompt": "Welche der Zahlen ist eine Lösung der Gleichung $8x+12-9x = 16$?",
+   "answerType": "choice",
+   "canonical": "k2",
+   "result": "$x = -4$"
+  },
+  "ch4.eq.setup_trial.is_solution@1/L2/3": {
+   "signature": "24de4844",
+   "prompt": "Welche der Zahlen ist eine Lösung der Gleichung $2x-15 = -x+3$?",
+   "answerType": "choice",
+   "canonical": "k6",
+   "result": "$x = 6$"
+  },
+  "ch4.eq.setup_trial.is_solution@1/L4/1": {
+   "signature": "e50e380b",
+   "prompt": "Welche der Zahlen sind Lösungen der Gleichung $x^{2} = 5x$?",
+   "answerType": "multiselect",
+   "canonical": [
+    "k3",
+    "k4"
+   ],
+   "result": "$x = 0$ und $x = 5$"
+  },
+  "ch4.eq.setup_trial.is_solution@1/L4/2": {
+   "signature": "d1283353",
+   "prompt": "Welche der Zahlen sind Lösungen der Gleichung $x^{2}+8 = 33$?",
+   "answerType": "multiselect",
+   "canonical": [
+    "k2",
+    "k4"
+   ],
+   "result": "$x = -5$ und $x = 5$"
+  },
+  "ch4.eq.setup_trial.is_solution@1/L4/3": {
+   "signature": "c7cb0141",
+   "prompt": "Welche der Zahlen sind Lösungen der Gleichung $x\\left(x-2\\right) = 0$?",
+   "answerType": "multiselect",
+   "canonical": [
+    "k4",
+    "k6"
+   ],
+   "result": "$x = 0$ und $x = 2$"
+  },
+  "ch4.eq.setup_trial.text_to_equation@1/L1/1": {
+   "signature": "71fe5d98",
+   "prompt": "Welche Gleichung passt zu diesem Zahlenrätsel? „Addiert man zu einer Zahl 21, so erhält man 43.“",
+   "answerType": "choice",
+   "canonical": "g0",
+   "result": "$x+21 = 43$"
+  },
+  "ch4.eq.setup_trial.text_to_equation@1/L1/2": {
+   "signature": "2aba056f",
+   "prompt": "Welche Gleichung passt zu diesem Zahlenrätsel? „Subtrahiert man von einer Zahl 11, so erhält man 1.“",
+   "answerType": "choice",
+   "canonical": "g0",
+   "result": "$x-11 = 1$"
+  },
+  "ch4.eq.setup_trial.text_to_equation@1/L1/3": {
+   "signature": "01b410fe",
+   "prompt": "Welche Gleichung passt zu diesem Zahlenrätsel? „Addiert man zu einer Zahl 22, so erhält man 56.“",
+   "answerType": "choice",
+   "canonical": "g0",
+   "result": "$x+22 = 56$"
+  },
+  "ch4.eq.setup_trial.text_to_equation@1/L2/1": {
+   "signature": "eca1034c",
+   "prompt": "Welche Gleichung passt zu diesem Zahlenrätsel? „Vermindert man das Neunfache einer Zahl um 20, so erhält man 16.“",
+   "answerType": "choice",
+   "canonical": "g0",
+   "result": "$9x-20 = 16$"
+  },
+  "ch4.eq.setup_trial.text_to_equation@1/L2/2": {
+   "signature": "33c0a120",
+   "prompt": "Welche Gleichung passt zu diesem Zahlenrätsel? „Vermindert man das Achtfache einer Zahl um 2, so erhält man 70.“",
+   "answerType": "choice",
+   "canonical": "g0",
+   "result": "$8x-2 = 70$"
+  },
+  "ch4.eq.setup_trial.text_to_equation@1/L2/3": {
+   "signature": "9fb5a8a2",
+   "prompt": "Welche Gleichung passt zu diesem Zahlenrätsel? „Addiert man zu einer Zahl 12 und multipliziert die Summe mit 5, so erhält man 80.“",
+   "answerType": "choice",
+   "canonical": "g0",
+   "result": "$5\\left(x+12\\right) = 80$"
+  },
+  "ch4.eq.setup_trial.text_to_equation@1/L3/1": {
+   "signature": "d8038bf0",
+   "prompt": "Welche Gleichung passt zu diesem Zahlenrätsel? „Addiert man zu einer Zahl 8 und multipliziert das Ergebnis mit 5, so erhält man das Neunfache der Zahl.“",
+   "answerType": "choice",
+   "canonical": "g0",
+   "result": "$5\\left(x+8\\right) = 9x$"
+  },
+  "ch4.eq.setup_trial.text_to_equation@1/L3/2": {
+   "signature": "88528a21",
+   "prompt": "Welche Gleichung passt zu diesem Zahlenrätsel? „Die Summe aus einer Zahl, ihrem Vorgänger und ihrem Nachfolger ist 57.“",
+   "answerType": "choice",
+   "canonical": "g0",
+   "result": "$x+\\left(x-1\\right)+\\left(x+1\\right) = 57$"
+  },
+  "ch4.eq.setup_trial.text_to_equation@1/L3/3": {
+   "signature": "ba8b0d19",
+   "prompt": "Welche Gleichung passt zu diesem Zahlenrätsel? „Addiert man zu einer Zahl 2 und multipliziert das Ergebnis mit 2, so erhält man das Dreifache der Zahl.“",
+   "answerType": "choice",
+   "canonical": "g0",
+   "result": "$2\\left(x+2\\right) = 3x$"
+  },
+  "ch4.eq.solve_equivalence.solve@1/L1/1": {
+   "signature": "0e26c586",
+   "prompt": "Löse die Gleichung $3x-8 = 4$.",
+   "answerType": "fraction",
+   "canonical": "4",
+   "result": "$x = 4$"
+  },
+  "ch4.eq.solve_equivalence.solve@1/L1/2": {
+   "signature": "20875872",
+   "prompt": "Löse die Gleichung $8x = -24$.",
+   "answerType": "fraction",
+   "canonical": "-3",
+   "result": "$x = -3$"
+  },
+  "ch4.eq.solve_equivalence.solve@1/L1/3": {
+   "signature": "b1c919da",
+   "prompt": "Löse die Gleichung $5x+9 = 19$.",
+   "answerType": "fraction",
+   "canonical": "2",
+   "result": "$x = 2$"
+  },
+  "ch4.eq.solve_equivalence.solve@1/L2/1": {
+   "signature": "c2526b59",
+   "prompt": "Löse die Gleichung $3x-8+x = -8$.",
+   "answerType": "fraction",
+   "canonical": "0",
+   "result": "$x = 0$"
+  },
+  "ch4.eq.solve_equivalence.solve@1/L2/2": {
+   "signature": "f39f8362",
+   "prompt": "Löse die Gleichung $8x+8-6x = 28$.",
+   "answerType": "fraction",
+   "canonical": "10",
+   "result": "$x = 10$"
+  },
+  "ch4.eq.solve_equivalence.solve@1/L2/3": {
+   "signature": "0befd436",
+   "prompt": "Löse die Gleichung $5x+11-x = 51$.",
+   "answerType": "fraction",
+   "canonical": "10",
+   "result": "$x = 10$"
+  },
+  "ch4.eq.solve_equivalence.solve@1/L3/1": {
+   "signature": "277d95a2",
+   "prompt": "Löse die Gleichung $-4x-7 = x-14$.",
+   "answerType": "fraction",
+   "canonical": "7/5",
+   "result": "$x = \\frac{7}{5}$"
+  },
+  "ch4.eq.solve_equivalence.solve@1/L3/2": {
+   "signature": "7493b13e",
+   "prompt": "Löse die Gleichung $8\\left(x-8\\right)-4\\left(x-5\\right) = 30$.",
+   "answerType": "fraction",
+   "canonical": "37/2",
+   "result": "$x = \\frac{37}{2}$"
+  },
+  "ch4.eq.solve_equivalence.solve@1/L3/3": {
+   "signature": "181fc769",
+   "prompt": "Löse die Gleichung $\\frac{1}{6}x+11 = \\frac{3}{2}x-1$.",
+   "answerType": "fraction",
+   "canonical": "9",
+   "result": "$x = 9$"
+  },
+  "ch4.eq.solve_equivalence.spot_error@1/L2/1": {
+   "signature": "9efa4247",
+   "prompt": "In dieser Lösung steckt genau ein Fehler. Bei welcher Umformung passiert er?",
+   "promptLines": [
+    "(1) $3x-8+x = -8$  | zusammenfassen",
+    "(2) $4x-8 = -8 \\qquad \\big|\\; +8$",
+    "(3) $4x = -16 \\qquad \\big|\\; :4$",
+    "(4) $x = -4$"
+   ],
+   "answerType": "choice",
+   "canonical": "s2",
+   "result": "Von (2) nach (3)"
+  },
+  "ch4.eq.solve_equivalence.spot_error@1/L2/2": {
+   "signature": "c3a1133e",
+   "prompt": "In dieser Lösung steckt genau ein Fehler. Bei welcher Umformung passiert er?",
+   "promptLines": [
+    "(1) $5-8x = 13 \\qquad \\big|\\; -5$",
+    "(2) $-8x = 8 \\qquad \\big|\\; :\\left(-8\\right)$",
+    "(3) $x = 16$"
+   ],
+   "answerType": "choice",
+   "canonical": "s2",
+   "result": "Von (2) nach (3)"
+  },
+  "ch4.eq.solve_equivalence.spot_error@1/L2/3": {
+   "signature": "16570caa",
+   "prompt": "In dieser Lösung steckt genau ein Fehler. Bei welcher Umformung passiert er?",
+   "promptLines": [
+    "(1) $5x+11-x = 51$  | zusammenfassen",
+    "(2) $4x+11 = 51 \\qquad \\big|\\; -11$",
+    "(3) $4x = 62 \\qquad \\big|\\; :4$",
+    "(4) $x = \\frac{31}{2}$"
+   ],
+   "answerType": "choice",
+   "canonical": "s2",
+   "result": "Von (2) nach (3)"
+  },
+  "ch4.eq.solve_equivalence.spot_error@1/L3/1": {
+   "signature": "4ea68835",
+   "prompt": "In dieser Lösung steckt genau ein Fehler. Bei welcher Umformung passiert er?",
+   "promptLines": [
+    "(1) $3\\left(x-4\\right)-4\\left(x-1\\right) = 22$  | Klammern auflösen",
+    "(2) $3x-4-4x+4 = 22$  | zusammenfassen",
+    "(3) $-x = 22 \\qquad \\big|\\; :\\left(-1\\right)$",
+    "(4) $x = -22$"
+   ],
+   "answerType": "choice",
+   "canonical": "s1",
+   "result": "Von (1) nach (2)"
+  },
+  "ch4.eq.solve_equivalence.spot_error@1/L3/2": {
+   "signature": "1998a56f",
+   "prompt": "In dieser Lösung steckt genau ein Fehler. Bei welcher Umformung passiert er?",
+   "promptLines": [
+    "(1) $-8\\left(x-2\\right) = -64$  | Klammern auflösen",
+    "(2) $-8x+16 = -64 \\qquad \\big|\\; -16$",
+    "(3) $-8x = -80 \\qquad \\big|\\; :\\left(-8\\right)$",
+    "(4) $x = -72$"
+   ],
+   "answerType": "choice",
+   "canonical": "s3",
+   "result": "Von (3) nach (4)"
+  },
+  "ch4.eq.solve_equivalence.spot_error@1/L3/3": {
+   "signature": "9c94dbbb",
+   "prompt": "In dieser Lösung steckt genau ein Fehler. Bei welcher Umformung passiert er?",
+   "promptLines": [
+    "(1) $4\\left(x-7\\right)-6\\left(x-5\\right) = 14$  | Klammern auflösen",
+    "(2) $4x-28-6x+30 = 14$  | zusammenfassen",
+    "(3) $-2x+2 = 14 \\qquad \\big|\\; -2$",
+    "(4) $-2x = 12 \\qquad \\big|\\; :\\left(-2\\right)$",
+    "(5) $x = 14$"
+   ],
+   "answerType": "choice",
+   "canonical": "s4",
+   "result": "Von (4) nach (5)"
+  },
+  "ch4.eq.solve_equivalence.spot_error@1/L4/1": {
+   "signature": "24a9313a",
+   "prompt": "In dieser Lösung steckt genau ein Fehler. Bei welcher Umformung passiert er?",
+   "promptLines": [
+    "(1) $3\\left(x-4\\right)-4\\left(x-1\\right) = 22$  | Klammern auflösen",
+    "(2) $3x-12-4x-4 = 22$  | zusammenfassen",
+    "(3) $-x-16 = 22 \\qquad \\big|\\; +16$",
+    "(4) $-x = 38 \\qquad \\big|\\; :\\left(-1\\right)$",
+    "(5) $x = -38$"
+   ],
+   "answerType": "choice",
+   "canonical": "s1",
+   "result": "Von (1) nach (2)"
+  },
+  "ch4.eq.solve_equivalence.spot_error@1/L4/2": {
+   "signature": "7a784186",
+   "prompt": "In dieser Lösung steckt genau ein Fehler. Bei welcher Umformung passiert er?",
+   "promptLines": [
+    "(1) $8\\left(x-8\\right)-4\\left(x-5\\right) = 30$  | Klammern auflösen",
+    "(2) $8x-64-4x-20 = 30$  | zusammenfassen",
+    "(3) $4x-84 = 30 \\qquad \\big|\\; +84$",
+    "(4) $4x = 114 \\qquad \\big|\\; :4$",
+    "(5) $x = \\frac{57}{2}$"
+   ],
+   "answerType": "choice",
+   "canonical": "s1",
+   "result": "Von (1) nach (2)"
+  },
+  "ch4.eq.solve_equivalence.spot_error@1/L4/3": {
+   "signature": "4e9544f9",
+   "prompt": "In dieser Lösung steckt genau ein Fehler. Bei welcher Umformung passiert er?",
+   "promptLines": [
+    "(1) $4\\left(x-7\\right)-6\\left(x-5\\right) = 14$  | Klammern auflösen",
+    "(2) $4x-28-6x-30 = 14$  | zusammenfassen",
+    "(3) $-2x-58 = 14 \\qquad \\big|\\; +58$",
+    "(4) $-2x = 72 \\qquad \\big|\\; :\\left(-2\\right)$",
+    "(5) $x = -36$"
+   ],
+   "answerType": "choice",
+   "canonical": "s1",
+   "result": "Von (1) nach (2)"
+  },
+  "ch4.eq.solution_count.classify@1/L1/1": {
+   "signature": "3914c273",
+   "prompt": "Wie viele Lösungen hat die Gleichung $-4x-8 = -3-4x$?",
+   "answerType": "solution_set",
+   "canonical": {
+    "kind": "none"
+   },
+   "result": "Keine Lösung"
+  },
+  "ch4.eq.solution_count.classify@1/L1/2": {
+   "signature": "6d6cd73f",
+   "prompt": "Wie viele Lösungen hat die Gleichung $-9x+12 = 12-9x$?",
+   "answerType": "solution_set",
+   "canonical": {
+    "kind": "all"
+   },
+   "result": "Unendlich viele Lösungen: Jede Zahl ist eine Lösung."
+  },
+  "ch4.eq.solution_count.classify@1/L1/3": {
+   "signature": "65d4771d",
+   "prompt": "Wie viele Lösungen hat die Gleichung $2x-8 = 2x-9$?",
+   "answerType": "solution_set",
+   "canonical": {
+    "kind": "none"
+   },
+   "result": "Keine Lösung"
+  },
+  "ch4.eq.solution_count.classify@1/L2/1": {
+   "signature": "13d63984",
+   "prompt": "Wie viele Lösungen hat die Gleichung $-2\\left(x+5\\right) = -2x-16$?",
+   "answerType": "solution_set",
+   "canonical": {
+    "kind": "none"
+   },
+   "result": "Keine Lösung"
+  },
+  "ch4.eq.solution_count.classify@1/L2/2": {
+   "signature": "a8f00b23",
+   "prompt": "Wie viele Lösungen hat die Gleichung $5x+11-6x = 11-x$?",
+   "answerType": "solution_set",
+   "canonical": {
+    "kind": "all"
+   },
+   "result": "Unendlich viele Lösungen: Jede Zahl ist eine Lösung."
+  },
+  "ch4.eq.solution_count.classify@1/L2/3": {
+   "signature": "0a953f67",
+   "prompt": "Wie viele Lösungen hat die Gleichung $-4\\left(x+9\\right) = -4x-37$?",
+   "answerType": "solution_set",
+   "canonical": {
+    "kind": "none"
+   },
+   "result": "Keine Lösung"
+  },
+  "ch4.eq.solution_count.parameter@1/L3/1": {
+   "signature": "c6210af8",
+   "prompt": "Für welche Zahl $a$ hat die Gleichung $ax-8 = -14$ die Lösung $x = -2$?",
+   "answerType": "integer",
+   "canonical": "3",
+   "result": "$a = 3$"
+  },
+  "ch4.eq.solution_count.parameter@1/L3/2": {
+   "signature": "fe3b585a",
+   "prompt": "Für welche Zahl $a$ hat die Gleichung $6\\left(x-9\\right) = 6x+a$ unendlich viele Lösungen?",
+   "answerType": "integer",
+   "canonical": "-54",
+   "result": "$a = -54$"
+  },
+  "ch4.eq.solution_count.parameter@1/L3/3": {
+   "signature": "55e2b906",
+   "prompt": "Für welche Zahl $a$ hat die Gleichung $a\\left(x-1\\right) = -7x+7$ unendlich viele Lösungen?",
+   "answerType": "integer",
+   "canonical": "-7",
+   "result": "$a = -7$"
+  },
+  "ch4.eq.solution_count.justify@1/L4/1": {
+   "signature": "f01c737b",
+   "prompt": "Lena hat die Gleichung $-2\\left(x+5\\right) = -2x-10$ umgeformt. Welche Schlussfolgerung ist richtig?",
+   "promptLines": [
+    "$-2\\left(x+5\\right) = -2x-10$  | Klammern auflösen",
+    "$-2x-10 = -2x-10 \\qquad \\big|\\; +2x$",
+    "$-10 = -10$"
+   ],
+   "answerType": "choice",
+   "canonical": "c_all",
+   "result": "Jede Zahl ist eine Lösung, denn $-10 = -10$ ist wahr – egal, welche Zahl man für $x$ einsetzt."
+  },
+  "ch4.eq.solution_count.justify@1/L4/2": {
+   "signature": "d4c32109",
+   "prompt": "Tim hat die Gleichung $5x+11-6x = 11-x$ umgeformt. Welche Schlussfolgerung ist richtig?",
+   "promptLines": [
+    "$5x+11-6x = 11-x$  | zusammenfassen",
+    "$-x+11 = -x+11 \\qquad \\big|\\; +x$",
+    "$11 = 11$"
+   ],
+   "answerType": "choice",
+   "canonical": "c_all",
+   "result": "Jede Zahl ist eine Lösung, denn $11 = 11$ ist wahr – egal, welche Zahl man für $x$ einsetzt."
+  },
+  "ch4.eq.solution_count.justify@1/L4/3": {
+   "signature": "b3202879",
+   "prompt": "Emil hat die Gleichung $-4\\left(x+9\\right) = -4x-37$ umgeformt. Welche Schlussfolgerung ist richtig?",
+   "promptLines": [
+    "$-4\\left(x+9\\right) = -4x-37$  | Klammern auflösen",
+    "$-4x-36 = -4x-37 \\qquad \\big|\\; +4x$",
+    "$-36 = -37$"
+   ],
+   "answerType": "choice",
+   "canonical": "c_none",
+   "result": "Es gibt keine Lösung, denn $-36 = -37$ ist falsch – egal, welche Zahl man für $x$ einsetzt."
+  },
+  "ch4.eq.word_problems.contexts@1/L1/1": {
+   "signature": "00f35647",
+   "prompt": "Die Summe von drei aufeinanderfolgenden natürlichen Zahlen ist 69. Wie heißt die kleinste der drei Zahlen?",
+   "promptLines": [
+    "Mit $x$ = die kleinste der drei Zahlen gilt: $x+\\left(x+1\\right)+\\left(x+2\\right) = 69$"
+   ],
+   "answerType": "integer",
+   "canonical": "22",
+   "result": "$22$"
+  },
+  "ch4.eq.word_problems.contexts@1/L1/2": {
+   "signature": "74ca6120",
+   "prompt": "Ein Rechteck ist 11 cm länger als breit. Sein Umfang beträgt 30 cm. Wie breit ist das Rechteck (in cm)?",
+   "promptLines": [
+    "Mit $x$ = Breite des Rechtecks in cm gilt: $2x+2\\left(x+11\\right) = 30$"
+   ],
+   "answerType": "integer",
+   "canonical": "2",
+   "result": "$2$"
+  },
+  "ch4.eq.word_problems.contexts@1/L1/3": {
+   "signature": "e50fd5ca",
+   "prompt": "Die Summe von drei aufeinanderfolgenden natürlichen Zahlen ist 159. Wie heißt die kleinste der drei Zahlen?",
+   "promptLines": [
+    "Mit $x$ = die kleinste der drei Zahlen gilt: $x+\\left(x+1\\right)+\\left(x+2\\right) = 159$"
+   ],
+   "answerType": "integer",
+   "canonical": "52",
+   "result": "$52$"
+  },
+  "ch4.eq.word_problems.contexts@1/L2/1": {
+   "signature": "7f266136",
+   "prompt": "In einem gleichschenkligen Dreieck ist jeder der beiden Schenkel 1 cm länger als die Basis. Der Umfang beträgt 38 cm. Wie lang ist die Basis (in cm)?",
+   "answerType": "integer",
+   "canonical": "12",
+   "result": "$12$"
+  },
+  "ch4.eq.word_problems.contexts@1/L2/2": {
+   "signature": "96a76eb1",
+   "prompt": "Die Summe von drei aufeinanderfolgenden natürlichen Zahlen ist 12. Wie heißt die kleinste der drei Zahlen?",
+   "answerType": "integer",
+   "canonical": "3",
+   "result": "$3$"
+  },
+  "ch4.eq.word_problems.contexts@1/L2/3": {
+   "signature": "a9bfb0e4",
+   "prompt": "Ein Rechteck ist 4 cm länger als breit. Sein Umfang beträgt 48 cm. Wie breit ist das Rechteck (in cm)?",
+   "answerType": "integer",
+   "canonical": "10",
+   "result": "$10$"
+  },
+  "ch4.eq.word_problems.contexts@1/L3/1": {
+   "signature": "f69a4517",
+   "prompt": "Ein Rechteck ist 10 cm länger als breit. Sein Umfang beträgt 68 cm. Wie lang ist das Rechteck (in cm)?",
+   "answerType": "integer",
+   "canonical": "22",
+   "result": "$22$"
+  },
+  "ch4.eq.word_problems.contexts@1/L3/2": {
+   "signature": "2f11325e",
+   "prompt": "In einem gleichschenkligen Dreieck ist jeder der beiden Schenkel 2 cm länger als die Basis. Der Umfang beträgt 10 cm. Wie lang ist ein Schenkel (in cm)?",
+   "answerType": "integer",
+   "canonical": "4",
+   "result": "$4$"
+  },
+  "ch4.eq.word_problems.contexts@1/L3/3": {
+   "signature": "c2f2bba6",
+   "prompt": "Ein Rechteck ist 4 cm länger als breit. Sein Umfang beträgt 48 cm. Wie lang ist das Rechteck (in cm)?",
+   "answerType": "integer",
+   "canonical": "14",
+   "result": "$14$"
+  },
+  "ch4.eq.word_problems.interpret@1/L4/1": {
+   "signature": "eebb26dd",
+   "prompt": "Ein Rechteck soll 10 cm länger als breit sein und einen Umfang von 29 cm haben. Mit $x$ = Breite in cm ergibt sich die Gleichung $2x+2\\left(x+10\\right) = 29$. Welche Antwort ist richtig?",
+   "answerType": "choice",
+   "canonical": "c_val",
+   "result": "Das Rechteck ist $2{,}25$ cm breit."
+  },
+  "ch4.eq.word_problems.interpret@1/L4/2": {
+   "signature": "a46e049e",
+   "prompt": "Ein Rechteck soll 11 cm länger als breit sein und einen Umfang von 5 cm haben. Mit $x$ = Breite in cm ergibt sich die Gleichung $2x+2\\left(x+11\\right) = 5$. Welche Antwort ist richtig?",
+   "answerType": "choice",
+   "canonical": "c_none",
+   "result": "Es gibt keine passende Lösung: $x = -4{,}25$ ist keine sinnvolle Breite, denn eine Länge muss größer als $0$ sein."
+  },
+  "ch4.eq.word_problems.interpret@1/L4/3": {
+   "signature": "728aa6ba",
+   "prompt": "In einem Bus sitzen viermal so viele Kinder wie Erwachsene, zusammen 20 Personen. Mit $x$ = Anzahl der Erwachsenen ergibt sich die Gleichung $x+4x = 20$. Welche Antwort ist richtig?",
+   "answerType": "choice",
+   "canonical": "c_val",
+   "result": "Im Bus sitzen $4$ Erwachsene."
+  }
+ }
+}

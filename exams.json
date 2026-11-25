@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "note": "Exam blueprints are data. The checklist statements are paraphrased skill statements; book references are page/exercise numbers only. Session 12: match_term_situation and equivalence_check added back (D94); G7 („Denke dir eine Zahl“, phrase_to_term L4) reaches the KA through ka1.challenge and mock task 8.",
+  "exams": [
+    {
+      "id": "ka1",
+      "title": "1. Klassenarbeit – Terme mit einer Variable",
+      "defaultDate": "2026-11-16",
+      "dateSource": "Checkliste der Lehrkraft; Datum in der App änderbar",
+      "chapters": [
+        "ch1"
+      ],
+      "disclaimer": "Übungs-Klassenarbeit aus der App. Keine echte Klassenarbeit und keine Notenprognose.",
+      "items": [
+        {
+          "id": "ka1.plan",
+          "statement": "Ich kann meine Vorbereitungszeit sinnvoll einteilen.",
+          "kind": "planner",
+          "targets": []
+        },
+        {
+          "id": "ka1.laws",
+          "statement": "Ich wende die Rechengesetze richtig an und kann sie benennen.",
+          "kind": "skill",
+          "book": {
+            "read": "S. 8",
+            "exercises": [
+              "S. 9/1",
+              "S. 16/Fö 2",
+              "S. 11/19"
+            ]
+          },
+          "targets": [
+            {
+              "skill": "ch1.numterms.evaluate",
+              "families": [
+                "order_of_operations",
+                "sign_rules",
+                "mixed_representations"
+              ],
+              "levels": [
+                2,
+                3
+              ]
+            },
+            {
+              "skill": "ch1.numterms.evaluate",
+              "families": [
+                "name_law",
+                "compute_cleverly"
+              ],
+              "levels": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ka1.setup_evaluate",
+          "statement": "Ich kann Terme mit einer Variable aufstellen und für eine gegebene Zahl den Wert des Terms berechnen.",
+          "kind": "skill",
+          "book": {
+            "read": "S. 12",
+            "exercises": [
+              "S. 16/3 (Fö oder Fo)"
+            ]
+          },
+          "targets": [
+            {
+              "skill": "ch1.terms.translate",
+              "families": [
+                "phrase_to_term",
+                "figure_to_term",
+                "sequence_to_term",
+                "match_term_situation"
+              ],
+              "levels": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "skill": "ch1.terms.evaluate",
+              "families": [
+                "single_value",
+                "value_table",
+                "compare_terms_table"
+              ],
+              "levels": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ka1.sums",
+          "statement": "Ich kann Summen vereinfachen.",
+          "kind": "skill",
+          "book": {
+            "read": "S. 17",
+            "exercises": [
+              "S. 28/Fö 1",
+              "S. 20/19+20"
+            ]
+          },
+          "targets": [
+            {
+              "skill": "ch1.terms.collect_like",
+              "families": [
+                "collect",
+                "equivalence_check",
+                "spot_error"
+              ],
+              "levels": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ka1.products",
+          "statement": "Ich kann Produkte vereinfachen.",
+          "kind": "skill",
+          "book": {
+            "read": "S. 21",
+            "readNote": "Auf der Checkliste steht S. 15; der Abschnitt beginnt im Buch auf S. 21.",
+            "exercises": [
+              "S. 21/1",
+              "S. 28/Fö 2",
+              "S. 23/18"
+            ]
+          },
+          "targets": [
+            {
+              "skill": "ch1.terms.simplify_products",
+              "families": [
+                "number_times_term",
+                "area_terms"
+              ],
+              "levels": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "skill": "ch1.terms.simplify_products",
+              "families": [
+                "quotient",
+                "term_type"
+              ],
+              "levels": [
+                1,
+                2
+              ]
+            }
+          ],
+          "excluded": [
+            {
+              "skill": "ch1.terms.simplify_products",
+              "families": [
+                "term_times_term"
+              ],
+              "reason": "x·x steht nicht im Merkkasten von I.4"
+            }
+          ]
+        },
+        {
+          "id": "ka1.brackets",
+          "statement": "Ich kann Klammern auflösen (Ausmultiplizieren, Minusklammer und Plusklammer auflösen).",
+          "kind": "skill",
+          "book": {
+            "read": "S. 24",
+            "exercises": [
+              "S. 25/1",
+              "S. 26/7",
+              "S. 27/18+19"
+            ]
+          },
+          "targets": [
+            {
+              "skill": "ch1.terms.expand_factor",
+              "families": [
+                "expand_positive",
+                "expand_negative",
+                "expand_collect"
+              ],
+              "levels": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "skill": "ch1.terms.expand_factor",
+              "families": [
+                "fill_missing"
+              ],
+              "levels": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "skill": "ch1.terms.expand_factor",
+              "families": [
+                "factor_out"
+              ],
+              "levels": [
+                1,
+                2,
+                3
+              ],
+              "optional": true,
+              "defaultOn": true,
+              "optionalLabel": "Zusatz: Ausklammern (im Buchtest S. 33, nicht ausdrücklich auf der Checkliste)",
+              "id": "ausklammern"
+            }
+          ],
+          "excluded": [
+            {
+              "skill": "ch1.terms.expand_factor",
+              "families": [
+                "sum_times_sum"
+              ],
+              "reason": "Summe mal Summe steht nicht im Merkkasten von I.5"
+            }
+          ]
+        },
+        {
+          "id": "ka1.challenge",
+          "statement": "Ich kann ausgewählte Trainingsaufgaben vom Kapitelende lösen, die mich herausfordern.",
+          "kind": "mixed",
+          "book": {
+            "exercises": [
+              "S. 31–32"
+            ]
+          },
+          "targets": [
+            {
+              "fromItems": [
+                "ka1.laws",
+                "ka1.setup_evaluate",
+                "ka1.sums",
+                "ka1.products",
+                "ka1.brackets"
+              ],
+              "levels": [
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ka1.selftest",
+          "statement": "Ich prüfe, ob alles sitzt, indem ich eine Übungs-Klassenarbeit bearbeite.",
+          "kind": "mock",
+          "book": {
+            "exercises": [
+              "S. 33 Runde 1",
+              "S. 33 Runde 2"
+            ]
+          },
+          "targets": []
+        }
+      ],
+      "mock": {
+        "rounds": 2,
+        "timerMinutesOptions": [
+          0,
+          30,
+          45,
+          60,
+          90
+        ],
+        "timerDefault": 0,
+        "tasks": [
+          {
+            "n": 1,
+            "title": "Zahlterme berechnen",
+            "item": "ka1.laws",
+            "families": [
+              "order_of_operations",
+              "mixed_representations"
+            ],
+            "level": 2,
+            "parts": 2,
+            "points": 4
+          },
+          {
+            "n": 2,
+            "title": "Geschickt rechnen",
+            "item": "ka1.laws",
+            "families": [
+              "compute_cleverly",
+              "name_law"
+            ],
+            "level": 2,
+            "parts": 2,
+            "points": 4
+          },
+          {
+            "n": 3,
+            "title": "Term aufstellen und Wert berechnen",
+            "item": "ka1.setup_evaluate",
+            "families": [
+              "phrase_to_term",
+              "figure_to_term",
+              "sequence_to_term",
+              "single_value",
+              "match_term_situation"
+            ],
+            "level": 3,
+            "parts": 2,
+            "points": 4
+          },
+          {
+            "n": 4,
+            "title": "Summen vereinfachen",
+            "item": "ka1.sums",
+            "families": [
+              "collect",
+              "equivalence_check"
+            ],
+            "level": 2,
+            "parts": 2,
+            "points": 3
+          },
+          {
+            "n": 5,
+            "title": "Produkte vereinfachen",
+            "item": "ka1.products",
+            "families": [
+              "number_times_term",
+              "quotient"
+            ],
+            "level": 2,
+            "parts": 2,
+            "points": 3
+          },
+          {
+            "n": 6,
+            "title": "Klammern auflösen",
+            "item": "ka1.brackets",
+            "families": [
+              "expand_negative",
+              "expand_collect",
+              "fill_missing"
+            ],
+            "level": 3,
+            "parts": 2,
+            "points": 5
+          },
+          {
+            "n": 7,
+            "title": "Ausklammern (Zusatz)",
+            "item": "ka1.brackets",
+            "families": [
+              "factor_out"
+            ],
+            "level": 2,
+            "parts": 2,
+            "points": 3,
+            "optional": "ausklammern"
+          },
+          {
+            "n": 8,
+            "title": "Knobelaufgabe",
+            "item": "ka1.challenge",
+            "families": [
+              "sequence_to_term",
+              "spot_error",
+              "compute_cleverly",
+              "area_terms",
+              "phrase_to_term",
+              "equivalence_check"
+            ],
+            "level": 4,
+            "parts": 1,
+            "points": 4
+          }
+        ]
+      },
+      "selfRating": {
+        "scale": [
+          {
+            "value": 3,
+            "label": "Klappt sicher",
+            "emoji": "😃"
+          },
+          {
+            "value": 2,
+            "label": "Klappt meistens",
+            "emoji": "🙂"
+          },
+          {
+            "value": 1,
+            "label": "Noch unsicher",
+            "emoji": "😕"
+          },
+          {
+            "value": 0,
+            "label": "Klappt noch nicht",
+            "emoji": "😣"
+          }
+        ]
+      },
+      "zusatz": [
+        {
+          "id": "ausklammern",
+          "label": "Zusatz: Ausklammern",
+          "note": "Steht im Buchtest S. 33, aber nicht ausdrücklich auf der Checkliste.",
+          "defaultOn": true
+        }
+      ]
+    }
+  ]
+}

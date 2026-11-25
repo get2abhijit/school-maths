@@ -1,0 +1,3821 @@
+{
+ "engineVersion": "0.10.0",
+ "worksheets": [
+  {
+   "worksheet": {
+    "schema": "mathe7-worksheet",
+    "version": 1,
+    "code": "AB-ACF950",
+    "spec": {
+     "skills": [
+      "ch1.numterms.evaluate",
+      "ch1.terms.translate",
+      "ch1.terms.evaluate",
+      "ch1.terms.collect_like",
+      "ch1.terms.simplify_products",
+      "ch1.terms.expand_factor"
+     ],
+     "levels": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "count": 12,
+     "baseSeed": 20261027,
+     "title": "Golden: alle Themen",
+     "keyMode": "worked",
+     "space": "medium",
+     "nameField": true,
+     "dateField": true
+    },
+    "items": [
+     {
+      "number": 1,
+      "qid": "ch1.terms.evaluate.single_value@1/L1/610684767",
+      "signature": "423fa996",
+      "skillId": "ch1.terms.evaluate",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 2,
+      "qid": "ch1.terms.expand_factor.expand@1/L1/593907148",
+      "signature": "8e9bc761",
+      "skillId": "ch1.terms.expand_factor",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 3,
+      "qid": "ch1.terms.collect_like.collect@1/L1/644240005",
+      "signature": "d5394704",
+      "skillId": "ch1.terms.collect_like",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 4,
+      "qid": "ch1.numterms.evaluate.order_ops@1/L2/627462386",
+      "signature": "859dc2e4",
+      "skillId": "ch1.numterms.evaluate",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 5,
+      "qid": "ch1.terms.simplify_products.area_terms@1/L2/543574291",
+      "signature": "d1d63e4c",
+      "skillId": "ch1.terms.simplify_products",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 6,
+      "qid": "ch1.terms.translate.phrase_to_term@1/L2/526796672",
+      "signature": "0ec0a4e5",
+      "skillId": "ch1.terms.translate",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 7,
+      "qid": "ch1.terms.evaluate.single_value@1/L3/577129529",
+      "signature": "9224857d",
+      "skillId": "ch1.terms.evaluate",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 8,
+      "qid": "ch1.terms.expand_factor.factor_out@1/L3/560351910",
+      "signature": "1c68f9f2",
+      "skillId": "ch1.terms.expand_factor",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 9,
+      "qid": "ch1.terms.collect_like.spot_error@1/L3/744905719",
+      "signature": "7af93d6c",
+      "skillId": "ch1.terms.collect_like",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 10,
+      "qid": "ch1.numterms.evaluate.insert_brackets@1/L4/728128100",
+      "signature": "8b79a0f3",
+      "skillId": "ch1.numterms.evaluate",
+      "level": 4,
+      "levelAdjusted": false
+     },
+     {
+      "number": 11,
+      "qid": "ch1.terms.simplify_products.area_terms@1/L4/509871958",
+      "signature": "75b7bf1a",
+      "skillId": "ch1.terms.simplify_products",
+      "level": 4,
+      "levelAdjusted": false
+     },
+     {
+      "number": 12,
+      "qid": "ch1.terms.translate.sequence_to_term@1/L4/526649577",
+      "signature": "340656c2",
+      "skillId": "ch1.terms.translate",
+      "level": 4,
+      "levelAdjusted": false
+     }
+    ]
+   },
+   "layout": {
+    "code": "AB-ACF950",
+    "title": "Golden: alle Themen",
+    "nameField": true,
+    "dateField": true,
+    "space": "medium",
+    "keyMode": "worked",
+    "count": 12,
+    "skills": [
+     "ch1.numterms.evaluate",
+     "ch1.terms.translate",
+     "ch1.terms.evaluate",
+     "ch1.terms.collect_like",
+     "ch1.terms.simplify_products",
+     "ch1.terms.expand_factor"
+    ],
+    "student": [
+     {
+      "number": 1,
+      "qid": "ch1.terms.evaluate.single_value@1/L1/610684767",
+      "skillId": "ch1.terms.evaluate",
+      "level": 1,
+      "prompt": "Berechne den Wert des Terms $8\\left(x+5\\right)$ für $x = 8$.",
+      "promptLines": null,
+      "instructions": "Gib das Ergebnis als ganze Zahl an.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 2,
+      "qid": "ch1.terms.expand_factor.expand@1/L1/593907148",
+      "skillId": "ch1.terms.expand_factor",
+      "level": 1,
+      "prompt": "Multipliziere aus und vereinfache: $9\\left(4x+5\\right)$.",
+      "promptLines": null,
+      "instructions": "Schreibe das Ergebnis ohne Klammern und fasse zusammen.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 3,
+      "qid": "ch1.terms.collect_like.collect@1/L1/644240005",
+      "skillId": "ch1.terms.collect_like",
+      "level": 1,
+      "prompt": "Vereinfache den Term $9x-2x$.",
+      "promptLines": null,
+      "instructions": "Fasse gleichartige Glieder zusammen.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 4,
+      "qid": "ch1.numterms.evaluate.order_ops@1/L2/627462386",
+      "skillId": "ch1.numterms.evaluate",
+      "level": 2,
+      "prompt": "Berechne $4\\cdot 6+7\\cdot \\left(-8\\right)$.",
+      "promptLines": null,
+      "instructions": "Gib das Ergebnis als ganze Zahl an.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 5,
+      "qid": "ch1.terms.simplify_products.area_terms@1/L2/543574291",
+      "skillId": "ch1.terms.simplify_products",
+      "level": 2,
+      "prompt": "Ein Rechteck ist $2x$ cm lang und $5$ cm breit. Gib einen möglichst einfachen Term für seinen Flächeninhalt in cm² an.",
+      "promptLines": null,
+      "instructions": "Gib den Term ohne Einheit ein, vereinfacht (Zahlen zusammengefasst).",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 6,
+      "qid": "ch1.terms.translate.phrase_to_term@1/L2/526796672",
+      "skillId": "ch1.terms.translate",
+      "level": 2,
+      "prompt": "Schreibe als Term mit der Variablen $x$: die Summe aus dem Dreifachen von $x$ und $2$.",
+      "promptLines": null,
+      "instructions": "Jeder gleichwertige Term ist richtig. Malpunkte darfst du weglassen, z. B. 3x.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 7,
+      "qid": "ch1.terms.evaluate.single_value@1/L3/577129529",
+      "skillId": "ch1.terms.evaluate",
+      "level": 3,
+      "prompt": "Berechne den Wert des Terms $-x^{2}-3$ für $x = -\\frac{3}{4}$.",
+      "promptLines": null,
+      "instructions": "Gib das Ergebnis als Bruch, ganze Zahl oder Dezimalzahl an.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 8,
+      "qid": "ch1.terms.expand_factor.factor_out@1/L3/560351910",
+      "skillId": "ch1.terms.expand_factor",
+      "level": 3,
+      "prompt": "Klammere den größten gemeinsamen Faktor aus: $3-27x$.",
+      "promptLines": null,
+      "instructions": "Schreibe das Ergebnis als Produkt: Zahl mal Klammer.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 9,
+      "qid": "ch1.terms.collect_like.spot_error@1/L3/744905719",
+      "skillId": "ch1.terms.collect_like",
+      "level": 3,
+      "prompt": "In der folgenden Rechnung steckt genau ein Fehler. In welcher Zeile steht er zum ersten Mal?",
+      "promptLines": [
+       "$1{,}2x+1{,}2+2{,}5x-0{,}5$",
+       "Zeile 1: $= 1{,}2x+2{,}5x+1{,}2+0{,}5$",
+       "Zeile 2: $= \\left(1{,}2+2{,}5\\right)x+\\left(1{,}2+0{,}5\\right)$",
+       "Zeile 3: $= 3{,}7x+1{,}7$"
+      ],
+      "instructions": "Wähle die Zeile mit dem ersten Fehler.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Zeile 1"
+        },
+        {
+         "letter": "B",
+         "text": "Zeile 2"
+        },
+        {
+         "letter": "C",
+         "text": "Zeile 3"
+        },
+        {
+         "letter": "D",
+         "text": "Es gibt keinen Fehler."
+        }
+       ]
+      }
+     },
+     {
+      "number": 10,
+      "qid": "ch1.numterms.evaluate.insert_brackets@1/L4/728128100",
+      "skillId": "ch1.numterms.evaluate",
+      "level": 4,
+      "prompt": "Setze in $9\\cdot 5-\\left(-8\\right)-2+11$ genau ein Klammerpaar so, dass der Wert $198$ herauskommt.",
+      "promptLines": null,
+      "instructions": "Wähle die passende Klammersetzung aus.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "$9\\left(5-\\left(-8\\right)-2\\right)+11$"
+        },
+        {
+         "letter": "B",
+         "text": "$9\\left(5-\\left(-8\\right)-2+11\\right)$"
+        },
+        {
+         "letter": "C",
+         "text": "$\\left(9\\cdot 5-\\left(-8\\right)\\right)-2+11$"
+        },
+        {
+         "letter": "D",
+         "text": "$\\left(9\\cdot 5-\\left(-8\\right)-2\\right)+11$"
+        }
+       ]
+      }
+     },
+     {
+      "number": 11,
+      "qid": "ch1.terms.simplify_products.area_terms@1/L4/509871958",
+      "skillId": "ch1.terms.simplify_products",
+      "level": 4,
+      "prompt": "Ein Quader hat die Kantenlängen $4$ cm, $7$ cm und $x$ cm. Gib einen möglichst einfachen Term für seinen Oberflächeninhalt in cm² an.",
+      "promptLines": null,
+      "instructions": "Gib den Term ohne Einheit ein, vereinfacht (Zahlen zusammengefasst).",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 12,
+      "qid": "ch1.terms.translate.sequence_to_term@1/L4/526649577",
+      "skillId": "ch1.terms.translate",
+      "level": 4,
+      "prompt": "Eine Zahlenfolge beginnt mit $22;\\ 20;\\ 18;\\ 16;\\ \\ldots$. Welche Terme beschreiben die $n$-te Zahl der Folge? Wähle alle passenden aus.",
+      "promptLines": null,
+      "instructions": "Es können mehrere Antworten richtig sein.",
+      "paperInstruction": "Kreuze alle passenden Antworten an.",
+      "response": {
+       "kind": "choice",
+       "multiple": true,
+       "options": [
+        {
+         "letter": "A",
+         "text": "$-2\\left(n-1\\right)+22$"
+        },
+        {
+         "letter": "B",
+         "text": "$-2n+22$"
+        },
+        {
+         "letter": "C",
+         "text": "$24-2n$"
+        },
+        {
+         "letter": "D",
+         "text": "$n-2$"
+        }
+       ]
+      }
+     }
+    ],
+    "key": [
+     {
+      "number": 1,
+      "qid": "ch1.terms.evaluate.single_value@1/L1/610684767",
+      "level": 1,
+      "result": "$104$",
+      "steps": [
+       "Einsetzen: $8\\left(x+5\\right) = 8\\cdot \\left(8+5\\right)$",
+       "$= 8\\cdot 13$",
+       "$= 104$"
+      ]
+     },
+     {
+      "number": 2,
+      "qid": "ch1.terms.expand_factor.expand@1/L1/593907148",
+      "level": 1,
+      "result": "$36x+45$",
+      "steps": [
+       "Jedes Glied in der Klammer mit dem Faktor davor multiplizieren: $9\\left(4x+5\\right) = 36x+45$"
+      ]
+     },
+     {
+      "number": 3,
+      "qid": "ch1.terms.collect_like.collect@1/L1/644240005",
+      "level": 1,
+      "result": "$7x$",
+      "steps": [
+       "x-Glieder: $9-2 = 7$",
+       "Ergebnis: $7x$"
+      ]
+     },
+     {
+      "number": 4,
+      "qid": "ch1.numterms.evaluate.order_ops@1/L2/627462386",
+      "level": 2,
+      "result": "$-32$",
+      "steps": [
+       "$4\\cdot 6+7\\cdot \\left(-8\\right)$",
+       "$= 24+7\\cdot \\left(-8\\right)$",
+       "$= 24+\\left(-56\\right)$",
+       "$= -32$"
+      ]
+     },
+     {
+      "number": 5,
+      "qid": "ch1.terms.simplify_products.area_terms@1/L2/543574291",
+      "level": 2,
+      "result": "$10x$",
+      "steps": [
+       "Flächeninhalt Rechteck = Länge · Breite: $5\\cdot 2x$",
+       "Ergebnis: $10x$ (in cm²)"
+      ]
+     },
+     {
+      "number": 6,
+      "qid": "ch1.terms.translate.phrase_to_term@1/L2/526796672",
+      "level": 2,
+      "result": "$3x+2$",
+      "steps": [
+       "Erster Teil: $3x$. Zweiter Teil: $2$.",
+       "Term: $3x+2$"
+      ]
+     },
+     {
+      "number": 7,
+      "qid": "ch1.terms.evaluate.single_value@1/L3/577129529",
+      "level": 3,
+      "result": "$-\\frac{57}{16}$",
+      "steps": [
+       "Einsetzen: $-x^{2}-3 = -\\left(-\\frac{3}{4}\\right)^{2}-3$",
+       "$= -\\frac{9}{16}-3$",
+       "$= -\\frac{57}{16}$"
+      ]
+     },
+     {
+      "number": 8,
+      "qid": "ch1.terms.expand_factor.factor_out@1/L3/560351910",
+      "level": 3,
+      "result": "$3\\left(1-9x\\right)$",
+      "steps": [
+       "Größter gemeinsamer Faktor von $27$ und $3$: $3$.",
+       "Jedes Glied durch $3$ teilen: $3-27x = 3\\left(1-9x\\right)$",
+       "Probe durch Ausmultiplizieren: $3\\left(1-9x\\right) = 3-27x$ ✓"
+      ]
+     },
+     {
+      "number": 9,
+      "qid": "ch1.terms.collect_like.spot_error@1/L3/744905719",
+      "level": 3,
+      "result": "A: Zeile 1",
+      "steps": [
+       "Werte für $x=2$: Term: $8{,}1$, Zeile 1: $9{,}1$, Zeile 2: $9{,}1$, Zeile 3: $9{,}1$.",
+       "Der Wert ändert sich zum ersten Mal in Zeile 1. Beim Umordnen ist ein Minuszeichen verloren gegangen. Das Rechenzeichen gehört zum Glied dahinter."
+      ],
+      "letters": [
+       "A"
+      ]
+     },
+     {
+      "number": 10,
+      "qid": "ch1.numterms.evaluate.insert_brackets@1/L4/728128100",
+      "level": 4,
+      "result": "B: $9\\left(5-\\left(-8\\right)-2+11\\right)$",
+      "steps": [
+       "Richtige Klammersetzung: $9\\left(5-\\left(-8\\right)-2+11\\right)$",
+       "$= 9\\left(13-2+11\\right)$",
+       "$= 9\\left(11+11\\right)$",
+       "$= 9\\cdot 22$",
+       "$= 198$"
+      ],
+      "letters": [
+       "B"
+      ]
+     },
+     {
+      "number": 11,
+      "qid": "ch1.terms.simplify_products.area_terms@1/L4/509871958",
+      "level": 4,
+      "result": "$22x+56$",
+      "steps": [
+       "Oberfläche Quader = 2 · (Grundfläche + zwei verschiedene Seitenflächen): $2\\cdot \\left(4\\cdot 7+4x+7x\\right)$",
+       "$= 2\\cdot \\left(28+11x\\right)$",
+       "Ergebnis: $22x+56$ (in cm²)"
+      ]
+     },
+     {
+      "number": 12,
+      "qid": "ch1.terms.translate.sequence_to_term@1/L4/526649577",
+      "level": 4,
+      "result": "A: $-2\\left(n-1\\right)+22$ · C: $24-2n$",
+      "steps": [
+       "Von Zahl zu Zahl ändert sich der Wert um $-2$. Also steht $-2n$ im Term.",
+       "Für $n=1$ ergibt $-2n$ den Wert $-2$; die erste Zahl ist $22$. Du musst also noch $24$ addieren.",
+       "Term: $-2n+24$",
+       "Die richtigen Terme sind gleichwertig zu $-2n+24$: $-2\\left(n-1\\right)+22$ und $24-2n$."
+      ],
+      "letters": [
+       "A",
+       "C"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "worksheet": {
+    "schema": "mathe7-worksheet",
+    "version": 1,
+    "code": "AB-5E6D5D",
+    "spec": {
+     "skills": [
+      "ch1.numterms.evaluate",
+      "ch1.terms.translate",
+      "ch1.terms.evaluate",
+      "ch1.terms.collect_like",
+      "ch1.terms.simplify_products",
+      "ch1.terms.expand_factor"
+     ],
+     "levels": [
+      2
+     ],
+     "count": 6,
+     "baseSeed": 4,
+     "title": "Golden: Stufe 2",
+     "keyMode": "answers",
+     "space": "none",
+     "nameField": false,
+     "dateField": true
+    },
+    "items": [
+     {
+      "number": 1,
+      "qid": "ch1.terms.collect_like.spot_error@1/L2/423300809",
+      "signature": "ed821937",
+      "skillId": "ch1.terms.collect_like",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 2,
+      "qid": "ch1.numterms.evaluate.insert_brackets@1/L2/406523190",
+      "signature": "38016863",
+      "skillId": "ch1.numterms.evaluate",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 3,
+      "qid": "ch1.terms.evaluate.value_table@1/L2/389745571",
+      "signature": "f3c8c967",
+      "skillId": "ch1.terms.evaluate",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 4,
+      "qid": "ch1.terms.simplify_products.area_terms@1/L2/372967952",
+      "signature": "c2b1cd12",
+      "skillId": "ch1.terms.simplify_products",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 5,
+      "qid": "ch1.terms.expand_factor.expand@1/L2/490411285",
+      "signature": "e2e198f1",
+      "skillId": "ch1.terms.expand_factor",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 6,
+      "qid": "ch1.terms.translate.sequence_to_term@1/L2/473633666",
+      "signature": "adfb44f7",
+      "skillId": "ch1.terms.translate",
+      "level": 2,
+      "levelAdjusted": false
+     }
+    ]
+   },
+   "layout": {
+    "code": "AB-5E6D5D",
+    "title": "Golden: Stufe 2",
+    "nameField": false,
+    "dateField": true,
+    "space": "none",
+    "keyMode": "answers",
+    "count": 6,
+    "skills": [
+     "ch1.numterms.evaluate",
+     "ch1.terms.translate",
+     "ch1.terms.evaluate",
+     "ch1.terms.collect_like",
+     "ch1.terms.simplify_products",
+     "ch1.terms.expand_factor"
+    ],
+    "student": [
+     {
+      "number": 1,
+      "qid": "ch1.terms.collect_like.spot_error@1/L2/423300809",
+      "skillId": "ch1.terms.collect_like",
+      "level": 2,
+      "prompt": "In der folgenden Rechnung steckt genau ein Fehler. In welcher Zeile steht er zum ersten Mal?",
+      "promptLines": [
+       "$12x-4-7x+6$",
+       "Zeile 1: $= 12x-7x-4+6$",
+       "Zeile 2: $= \\left(12-7\\right)x+\\left(-4+6\\right)$",
+       "Zeile 3: $= 5x-2$"
+      ],
+      "instructions": "Wähle die Zeile mit dem ersten Fehler.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Zeile 1"
+        },
+        {
+         "letter": "B",
+         "text": "Zeile 2"
+        },
+        {
+         "letter": "C",
+         "text": "Zeile 3"
+        },
+        {
+         "letter": "D",
+         "text": "Es gibt keinen Fehler."
+        }
+       ]
+      }
+     },
+     {
+      "number": 2,
+      "qid": "ch1.numterms.evaluate.insert_brackets@1/L2/406523190",
+      "skillId": "ch1.numterms.evaluate",
+      "level": 2,
+      "prompt": "Setze in $3+5+6\\cdot 5$ genau ein Klammerpaar so, dass der Wert $58$ herauskommt.",
+      "promptLines": null,
+      "instructions": "Wähle die passende Klammersetzung aus.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "$3+\\left(5+6\\cdot 5\\right)$"
+        },
+        {
+         "letter": "B",
+         "text": "$3+5+\\left(6\\cdot 5\\right)$"
+        },
+        {
+         "letter": "C",
+         "text": "$3+5+6\\cdot 5$ (ohne Klammer)"
+        },
+        {
+         "letter": "D",
+         "text": "$3+\\left(5+6\\right)\\cdot 5$"
+        }
+       ]
+      }
+     },
+     {
+      "number": 3,
+      "qid": "ch1.terms.evaluate.value_table@1/L2/389745571",
+      "skillId": "ch1.terms.evaluate",
+      "level": 2,
+      "prompt": "Fülle die Wertetabelle für den Term $6-7x$ aus.",
+      "promptLines": null,
+      "instructions": "Trage ganze Zahlen ein.",
+      "paperInstruction": "Fülle die leeren Felder aus.",
+      "response": {
+       "kind": "table",
+       "cells": [
+        {
+         "label": "$x = 0$"
+        },
+        {
+         "label": "$x = 1$"
+        },
+        {
+         "label": "$x = 2$"
+        },
+        {
+         "label": "$x = 3$"
+        }
+       ]
+      }
+     },
+     {
+      "number": 4,
+      "qid": "ch1.terms.simplify_products.area_terms@1/L2/372967952",
+      "skillId": "ch1.terms.simplify_products",
+      "level": 2,
+      "prompt": "Ein Rechteck ist $5x$ cm lang und $5$ cm breit. Gib einen möglichst einfachen Term für seinen Flächeninhalt in cm² an.",
+      "promptLines": null,
+      "instructions": "Gib den Term ohne Einheit ein, vereinfacht (Zahlen zusammengefasst).",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 5,
+      "qid": "ch1.terms.expand_factor.expand@1/L2/490411285",
+      "skillId": "ch1.terms.expand_factor",
+      "level": 2,
+      "prompt": "Multipliziere aus und vereinfache: $-\\left(4x+1\\right)$.",
+      "promptLines": null,
+      "instructions": "Schreibe das Ergebnis ohne Klammern und fasse zusammen.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 6,
+      "qid": "ch1.terms.translate.sequence_to_term@1/L2/473633666",
+      "skillId": "ch1.terms.translate",
+      "level": 2,
+      "prompt": "Eine Zahlenfolge beginnt mit $3;\\ 12;\\ 21;\\ 30;\\ \\ldots$. Gib einen Term für die $n$-te Zahl an.",
+      "promptLines": null,
+      "instructions": "Verwende die Variable $n$ (Nummer der Zahl). Jeder gleichwertige Term ist richtig.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     }
+    ],
+    "key": [
+     {
+      "number": 1,
+      "qid": "ch1.terms.collect_like.spot_error@1/L2/423300809",
+      "level": 2,
+      "result": "C: Zeile 3",
+      "steps": null,
+      "letters": [
+       "C"
+      ]
+     },
+     {
+      "number": 2,
+      "qid": "ch1.numterms.evaluate.insert_brackets@1/L2/406523190",
+      "level": 2,
+      "result": "D: $3+\\left(5+6\\right)\\cdot 5$",
+      "steps": null,
+      "letters": [
+       "D"
+      ]
+     },
+     {
+      "number": 3,
+      "qid": "ch1.terms.evaluate.value_table@1/L2/389745571",
+      "level": 2,
+      "result": "$x = 0$: $6$, $x = 1$: $-1$, $x = 2$: $-8$, $x = 3$: $-15$",
+      "steps": null,
+      "cells": [
+       {
+        "label": "$x = 0$",
+        "value": "$6$"
+       },
+       {
+        "label": "$x = 1$",
+        "value": "$-1$"
+       },
+       {
+        "label": "$x = 2$",
+        "value": "$-8$"
+       },
+       {
+        "label": "$x = 3$",
+        "value": "$-15$"
+       }
+      ]
+     },
+     {
+      "number": 4,
+      "qid": "ch1.terms.simplify_products.area_terms@1/L2/372967952",
+      "level": 2,
+      "result": "$25x$",
+      "steps": null
+     },
+     {
+      "number": 5,
+      "qid": "ch1.terms.expand_factor.expand@1/L2/490411285",
+      "level": 2,
+      "result": "$-4x-1$",
+      "steps": null
+     },
+     {
+      "number": 6,
+      "qid": "ch1.terms.translate.sequence_to_term@1/L2/473633666",
+      "level": 2,
+      "result": "$9n-6$",
+      "steps": null
+     }
+    ]
+   }
+  },
+  {
+   "worksheet": {
+    "schema": "mathe7-worksheet",
+    "version": 1,
+    "code": "AB-AFB9EC",
+    "spec": {
+     "skills": [
+      "ch4.eq.setup_trial",
+      "ch4.eq.solve_equivalence",
+      "ch4.eq.solution_count",
+      "ch4.eq.word_problems"
+     ],
+     "levels": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "count": 12,
+     "baseSeed": 20261028,
+     "title": "Golden: Lineare Gleichungen",
+     "keyMode": "worked",
+     "space": "small",
+     "nameField": true,
+     "dateField": true
+    },
+    "items": [
+     {
+      "number": 1,
+      "qid": "ch4.eq.word_problems.contexts@1/L1/3100092644",
+      "signature": "a843e577",
+      "skillId": "ch4.eq.word_problems",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 2,
+      "qid": "ch4.eq.solution_count.classify@1/L1/3116870263",
+      "signature": "f67a5e69",
+      "skillId": "ch4.eq.solution_count",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 3,
+      "qid": "ch4.eq.solve_equivalence.solve@1/L1/3133647882",
+      "signature": "22f11cb6",
+      "skillId": "ch4.eq.solve_equivalence",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 4,
+      "qid": "ch4.eq.setup_trial.text_to_equation@1/L2/3150425501",
+      "signature": "36af5446",
+      "skillId": "ch4.eq.setup_trial",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 5,
+      "qid": "ch4.eq.word_problems.contexts@1/L2/3032982168",
+      "signature": "62343180",
+      "skillId": "ch4.eq.word_problems",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 6,
+      "qid": "ch4.eq.solution_count.classify@1/L2/3049759787",
+      "signature": "9c4a8868",
+      "skillId": "ch4.eq.solution_count",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 7,
+      "qid": "ch4.eq.solve_equivalence.solve@1/L3/3066537406",
+      "signature": "14e04d8a",
+      "skillId": "ch4.eq.solve_equivalence",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 8,
+      "qid": "ch4.eq.setup_trial.text_to_equation@1/L3/3083315025",
+      "signature": "ad0695fe",
+      "skillId": "ch4.eq.setup_trial",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 9,
+      "qid": "ch4.eq.word_problems.contexts@1/L3/2965871692",
+      "signature": "164743e8",
+      "skillId": "ch4.eq.word_problems",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 10,
+      "qid": "ch4.eq.solution_count.justify@1/L4/2982649311",
+      "signature": "4f3f6147",
+      "skillId": "ch4.eq.solution_count",
+      "level": 4,
+      "levelAdjusted": false
+     },
+     {
+      "number": 11,
+      "qid": "ch4.eq.solve_equivalence.spot_error@1/L4/1053473389",
+      "signature": "6f3bdaaf",
+      "skillId": "ch4.eq.solve_equivalence",
+      "level": 4,
+      "levelAdjusted": false
+     },
+     {
+      "number": 12,
+      "qid": "ch4.eq.setup_trial.is_solution@1/L4/1036695770",
+      "signature": "80f138b3",
+      "skillId": "ch4.eq.setup_trial",
+      "level": 4,
+      "levelAdjusted": false
+     }
+    ]
+   },
+   "layout": {
+    "code": "AB-AFB9EC",
+    "title": "Golden: Lineare Gleichungen",
+    "nameField": true,
+    "dateField": true,
+    "space": "small",
+    "keyMode": "worked",
+    "count": 12,
+    "skills": [
+     "ch4.eq.setup_trial",
+     "ch4.eq.solve_equivalence",
+     "ch4.eq.solution_count",
+     "ch4.eq.word_problems"
+    ],
+    "student": [
+     {
+      "number": 1,
+      "qid": "ch4.eq.word_problems.contexts@1/L1/3100092644",
+      "skillId": "ch4.eq.word_problems",
+      "level": 1,
+      "prompt": "Ein Rechteck ist 4 cm länger als breit. Sein Umfang beträgt 64 cm. Wie breit ist das Rechteck (in cm)?",
+      "promptLines": [
+       "Mit $x$ = Breite des Rechtecks in cm gilt: $2x+2\\left(x+4\\right) = 64$"
+      ],
+      "instructions": "Gib nur die Zahl an, ohne Einheit.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 2,
+      "qid": "ch4.eq.solution_count.classify@1/L1/3116870263",
+      "skillId": "ch4.eq.solution_count",
+      "level": 1,
+      "prompt": "Wie viele Lösungen hat die Gleichung $4x-12 = -12+9x$?",
+      "promptLines": null,
+      "instructions": "Wähle aus. Bei genau einer Lösung gib sie auch an.",
+      "paperInstruction": "Kreuze an. Bei genau einer Lösung trage sie auch ein.",
+      "response": {
+       "kind": "solution_set",
+       "variable": "x",
+       "choices": [
+        {
+         "kind": "one",
+         "text": "genau eine Lösung:"
+        },
+        {
+         "kind": "none",
+         "text": "keine Lösung"
+        },
+        {
+         "kind": "all",
+         "text": "unendlich viele Lösungen (jede Zahl ist eine Lösung)"
+        }
+       ]
+      }
+     },
+     {
+      "number": 3,
+      "qid": "ch4.eq.solve_equivalence.solve@1/L1/3133647882",
+      "skillId": "ch4.eq.solve_equivalence",
+      "level": 1,
+      "prompt": "Löse die Gleichung $x-3 = 17$.",
+      "promptLines": null,
+      "instructions": "Gib die Lösung an: eine ganze Zahl, einen Bruch oder eine Dezimalzahl.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line",
+       "variable": "x"
+      }
+     },
+     {
+      "number": 4,
+      "qid": "ch4.eq.setup_trial.text_to_equation@1/L2/3150425501",
+      "skillId": "ch4.eq.setup_trial",
+      "level": 2,
+      "prompt": "Welche Gleichung passt zu diesem Zahlenrätsel? „Addiert man zu einer Zahl 5 und multipliziert die Summe mit 8, so erhält man 64.“",
+      "promptLines": null,
+      "instructions": "Die gesuchte Zahl heißt $x$.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "$8x+5 = 64$"
+        },
+        {
+         "letter": "B",
+         "text": "$5\\left(x+8\\right) = 64$"
+        },
+        {
+         "letter": "C",
+         "text": "$8\\left(x-5\\right) = 64$"
+        },
+        {
+         "letter": "D",
+         "text": "$8\\left(x+5\\right) = 64$"
+        }
+       ]
+      }
+     },
+     {
+      "number": 5,
+      "qid": "ch4.eq.word_problems.contexts@1/L2/3032982168",
+      "skillId": "ch4.eq.word_problems",
+      "level": 2,
+      "prompt": "Ein Rechteck ist 7 cm länger als breit. Sein Umfang beträgt 82 cm. Wie breit ist das Rechteck (in cm)?",
+      "promptLines": null,
+      "instructions": "Gib nur die Zahl an, ohne Einheit.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 6,
+      "qid": "ch4.eq.solution_count.classify@1/L2/3049759787",
+      "skillId": "ch4.eq.solution_count",
+      "level": 2,
+      "prompt": "Wie viele Lösungen hat die Gleichung $-5\\left(x-3\\right) = -10x+30$?",
+      "promptLines": null,
+      "instructions": "Wähle aus. Bei genau einer Lösung gib sie auch an.",
+      "paperInstruction": "Kreuze an. Bei genau einer Lösung trage sie auch ein.",
+      "response": {
+       "kind": "solution_set",
+       "variable": "x",
+       "choices": [
+        {
+         "kind": "one",
+         "text": "genau eine Lösung:"
+        },
+        {
+         "kind": "none",
+         "text": "keine Lösung"
+        },
+        {
+         "kind": "all",
+         "text": "unendlich viele Lösungen (jede Zahl ist eine Lösung)"
+        }
+       ]
+      }
+     },
+     {
+      "number": 7,
+      "qid": "ch4.eq.solve_equivalence.solve@1/L3/3066537406",
+      "skillId": "ch4.eq.solve_equivalence",
+      "level": 3,
+      "prompt": "Löse die Gleichung $\\frac{1}{5}x+3 = \\frac{1}{2}x+10$.",
+      "promptLines": null,
+      "instructions": "Gib die Lösung an: eine ganze Zahl, einen Bruch oder eine Dezimalzahl.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line",
+       "variable": "x"
+      }
+     },
+     {
+      "number": 8,
+      "qid": "ch4.eq.setup_trial.text_to_equation@1/L3/3083315025",
+      "skillId": "ch4.eq.setup_trial",
+      "level": 3,
+      "prompt": "Welche Gleichung passt zu diesem Zahlenrätsel? „Addiert man zu einer Zahl 6 und multipliziert das Ergebnis mit 4, so erhält man das Sechsfache der Zahl.“",
+      "promptLines": null,
+      "instructions": "Die gesuchte Zahl heißt $x$.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "$4\\left(x+6\\right) = 6x$"
+        },
+        {
+         "letter": "B",
+         "text": "$4x+6 = 6x$"
+        },
+        {
+         "letter": "C",
+         "text": "$4\\left(x+6\\right) = x+6$"
+        },
+        {
+         "letter": "D",
+         "text": "$4\\left(x+6\\right) = 6\\left(x+6\\right)$"
+        }
+       ]
+      }
+     },
+     {
+      "number": 9,
+      "qid": "ch4.eq.word_problems.contexts@1/L3/2965871692",
+      "skillId": "ch4.eq.word_problems",
+      "level": 3,
+      "prompt": "Emma ist 5 Jahre älter als Luca. Zusammen sind beide 21 Jahre alt. Wie alt ist Emma?",
+      "promptLines": null,
+      "instructions": "Gib nur die Zahl an, ohne Einheit.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 10,
+      "qid": "ch4.eq.solution_count.justify@1/L4/2982649311",
+      "skillId": "ch4.eq.solution_count",
+      "level": 4,
+      "prompt": "Emil hat die Gleichung $-2\\left(x+3\\right) = -2x+3$ umgeformt. Welche Schlussfolgerung ist richtig?",
+      "promptLines": [
+       "$-2\\left(x+3\\right) = -2x+3$  | Klammern auflösen",
+       "$-2x-6 = -2x+3 \\qquad \\big|\\; +2x$",
+       "$-6 = 3$"
+      ],
+      "instructions": "Wähle die richtige Aussage mit der richtigen Begründung.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Es gibt keine Lösung, denn $-6 = 3$ ist falsch – egal, welche Zahl man für $x$ einsetzt."
+        },
+        {
+         "letter": "B",
+         "text": "Es gibt genau eine Lösung, nämlich $x = 0$, weil $x$ weggefallen ist."
+        },
+        {
+         "letter": "C",
+         "text": "Jede Zahl ist eine Lösung, denn $-6 = 3$ ist wahr – egal, welche Zahl man für $x$ einsetzt."
+        },
+        {
+         "letter": "D",
+         "text": "Es gibt genau eine Lösung, nämlich $x = -9$."
+        }
+       ]
+      }
+     },
+     {
+      "number": 11,
+      "qid": "ch4.eq.solve_equivalence.spot_error@1/L4/1053473389",
+      "skillId": "ch4.eq.solve_equivalence",
+      "level": 4,
+      "prompt": "In dieser Lösung steckt genau ein Fehler. Bei welcher Umformung passiert er?",
+      "promptLines": [
+       "(1) $\\frac{1}{3}x-11 = \\frac{5}{6}x+1 \\qquad \\big|\\; \\cdot 6$",
+       "(2) $2x-66 = 5x+6 \\qquad \\big|\\; -5x$",
+       "(3) $7x-66 = 6 \\qquad \\big|\\; +66$",
+       "(4) $7x = 72 \\qquad \\big|\\; :7$",
+       "(5) $x = \\frac{72}{7}$"
+      ],
+      "instructions": "Wähle die fehlerhafte Umformung.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Von (1) nach (2)"
+        },
+        {
+         "letter": "B",
+         "text": "Von (2) nach (3)"
+        },
+        {
+         "letter": "C",
+         "text": "Von (3) nach (4)"
+        },
+        {
+         "letter": "D",
+         "text": "Von (4) nach (5)"
+        },
+        {
+         "letter": "E",
+         "text": "Alle Umformungen sind richtig."
+        }
+       ]
+      }
+     },
+     {
+      "number": 12,
+      "qid": "ch4.eq.setup_trial.is_solution@1/L4/1036695770",
+      "skillId": "ch4.eq.setup_trial",
+      "level": 4,
+      "prompt": "Welche der Zahlen sind Lösungen der Gleichung $x^{2} = 6x$?",
+      "promptLines": null,
+      "instructions": "Es kann mehr als eine Lösung geben. Wähle alle Lösungen.",
+      "paperInstruction": "Kreuze alle passenden Antworten an.",
+      "response": {
+       "kind": "choice",
+       "multiple": true,
+       "options": [
+        {
+         "letter": "A",
+         "text": "$x = -3$"
+        },
+        {
+         "letter": "B",
+         "text": "$x = -1$"
+        },
+        {
+         "letter": "C",
+         "text": "$x = 0$"
+        },
+        {
+         "letter": "D",
+         "text": "$x = 1$"
+        },
+        {
+         "letter": "E",
+         "text": "$x = 4$"
+        },
+        {
+         "letter": "F",
+         "text": "$x = 6$"
+        }
+       ]
+      }
+     }
+    ],
+    "key": [
+     {
+      "number": 1,
+      "qid": "ch4.eq.word_problems.contexts@1/L1/3100092644",
+      "level": 1,
+      "result": "$14$",
+      "steps": [
+       "Wähle $x$: Breite des Rechtecks in cm.",
+       "Gleichung: $2x+2\\left(x+4\\right) = 64$",
+       "$2x+2\\left(x+4\\right) = 64$  | Klammern auflösen",
+       "$2x+2x+8 = 64$  | zusammenfassen",
+       "$4x+8 = 64 \\qquad \\big|\\; -8$",
+       "$4x = 56 \\qquad \\big|\\; :4$",
+       "$x = 14$",
+       "Antwort: Das Rechteck ist 14 cm breit.",
+       "Probe am Text: $2 \\cdot 14 + 2 \\cdot 18 = 64$ ✓"
+      ]
+     },
+     {
+      "number": 2,
+      "qid": "ch4.eq.solution_count.classify@1/L1/3116870263",
+      "level": 1,
+      "result": "Genau eine Lösung: $x = 0$",
+      "steps": [
+       "$4x-12 = -12+9x \\qquad \\big|\\; -9x$",
+       "$-5x-12 = -12 \\qquad \\big|\\; +12$",
+       "$-5x = 0 \\qquad \\big|\\; :\\left(-5\\right)$",
+       "$x = 0$",
+       "Die Gleichung hat genau eine Lösung: $x = 0$.",
+       "Probe mit $x = 0$: links $4\\cdot 0-12 = -12$, rechts $-12+9\\cdot 0 = -12$. Beide Seiten sind gleich."
+      ],
+      "solutionKind": "one"
+     },
+     {
+      "number": 3,
+      "qid": "ch4.eq.solve_equivalence.solve@1/L1/3133647882",
+      "level": 1,
+      "result": "$x = 20$",
+      "steps": [
+       "$x-3 = 17 \\qquad \\big|\\; +3$",
+       "$x = 20$",
+       "Probe mit $x = 20$: links $20-3 = 17$, rechts $17$. Beide Seiten sind gleich."
+      ]
+     },
+     {
+      "number": 4,
+      "qid": "ch4.eq.setup_trial.text_to_equation@1/L2/3150425501",
+      "level": 2,
+      "result": "D: $8\\left(x+5\\right) = 64$",
+      "steps": [
+       "„zu einer Zahl 5 addieren“: $x+5$",
+       "„die Summe mit 8 multiplizieren“: $8\\left(x+5\\right)$",
+       "„man erhält 64“: Gleichheitszeichen",
+       "Gleichung: $8\\left(x+5\\right) = 64$",
+       "Kontrolle mit der gesuchten Zahl $x = 3$: links $8\\cdot \\left(3+5\\right) = 64$, rechts $64$ ✓"
+      ],
+      "letters": [
+       "D"
+      ]
+     },
+     {
+      "number": 5,
+      "qid": "ch4.eq.word_problems.contexts@1/L2/3032982168",
+      "level": 2,
+      "result": "$17$",
+      "steps": [
+       "Wähle $x$: Breite des Rechtecks in cm.",
+       "Gleichung: $2x+2\\left(x+7\\right) = 82$",
+       "$2x+2\\left(x+7\\right) = 82$  | Klammern auflösen",
+       "$2x+2x+14 = 82$  | zusammenfassen",
+       "$4x+14 = 82 \\qquad \\big|\\; -14$",
+       "$4x = 68 \\qquad \\big|\\; :4$",
+       "$x = 17$",
+       "Antwort: Das Rechteck ist 17 cm breit.",
+       "Probe am Text: $2 \\cdot 17 + 2 \\cdot 24 = 82$ ✓"
+      ]
+     },
+     {
+      "number": 6,
+      "qid": "ch4.eq.solution_count.classify@1/L2/3049759787",
+      "level": 2,
+      "result": "Genau eine Lösung: $x = 3$",
+      "steps": [
+       "$-5\\left(x-3\\right) = -10x+30$  | Klammern auflösen",
+       "$-5x+15 = -10x+30 \\qquad \\big|\\; +10x$",
+       "$5x+15 = 30 \\qquad \\big|\\; -15$",
+       "$5x = 15 \\qquad \\big|\\; :5$",
+       "$x = 3$",
+       "Die Gleichung hat genau eine Lösung: $x = 3$.",
+       "Probe mit $x = 3$: links $-5\\cdot \\left(3-3\\right) = 0$, rechts $-10\\cdot 3+30 = 0$. Beide Seiten sind gleich."
+      ],
+      "solutionKind": "one"
+     },
+     {
+      "number": 7,
+      "qid": "ch4.eq.solve_equivalence.solve@1/L3/3066537406",
+      "level": 3,
+      "result": "$x = -\\frac{70}{3}$",
+      "steps": [
+       "$\\frac{1}{5}x+3 = \\frac{1}{2}x+10 \\qquad \\big|\\; \\cdot 10$",
+       "$2x+30 = 5x+100 \\qquad \\big|\\; -5x$",
+       "$-3x+30 = 100 \\qquad \\big|\\; -30$",
+       "$-3x = 70 \\qquad \\big|\\; :\\left(-3\\right)$",
+       "$x = -\\frac{70}{3}$",
+       "Probe mit $x = -\\frac{70}{3}$: links $\\frac{1}{5}\\cdot \\left(-\\frac{70}{3}\\right)+3 = -\\frac{5}{3}$, rechts $\\frac{1}{2}\\cdot \\left(-\\frac{70}{3}\\right)+10 = -\\frac{5}{3}$. Beide Seiten sind gleich."
+      ]
+     },
+     {
+      "number": 8,
+      "qid": "ch4.eq.setup_trial.text_to_equation@1/L3/3083315025",
+      "level": 3,
+      "result": "A: $4\\left(x+6\\right) = 6x$",
+      "steps": [
+       "„zu einer Zahl 6 addieren“: $x+6$",
+       "„das Ergebnis mit 4 multiplizieren“: $4\\left(x+6\\right)$",
+       "„das Sechsfache der Zahl“: $6x$",
+       "Gleichung: $4\\left(x+6\\right) = 6x$",
+       "Kontrolle mit der gesuchten Zahl $x = 12$: links $4\\cdot \\left(12+6\\right) = 72$, rechts $6\\cdot 12 = 72$ ✓"
+      ],
+      "letters": [
+       "A"
+      ]
+     },
+     {
+      "number": 9,
+      "qid": "ch4.eq.word_problems.contexts@1/L3/2965871692",
+      "level": 3,
+      "result": "$13$",
+      "steps": [
+       "Wähle $x$: Alter von Luca in Jahren.",
+       "Gleichung: $x+\\left(x+5\\right) = 21$",
+       "$x+\\left(x+5\\right) = 21$  | Klammern auflösen",
+       "$x+x+5 = 21$  | zusammenfassen",
+       "$2x+5 = 21 \\qquad \\big|\\; -5$",
+       "$2x = 16 \\qquad \\big|\\; :2$",
+       "$x = 8$",
+       "Gefragt ist nicht $x$: Emma ist 13 Jahre alt.",
+       "Probe am Text: $8 + 13 = 21$ ✓"
+      ]
+     },
+     {
+      "number": 10,
+      "qid": "ch4.eq.solution_count.justify@1/L4/2982649311",
+      "level": 4,
+      "result": "A: Es gibt keine Lösung, denn $-6 = 3$ ist falsch – egal, welche Zahl man für $x$ einsetzt.",
+      "steps": [
+       "$x$ ist weggefallen. Die Aussage $-6 = 3$ ist falsch – für jede Zahl $x$. Also hat die Gleichung keine Lösung.",
+       "Kontrolle: Setze zwei verschiedene Zahlen für $x$ in die Ausgangsgleichung ein. Beide Male sind die Seiten verschieden."
+      ],
+      "letters": [
+       "A"
+      ]
+     },
+     {
+      "number": 11,
+      "qid": "ch4.eq.solve_equivalence.spot_error@1/L4/1053473389",
+      "level": 4,
+      "result": "B: Von (2) nach (3)",
+      "steps": [
+       "Die Ausgangsgleichung hat die Lösung $x = -24$. Sie erfüllt die Zeilen (1) bis (2).",
+       "In Zeile (3) ergibt $x = -24$ links $-234$ und rechts $6$ – die Umformung von (2) nach (3) ist falsch.",
+       "Beim Wegbringen des $x$-Glieds wurde mit dem falschen Vorzeichen gerechnet. Auf beiden Seiten muss dasselbe subtrahiert werden. Richtig wäre $-3x-66 = 6$."
+      ],
+      "letters": [
+       "B"
+      ]
+     },
+     {
+      "number": 12,
+      "qid": "ch4.eq.setup_trial.is_solution@1/L4/1036695770",
+      "level": 4,
+      "result": "C: $x = 0$ · F: $x = 6$",
+      "steps": [
+       "$x = -3$: links $\\left(-3\\right)^{2} = 9$, rechts $6\\cdot \\left(-3\\right) = -18$",
+       "$x = -1$: links $\\left(-1\\right)^{2} = 1$, rechts $6\\cdot \\left(-1\\right) = -6$",
+       "$x = 0$: links $0^{2} = 0$, rechts $6\\cdot 0 = 0$ ✓",
+       "$x = 1$: links $1^{2} = 1$, rechts $6\\cdot 1 = 6$",
+       "$x = 4$: links $4^{2} = 16$, rechts $6\\cdot 4 = 24$",
+       "$x = 6$: links $6^{2} = 36$, rechts $6\\cdot 6 = 36$ ✓",
+       "Lösungen sind $x = 0$ und $x = 6$: Nur dort sind beide Seiten gleich."
+      ],
+      "letters": [
+       "C",
+       "F"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "worksheet": {
+    "schema": "mathe7-worksheet",
+    "version": 1,
+    "code": "AB-5B3673",
+    "spec": {
+     "skills": [
+      "ch6.pct.compare",
+      "ch6.pct.basic_tasks",
+      "ch6.interest.simple_compound",
+      "ch6.interest.loan"
+     ],
+     "levels": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "count": 12,
+     "baseSeed": 20261029,
+     "title": "Golden: Prozent- und Zinsrechnung",
+     "keyMode": "worked",
+     "space": "small",
+     "nameField": true,
+     "dateField": true
+    },
+    "items": [
+     {
+      "number": 1,
+      "qid": "ch6.pct.compare.convert@1/L1/811417937",
+      "signature": "6dc8acd8",
+      "skillId": "ch6.pct.compare",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 2,
+      "qid": "ch6.interest.loan.table@1/L1/794640318",
+      "signature": "09a5de5f",
+      "skillId": "ch6.interest.loan",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 3,
+      "qid": "ch6.interest.simple_compound.yearly@1/L1/777862699",
+      "signature": "ea74bd57",
+      "skillId": "ch6.interest.simple_compound",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 4,
+      "qid": "ch6.pct.basic_tasks.change@1/L2/761085080",
+      "signature": "337d2e31",
+      "skillId": "ch6.pct.basic_tasks",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 5,
+      "qid": "ch6.pct.compare.shares@1/L2/878528413",
+      "signature": "ac3313a3",
+      "skillId": "ch6.pct.compare",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 6,
+      "qid": "ch6.interest.loan.table@1/L2/861750794",
+      "signature": "87a9f26f",
+      "skillId": "ch6.interest.loan",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 7,
+      "qid": "ch6.interest.simple_compound.compound@1/L3/844973175",
+      "signature": "42a381ec",
+      "skillId": "ch6.interest.simple_compound",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 8,
+      "qid": "ch6.pct.basic_tasks.change@1/L3/828195556",
+      "signature": "316ab58f",
+      "skillId": "ch6.pct.basic_tasks",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 9,
+      "qid": "ch6.pct.compare.shares@1/L3/677196985",
+      "signature": "8dca03a8",
+      "skillId": "ch6.pct.compare",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 10,
+      "qid": "ch6.interest.loan.duration@1/L4/660419366",
+      "signature": "da0d293d",
+      "skillId": "ch6.interest.loan",
+      "level": 4,
+      "levelAdjusted": false
+     },
+     {
+      "number": 11,
+      "qid": "ch6.interest.simple_compound.compound@1/L4/710605128",
+      "signature": "b8474cda",
+      "skillId": "ch6.interest.simple_compound",
+      "level": 4,
+      "levelAdjusted": false
+     },
+     {
+      "number": 12,
+      "qid": "ch6.pct.basic_tasks.change@1/L4/727382747",
+      "signature": "da262a3f",
+      "skillId": "ch6.pct.basic_tasks",
+      "level": 4,
+      "levelAdjusted": false
+     }
+    ]
+   },
+   "layout": {
+    "code": "AB-5B3673",
+    "title": "Golden: Prozent- und Zinsrechnung",
+    "nameField": true,
+    "dateField": true,
+    "space": "small",
+    "keyMode": "worked",
+    "count": 12,
+    "skills": [
+     "ch6.pct.compare",
+     "ch6.pct.basic_tasks",
+     "ch6.interest.simple_compound",
+     "ch6.interest.loan"
+    ],
+    "student": [
+     {
+      "number": 1,
+      "qid": "ch6.pct.compare.convert@1/L1/811417937",
+      "skillId": "ch6.pct.compare",
+      "level": 1,
+      "prompt": "Schreibe den Anteil $\\frac{3}{5}$ als Prozentsatz.",
+      "promptLines": null,
+      "instructions": "Das Prozentzeichen kannst du weglassen.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line",
+       "unit": "%"
+      }
+     },
+     {
+      "number": 2,
+      "qid": "ch6.interest.loan.table@1/L1/794640318",
+      "skillId": "ch6.interest.loan",
+      "level": 1,
+      "prompt": "Für eine Solaranlage wird ein Kredit über 4000 € aufgenommen. Der Zinssatz beträgt 4 % pro Jahr. Am Ende jedes Jahres werden 600 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Fülle den Tilgungsplan für das erste Jahr aus.",
+      "promptLines": null,
+      "instructions": "Runde die Zinsen auf Cent. Trage Beträge in € ein, z. B. 1234,56.",
+      "paperInstruction": "Fülle die leeren Felder aus.",
+      "response": {
+       "kind": "grid",
+       "columns": [
+        "Jahr",
+        "Zinsen (€)",
+        "Tilgung (€)",
+        "Restschuld am Jahresende (€)"
+       ],
+       "rows": [
+        [
+         {
+          "text": "0"
+         },
+         {
+          "text": "–"
+         },
+         {
+          "text": "–"
+         },
+         {
+          "text": "$4000{,}00$"
+         }
+        ],
+        [
+         {
+          "text": "1"
+         },
+         {
+          "blank": true
+         },
+         {
+          "blank": true
+         },
+         {
+          "blank": true
+         }
+        ]
+       ]
+      }
+     },
+     {
+      "number": 3,
+      "qid": "ch6.interest.simple_compound.yearly@1/L1/777862699",
+      "skillId": "ch6.interest.simple_compound",
+      "level": 1,
+      "prompt": "Lea legt 2625 € auf einem Sparkonto an. Die Bank zahlt 2,5 % Zinsen pro Jahr. Wie viel Zinsen bekommt Lea nach einem Jahr?",
+      "promptLines": null,
+      "instructions": "Runde auf Cent. Die Einheit € kannst du weglassen.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line",
+       "unit": "€"
+      }
+     },
+     {
+      "number": 4,
+      "qid": "ch6.pct.basic_tasks.change@1/L2/761085080",
+      "skillId": "ch6.pct.basic_tasks",
+      "level": 2,
+      "prompt": "Ein Fahrrad kostet 855 €. Der Preis wird um 30 % erhöht. Wie viel kostet das Fahrrad danach?",
+      "promptLines": null,
+      "instructions": "Die Einheit € kannst du weglassen.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line",
+       "unit": "€"
+      }
+     },
+     {
+      "number": 5,
+      "qid": "ch6.pct.compare.shares@1/L2/878528413",
+      "skillId": "ch6.pct.compare",
+      "level": 2,
+      "prompt": "In Klassenstufe 6 kommen 5 von 15 Schülerinnen und Schülern mit dem Fahrrad. In Klassenstufe 7 kommen 2 von 6 Schülerinnen und Schülern mit dem Fahrrad. In welcher Klassenstufe ist der Anteil der Radfahrer größer?",
+      "promptLines": null,
+      "instructions": null,
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Klassenstufe 6"
+        },
+        {
+         "letter": "B",
+         "text": "Klassenstufe 7"
+        },
+        {
+         "letter": "C",
+         "text": "Beide Anteile sind gleich groß."
+        }
+       ]
+      }
+     },
+     {
+      "number": 6,
+      "qid": "ch6.interest.loan.table@1/L2/861750794",
+      "skillId": "ch6.interest.loan",
+      "level": 2,
+      "prompt": "Für eine neue Maschine für eine Werkstatt wird ein Kredit über 9500 € aufgenommen. Der Zinssatz beträgt 4 % pro Jahr. Am Ende jedes Jahres werden 3200 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Fülle den Tilgungsplan für die ersten 3 Jahre aus.",
+      "promptLines": null,
+      "instructions": "Runde die Zinsen auf Cent. Trage Beträge in € ein, z. B. 1234,56.",
+      "paperInstruction": "Fülle die leeren Felder aus.",
+      "response": {
+       "kind": "grid",
+       "columns": [
+        "Jahr",
+        "Zinsen (€)",
+        "Tilgung (€)",
+        "Restschuld am Jahresende (€)"
+       ],
+       "rows": [
+        [
+         {
+          "text": "0"
+         },
+         {
+          "text": "–"
+         },
+         {
+          "text": "–"
+         },
+         {
+          "text": "$9500{,}00$"
+         }
+        ],
+        [
+         {
+          "text": "1"
+         },
+         {
+          "blank": true
+         },
+         {
+          "blank": true
+         },
+         {
+          "blank": true
+         }
+        ],
+        [
+         {
+          "text": "2"
+         },
+         {
+          "blank": true
+         },
+         {
+          "blank": true
+         },
+         {
+          "blank": true
+         }
+        ],
+        [
+         {
+          "text": "3"
+         },
+         {
+          "blank": true
+         },
+         {
+          "blank": true
+         },
+         {
+          "blank": true
+         }
+        ]
+       ]
+      }
+     },
+     {
+      "number": 7,
+      "qid": "ch6.interest.simple_compound.compound@1/L3/844973175",
+      "skillId": "ch6.interest.simple_compound",
+      "level": 3,
+      "prompt": "Emma legt 5550 € zu einem Zinssatz von 3,5 % pro Jahr an. Die Zinsen werden jedes Jahr am Jahresende gutgeschrieben und im nächsten Jahr mitverzinst. Wie hoch ist das Guthaben nach 2 Jahren?",
+      "promptLines": null,
+      "instructions": "Runde die Zinsen jedes Jahr auf Cent. Die Einheit € kannst du weglassen.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line",
+       "unit": "€"
+      }
+     },
+     {
+      "number": 8,
+      "qid": "ch6.pct.basic_tasks.change@1/L3/828195556",
+      "skillId": "ch6.pct.basic_tasks",
+      "level": 3,
+      "prompt": "Der Preis für den Kopfhörer sinkt von 245 € auf 225,40 €. Um wie viel Prozent hat sich der Preis verringert?",
+      "promptLines": null,
+      "instructions": "Das Prozentzeichen kannst du weglassen.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line",
+       "unit": "%"
+      }
+     },
+     {
+      "number": 9,
+      "qid": "ch6.pct.compare.shares@1/L3/677196985",
+      "skillId": "ch6.pct.compare",
+      "level": 3,
+      "prompt": "In Klassenstufe 7 kommen 31 von 45 Schülerinnen und Schülern mit dem Fahrrad. In Klassenstufe 6 kommen 51 von 57 Schülerinnen und Schülern mit dem Fahrrad. In Klassenstufe 5 kommen 30 von 55 Schülerinnen und Schülern mit dem Fahrrad. In Klassenstufe 8 kommen 28 von 49 Schülerinnen und Schülern mit dem Fahrrad. Ordne die Klassenstufen nach dem Anteil der Radfahrer, den größten zuerst.",
+      "promptLines": null,
+      "instructions": null,
+      "paperInstruction": "Schreibe die Buchstaben in der richtigen Reihenfolge auf.",
+      "response": {
+       "kind": "ordering",
+       "items": [
+        {
+         "letter": "A",
+         "text": "Klassenstufe 5: 30 von 55"
+        },
+        {
+         "letter": "B",
+         "text": "Klassenstufe 6: 51 von 57"
+        },
+        {
+         "letter": "C",
+         "text": "Klassenstufe 7: 31 von 45"
+        },
+        {
+         "letter": "D",
+         "text": "Klassenstufe 8: 28 von 49"
+        }
+       ],
+       "slots": 4
+      }
+     },
+     {
+      "number": 10,
+      "qid": "ch6.interest.loan.duration@1/L4/660419366",
+      "skillId": "ch6.interest.loan",
+      "level": 4,
+      "prompt": "Für die Renovierung einer Wohnung wird ein Kredit über 6000 € aufgenommen. Der Zinssatz beträgt 8 % pro Jahr. Am Ende jedes Jahres werden 2400 € zurückgezahlt (Rate). Davon werden zuerst die Zinsen für die aktuelle Restschuld bezahlt, der Rest ist die Tilgung. Wie viel Zinsen werden insgesamt bezahlt, bis der Kredit vollständig zurückgezahlt ist?",
+      "promptLines": null,
+      "instructions": "Runde die Zinsen jedes Jahr auf Cent. Die Einheit € kannst du weglassen.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line",
+       "unit": "€"
+      }
+     },
+     {
+      "number": 11,
+      "qid": "ch6.interest.simple_compound.compound@1/L4/710605128",
+      "skillId": "ch6.interest.simple_compound",
+      "level": 4,
+      "prompt": "Aylin möchte 8250 € für 3 Jahre anlegen und vergleicht zwei Angebote. Welches bringt am Ende mehr Geld?",
+      "promptLines": [
+       "Angebot A: 2,5 % Zinsen pro Jahr, die Zinsen werden mitverzinst (Zinseszins).",
+       "Angebot B: Zinstreppe mit 1,5 % im 1. Jahr, 2,5 % im 2. Jahr, 3,5 % im 3. Jahr; die Zinsen werden mitverzinst."
+      ],
+      "instructions": "Runde die Zinsen jedes Jahr auf Cent.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Angebot A bringt mehr."
+        },
+        {
+         "letter": "B",
+         "text": "Angebot B bringt mehr."
+        },
+        {
+         "letter": "C",
+         "text": "Beide bringen gleich viel."
+        }
+       ]
+      }
+     },
+     {
+      "number": 12,
+      "qid": "ch6.pct.basic_tasks.change@1/L4/727382747",
+      "skillId": "ch6.pct.basic_tasks",
+      "level": 4,
+      "prompt": "Zwei Läden verkaufen den Kopfhörer. Wo ist der Kopfhörer im Angebot günstiger?",
+      "promptLines": [
+       "Laden A: 260 €, im Angebot 20 % billiger.",
+       "Laden B: 245 €, im Angebot 50 % billiger."
+      ],
+      "instructions": null,
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Laden A ist günstiger."
+        },
+        {
+         "letter": "B",
+         "text": "Laden B ist günstiger."
+        },
+        {
+         "letter": "C",
+         "text": "Beide sind gleich teuer."
+        }
+       ]
+      }
+     }
+    ],
+    "key": [
+     {
+      "number": 1,
+      "qid": "ch6.pct.compare.convert@1/L1/811417937",
+      "level": 1,
+      "result": "$60\\,\\%$",
+      "steps": [
+       "Erweitere auf Hundertstel: $\\frac{3}{5} = \\frac{60}{100}$.",
+       "$\\frac{60}{100} = 60\\,\\%$"
+      ]
+     },
+     {
+      "number": 2,
+      "qid": "ch6.interest.loan.table@1/L1/794640318",
+      "level": 1,
+      "result": "Jahr 1: $160{,}00$ €; $440{,}00$ €; $3560{,}00$ €",
+      "steps": [
+       "Jahr 1: Zinsen $4000{,}00 \\cdot 0{,}04 = 160{,}00$ €, Tilgung $600{,}00 - 160{,}00 = 440{,}00$ €, Restschuld $4000{,}00 - 440{,}00 = 3560{,}00$ €."
+      ],
+      "cells": [
+       {
+        "label": "Zinsen im Jahr 1 (€)",
+        "value": "$160{,}00$ €"
+       },
+       {
+        "label": "Tilgung im Jahr 1 (€)",
+        "value": "$440{,}00$ €"
+       },
+       {
+        "label": "Restschuld am Ende von Jahr 1 (€)",
+        "value": "$3560{,}00$ €"
+       }
+      ],
+      "grid": {
+       "columns": [
+        "Jahr",
+        "Zinsen (€)",
+        "Tilgung (€)",
+        "Restschuld am Jahresende (€)"
+       ],
+       "rows": [
+        [
+         {
+          "text": "0"
+         },
+         {
+          "text": "–"
+         },
+         {
+          "text": "–"
+         },
+         {
+          "text": "$4000{,}00$"
+         }
+        ],
+        [
+         {
+          "text": "1"
+         },
+         {
+          "text": "$160{,}00$",
+          "answer": true
+         },
+         {
+          "text": "$440{,}00$",
+          "answer": true
+         },
+         {
+          "text": "$3560{,}00$",
+          "answer": true
+         }
+        ]
+       ]
+      }
+     },
+     {
+      "number": 3,
+      "qid": "ch6.interest.simple_compound.yearly@1/L1/777862699",
+      "level": 1,
+      "result": "$65{,}63$ €",
+      "steps": [
+       "$100\\,\\%$ entsprechen $2625{,}00$ €.",
+       "$1\\,\\%$ entspricht $2625 : 100 = 26{,}25$ €.",
+       "$2{,}5\\,\\%$ entsprechen $26{,}25 \\cdot 2{,}5 = 65{,}625$ $\\approx 65{,}63$ €."
+      ]
+     },
+     {
+      "number": 4,
+      "qid": "ch6.pct.basic_tasks.change@1/L2/761085080",
+      "level": 2,
+      "result": "$1111{,}50$ €",
+      "steps": [
+       "Veränderung: $30\\,\\%$ von $855$ € sind $855 \\cdot 0{,}3 = 256{,}5$.",
+       "Neuer Wert: $855 + 256{,}5 = 1111{,}50$."
+      ]
+     },
+     {
+      "number": 5,
+      "qid": "ch6.pct.compare.shares@1/L2/878528413",
+      "level": 2,
+      "result": "C: Beide Anteile sind gleich groß.",
+      "steps": [
+       "Klassenstufe 6: $\\frac{5}{15} \\approx 33{,}3\\,\\%$",
+       "Klassenstufe 7: $\\frac{2}{6} \\approx 33{,}3\\,\\%$",
+       "Beide Anteile sind gleich groß."
+      ],
+      "letters": [
+       "C"
+      ]
+     },
+     {
+      "number": 6,
+      "qid": "ch6.interest.loan.table@1/L2/861750794",
+      "level": 2,
+      "result": "Jahr 1: $380{,}00$ €; $2820{,}00$ €; $6680{,}00$ € · Jahr 2: $267{,}20$ €; $2932{,}80$ €; $3747{,}20$ € · Jahr 3: $149{,}89$ €; $3050{,}11$ €; $697{,}09$ €",
+      "steps": [
+       "Jahr 1: Zinsen $9500{,}00 \\cdot 0{,}04 = 380{,}00$ €, Tilgung $3200{,}00 - 380{,}00 = 2820{,}00$ €, Restschuld $9500{,}00 - 2820{,}00 = 6680{,}00$ €.",
+       "Jahr 2: Zinsen $6680{,}00 \\cdot 0{,}04 = 267{,}20$ €, Tilgung $3200{,}00 - 267{,}20 = 2932{,}80$ €, Restschuld $6680{,}00 - 2932{,}80 = 3747{,}20$ €.",
+       "Jahr 3: Zinsen $3747{,}20 \\cdot 0{,}04 \\approx 149{,}89$ €, Tilgung $3200{,}00 - 149{,}89 = 3050{,}11$ €, Restschuld $3747{,}20 - 3050{,}11 = 697{,}09$ €."
+      ],
+      "cells": [
+       {
+        "label": "Zinsen im Jahr 1 (€)",
+        "value": "$380{,}00$ €"
+       },
+       {
+        "label": "Tilgung im Jahr 1 (€)",
+        "value": "$2820{,}00$ €"
+       },
+       {
+        "label": "Restschuld am Ende von Jahr 1 (€)",
+        "value": "$6680{,}00$ €"
+       },
+       {
+        "label": "Zinsen im Jahr 2 (€)",
+        "value": "$267{,}20$ €"
+       },
+       {
+        "label": "Tilgung im Jahr 2 (€)",
+        "value": "$2932{,}80$ €"
+       },
+       {
+        "label": "Restschuld am Ende von Jahr 2 (€)",
+        "value": "$3747{,}20$ €"
+       },
+       {
+        "label": "Zinsen im Jahr 3 (€)",
+        "value": "$149{,}89$ €"
+       },
+       {
+        "label": "Tilgung im Jahr 3 (€)",
+        "value": "$3050{,}11$ €"
+       },
+       {
+        "label": "Restschuld am Ende von Jahr 3 (€)",
+        "value": "$697{,}09$ €"
+       }
+      ],
+      "grid": {
+       "columns": [
+        "Jahr",
+        "Zinsen (€)",
+        "Tilgung (€)",
+        "Restschuld am Jahresende (€)"
+       ],
+       "rows": [
+        [
+         {
+          "text": "0"
+         },
+         {
+          "text": "–"
+         },
+         {
+          "text": "–"
+         },
+         {
+          "text": "$9500{,}00$"
+         }
+        ],
+        [
+         {
+          "text": "1"
+         },
+         {
+          "text": "$380{,}00$",
+          "answer": true
+         },
+         {
+          "text": "$2820{,}00$",
+          "answer": true
+         },
+         {
+          "text": "$6680{,}00$",
+          "answer": true
+         }
+        ],
+        [
+         {
+          "text": "2"
+         },
+         {
+          "text": "$267{,}20$",
+          "answer": true
+         },
+         {
+          "text": "$2932{,}80$",
+          "answer": true
+         },
+         {
+          "text": "$3747{,}20$",
+          "answer": true
+         }
+        ],
+        [
+         {
+          "text": "3"
+         },
+         {
+          "text": "$149{,}89$",
+          "answer": true
+         },
+         {
+          "text": "$3050{,}11$",
+          "answer": true
+         },
+         {
+          "text": "$697{,}09$",
+          "answer": true
+         }
+        ]
+       ]
+      }
+     },
+     {
+      "number": 7,
+      "qid": "ch6.interest.simple_compound.compound@1/L3/844973175",
+      "level": 3,
+      "result": "$5945{,}30$ €",
+      "steps": [
+       "Jahr 1: Zinsen $5550{,}00 \\cdot 0{,}035 = 194{,}25$ €, Guthaben $5550{,}00 + 194{,}25 = 5744{,}25$ €.",
+       "Jahr 2: Zinsen $5744{,}25 \\cdot 0{,}035 \\approx 201{,}05$ €, Guthaben $5744{,}25 + 201{,}05 = 5945{,}30$ €."
+      ]
+     },
+     {
+      "number": 8,
+      "qid": "ch6.pct.basic_tasks.change@1/L3/828195556",
+      "level": 3,
+      "result": "$8\\,\\%$",
+      "steps": [
+       "Veränderung: $245{,}00 - 225{,}40 = 19{,}60$ €.",
+       "Grundwert ist der alte Preis: $\\frac{19{,}60}{245{,}00} = 0{,}08 = 8\\,\\%$."
+      ]
+     },
+     {
+      "number": 9,
+      "qid": "ch6.pct.compare.shares@1/L3/677196985",
+      "level": 3,
+      "result": "B – C – D – A",
+      "steps": [
+       "Klassenstufe 7: $\\frac{31}{45} \\approx 68{,}9\\,\\%$",
+       "Klassenstufe 6: $\\frac{51}{57} \\approx 89{,}5\\,\\%$",
+       "Klassenstufe 5: $\\frac{30}{55} \\approx 54{,}5\\,\\%$",
+       "Klassenstufe 8: $\\frac{28}{49} \\approx 57{,}1\\,\\%$",
+       "Reihenfolge: Klassenstufe 6 > Klassenstufe 7 > Klassenstufe 8 > Klassenstufe 5"
+      ],
+      "letters": [
+       "B",
+       "C",
+       "D",
+       "A"
+      ]
+     },
+     {
+      "number": 10,
+      "qid": "ch6.interest.loan.duration@1/L4/660419366",
+      "level": 4,
+      "result": "$966{,}91$ €",
+      "steps": [
+       "Jahr 1: Zinsen $6000{,}00 \\cdot 0{,}08 = 480{,}00$ €, Tilgung $2400{,}00 - 480{,}00 = 1920{,}00$ €, Restschuld $6000{,}00 - 1920{,}00 = 4080{,}00$ €.",
+       "Jahr 2: Zinsen $4080{,}00 \\cdot 0{,}08 = 326{,}40$ €, Tilgung $2400{,}00 - 326{,}40 = 2073{,}60$ €, Restschuld $4080{,}00 - 2073{,}60 = 2006{,}40$ €.",
+       "Im Jahr 3 reicht die Rate: Restschuld plus Zinsen sind nur noch $2006{,}40 + 160{,}51 = 2166{,}91$ € (weniger als 2400 €). Es wird nur noch dieser Betrag gezahlt.",
+       "Jahr 3: Zinsen $2006{,}40 \\cdot 0{,}08 \\approx 160{,}51$ €, Tilgung $2166{,}91 - 160{,}51 = 2006{,}40$ €, Restschuld $2006{,}40 - 2006{,}40 = 0{,}00$ €.",
+       "Zinsen insgesamt: $480{,}00 + 326{,}40 + 160{,}51 = 966{,}91$ €.",
+       "Probe: Gezahlt wurden $2 \\cdot 2400{,}00 + 2166{,}91 = 6966{,}91$ €; davon 6000 € Kredit, der Rest sind Zinsen."
+      ]
+     },
+     {
+      "number": 11,
+      "qid": "ch6.interest.simple_compound.compound@1/L4/710605128",
+      "level": 4,
+      "result": "A: Angebot A bringt mehr.",
+      "steps": [
+       "A: $8456{,}25$ → $8667{,}66$ → $8884{,}35$ € (Zinsen insgesamt 634,35 €).",
+       "B: $8373{,}75$ → $8583{,}09$ → $8883{,}50$ € (Zinsen insgesamt 633,50 €).",
+       "Angebot A bringt 0,85 € mehr."
+      ],
+      "letters": [
+       "A"
+      ]
+     },
+     {
+      "number": 12,
+      "qid": "ch6.pct.basic_tasks.change@1/L4/727382747",
+      "level": 4,
+      "result": "B: Laden B ist günstiger.",
+      "steps": [
+       "Laden A: $260 \\cdot 0{,}8 = 208{,}00$ €.",
+       "Laden B: $245 \\cdot 0{,}5 = 122{,}50$ €.",
+       "Laden B ist um 85,50 € günstiger."
+      ],
+      "letters": [
+       "B"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "worksheet": {
+    "schema": "mathe7-worksheet",
+    "version": 1,
+    "code": "AB-771C01",
+    "spec": {
+     "skills": [
+      "ch2.prop.recognize_compute",
+      "ch2.antiprop.recognize_compute"
+     ],
+     "levels": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "count": 12,
+     "baseSeed": 20261030,
+     "title": "Golden: Zuordnungen",
+     "keyMode": "worked",
+     "space": "small",
+     "nameField": true,
+     "dateField": true
+    },
+    "items": [
+     {
+      "number": 1,
+      "qid": "ch2.prop.recognize_compute.table@1/L1/1271638555",
+      "signature": "716815f8",
+      "skillId": "ch2.prop.recognize_compute",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 2,
+      "qid": "ch2.antiprop.recognize_compute.table@1/L1/1254860936",
+      "signature": "787334bd",
+      "skillId": "ch2.antiprop.recognize_compute",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 3,
+      "qid": "ch2.prop.recognize_compute.table@1/L1/1305193793",
+      "signature": "15313e60",
+      "skillId": "ch2.prop.recognize_compute",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 4,
+      "qid": "ch2.antiprop.recognize_compute.dreisatz@1/L2/1288416174",
+      "signature": "32ba4e0c",
+      "skillId": "ch2.antiprop.recognize_compute",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 5,
+      "qid": "ch2.prop.recognize_compute.table@1/L2/1338749031",
+      "signature": "8559667b",
+      "skillId": "ch2.prop.recognize_compute",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 6,
+      "qid": "ch2.antiprop.recognize_compute.table@1/L2/1321971412",
+      "signature": "3a2684a3",
+      "skillId": "ch2.antiprop.recognize_compute",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 7,
+      "qid": "ch2.prop.recognize_compute.graph@1/L3/1372304269",
+      "signature": "67d1accf",
+      "skillId": "ch2.prop.recognize_compute",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 8,
+      "qid": "ch2.antiprop.recognize_compute.decide@1/L3/1355526650",
+      "signature": "05a30472",
+      "skillId": "ch2.antiprop.recognize_compute",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 9,
+      "qid": "ch2.prop.recognize_compute.graph@1/L3/1137417603",
+      "signature": "23fa2d25",
+      "skillId": "ch2.prop.recognize_compute",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 10,
+      "qid": "ch2.antiprop.recognize_compute.dreisatz@1/L4/1120639984",
+      "signature": "6dc50b6d",
+      "skillId": "ch2.antiprop.recognize_compute",
+      "level": 4,
+      "levelAdjusted": false
+     },
+     {
+      "number": 11,
+      "qid": "ch2.prop.recognize_compute.dreisatz@1/L4/1170825746",
+      "signature": "15f0e5c9",
+      "skillId": "ch2.prop.recognize_compute",
+      "level": 4,
+      "levelAdjusted": false
+     },
+     {
+      "number": 12,
+      "qid": "ch2.antiprop.recognize_compute.dreisatz@1/L4/1187603365",
+      "signature": "ad7f969c",
+      "skillId": "ch2.antiprop.recognize_compute",
+      "level": 4,
+      "levelAdjusted": false
+     }
+    ]
+   },
+   "layout": {
+    "code": "AB-771C01",
+    "title": "Golden: Zuordnungen",
+    "nameField": true,
+    "dateField": true,
+    "space": "small",
+    "keyMode": "worked",
+    "count": 12,
+    "skills": [
+     "ch2.prop.recognize_compute",
+     "ch2.antiprop.recognize_compute"
+    ],
+    "student": [
+     {
+      "number": 1,
+      "qid": "ch2.prop.recognize_compute.table@1/L1/1271638555",
+      "skillId": "ch2.prop.recognize_compute",
+      "level": 1,
+      "prompt": "Die Tabelle vergleicht das Alter von Lena mit dem Alter ihres älteren Bruders. Ist die Zuordnung proportional?",
+      "promptLines": null,
+      "promptTable": {
+       "columns": [
+        "Alter von Lena (Jahre)",
+        "Alter ihres Bruders (Jahre)"
+       ],
+       "rows": [
+        [
+         "$3$",
+         "$5$"
+        ],
+        [
+         "$4$",
+         "$6$"
+        ],
+        [
+         "$5$",
+         "$7$"
+        ],
+        [
+         "$15$",
+         "$17$"
+        ]
+       ]
+      },
+      "instructions": "Quotient = zweiter Wert : erster Wert.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Die Zuordnung ist proportional."
+        },
+        {
+         "letter": "B",
+         "text": "Die Zuordnung ist nicht proportional."
+        }
+       ]
+      }
+     },
+     {
+      "number": 2,
+      "qid": "ch2.antiprop.recognize_compute.table@1/L1/1254860936",
+      "skillId": "ch2.antiprop.recognize_compute",
+      "level": 1,
+      "prompt": "Rechteckige Beete haben alle denselben Flächeninhalt. Welche Art von Zuordnung liegt vor?",
+      "promptLines": null,
+      "promptTable": {
+       "columns": [
+        "Breite (m)",
+        "Länge (m)"
+       ],
+       "rows": [
+        [
+         "$1$",
+         "$36$"
+        ],
+        [
+         "$2$",
+         "$18$"
+        ],
+        [
+         "$3$",
+         "$12$"
+        ],
+        [
+         "$4$",
+         "$9$"
+        ]
+       ]
+      },
+      "instructions": "Quotient = zweiter Wert : erster Wert; Produkt = erster Wert · zweiter Wert.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Die Zuordnung ist proportional."
+        },
+        {
+         "letter": "B",
+         "text": "Die Zuordnung ist antiproportional."
+        },
+        {
+         "letter": "C",
+         "text": "Die Zuordnung ist weder proportional noch antiproportional."
+        }
+       ]
+      }
+     },
+     {
+      "number": 3,
+      "qid": "ch2.prop.recognize_compute.table@1/L1/1305193793",
+      "skillId": "ch2.prop.recognize_compute",
+      "level": 1,
+      "prompt": "Die Tabelle zeigt Preise an einer Tankstelle. Die Zuordnung ist proportional. Fülle die Tabelle aus.",
+      "promptLines": null,
+      "instructions": "Rechne genau, ohne zu runden. Geldbeträge in €, z. B. 4,50.",
+      "paperInstruction": "Fülle die leeren Felder aus.",
+      "response": {
+       "kind": "grid",
+       "columns": [
+        "Benzin (l)",
+        "Preis (€)"
+       ],
+       "rows": [
+        [
+         {
+          "text": "$5$"
+         },
+         {
+          "text": "$10{,}00$"
+         }
+        ],
+        [
+         {
+          "text": "$10$"
+         },
+         {
+          "blank": true
+         }
+        ],
+        [
+         {
+          "text": "$30$"
+         },
+         {
+          "blank": true
+         }
+        ],
+        [
+         {
+          "text": "$50$"
+         },
+         {
+          "blank": true
+         }
+        ]
+       ]
+      }
+     },
+     {
+      "number": 4,
+      "qid": "ch2.antiprop.recognize_compute.dreisatz@1/L2/1288416174",
+      "skillId": "ch2.antiprop.recognize_compute",
+      "level": 2,
+      "prompt": "Ein rechteckiges Beet ist 2 m breit und 18 m lang. Wie lang muss ein gleich großes rechteckiges Beet sein, das 6 m breit ist?",
+      "promptLines": null,
+      "instructions": "Die Einheit m kannst du weglassen.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line",
+       "unit": "m"
+      }
+     },
+     {
+      "number": 5,
+      "qid": "ch2.prop.recognize_compute.table@1/L2/1338749031",
+      "skillId": "ch2.prop.recognize_compute",
+      "level": 2,
+      "prompt": "Ein Wasserhahn ist gleichmäßig geöffnet. Die Tabelle zeigt, wie viel Wasser in einer bestimmten Zeit fließt. Die Zuordnung ist proportional. Fülle die Tabelle aus.",
+      "promptLines": null,
+      "instructions": "Rechne genau, ohne zu runden.",
+      "paperInstruction": "Fülle die leeren Felder aus.",
+      "response": {
+       "kind": "grid",
+       "columns": [
+        "Zeit (min)",
+        "Wasser (l)"
+       ],
+       "rows": [
+        [
+         {
+          "text": "$3$"
+         },
+         {
+          "blank": true
+         }
+        ],
+        [
+         {
+          "text": "$4$"
+         },
+         {
+          "text": "$60$"
+         }
+        ],
+        [
+         {
+          "text": "$6$"
+         },
+         {
+          "text": "$90$"
+         }
+        ],
+        [
+         {
+          "text": "$9$"
+         },
+         {
+          "blank": true
+         }
+        ],
+        [
+         {
+          "blank": true
+         },
+         {
+          "text": "$180$"
+         }
+        ]
+       ]
+      }
+     },
+     {
+      "number": 6,
+      "qid": "ch2.antiprop.recognize_compute.table@1/L2/1321971412",
+      "skillId": "ch2.antiprop.recognize_compute",
+      "level": 2,
+      "prompt": "Eine Kerze brennt gleichmäßig ab. Die Tabelle zeigt ihre Länge. Welche Art von Zuordnung liegt vor? Wähle die Aussage mit der richtigen Begründung.",
+      "promptLines": null,
+      "promptTable": {
+       "columns": [
+        "Brenndauer (h)",
+        "Länge der Kerze (cm)"
+       ],
+       "rows": [
+        [
+         "$1$",
+         "$22{,}5$"
+        ],
+        [
+         "$3$",
+         "$17{,}5$"
+        ],
+        [
+         "$4$",
+         "$15$"
+        ],
+        [
+         "$5$",
+         "$12{,}5$"
+        ],
+        [
+         "$6$",
+         "$10$"
+        ]
+       ]
+      },
+      "instructions": "Quotient = zweiter Wert : erster Wert; Produkt = erster Wert · zweiter Wert.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Proportional, denn alle Quotienten (zweiter Wert : erster Wert) sind gleich."
+        },
+        {
+         "letter": "B",
+         "text": "Antiproportional, denn alle Produkte (erster Wert · zweiter Wert) sind gleich."
+        },
+        {
+         "letter": "C",
+         "text": "Antiproportional, denn je größer der erste Wert, desto kleiner der zweite."
+        },
+        {
+         "letter": "D",
+         "text": "Die Zuordnung ist weder proportional noch antiproportional."
+        }
+       ]
+      }
+     },
+     {
+      "number": 7,
+      "qid": "ch2.prop.recognize_compute.graph@1/L3/1372304269",
+      "skillId": "ch2.prop.recognize_compute",
+      "level": 3,
+      "prompt": "Du trägst die Wertepaare der Tabelle als Punkte in ein Koordinatensystem ein. Worauf liegen die Punkte?",
+      "promptLines": null,
+      "promptTable": {
+       "columns": [
+        "$x$",
+        "$y$"
+       ],
+       "rows": [
+        [
+         "$1$",
+         "$12$"
+        ],
+        [
+         "$2$",
+         "$6$"
+        ],
+        [
+         "$3$",
+         "$4$"
+        ],
+        [
+         "$4$",
+         "$3$"
+        ],
+        [
+         "$12$",
+         "$1$"
+        ]
+       ]
+      },
+      "instructions": "Du musst nichts zeichnen. Prüfe Quotienten, Produkte und Zuwächse.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Die Punkte liegen auf einer Geraden durch den Ursprung."
+        },
+        {
+         "letter": "B",
+         "text": "Die Punkte liegen auf einer Geraden, die nicht durch den Ursprung geht."
+        },
+        {
+         "letter": "C",
+         "text": "Die Punkte liegen auf einer fallenden Kurve, die sich beiden Achsen immer mehr annähert."
+        },
+        {
+         "letter": "D",
+         "text": "Die Punkte liegen auf einer steigenden Kurve, die immer steiler wird (keine Gerade)."
+        }
+       ]
+      }
+     },
+     {
+      "number": 8,
+      "qid": "ch2.antiprop.recognize_compute.decide@1/L3/1355526650",
+      "skillId": "ch2.antiprop.recognize_compute",
+      "level": 3,
+      "prompt": "Wenn sich 10 Personen die Kosten für einen Ausflug teilen, bezahlt jede Person 22,50 €. Wie viel bezahlt jede Person, wenn sich 3 Personen die Kosten teilen?",
+      "promptLines": null,
+      "instructions": "Überlege zuerst, ob die Zuordnung proportional oder antiproportional ist. Die Einheit € kannst du weglassen. Gib den Betrag in € an, z. B. 4,50.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line",
+       "unit": "€"
+      }
+     },
+     {
+      "number": 9,
+      "qid": "ch2.prop.recognize_compute.graph@1/L3/1137417603",
+      "skillId": "ch2.prop.recognize_compute",
+      "level": 3,
+      "prompt": "Du trägst die Wertepaare der Tabelle als Punkte in ein Koordinatensystem ein. Worauf liegen die Punkte?",
+      "promptLines": null,
+      "promptTable": {
+       "columns": [
+        "$x$",
+        "$y$"
+       ],
+       "rows": [
+        [
+         "$3$",
+         "$18$"
+        ],
+        [
+         "$4$",
+         "$32$"
+        ],
+        [
+         "$5$",
+         "$50$"
+        ],
+        [
+         "$6$",
+         "$72$"
+        ],
+        [
+         "$7$",
+         "$98$"
+        ]
+       ]
+      },
+      "instructions": "Du musst nichts zeichnen. Prüfe Quotienten, Produkte und Zuwächse.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Die Punkte liegen auf einer Geraden durch den Ursprung."
+        },
+        {
+         "letter": "B",
+         "text": "Die Punkte liegen auf einer Geraden, die nicht durch den Ursprung geht."
+        },
+        {
+         "letter": "C",
+         "text": "Die Punkte liegen auf einer fallenden Kurve, die sich beiden Achsen immer mehr annähert."
+        },
+        {
+         "letter": "D",
+         "text": "Die Punkte liegen auf einer steigenden Kurve, die immer steiler wird (keine Gerade)."
+        }
+       ]
+      }
+     },
+     {
+      "number": 10,
+      "qid": "ch2.antiprop.recognize_compute.dreisatz@1/L4/1120639984",
+      "skillId": "ch2.antiprop.recognize_compute",
+      "level": 4,
+      "prompt": "Noah überlegt: „Wenn sich 3 Personen die Kosten für einen Ausflug teilen, bezahlt jede Person 60 €. Dann bezahlt bei 5 Personen jede Person 58 €.“ Beurteile die Überlegung.",
+      "promptLines": null,
+      "instructions": "Prüfe zwei Dinge: Passt das Modell zur Situation? Stimmt die Rechnung?",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Die Rechnung stimmt, und das Modell passt zur Situation."
+        },
+        {
+         "letter": "B",
+         "text": "Die Rechnung passt zum Modell, aber eine antiproportionale Zuordnung passt nicht zur Situation."
+        },
+        {
+         "letter": "C",
+         "text": "Das Modell passt zur Situation, aber die Rechnung ist falsch."
+        }
+       ]
+      }
+     },
+     {
+      "number": 11,
+      "qid": "ch2.prop.recognize_compute.dreisatz@1/L4/1170825746",
+      "skillId": "ch2.prop.recognize_compute",
+      "level": 4,
+      "prompt": "Lea überlegt: „Nina war mit 2 Jahren 96 cm groß. Dann ist sie mit 16 Jahren 768 cm groß.“ Beurteile die Überlegung.",
+      "promptLines": null,
+      "instructions": "Prüfe zwei Dinge: Passt das Modell zur Situation? Stimmt die Rechnung?",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Die Rechnung stimmt, und das Modell passt zur Situation."
+        },
+        {
+         "letter": "B",
+         "text": "Die Rechnung passt zum Modell, aber eine proportionale Zuordnung passt nicht zur Situation."
+        },
+        {
+         "letter": "C",
+         "text": "Das Modell passt zur Situation, aber die Rechnung ist falsch."
+        }
+       ]
+      }
+     },
+     {
+      "number": 12,
+      "qid": "ch2.antiprop.recognize_compute.dreisatz@1/L4/1187603365",
+      "skillId": "ch2.antiprop.recognize_compute",
+      "level": 4,
+      "prompt": "Jonas überlegt: „Ein Orchester mit 50 Musikern spielt eine Sinfonie in 36 min. Dann spielen 100 Musiker die Sinfonie in 18 min.“ Beurteile die Überlegung.",
+      "promptLines": null,
+      "instructions": "Prüfe zwei Dinge: Passt das Modell zur Situation? Stimmt die Rechnung?",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Die Rechnung stimmt, und das Modell passt zur Situation."
+        },
+        {
+         "letter": "B",
+         "text": "Die Rechnung passt zum Modell, aber eine antiproportionale Zuordnung passt nicht zur Situation."
+        },
+        {
+         "letter": "C",
+         "text": "Das Modell passt zur Situation, aber die Rechnung ist falsch."
+        }
+       ]
+      }
+     }
+    ],
+    "key": [
+     {
+      "number": 1,
+      "qid": "ch2.prop.recognize_compute.table@1/L1/1271638555",
+      "level": 1,
+      "result": "B: Die Zuordnung ist nicht proportional.",
+      "steps": [
+       "Quotienten: $5 : 3 = \\frac{5}{3}$; $6 : 4 = 1{,}5$; $7 : 5 = 1{,}4$; $17 : 15 = \\frac{17}{15}$.",
+       "Die Quotienten sind nicht alle gleich: Die Zuordnung ist nicht proportional."
+      ],
+      "letters": [
+       "B"
+      ]
+     },
+     {
+      "number": 2,
+      "qid": "ch2.antiprop.recognize_compute.table@1/L1/1254860936",
+      "level": 1,
+      "result": "B: Die Zuordnung ist antiproportional.",
+      "steps": [
+       "Quotienten: $36 : 1 = 36$; $18 : 2 = 9$; $12 : 3 = 4$; $9 : 4 = 2{,}25$.",
+       "Produkte: $1 \\cdot 36 = 36$; $2 \\cdot 18 = 36$; $3 \\cdot 12 = 36$; $4 \\cdot 9 = 36$.",
+       "Alle Produkte sind gleich: Die Zuordnung ist antiproportional."
+      ],
+      "letters": [
+       "B"
+      ]
+     },
+     {
+      "number": 3,
+      "qid": "ch2.prop.recognize_compute.table@1/L1/1305193793",
+      "level": 1,
+      "result": "Preis (€) zu 10 l: 20,00 · Preis (€) zu 30 l: 60,00 · Preis (€) zu 50 l: 100,00",
+      "steps": [
+       "Aus der vollständigen Zeile (5 l → 10 €): Quotient $10 : 5 = 2$. Das ist der Wert für 1 (Proportionalitätsfaktor).",
+       "10 l: $10 \\cdot 2 = 20$",
+       "30 l: $30 \\cdot 2 = 60$",
+       "50 l: $50 \\cdot 2 = 100$"
+      ],
+      "cells": [
+       {
+        "label": "Preis (€) zu 10 l",
+        "value": "$20{,}00$ €"
+       },
+       {
+        "label": "Preis (€) zu 30 l",
+        "value": "$60{,}00$ €"
+       },
+       {
+        "label": "Preis (€) zu 50 l",
+        "value": "$100{,}00$ €"
+       }
+      ],
+      "grid": {
+       "columns": [
+        "Benzin (l)",
+        "Preis (€)"
+       ],
+       "rows": [
+        [
+         {
+          "text": "$5$"
+         },
+         {
+          "text": "$10{,}00$"
+         }
+        ],
+        [
+         {
+          "text": "$10$"
+         },
+         {
+          "text": "$20{,}00$",
+          "answer": true
+         }
+        ],
+        [
+         {
+          "text": "$30$"
+         },
+         {
+          "text": "$60{,}00$",
+          "answer": true
+         }
+        ],
+        [
+         {
+          "text": "$50$"
+         },
+         {
+          "text": "$100{,}00$",
+          "answer": true
+         }
+        ]
+       ]
+      }
+     },
+     {
+      "number": 4,
+      "qid": "ch2.antiprop.recognize_compute.dreisatz@1/L2/1288416174",
+      "level": 2,
+      "result": "$6$ m",
+      "steps": [
+       "2 m → 18 m",
+       "Produkt: $18 \\cdot 2 = 36$ – so viel wäre es bei 1 m.",
+       "6 m → $36 : 6 = 6$ m"
+      ]
+     },
+     {
+      "number": 5,
+      "qid": "ch2.prop.recognize_compute.table@1/L2/1338749031",
+      "level": 2,
+      "result": "Wasser (l) zu 3 min: 45 · Wasser (l) zu 9 min: 135 · Zeit (min) zu 180 l: 12",
+      "steps": [
+       "Aus der vollständigen Zeile (4 min → 60 l): Quotient $60 : 4 = 15$. Das ist der Wert für 1 (Proportionalitätsfaktor).",
+       "3 min: $3 \\cdot 15 = 45$",
+       "9 min: $9 \\cdot 15 = 135$",
+       "180 l: $180 : 15 = 12$"
+      ],
+      "cells": [
+       {
+        "label": "Wasser (l) zu 3 min",
+        "value": "$45$ l"
+       },
+       {
+        "label": "Wasser (l) zu 9 min",
+        "value": "$135$ l"
+       },
+       {
+        "label": "Zeit (min) zu 180 l",
+        "value": "$12$ min"
+       }
+      ],
+      "grid": {
+       "columns": [
+        "Zeit (min)",
+        "Wasser (l)"
+       ],
+       "rows": [
+        [
+         {
+          "text": "$3$"
+         },
+         {
+          "text": "$45$",
+          "answer": true
+         }
+        ],
+        [
+         {
+          "text": "$4$"
+         },
+         {
+          "text": "$60$"
+         }
+        ],
+        [
+         {
+          "text": "$6$"
+         },
+         {
+          "text": "$90$"
+         }
+        ],
+        [
+         {
+          "text": "$9$"
+         },
+         {
+          "text": "$135$",
+          "answer": true
+         }
+        ],
+        [
+         {
+          "text": "$12$",
+          "answer": true
+         },
+         {
+          "text": "$180$"
+         }
+        ]
+       ]
+      }
+     },
+     {
+      "number": 6,
+      "qid": "ch2.antiprop.recognize_compute.table@1/L2/1321971412",
+      "level": 2,
+      "result": "D: Die Zuordnung ist weder proportional noch antiproportional.",
+      "steps": [
+       "Quotienten: $22{,}5 : 1 = 22{,}5$; $17{,}5 : 3 = \\frac{35}{6}$; $15 : 4 = 3{,}75$; $12{,}5 : 5 = 2{,}5$; $10 : 6 = \\frac{5}{3}$.",
+       "Produkte: $1 \\cdot 22{,}5 = 22{,}5$; $3 \\cdot 17{,}5 = 52{,}5$; $4 \\cdot 15 = 60$; $5 \\cdot 12{,}5 = 62{,}5$; $6 \\cdot 10 = 60$.",
+       "Weder alle Quotienten noch alle Produkte sind gleich: weder proportional noch antiproportional.",
+       "Auch wenn ein Wert kleiner wird, während der andere wächst: Ohne gleiche Produkte ist die Zuordnung nicht antiproportional."
+      ],
+      "letters": [
+       "D"
+      ]
+     },
+     {
+      "number": 7,
+      "qid": "ch2.prop.recognize_compute.graph@1/L3/1372304269",
+      "level": 3,
+      "result": "C: Die Punkte liegen auf einer fallenden Kurve, die sich beiden Achsen immer mehr annähert.",
+      "steps": [
+       "Quotienten $y : x$: $12 : 1 = 12$; $6 : 2 = 3$; $4 : 3 = \\frac{4}{3}$; $3 : 4 = 0{,}75$; $1 : 12 = \\frac{1}{12}$.",
+       "Produkte $x \\cdot y$: $1 \\cdot 12 = 12$; $2 \\cdot 6 = 12$; $3 \\cdot 4 = 12$; $4 \\cdot 3 = 12$; $12 \\cdot 1 = 12$.",
+       "Alle Produkte sind gleich: Die Zuordnung ist antiproportional, die Punkte liegen auf einer fallenden Kurve, die sich den Achsen nähert."
+      ],
+      "letters": [
+       "C"
+      ]
+     },
+     {
+      "number": 8,
+      "qid": "ch2.antiprop.recognize_compute.decide@1/L3/1355526650",
+      "level": 3,
+      "result": "$75{,}00$ €",
+      "steps": [
+       "Die Zuordnung ist antiproportional: Zum Doppelten gehört die Hälfte.",
+       "10 Personen → 22,50 €",
+       "Produkt: $22{,}50 \\cdot 10 = 225{,}00$ € – so viel wäre es bei 1 Person.",
+       "3 Personen → $225{,}00 : 3 = 75{,}00$ €"
+      ]
+     },
+     {
+      "number": 9,
+      "qid": "ch2.prop.recognize_compute.graph@1/L3/1137417603",
+      "level": 3,
+      "result": "D: Die Punkte liegen auf einer steigenden Kurve, die immer steiler wird (keine Gerade).",
+      "steps": [
+       "Quotienten $y : x$: $18 : 3 = 6$; $32 : 4 = 8$; $50 : 5 = 10$; $72 : 6 = 12$; $98 : 7 = 14$.",
+       "Die Quotienten sind verschieden, und die Zuwächse von $y$ werden immer größer ($y = 2 \\cdot x^{2}$): eine steigende Kurve, die immer steiler wird."
+      ],
+      "letters": [
+       "D"
+      ]
+     },
+     {
+      "number": 10,
+      "qid": "ch2.antiprop.recognize_compute.dreisatz@1/L4/1120639984",
+      "level": 4,
+      "result": "C: Das Modell passt zur Situation, aber die Rechnung ist falsch.",
+      "steps": [
+       "Produkt: $3 \\cdot 60{,}00 = 180$; für 5 Personen: $180 : 5 = 36{,}00$.",
+       "Die Situation passt zu einer antiproportionalen Zuordnung, aber richtig wäre 36 €."
+      ],
+      "letters": [
+       "C"
+      ]
+     },
+     {
+      "number": 11,
+      "qid": "ch2.prop.recognize_compute.dreisatz@1/L4/1170825746",
+      "level": 4,
+      "result": "B: Die Rechnung passt zum Modell, aber eine proportionale Zuordnung passt nicht zur Situation.",
+      "steps": [
+       "Rechnung im proportionalen Modell: Der Wert 768 ergibt sich, wenn man mit demselben Faktor vervielfacht.",
+       "Kinder wachsen nicht gleichmäßig, und Erwachsene wachsen gar nicht mehr. Alter und Körpergröße sind nicht proportional."
+      ],
+      "letters": [
+       "B"
+      ]
+     },
+     {
+      "number": 12,
+      "qid": "ch2.antiprop.recognize_compute.dreisatz@1/L4/1187603365",
+      "level": 4,
+      "result": "B: Die Rechnung passt zum Modell, aber eine antiproportionale Zuordnung passt nicht zur Situation.",
+      "steps": [
+       "Rechnung im antiproportionalen Modell: Der Wert 18 ergibt sich, wenn man das Produkt konstant hält.",
+       "Ein Musikstück dauert gleich lang, egal wie viele Musiker es spielen."
+      ],
+      "letters": [
+       "B"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "worksheet": {
+    "schema": "mathe7-worksheet",
+    "version": 1,
+    "code": "AB-7F1E3E",
+    "spec": {
+     "skills": [
+      "ch7.data.analyze",
+      "ch7.prob.experiments",
+      "ch7.prob.determine",
+      "ch7.prob.frequency",
+      "ch7.prob.laplace"
+     ],
+     "levels": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "count": 12,
+     "baseSeed": 20261031,
+     "title": "Golden: Daten und Zufall",
+     "keyMode": "worked",
+     "space": "small",
+     "nameField": true,
+     "dateField": true
+    },
+    "items": [
+     {
+      "number": 1,
+      "qid": "ch7.data.analyze.stats@1/L1/2666941542",
+      "signature": "fb1c340b",
+      "skillId": "ch7.data.analyze",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 2,
+      "qid": "ch7.prob.experiments.events@1/L1/2683719161",
+      "signature": "32a17b51",
+      "skillId": "ch7.prob.experiments",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 3,
+      "qid": "ch7.prob.determine.compute@1/L1/2633386304",
+      "signature": "a2c09fc7",
+      "skillId": "ch7.prob.determine",
+      "level": 1,
+      "levelAdjusted": false
+     },
+     {
+      "number": 4,
+      "qid": "ch7.prob.laplace.compute@1/L2/2650163923",
+      "signature": "414879fa",
+      "skillId": "ch7.prob.laplace",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 5,
+      "qid": "ch7.prob.frequency.series@1/L2/2734052018",
+      "signature": "ffd42c33",
+      "skillId": "ch7.prob.frequency",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 6,
+      "qid": "ch7.data.analyze.stats@1/L2/2750829637",
+      "signature": "24717208",
+      "skillId": "ch7.data.analyze",
+      "level": 2,
+      "levelAdjusted": false
+     },
+     {
+      "number": 7,
+      "qid": "ch7.prob.experiments.events@1/L3/2700496780",
+      "signature": "08853faa",
+      "skillId": "ch7.prob.experiments",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 8,
+      "qid": "ch7.prob.determine.counting@1/L3/2717274399",
+      "signature": "0d4aca1a",
+      "skillId": "ch7.prob.determine",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 9,
+      "qid": "ch7.prob.laplace.compute@1/L3/2801162494",
+      "signature": "efbbc8e0",
+      "skillId": "ch7.prob.laplace",
+      "level": 3,
+      "levelAdjusted": false
+     },
+     {
+      "number": 10,
+      "qid": "ch7.prob.frequency.series@1/L4/2817940113",
+      "signature": "5dfdf9d9",
+      "skillId": "ch7.prob.frequency",
+      "level": 4,
+      "levelAdjusted": false
+     },
+     {
+      "number": 11,
+      "qid": "ch7.data.analyze.judge@1/L4/620322287",
+      "signature": "59262102",
+      "skillId": "ch7.data.analyze",
+      "level": 4,
+      "levelAdjusted": false
+     },
+     {
+      "number": 12,
+      "qid": "ch7.prob.experiments.events@1/L4/603544668",
+      "signature": "ebaa6336",
+      "skillId": "ch7.prob.experiments",
+      "level": 4,
+      "levelAdjusted": false
+     }
+    ]
+   },
+   "layout": {
+    "code": "AB-7F1E3E",
+    "title": "Golden: Daten und Zufall",
+    "nameField": true,
+    "dateField": true,
+    "space": "small",
+    "keyMode": "worked",
+    "count": 12,
+    "skills": [
+     "ch7.data.analyze",
+     "ch7.prob.experiments",
+     "ch7.prob.determine",
+     "ch7.prob.frequency",
+     "ch7.prob.laplace"
+    ],
+    "student": [
+     {
+      "number": 1,
+      "qid": "ch7.data.analyze.stats@1/L1/2666941542",
+      "skillId": "ch7.data.analyze",
+      "level": 1,
+      "prompt": "Jonas hat Daten gesammelt. Die Temperatur um 7 Uhr morgens an mehreren Tagen (in °C): $-2;\\ -1;\\ 8;\\ 1;\\ -1$. Bestimme den Mittelwert (das arithmetische Mittel).",
+      "promptLines": null,
+      "instructions": "Gib eine Zahl ein.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 2,
+      "qid": "ch7.prob.experiments.events@1/L1/2683719161",
+      "skillId": "ch7.prob.experiments",
+      "level": 1,
+      "prompt": "Ein Glücksrad hat zehn gleich große Felder mit den Zahlen 1 bis 10. Es wird einmal gedreht. Ereignis E: Die Zahl ist kleiner als 4. Welche Ergebnisse gehören zu E?",
+      "promptLines": null,
+      "instructions": "Kreuze alle Ergebnisse an, die zu E gehören.",
+      "paperInstruction": "Kreuze alle passenden Antworten an.",
+      "response": {
+       "kind": "choice",
+       "multiple": true,
+       "options": [
+        {
+         "letter": "A",
+         "text": "$1$"
+        },
+        {
+         "letter": "B",
+         "text": "$2$"
+        },
+        {
+         "letter": "C",
+         "text": "$3$"
+        },
+        {
+         "letter": "D",
+         "text": "$4$"
+        },
+        {
+         "letter": "E",
+         "text": "$5$"
+        },
+        {
+         "letter": "F",
+         "text": "$6$"
+        },
+        {
+         "letter": "G",
+         "text": "$7$"
+        },
+        {
+         "letter": "H",
+         "text": "$8$"
+        },
+        {
+         "letter": "I",
+         "text": "$9$"
+        },
+        {
+         "letter": "J",
+         "text": "$10$"
+        }
+       ]
+      }
+     },
+     {
+      "number": 3,
+      "qid": "ch7.prob.determine.compute@1/L1/2633386304",
+      "skillId": "ch7.prob.determine",
+      "level": 1,
+      "prompt": "Ein Würfel ist gezinkt: Nicht alle Augenzahlen sind gleich wahrscheinlich. Die Tabelle zeigt die Wahrscheinlichkeiten. Bestimme die Wahrscheinlichkeit für das Ereignis „Augenzahl größer als 3“.",
+      "promptLines": null,
+      "promptTable": {
+       "columns": [
+        "Augenzahl",
+        "Wahrscheinlichkeit"
+       ],
+       "rows": [
+        [
+         "$1$",
+         "$45\\,\\%$"
+        ],
+        [
+         "$2$",
+         "$15\\,\\%$"
+        ],
+        [
+         "$3$",
+         "$10\\,\\%$"
+        ],
+        [
+         "$4$",
+         "$5\\,\\%$"
+        ],
+        [
+         "$5$",
+         "$15\\,\\%$"
+        ],
+        [
+         "$6$",
+         "$10\\,\\%$"
+        ]
+       ]
+      },
+      "instructions": "Gib die Wahrscheinlichkeit als Bruch (z. B. 3/8), als Dezimalzahl oder in Prozent an.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 4,
+      "qid": "ch7.prob.laplace.compute@1/L2/2650163923",
+      "skillId": "ch7.prob.laplace",
+      "level": 2,
+      "prompt": "Die Buchstaben des Wortes HIMBEERE stehen einzeln auf 8 gleichen Karten. Eine Karte wird verdeckt gezogen. Wie groß ist die Wahrscheinlichkeit, ein M zu ziehen?",
+      "promptLines": null,
+      "instructions": "Gib die Wahrscheinlichkeit als Bruch (z. B. 3/8), als Dezimalzahl oder in Prozent an.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 5,
+      "qid": "ch7.prob.frequency.series@1/L2/2734052018",
+      "skillId": "ch7.prob.frequency",
+      "level": 2,
+      "prompt": "Ein Plastikbecher wurde 500-mal geworfen. Dabei gab es 320-mal „auf der Seite liegend“. Wie oft erwartest du „auf der Seite liegend“ ungefähr, wenn ein Plastikbecher noch 50-mal geworfen wird?",
+      "promptLines": null,
+      "instructions": "Nutze die relative Häufigkeit als Schätzwert für die Wahrscheinlichkeit. Gib eine ganze Zahl ein.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 6,
+      "qid": "ch7.data.analyze.stats@1/L2/2750829637",
+      "skillId": "ch7.data.analyze",
+      "level": 2,
+      "prompt": "Emma hat Daten gesammelt. Die Temperatur um 7 Uhr morgens an mehreren Tagen (in °C): $4;\\ 5;\\ 4;\\ 0;\\ 2;\\ 4;\\ -3;\\ 0$. Bestimme Spannweite, Median und Mittelwert.",
+      "promptLines": null,
+      "instructions": "Fülle alle drei Felder aus.",
+      "paperInstruction": "Fülle die leeren Felder aus.",
+      "response": {
+       "kind": "table",
+       "cells": [
+        {
+         "label": "Spannweite"
+        },
+        {
+         "label": "Median"
+        },
+        {
+         "label": "Mittelwert"
+        }
+       ]
+      }
+     },
+     {
+      "number": 7,
+      "qid": "ch7.prob.experiments.events@1/L3/2700496780",
+      "skillId": "ch7.prob.experiments",
+      "level": 3,
+      "prompt": "Ein Glücksrad hat zehn gleich große Felder mit den Zahlen 1 bis 10. Es wird einmal gedreht. Ereignis E: Die Zahl ist ein Teiler von 6 oder größer als 5. Welche Menge beschreibt E?",
+      "promptLines": null,
+      "instructions": "Wähle eine Menge aus.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "$\\{1;\\ 2;\\ 3;\\ 6;\\ 7;\\ 8;\\ 9;\\ 10\\}$"
+        },
+        {
+         "letter": "B",
+         "text": "$\\{1;\\ 2;\\ 3;\\ 6\\}$"
+        },
+        {
+         "letter": "C",
+         "text": "$\\{6\\}$"
+        },
+        {
+         "letter": "D",
+         "text": "$\\{4;\\ 5\\}$"
+        }
+       ]
+      }
+     },
+     {
+      "number": 8,
+      "qid": "ch7.prob.determine.counting@1/L3/2717274399",
+      "skillId": "ch7.prob.determine",
+      "level": 3,
+      "prompt": "Elif hat 4 T-Shirts, 4 Hosen und 3 Paar Schuhe. Wie viele verschiedene Kombinationen aus T-Shirt, Hose und Schuhen sind möglich?",
+      "promptLines": null,
+      "instructions": "Gib eine ganze Zahl ein.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 9,
+      "qid": "ch7.prob.laplace.compute@1/L3/2801162494",
+      "skillId": "ch7.prob.laplace",
+      "level": 3,
+      "prompt": "Zwei faire Würfel (ein roter und ein blauer) werden gleichzeitig geworfen. Bestimme die Wahrscheinlichkeit des Ereignisses: Die Augenzahlen unterscheiden sich um genau 1.",
+      "promptLines": null,
+      "instructions": "Gib die Wahrscheinlichkeit als Bruch (z. B. 3/8), als Dezimalzahl oder in Prozent an.",
+      "paperInstruction": null,
+      "response": {
+       "kind": "line"
+      }
+     },
+     {
+      "number": 10,
+      "qid": "ch7.prob.frequency.series@1/L4/2817940113",
+      "skillId": "ch7.prob.frequency",
+      "level": 4,
+      "prompt": "Eine Reißzwecke wurde oft geworfen. Die Tabelle zeigt nach verschiedenen Anzahlen von Versuchen, wie oft „Spitze nach oben“ vorkam. Welche Aussage ist richtig?",
+      "promptLines": null,
+      "promptTable": {
+       "columns": [
+        "Anzahl der Versuche",
+        "davon Spitze nach oben",
+        "relative Häufigkeit (gerundet)"
+       ],
+       "rows": [
+        [
+         "$10$",
+         "$7$",
+         "$0{,}7$"
+        ],
+        [
+         "$50$",
+         "$30$",
+         "$0{,}6$"
+        ],
+        [
+         "$100$",
+         "$63$",
+         "$0{,}63$"
+        ],
+        [
+         "$500$",
+         "$306$",
+         "$0{,}612$"
+        ],
+        [
+         "$1000$",
+         "$601$",
+         "$0{,}601$"
+        ],
+        [
+         "$5000$",
+         "$2998$",
+         "$0{,}6$"
+        ]
+       ]
+      },
+      "instructions": "Wähle die richtige Aussage.",
+      "paperInstruction": "Kreuze genau eine Antwort an.",
+      "response": {
+       "kind": "choice",
+       "multiple": false,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Die relativen Häufigkeiten schwanken anfangs stark und stabilisieren sich bei etwa $0{,}6$. Das ist ein guter Schätzwert für die Wahrscheinlichkeit."
+        },
+        {
+         "letter": "B",
+         "text": "Schon nach 10 Würfen ist der Schätzwert $0{,}7$ genauso zuverlässig wie der nach 5000 Würfen."
+        },
+        {
+         "letter": "C",
+         "text": "Nach 5000 Würfen kennt man die Wahrscheinlichkeit genau; weitere Würfe würden an der relativen Häufigkeit nichts mehr ändern."
+        }
+       ]
+      }
+     },
+     {
+      "number": 11,
+      "qid": "ch7.data.analyze.judge@1/L4/620322287",
+      "skillId": "ch7.data.analyze",
+      "level": 4,
+      "prompt": "Jonas hat Daten gesammelt. Die Anzahl der im letzten Jahr gelesenen Bücher in einer Gruppe: $11;\\ 3;\\ 12;\\ 14;\\ 6;\\ 9;\\ 4;\\ 5$. Welche Aussagen sind wahr?",
+      "promptLines": null,
+      "instructions": "Kreuze alle wahren Aussagen an.",
+      "paperInstruction": "Kreuze alle passenden Antworten an.",
+      "response": {
+       "kind": "choice",
+       "multiple": true,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Die Spannweite beträgt $11$."
+        },
+        {
+         "letter": "B",
+         "text": "Erhöht man den größten Wert um $10$, ändert sich der Median nicht."
+        },
+        {
+         "letter": "C",
+         "text": "Der Median ist $7{,}5$."
+        },
+        {
+         "letter": "D",
+         "text": "Mehr als die Hälfte der Werte ist größer als $9$."
+        }
+       ]
+      }
+     },
+     {
+      "number": 12,
+      "qid": "ch7.prob.experiments.events@1/L4/603544668",
+      "skillId": "ch7.prob.experiments",
+      "level": 4,
+      "prompt": "In einer Urne liegen zwölf gleiche Kugeln mit den Nummern 1 bis 12. Eine Kugel wird blind gezogen. Ein Ereignis ist E = $\\{5;\\ 6;\\ 7;\\ 8;\\ 9;\\ 10;\\ 11;\\ 12\\}$. Welche Beschreibungen passen zu E?",
+      "promptLines": null,
+      "instructions": "Kreuze alle passenden Beschreibungen an.",
+      "paperInstruction": "Kreuze alle passenden Antworten an.",
+      "response": {
+       "kind": "choice",
+       "multiple": true,
+       "options": [
+        {
+         "letter": "A",
+         "text": "Die Nummer ist größer als 4."
+        },
+        {
+         "letter": "B",
+         "text": "Die Nummer ist ungerade."
+        },
+        {
+         "letter": "C",
+         "text": "Die Nummer ist größer als 3."
+        },
+        {
+         "letter": "D",
+         "text": "Die Nummer ist mindestens 5."
+        }
+       ]
+      }
+     }
+    ],
+    "key": [
+     {
+      "number": 1,
+      "qid": "ch7.data.analyze.stats@1/L1/2666941542",
+      "level": 1,
+      "result": "Mittelwert: $1$",
+      "steps": [
+       "Summe: $5$. Mittelwert: $5 : 5 = 1$."
+      ]
+     },
+     {
+      "number": 2,
+      "qid": "ch7.prob.experiments.events@1/L1/2683719161",
+      "level": 1,
+      "result": "A: $1$ · B: $2$ · C: $3$",
+      "steps": [
+       "Prüfe jede Zahl von $1$ bis $10$: Ist sie kleiner als 4?",
+       "E = $\\{1;\\ 2;\\ 3\\}$."
+      ],
+      "letters": [
+       "A",
+       "B",
+       "C"
+      ]
+     },
+     {
+      "number": 3,
+      "qid": "ch7.prob.determine.compute@1/L1/2633386304",
+      "level": 1,
+      "result": "P = $\\frac{3}{10}$. Das sind 0,3 bzw. 30 %.",
+      "steps": [
+       "Zum Ereignis gehören: $4$, $5$, $6$.",
+       "$P = 5\\,\\% + 15\\,\\% + 10\\,\\% = 30\\,\\%$."
+      ]
+     },
+     {
+      "number": 4,
+      "qid": "ch7.prob.laplace.compute@1/L2/2650163923",
+      "level": 2,
+      "result": "P = $\\frac{1}{8}$. Das sind 0,125 bzw. 12,5 %.",
+      "steps": [
+       "Das Wort HIMBEERE hat 8 Buchstaben, also 8 gleich wahrscheinliche Karten.",
+       "Der Buchstabe M kommt 1-mal vor.",
+       "$P = \\frac{1}{8}$."
+      ]
+     },
+     {
+      "number": 5,
+      "qid": "ch7.prob.frequency.series@1/L2/2734052018",
+      "level": 2,
+      "result": "Etwa $32$-mal",
+      "steps": [
+       "Schätzwert für die Wahrscheinlichkeit: $320 : 500 = 0{,}64$.",
+       "Erwartete Anzahl bei 50 Würfen: $50 \\cdot 0{,}64 = 32$."
+      ]
+     },
+     {
+      "number": 6,
+      "qid": "ch7.data.analyze.stats@1/L2/2750829637",
+      "level": 2,
+      "result": "Spannweite: $8$; Median: $3$; Mittelwert: $2$",
+      "steps": [
+       "Spannweite = Maximum − Minimum: $5 - (-3) = 8$.",
+       "Sortiert: $-3;\\ 0;\\ 0;\\ 2;\\ 4;\\ 4;\\ 4;\\ 5$. Bei 8 Werten liegt der Median zwischen dem 4. und 5. Wert: $(2+4) : 2 = 3$.",
+       "Summe: $16$. Mittelwert: $16 : 8 = 2$."
+      ],
+      "cells": [
+       {
+        "label": "Spannweite",
+        "value": "$8$"
+       },
+       {
+        "label": "Median",
+        "value": "$3$"
+       },
+       {
+        "label": "Mittelwert",
+        "value": "$2$"
+       }
+      ]
+     },
+     {
+      "number": 7,
+      "qid": "ch7.prob.experiments.events@1/L3/2700496780",
+      "level": 3,
+      "result": "A: $\\{1;\\ 2;\\ 3;\\ 6;\\ 7;\\ 8;\\ 9;\\ 10\\}$",
+      "steps": [
+       "Ein Teiler von 6: $\\{1;\\ 2;\\ 3;\\ 6\\}$.",
+       "Größer als 5: $\\{6;\\ 7;\\ 8;\\ 9;\\ 10\\}$.",
+       "In mindestens einer der beiden Mengen: E = $\\{1;\\ 2;\\ 3;\\ 6;\\ 7;\\ 8;\\ 9;\\ 10\\}$."
+      ],
+      "letters": [
+       "A"
+      ]
+     },
+     {
+      "number": 8,
+      "qid": "ch7.prob.determine.counting@1/L3/2717274399",
+      "level": 3,
+      "result": "Anzahl: $48$",
+      "steps": [
+       "Jede Wahl der ersten Stufe lässt sich mit jeder Wahl der nächsten Stufe kombinieren.",
+       "Anzahl: $4 \\cdot 4 \\cdot 3 = 48$."
+      ]
+     },
+     {
+      "number": 9,
+      "qid": "ch7.prob.laplace.compute@1/L3/2801162494",
+      "level": 3,
+      "result": "P = $\\frac{5}{18}$.",
+      "steps": [
+       "Zwei Würfel: $6 \\cdot 6 = 36$ gleich wahrscheinliche Paare (erster Würfel; zweiter Würfel).",
+       "Günstige Paare: $(1;\\ 2),\\ (2;\\ 1),\\ (2;\\ 3),\\ (3;\\ 2),\\ (3;\\ 4),\\ (4;\\ 3),\\ (4;\\ 5),\\ (5;\\ 4),\\ (5;\\ 6),\\ (6;\\ 5)$, also 10.",
+       "$P = \\frac{10}{36} = \\frac{5}{18}$."
+      ]
+     },
+     {
+      "number": 10,
+      "qid": "ch7.prob.frequency.series@1/L4/2817940113",
+      "level": 4,
+      "result": "A: Die relativen Häufigkeiten schwanken anfangs stark und stabilisieren sich bei etwa $0{,}6$. Das ist ein guter Schätzwert für die Wahrscheinlichkeit.",
+      "steps": [
+       "Die Werte für kleine Anzahlen (z. B. $0{,}7$ bei 10 Würfen) weichen deutlich ab.",
+       "Ab etwa 500 Würfen ändern sie sich kaum noch und liegen bei etwa $0{,}6$.",
+       "Die relative Häufigkeit ist ein Schätzwert, der mit wachsender Versuchszahl tendenziell besser wird (Gesetz der großen Zahlen)."
+      ],
+      "letters": [
+       "A"
+      ]
+     },
+     {
+      "number": 11,
+      "qid": "ch7.data.analyze.judge@1/L4/620322287",
+      "level": 4,
+      "result": "A: Die Spannweite beträgt $11$. · B: Erhöht man den größten Wert um $10$, ändert sich der Median nicht. · C: Der Median ist $7{,}5$.",
+      "steps": [
+       "A: wahr. Spannweite: $11$ (größter minus kleinster Wert).",
+       "B: wahr. Der Median hängt nur von den mittleren Werten der sortierten Liste ab; der größte Wert bleibt der größte.",
+       "C: wahr. Sortiert: $3;\\ 4;\\ 5;\\ 6;\\ 9;\\ 11;\\ 12;\\ 14$; Median: $7{,}5$.",
+       "D: falsch. $3$ von $8$ Werten sind größer als $9$."
+      ],
+      "letters": [
+       "A",
+       "B",
+       "C"
+      ]
+     },
+     {
+      "number": 12,
+      "qid": "ch7.prob.experiments.events@1/L4/603544668",
+      "level": 4,
+      "result": "A: Die Nummer ist größer als 4. · D: Die Nummer ist mindestens 5.",
+      "steps": [
+       "„größer als 4“: $\\{5;\\ 6;\\ 7;\\ 8;\\ 9;\\ 10;\\ 11;\\ 12\\}$ – passt.",
+       "„ungerade“: $\\{1;\\ 3;\\ 5;\\ 7;\\ 9;\\ 11\\}$ – passt nicht.",
+       "„größer als 3“: $\\{4;\\ 5;\\ 6;\\ 7;\\ 8;\\ 9;\\ 10;\\ 11;\\ 12\\}$ – passt nicht.",
+       "„mindestens 5“: $\\{5;\\ 6;\\ 7;\\ 8;\\ 9;\\ 10;\\ 11;\\ 12\\}$ – passt."
+      ],
+      "letters": [
+       "A",
+       "D"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,823 @@
+{
+ "engineVersion": "0.12.0",
+ "questions": {
+  "ch7.data.analyze.stats@1/L1/1": {
+   "signature": "f8f6f748",
+   "prompt": "Luca hat Daten gesammelt. Die Zeit für die Hausaufgaben an mehreren Tagen (in Minuten): $41;\\ 52;\\ 34;\\ 32;\\ 46;\\ 47;\\ 16;\\ 21;\\ 35$. Bestimme den Mittelwert (das arithmetische Mittel).",
+   "answerType": "integer",
+   "canonical": "36",
+   "result": "Mittelwert: $36$ min"
+  },
+  "ch7.data.analyze.stats@1/L1/2": {
+   "signature": "2bc9555c",
+   "prompt": "Noah hat Daten gesammelt. Die Wartezeit an einer Bushaltestelle an mehreren Tagen (in Minuten): $5;\\ 4;\\ 6;\\ 11;\\ 9;\\ 4;\\ 10;\\ 8;\\ 6$. Bestimme den Median.",
+   "answerType": "integer",
+   "canonical": "6",
+   "result": "Median: $6$ min"
+  },
+  "ch7.data.analyze.stats@1/L1/3": {
+   "signature": "6243c5e0",
+   "prompt": "Elif hat Daten gesammelt. Die Temperatur um 7 Uhr morgens an mehreren Tagen (in °C): $9;\\ 8;\\ 6;\\ 8;\\ -1$. Bestimme den Mittelwert (das arithmetische Mittel).",
+   "answerType": "integer",
+   "canonical": "6",
+   "result": "Mittelwert: $6$"
+  },
+  "ch7.data.analyze.stats@1/L2/1": {
+   "signature": "a0768c8b",
+   "prompt": "Luca hat Daten gesammelt. Die Zeit für die Hausaufgaben an mehreren Tagen (in Minuten): $47;\\ 21;\\ 16;\\ 32;\\ 34;\\ 28;\\ 41;\\ 23;\\ 52;\\ 46$. Bestimme Spannweite, Median und Mittelwert.",
+   "answerType": "table",
+   "canonical": {
+    "range": "36",
+    "median": "33",
+    "mean": "34"
+   },
+   "result": "Spannweite: $36$; Median: $33$; Mittelwert: $34$"
+  },
+  "ch7.data.analyze.stats@1/L2/2": {
+   "signature": "7b5a6a31",
+   "prompt": "Noah hat Daten gesammelt. Die Wartezeit an einer Bushaltestelle an mehreren Tagen (in Minuten): $4;\\ 8;\\ 6;\\ 3;\\ 5;\\ 11;\\ 7;\\ 4$. Bestimme Spannweite, Median und Mittelwert.",
+   "answerType": "table",
+   "canonical": {
+    "range": "8",
+    "median": "5,5",
+    "mean": "6"
+   },
+   "result": "Spannweite: $8$; Median: $5{,}5$; Mittelwert: $6$"
+  },
+  "ch7.data.analyze.stats@1/L2/3": {
+   "signature": "f4528091",
+   "prompt": "Elif hat Daten gesammelt. Die Temperatur um 7 Uhr morgens an mehreren Tagen (in °C): $7;\\ 6;\\ 1;\\ -1;\\ 8;\\ 9;\\ 8;\\ -1;\\ -1;\\ 1$. Bestimme Spannweite, Median und Mittelwert.",
+   "answerType": "table",
+   "canonical": {
+    "range": "10",
+    "median": "3,5",
+    "mean": "3,7"
+   },
+   "result": "Spannweite: $10$; Median: $3{,}5$; Mittelwert: $3{,}7$"
+  },
+  "ch7.data.analyze.stats@1/L3/1": {
+   "signature": "546e2edf",
+   "prompt": "Luca hat Daten gesammelt. Die Weiten beim Schlagballwurf in einer Gruppe (in m): $18;\\ 22;\\ 20;\\ 20;\\ 18;\\ 23;\\ 62;\\ 22$. Ein Wert ist auffällig groß (ein Ausreißer).",
+   "answerType": "table",
+   "canonical": {
+    "meanAll": "25,6",
+    "meanOut": "20,4",
+    "medianAll": "21"
+   },
+   "result": "Mittelwert mit allen Werten: $25{,}6$; Mittelwert ohne den Ausreißer: $20{,}4$; Median mit allen Werten: $21$"
+  },
+  "ch7.data.analyze.stats@1/L3/2": {
+   "signature": "d0b2170a",
+   "prompt": "Die Noten einer Klassenarbeit wurden in einer Tabelle zusammengefasst. Bestimme den Mittelwert und den Median.",
+   "promptTable": {
+    "columns": [
+     "Note",
+     "Anzahl"
+    ],
+    "rows": [
+     [
+      "$1$",
+      "$9$"
+     ],
+     [
+      "$2$",
+      "$6$"
+     ],
+     [
+      "$3$",
+      "$1$"
+     ],
+     [
+      "$4$",
+      "$4$"
+     ],
+     [
+      "$5$",
+      "$4$"
+     ],
+     [
+      "$6$",
+      "$4$"
+     ]
+    ]
+   },
+   "answerType": "table",
+   "canonical": {
+    "mean": "3",
+    "median": "2"
+   },
+   "result": "Mittelwert: $3$; Median: $2$"
+  },
+  "ch7.data.analyze.stats@1/L3/3": {
+   "signature": "e7c477fc",
+   "prompt": "Elif hat Daten gesammelt. Die Zeit für die Hausaufgaben an mehreren Tagen (in Minuten): $27;\\ 33;\\ 34;\\ 96;\\ 32;\\ 34$. Ein Wert ist auffällig groß (ein Ausreißer).",
+   "answerType": "table",
+   "canonical": {
+    "meanAll": "42,7",
+    "meanOut": "32",
+    "medianAll": "33,5"
+   },
+   "result": "Mittelwert mit allen Werten: $42{,}7$; Mittelwert ohne den Ausreißer: $32$; Median mit allen Werten: $33{,}5$"
+  },
+  "ch7.data.analyze.judge@1/L4/1": {
+   "signature": "d181e603",
+   "prompt": "Tom hat Daten gesammelt. Die Weiten beim Schlagballwurf in einer Gruppe (in m): $37;\\ 29;\\ 21;\\ 18;\\ 38;\\ 41;\\ 36;\\ 20$. Welche Aussagen sind wahr?",
+   "answerType": "multiselect",
+   "canonical": [
+    "b"
+   ],
+   "result": "Wahr: B"
+  },
+  "ch7.data.analyze.judge@1/L4/2": {
+   "signature": "526dd62e",
+   "prompt": "Elif hat Daten gesammelt. Die Anzahl der im letzten Jahr gelesenen Bücher in einer Gruppe: $2;\\ 7;\\ 3;\\ 5;\\ 9;\\ 8;\\ 3;\\ 3$. Welche Aussagen sind wahr?",
+   "answerType": "multiselect",
+   "canonical": [
+    "a",
+    "c"
+   ],
+   "result": "Wahr: A, C"
+  },
+  "ch7.data.analyze.judge@1/L4/3": {
+   "signature": "6888605d",
+   "prompt": "Sara hat Daten gesammelt. Die Wartezeit an einer Bushaltestelle an mehreren Tagen (in Minuten): $4;\\ 10;\\ 12;\\ 4;\\ 7;\\ 9;\\ 10$. Welche Aussagen sind wahr?",
+   "answerType": "multiselect",
+   "canonical": [
+    "c",
+    "d"
+   ],
+   "result": "Wahr: C, D"
+  },
+  "ch7.prob.experiments.events@1/L1/1": {
+   "signature": "927cea63",
+   "prompt": "Ein fairer Würfel wird einmal geworfen. Beobachtet wird die Augenzahl. Ereignis E: Die Augenzahl ist ein Teiler von 8. Welche Ergebnisse gehören zu E?",
+   "answerType": "multiselect",
+   "canonical": [
+    "o1",
+    "o2",
+    "o4"
+   ],
+   "result": "E = $\\{1;\\ 2;\\ 4\\}$"
+  },
+  "ch7.prob.experiments.events@1/L1/2": {
+   "signature": "25538b59",
+   "prompt": "Ein Glücksrad hat zehn gleich große Felder mit den Zahlen 1 bis 10. Es wird einmal gedreht. Ereignis E: Die Zahl ist gerade. Welche Ergebnisse gehören zu E?",
+   "answerType": "multiselect",
+   "canonical": [
+    "o2",
+    "o4",
+    "o6",
+    "o8",
+    "o10"
+   ],
+   "result": "E = $\\{2;\\ 4;\\ 6;\\ 8;\\ 10\\}$"
+  },
+  "ch7.prob.experiments.events@1/L1/3": {
+   "signature": "5e8e95e6",
+   "prompt": "Ein Glücksrad hat 12 gleich große Felder: 4 Felder gelb, 2 Felder weiß, 2 Felder rot, 4 Felder blau. Beobachtet wird die Farbe. Welche Menge ist die Ergebnismenge?",
+   "answerType": "choice",
+   "canonical": "k",
+   "result": "Ergebnismenge: $\\{\\text{blau};\\ \\text{gelb};\\ \\text{rot};\\ \\text{weiß}\\}$"
+  },
+  "ch7.prob.experiments.events@1/L2/1": {
+   "signature": "8c248aff",
+   "prompt": "Ein fairer Würfel mit acht Flächen (Augenzahlen 1 bis 8) wird einmal geworfen. Ereignis E: Die Augenzahl ist durch 5 teilbar. Welche Menge beschreibt E?",
+   "answerType": "choice",
+   "canonical": "k",
+   "result": "E = $\\{5\\}$"
+  },
+  "ch7.prob.experiments.events@1/L2/2": {
+   "signature": "08c935f1",
+   "prompt": "Ein fairer Würfel wird einmal geworfen. Beobachtet wird die Augenzahl. Ereignis E: Die Augenzahl ist höchstens 3. Welche Menge beschreibt E?",
+   "answerType": "choice",
+   "canonical": "k",
+   "result": "E = $\\{1;\\ 2;\\ 3\\}$"
+  },
+  "ch7.prob.experiments.events@1/L2/3": {
+   "signature": "a5f87cc9",
+   "prompt": "In einer Urne liegen zwölf gleiche Kugeln mit den Nummern 1 bis 12. Eine Kugel wird blind gezogen. Ereignis E: Die Nummer ist ungerade. Welche Menge beschreibt E?",
+   "answerType": "choice",
+   "canonical": "k",
+   "result": "E = $\\{1;\\ 3;\\ 5;\\ 7;\\ 9;\\ 11\\}$"
+  },
+  "ch7.prob.experiments.events@1/L3/1": {
+   "signature": "5dead4a1",
+   "prompt": "Ein fairer Würfel mit acht Flächen (Augenzahlen 1 bis 8) wird einmal geworfen. Ereignis E: Die Augenzahl ist ein Teiler von 6 oder kleiner als 6. Welche Menge beschreibt E?",
+   "answerType": "choice",
+   "canonical": "k",
+   "result": "E = $\\{1;\\ 2;\\ 3;\\ 4;\\ 5;\\ 6\\}$"
+  },
+  "ch7.prob.experiments.events@1/L3/2": {
+   "signature": "4aa210b9",
+   "prompt": "Ein fairer Würfel wird einmal geworfen. Beobachtet wird die Augenzahl. Ereignis E: Die Augenzahl ist gerade oder eine Primzahl. Welche Menge beschreibt E?",
+   "answerType": "choice",
+   "canonical": "k",
+   "result": "E = $\\{2;\\ 3;\\ 4;\\ 5;\\ 6\\}$"
+  },
+  "ch7.prob.experiments.events@1/L3/3": {
+   "signature": "7630e623",
+   "prompt": "Ein fairer Würfel mit acht Flächen (Augenzahlen 1 bis 8) wird einmal geworfen. Ereignis E: Die Augenzahl ist ungerade oder eine Primzahl. Welche Menge beschreibt E?",
+   "answerType": "choice",
+   "canonical": "k",
+   "result": "E = $\\{1;\\ 2;\\ 3;\\ 5;\\ 7\\}$"
+  },
+  "ch7.prob.experiments.events@1/L4/1": {
+   "signature": "25b01a2e",
+   "prompt": "Ein fairer Würfel wird einmal geworfen. Beobachtet wird die Augenzahl. Ein Ereignis ist E = $\\{1;\\ 2;\\ 3\\}$. Welche Beschreibungen passen zu E?",
+   "answerType": "multiselect",
+   "canonical": [
+    "c",
+    "d"
+   ],
+   "result": "Passend: „höchstens 3“, „kleiner als 4“"
+  },
+  "ch7.prob.experiments.events@1/L4/2": {
+   "signature": "d3ea33fd",
+   "prompt": "Ein fairer Würfel wird einmal geworfen. Beobachtet wird die Augenzahl. Ein Ereignis ist E = $\\{1;\\ 2\\}$. Welche Beschreibungen passen zu E?",
+   "answerType": "multiselect",
+   "canonical": [
+    "a",
+    "d"
+   ],
+   "result": "Passend: „höchstens 2“, „kleiner als 3“"
+  },
+  "ch7.prob.experiments.events@1/L4/3": {
+   "signature": "1c0bb8c8",
+   "prompt": "In einer Urne liegen zwölf gleiche Kugeln mit den Nummern 1 bis 12. Eine Kugel wird blind gezogen. Ein Ereignis ist E = $\\{1;\\ 2;\\ 3;\\ 4\\}$. Welche Beschreibungen passen zu E?",
+   "answerType": "multiselect",
+   "canonical": [
+    "b"
+   ],
+   "result": "Passend: „höchstens 4“"
+  },
+  "ch7.prob.determine.compute@1/L1/1": {
+   "signature": "6ab1790f",
+   "prompt": "Ein Würfel ist gezinkt: Nicht alle Augenzahlen sind gleich wahrscheinlich. Die Tabelle zeigt die Wahrscheinlichkeiten. Bestimme die Wahrscheinlichkeit für das Ereignis „ungerade Augenzahl“.",
+   "promptTable": {
+    "columns": [
+     "Augenzahl",
+     "Wahrscheinlichkeit"
+    ],
+    "rows": [
+     [
+      "$1$",
+      "$0{,}4$"
+     ],
+     [
+      "$2$",
+      "$0{,}42$"
+     ],
+     [
+      "$3$",
+      "$0{,}03$"
+     ],
+     [
+      "$4$",
+      "$0{,}07$"
+     ],
+     [
+      "$5$",
+      "$0{,}01$"
+     ],
+     [
+      "$6$",
+      "$0{,}07$"
+     ]
+    ]
+   },
+   "answerType": "fraction",
+   "canonical": "11/25",
+   "result": "P = $\\frac{11}{25}$. Das sind 0,44 bzw. 44 %."
+  },
+  "ch7.prob.determine.compute@1/L1/2": {
+   "signature": "fa6d794e",
+   "prompt": "Ein Glücksrad hat verschieden große Felder. Die Tabelle zeigt die Wahrscheinlichkeiten der Farben. Bestimme die Wahrscheinlichkeit für „grün oder blau“.",
+   "promptTable": {
+    "columns": [
+     "Farbe",
+     "Wahrscheinlichkeit"
+    ],
+    "rows": [
+     [
+      "grün",
+      "$30\\,\\%$"
+     ],
+     [
+      "blau",
+      "$46\\,\\%$"
+     ],
+     [
+      "gelb",
+      "$2\\,\\%$"
+     ],
+     [
+      "rot",
+      "$22\\,\\%$"
+     ]
+    ]
+   },
+   "answerType": "fraction",
+   "canonical": "19/25",
+   "result": "P = $\\frac{19}{25}$. Das sind 0,76 bzw. 76 %."
+  },
+  "ch7.prob.determine.compute@1/L1/3": {
+   "signature": "9592f878",
+   "prompt": "Ein Würfel ist gezinkt: Nicht alle Augenzahlen sind gleich wahrscheinlich. Die Tabelle zeigt die Wahrscheinlichkeiten. Bestimme die Wahrscheinlichkeit für das Ereignis „ungerade Augenzahl“.",
+   "promptTable": {
+    "columns": [
+     "Augenzahl",
+     "Wahrscheinlichkeit"
+    ],
+    "rows": [
+     [
+      "$1$",
+      "$0{,}05$"
+     ],
+     [
+      "$2$",
+      "$0{,}15$"
+     ],
+     [
+      "$3$",
+      "$0{,}05$"
+     ],
+     [
+      "$4$",
+      "$0{,}25$"
+     ],
+     [
+      "$5$",
+      "$0{,}25$"
+     ],
+     [
+      "$6$",
+      "$0{,}25$"
+     ]
+    ]
+   },
+   "answerType": "fraction",
+   "canonical": "7/20",
+   "result": "P = $\\frac{7}{20}$. Das sind 0,35 bzw. 35 %."
+  },
+  "ch7.prob.determine.compute@1/L2/1": {
+   "signature": "388d1461",
+   "prompt": "Ein Glücksrad hat verschieden große Felder. Die Tabelle zeigt die Wahrscheinlichkeiten der Farben. Bestimme die Wahrscheinlichkeit dafür, dass nicht blau erscheint.",
+   "promptTable": {
+    "columns": [
+     "Farbe",
+     "Wahrscheinlichkeit"
+    ],
+    "rows": [
+     [
+      "blau",
+      "$\\frac{1}{10}$"
+     ],
+     [
+      "rot",
+      "$\\frac{3}{10}$"
+     ],
+     [
+      "gelb",
+      "$\\frac{6}{10}$"
+     ]
+    ]
+   },
+   "answerType": "fraction",
+   "canonical": "9/10",
+   "result": "P = $\\frac{9}{10}$. Das sind 0,9 bzw. 90 %."
+  },
+  "ch7.prob.determine.compute@1/L2/2": {
+   "signature": "ffdc481b",
+   "prompt": "Die Wahrscheinlichkeit, dass eine Lampe aus der Lieferung defekt ist, beträgt $3\\,\\%$. Wie groß ist die Wahrscheinlichkeit, dass eine Lampe aus der Lieferung nicht defekt ist?",
+   "answerType": "fraction",
+   "canonical": "97/100",
+   "result": "P = $\\frac{97}{100}$. Das sind 0,97 bzw. 97 %."
+  },
+  "ch7.prob.determine.compute@1/L2/3": {
+   "signature": "452e943a",
+   "prompt": "Ein Glücksrad hat verschieden große Felder. Die Tabelle zeigt die Wahrscheinlichkeiten der Farben. Ein Wert fehlt. Bestimme die fehlende Wahrscheinlichkeit für blau.",
+   "promptTable": {
+    "columns": [
+     "Farbe",
+     "Wahrscheinlichkeit"
+    ],
+    "rows": [
+     [
+      "grün",
+      "$\\frac{3}{10}$"
+     ],
+     [
+      "gelb",
+      "$\\frac{2}{10}$"
+     ],
+     [
+      "blau",
+      "?"
+     ]
+    ]
+   },
+   "answerType": "fraction",
+   "canonical": "1/2",
+   "result": "P(blau) = $\\frac{1}{2}$. Das sind 0,5 bzw. 50 %."
+  },
+  "ch7.prob.determine.counting@1/L3/1": {
+   "signature": "6095ea3a",
+   "prompt": "Von Neustadt nach Altheim gibt es 2 Radwege, von Altheim nach Bergen 5 Radwege. Wie viele verschiedene Strecken gibt es von Neustadt über Altheim nach Bergen?",
+   "answerType": "integer",
+   "canonical": "10",
+   "result": "Anzahl: $10$"
+  },
+  "ch7.prob.determine.counting@1/L3/2": {
+   "signature": "f8f6e7fb",
+   "prompt": "4 Freunde stellen sich für ein Foto nebeneinander in eine Reihe. Wie viele verschiedene Reihenfolgen gibt es?",
+   "answerType": "integer",
+   "canonical": "24",
+   "result": "Anzahl: $24$"
+  },
+  "ch7.prob.determine.counting@1/L3/3": {
+   "signature": "4671b806",
+   "prompt": "Ein Code besteht aus 2 Buchstaben. Jeder Buchstabe ist einer von A, B, C; Buchstaben dürfen sich wiederholen. Wie groß ist die Wahrscheinlichkeit, einen solchen Code beim ersten zufälligen Versuch richtig zu raten?",
+   "answerType": "fraction",
+   "canonical": "1/9",
+   "result": "P = $\\frac{1}{9}$."
+  },
+  "ch7.prob.determine.claims@1/L4/1": {
+   "signature": "fddc76a2",
+   "prompt": "Eine faire Münze hat 4-mal hintereinander Zahl gezeigt. Welche Aussage über den nächsten Wurf ist richtig?",
+   "answerType": "choice",
+   "canonical": "g",
+   "result": "Zahl und Kopf sind beim nächsten Wurf gleich wahrscheinlich, beide mit $\\frac{1}{2}$."
+  },
+  "ch7.prob.determine.claims@1/L4/2": {
+   "signature": "cd7a6fab",
+   "prompt": "Bei einer Ziehung werden 6 von 49 Kugeln (Nummern 1 bis 49) blind gezogen. Ben tippt 3, 4, 5, 6, 7, 8. Mia tippt 3, 7, 28, 34, 40, 46. Welche Aussage ist richtig?",
+   "answerType": "choice",
+   "canonical": "g",
+   "result": "Beide Tipps haben dieselbe Gewinnwahrscheinlichkeit, weil jede Auswahl von 6 Kugeln gleich wahrscheinlich ist."
+  },
+  "ch7.prob.determine.claims@1/L4/3": {
+   "signature": "111849a3",
+   "prompt": "Rad A hat 12 gleich große Felder, davon 9 rot. Rad B hat 9 gleich große Felder, davon 7 rot. Welche Aussage ist richtig?",
+   "answerType": "choice",
+   "canonical": "g",
+   "result": "Bei Rad B ist die Wahrscheinlichkeit für Rot größer."
+  },
+  "ch7.prob.frequency.series@1/L1/1": {
+   "signature": "46c3f629",
+   "prompt": "Ein Legostein wurde 25-mal geworfen. Dabei gab es 11-mal „Noppen nach oben“. Bestimme die relative Häufigkeit von „Noppen nach oben“.",
+   "answerType": "fraction",
+   "canonical": "11/25",
+   "result": "Relative Häufigkeit: $\\frac{11}{25}$. Das sind 0,44 bzw. 44 %."
+  },
+  "ch7.prob.frequency.series@1/L1/2": {
+   "signature": "7768b671",
+   "prompt": "Ein Basketballspieler hat 80 Freiwürfe geworfen. Er traf 47-mal. Bestimme die relative Häufigkeit der Treffer.",
+   "answerType": "fraction",
+   "canonical": "47/80",
+   "result": "Relative Häufigkeit: $\\frac{47}{80}$. Das sind 0,5875 bzw. 58,75 %."
+  },
+  "ch7.prob.frequency.series@1/L1/3": {
+   "signature": "8d747a7d",
+   "prompt": "Eine Streichholzschachtel wurde 500-mal geworfen. Dabei gab es 418-mal „auf einer großen Fläche“. Bestimme die relative Häufigkeit von „auf einer großen Fläche“.",
+   "answerType": "fraction",
+   "canonical": "209/250",
+   "result": "Relative Häufigkeit: $\\frac{209}{250}$. Das sind 0,836 bzw. 83,6 %."
+  },
+  "ch7.prob.frequency.series@1/L2/1": {
+   "signature": "fc398f44",
+   "prompt": "Ein Basketballspieler hat 800 Freiwürfe geworfen. Er traf 456-mal. Wie viele Treffer erwartest du ungefähr, wenn er weitere 300 Freiwürfe wirft?",
+   "answerType": "integer",
+   "canonical": "171",
+   "result": "Etwa $171$-mal"
+  },
+  "ch7.prob.frequency.series@1/L2/2": {
+   "signature": "9daecd13",
+   "prompt": "Eine Reißzwecke wurde 1250-mal geworfen. Dabei gab es 600-mal „Spitze nach oben“. Wie oft erwartest du „Spitze nach oben“ ungefähr, wenn eine Reißzwecke noch 400-mal geworfen wird?",
+   "answerType": "integer",
+   "canonical": "192",
+   "result": "Etwa $192$-mal"
+  },
+  "ch7.prob.frequency.series@1/L2/3": {
+   "signature": "fc9ae53f",
+   "prompt": "Eine Streichholzschachtel wurde 500-mal geworfen. Dabei gab es 370-mal „auf einer großen Fläche“. Wie oft erwartest du „auf einer großen Fläche“ ungefähr, wenn eine Streichholzschachtel noch 300-mal geworfen wird?",
+   "answerType": "integer",
+   "canonical": "222",
+   "result": "Etwa $222$-mal"
+  },
+  "ch7.prob.frequency.series@1/L3/1": {
+   "signature": "5fc2fb71",
+   "prompt": "Aylin, Tom und Finn haben einen Legostein geworfen. Bestimme aus allen Daten den besten Schätzwert für die Wahrscheinlichkeit von „Noppen nach oben“.",
+   "promptTable": {
+    "columns": [
+     "Name",
+     "Anzahl der Würfe",
+     "davon Noppen nach oben"
+    ],
+    "rows": [
+     [
+      "Aylin",
+      "$300$",
+      "$135$"
+     ],
+     [
+      "Tom",
+      "$150$",
+      "$69$"
+     ],
+     [
+      "Finn",
+      "$550$",
+      "$242$"
+     ]
+    ]
+   },
+   "answerType": "fraction",
+   "canonical": "223/500",
+   "result": "Schätzwert: $\\frac{223}{500}$. Das sind 0,446 bzw. 44,6 %."
+  },
+  "ch7.prob.frequency.series@1/L3/2": {
+   "signature": "d3b3a4a3",
+   "prompt": "Ben, Elif und Sara haben bei einem Spieler Freiwürfe gezählt. Bestimme aus allen Daten den besten Schätzwert für die Wahrscheinlichkeit von Treffer.",
+   "promptTable": {
+    "columns": [
+     "Name",
+     "Anzahl der Freiwürfe",
+     "davon Treffer"
+    ],
+    "rows": [
+     [
+      "Ben",
+      "$350$",
+      "$191$"
+     ],
+     [
+      "Elif",
+      "$400$",
+      "$216$"
+     ],
+     [
+      "Sara",
+      "$250$",
+      "$138$"
+     ]
+    ]
+   },
+   "answerType": "fraction",
+   "canonical": "109/200",
+   "result": "Schätzwert: $\\frac{109}{200}$. Das sind 0,545 bzw. 54,5 %."
+  },
+  "ch7.prob.frequency.series@1/L3/3": {
+   "signature": "9443892a",
+   "prompt": "Sara, Tom und Aylin haben eine Streichholzschachtel geworfen. Bestimme aus allen Daten den besten Schätzwert für die Wahrscheinlichkeit von „auf einer großen Fläche“.",
+   "promptTable": {
+    "columns": [
+     "Name",
+     "Anzahl der Würfe",
+     "davon auf einer großen Fläche"
+    ],
+    "rows": [
+     [
+      "Sara",
+      "$30$",
+      "$28$"
+     ],
+     [
+      "Tom",
+      "$100$",
+      "$76$"
+     ],
+     [
+      "Aylin",
+      "$70$",
+      "$54$"
+     ]
+    ]
+   },
+   "answerType": "fraction",
+   "canonical": "79/100",
+   "result": "Schätzwert: $\\frac{79}{100}$. Das sind 0,79 bzw. 79 %."
+  },
+  "ch7.prob.frequency.series@1/L4/1": {
+   "signature": "668ead13",
+   "prompt": "Ein Basketballspieler hat seine Freiwürfe gezählt. Die Tabelle zeigt nach verschiedenen Anzahlen von Versuchen, wie viele Treffer er hatte. Welche Aussage ist richtig?",
+   "promptTable": {
+    "columns": [
+     "Anzahl der Versuche",
+     "davon Treffer",
+     "relative Häufigkeit (gerundet)"
+    ],
+    "rows": [
+     [
+      "$10$",
+      "$8$",
+      "$0{,}8$"
+     ],
+     [
+      "$50$",
+      "$33$",
+      "$0{,}66$"
+     ],
+     [
+      "$100$",
+      "$70$",
+      "$0{,}7$"
+     ],
+     [
+      "$500$",
+      "$334$",
+      "$0{,}668$"
+     ],
+     [
+      "$1000$",
+      "$670$",
+      "$0{,}67$"
+     ],
+     [
+      "$2000$",
+      "$1363$",
+      "$0{,}682$"
+     ]
+    ]
+   },
+   "answerType": "choice",
+   "canonical": "g",
+   "result": "Die relativen Häufigkeiten schwanken anfangs stark und stabilisieren sich bei etwa $0{,}68$. Das ist ein guter Schätzwert für die Wahrscheinlichkeit."
+  },
+  "ch7.prob.frequency.series@1/L4/2": {
+   "signature": "6a6ffbec",
+   "prompt": "Ein Basketballspieler hat seine Freiwürfe gezählt. Die Tabelle zeigt nach verschiedenen Anzahlen von Versuchen, wie viele Treffer er hatte. Welche Aussage ist richtig?",
+   "promptTable": {
+    "columns": [
+     "Anzahl der Versuche",
+     "davon Treffer",
+     "relative Häufigkeit (gerundet)"
+    ],
+    "rows": [
+     [
+      "$10$",
+      "$9$",
+      "$0{,}9$"
+     ],
+     [
+      "$50$",
+      "$37$",
+      "$0{,}74$"
+     ],
+     [
+      "$100$",
+      "$79$",
+      "$0{,}79$"
+     ],
+     [
+      "$500$",
+      "$373$",
+      "$0{,}746$"
+     ],
+     [
+      "$1000$",
+      "$771$",
+      "$0{,}771$"
+     ],
+     [
+      "$5000$",
+      "$3825$",
+      "$0{,}765$"
+     ]
+    ]
+   },
+   "answerType": "choice",
+   "canonical": "g",
+   "result": "Die relativen Häufigkeiten schwanken anfangs stark und stabilisieren sich bei etwa $0{,}77$. Das ist ein guter Schätzwert für die Wahrscheinlichkeit."
+  },
+  "ch7.prob.frequency.series@1/L4/3": {
+   "signature": "0a25c8c3",
+   "prompt": "Eine Streichholzschachtel wurde oft geworfen. Die Tabelle zeigt nach verschiedenen Anzahlen von Versuchen, wie oft „auf einer großen Fläche“ vorkam. Welche Aussage ist richtig?",
+   "promptTable": {
+    "columns": [
+     "Anzahl der Versuche",
+     "davon auf einer großen Fläche",
+     "relative Häufigkeit (gerundet)"
+    ],
+    "rows": [
+     [
+      "$10$",
+      "$7$",
+      "$0{,}7$"
+     ],
+     [
+      "$50$",
+      "$44$",
+      "$0{,}88$"
+     ],
+     [
+      "$100$",
+      "$82$",
+      "$0{,}82$"
+     ],
+     [
+      "$500$",
+      "$410$",
+      "$0{,}82$"
+     ],
+     [
+      "$1000$",
+      "$835$",
+      "$0{,}835$"
+     ],
+     [
+      "$2000$",
+      "$1661$",
+      "$0{,}831$"
+     ]
+    ]
+   },
+   "answerType": "choice",
+   "canonical": "g",
+   "result": "Die relativen Häufigkeiten schwanken anfangs stark und stabilisieren sich bei etwa $0{,}83$. Das ist ein guter Schätzwert für die Wahrscheinlichkeit."
+  },
+  "ch7.prob.laplace.compute@1/L1/1": {
+   "signature": "662bdc11",
+   "prompt": "In einer Urne liegen zwölf gleiche Kugeln mit den Nummern 1 bis 12. Eine Kugel wird blind gezogen. Bestimme die Wahrscheinlichkeit des Ereignisses E: Die Nummer ist gerade.",
+   "answerType": "fraction",
+   "canonical": "1/2",
+   "result": "P(E) = $\\frac{1}{2}$. Das sind 0,5 bzw. 50 %."
+  },
+  "ch7.prob.laplace.compute@1/L1/2": {
+   "signature": "cc28b6b2",
+   "prompt": "Ein fairer Würfel mit acht Flächen (Augenzahlen 1 bis 8) wird einmal geworfen. Bestimme die Wahrscheinlichkeit des Ereignisses E: Die Augenzahl ist ungerade.",
+   "answerType": "fraction",
+   "canonical": "1/2",
+   "result": "P(E) = $\\frac{1}{2}$. Das sind 0,5 bzw. 50 %."
+  },
+  "ch7.prob.laplace.compute@1/L1/3": {
+   "signature": "94711227",
+   "prompt": "Ein Glücksrad hat zehn gleich große Felder mit den Zahlen 1 bis 10. Es wird einmal gedreht. Bestimme die Wahrscheinlichkeit des Ereignisses E: Die Zahl ist durch 5 teilbar.",
+   "answerType": "fraction",
+   "canonical": "1/5",
+   "result": "P(E) = $\\frac{1}{5}$. Das sind 0,2 bzw. 20 %."
+  },
+  "ch7.prob.laplace.compute@1/L2/1": {
+   "signature": "bf3a5b3b",
+   "prompt": "In einer Urne liegen 8 gelbe, 2 rote und 7 blaue Kugeln, sonst gleich. Eine Kugel wird blind gezogen. Wie groß ist die Wahrscheinlichkeit für keine gelbe Kugel?",
+   "answerType": "fraction",
+   "canonical": "9/17",
+   "result": "P = $\\frac{9}{17}$."
+  },
+  "ch7.prob.laplace.compute@1/L2/2": {
+   "signature": "e46c7807",
+   "prompt": "In einer Urne liegen 1 rote, 4 blaue und 4 grüne Kugeln, sonst gleich. Eine Kugel wird blind gezogen. Wie groß ist die Wahrscheinlichkeit für eine grüne Kugel?",
+   "answerType": "fraction",
+   "canonical": "4/9",
+   "result": "P = $\\frac{4}{9}$."
+  },
+  "ch7.prob.laplace.compute@1/L2/3": {
+   "signature": "de2d33de",
+   "prompt": "In einer Urne liegen 8 blaue, 6 grüne und 1 gelbe Kugeln, sonst gleich. Eine Kugel wird blind gezogen. Wie groß ist die Wahrscheinlichkeit für eine grüne oder gelbe Kugel?",
+   "answerType": "fraction",
+   "canonical": "7/15",
+   "result": "P = $\\frac{7}{15}$."
+  },
+  "ch7.prob.laplace.compute@1/L3/1": {
+   "signature": "bb6828e2",
+   "prompt": "Zwei faire Würfel (ein roter und ein blauer) werden gleichzeitig geworfen. Bestimme die Wahrscheinlichkeit des Ereignisses: Beide Würfel zeigen mindestens eine 3.",
+   "answerType": "fraction",
+   "canonical": "4/9",
+   "result": "P = $\\frac{4}{9}$."
+  },
+  "ch7.prob.laplace.compute@1/L3/2": {
+   "signature": "99ccda3f",
+   "prompt": "Zwei faire Würfel (ein roter und ein blauer) werden gleichzeitig geworfen. Bestimme die Wahrscheinlichkeit des Ereignisses: Beide Würfel zeigen dieselbe Augenzahl (Pasch).",
+   "answerType": "fraction",
+   "canonical": "1/6",
+   "result": "P = $\\frac{1}{6}$."
+  },
+  "ch7.prob.laplace.compute@1/L3/3": {
+   "signature": "90748c2a",
+   "prompt": "Zwei faire Würfel (ein roter und ein blauer) werden gleichzeitig geworfen. Bestimme die Wahrscheinlichkeit des Ereignisses: Die Augensumme ist höchstens 6.",
+   "answerType": "fraction",
+   "canonical": "5/12",
+   "result": "P = $\\frac{5}{12}$."
+  },
+  "ch7.prob.laplace.judge@1/L4/1": {
+   "signature": "1624a3b6",
+   "prompt": "Bei welchem Zufallsexperiment sind alle Ergebnisse gleich wahrscheinlich, sodass man die Laplace-Regel anwenden darf?",
+   "answerType": "choice",
+   "canonical": "g",
+   "result": "Eine faire Münze wird geworfen; beobachtet wird, ob Kopf oder Zahl oben liegt."
+  },
+  "ch7.prob.laplace.judge@1/L4/2": {
+   "signature": "614cbe66",
+   "prompt": "Bei welchem Zufallsexperiment sind alle Ergebnisse gleich wahrscheinlich, sodass man die Laplace-Regel anwenden darf?",
+   "answerType": "choice",
+   "canonical": "g",
+   "result": "Aus einer Urne mit 30 gleichen, von 1 bis 30 nummerierten Kugeln wird eine gezogen; beobachtet wird die Nummer."
+  },
+  "ch7.prob.laplace.judge@1/L4/3": {
+   "signature": "950cc868",
+   "prompt": "Bei welchem Zufallsexperiment sind alle Ergebnisse gleich wahrscheinlich, sodass man die Laplace-Regel anwenden darf?",
+   "answerType": "choice",
+   "canonical": "g",
+   "result": "Ein Glücksrad mit 5 gleich großen Feldern (Zahlen 1 bis 5) wird gedreht; beobachtet wird die Zahl."
+  }
+ }
+}

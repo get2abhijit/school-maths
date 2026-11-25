@@ -1,0 +1,7 @@
+/* Page numbers in the bottom margin of every printed page (CSS @page margin boxes).
+   Kept in its own <style> element: browsers without margin-box support (and jsdom's CSS parser) reject this
+   rule; isolating it guarantees that can never affect the main stylesheet. Supported in Chromium-based browsers
+   (≥ 131); other browsers simply print without these numbers (their own print header/footer can add them). */
+@page {
+  @bottom-center { content: "Seite " counter(page) " von " counter(pages); font: 9pt system-ui, sans-serif; color: #444; }
+}

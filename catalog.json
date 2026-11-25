@@ -1,0 +1,2984 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "0.9.0",
+  "updated": "2026-11-03",
+  "book": {
+    "id": "LS7-BW-G9",
+    "title": "Lambacher Schweizer Mathematik 7 – G9 Ausgabe Baden-Württemberg ab 2025",
+    "isbn": "978-3-12-736371-5",
+    "status": "verified",
+    "note": "Chapter/section titles and start pages from the Klett TOC PDF (re-fetched 2026-10-29); chapter → standard assignment from the Klett Stoffverteilungsplan LS7 G9 BW (Stand 03.06.2026). Use at any particular school is provisional (only 'Klett, Mathematik' confirmed). Chapter I checked page by page against a licensed e-book copy of the book (2026-10-31, docs/book-alignment-ch1.md): headings, page numbers and the kind of content only."
+  },
+  "curriculum": {
+    "id": "BP-BW-GYM-M-V3.0",
+    "title": "Bildungsplan Gymnasium Mathematik V3.0 (Fassung vom 21. Mai 2026)",
+    "band": "3.2 Klassen 7/8",
+    "note": "Standards are grouped Kl. 7/8 in the Bildungsplan. Which of them LS7 (Kl. 7) covers is taken from the Klett Stoffverteilungsplan (verified per chapter, not per section)."
+  },
+  "levels": {
+    "L1": "Grundlagen",
+    "L2": "Standard",
+    "L3": "Anspruchsvoll",
+    "L4": "Transfer"
+  },
+  "errorCategories": [
+    "sign_error",
+    "order_of_operations",
+    "unit_confusion",
+    "rounding",
+    "concept_confusion",
+    "other"
+  ],
+  "externalPrerequisites": [
+    {
+      "id": "kl6.rational_arithmetic",
+      "name": "Rechnen mit rationalen Zahlen (Kl. 5/6)",
+      "curriculum": [
+        {
+          "standard": "3.1.1(18)",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "kl6.numeric_terms",
+      "name": "Zahlterme und Rechenregeln (Kl. 5/6)",
+      "curriculum": [
+        {
+          "standard": "3.1.1(23)-(28)",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "kl6.fraction_decimal_percent",
+      "name": "Bruch, Dezimalzahl, Prozent umwandeln (Kl. 5/6)",
+      "curriculum": [
+        {
+          "standard": "3.1.1(11)",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "kl6.dreisatz",
+      "name": "Dreisatz (Kl. 5/6)",
+      "curriculum": [
+        {
+          "standard": "3.1.4(5)",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "kl6.statistics_basics",
+      "name": "Kenngrößen: Minimum, Maximum, Spannweite, Median, Mittelwert (Kl. 5/6)",
+      "curriculum": [
+        {
+          "standard": "3.1.5(4)",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "kl6.relative_frequency",
+      "name": "Relative Häufigkeiten (Kl. 5/6)",
+      "curriculum": [
+        {
+          "standard": "3.1.5(2)",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "kl6.geometry_basics",
+      "name": "Grundbegriffe der Geometrie, Abstand, Winkel messen (Kl. 5/6)",
+      "curriculum": [
+        {
+          "standard": "3.1.3",
+          "status": "provisional"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch1",
+      "number": 1,
+      "roman": "I",
+      "name": "Terme mit einer Variable",
+      "textbookPage": 6,
+      "status": "implemented",
+      "sections": [
+        {
+          "id": "ch1.s1",
+          "number": 1,
+          "title": "Zahlterme mit rationalen Zahlen berechnen",
+          "page": 8
+        },
+        {
+          "id": "ch1.s2",
+          "number": 2,
+          "title": "Terme mit einer Variable",
+          "page": 12
+        },
+        {
+          "id": "ch1.s3",
+          "number": 3,
+          "title": "Summen mit einer Variable vereinfachen",
+          "page": 17
+        },
+        {
+          "id": "ch1.s4",
+          "number": 4,
+          "title": "Produkte mit einer Variable vereinfachen",
+          "page": 21
+        },
+        {
+          "id": "ch1.s5",
+          "number": 5,
+          "title": "Ausmultiplizieren und Ausklammern",
+          "page": 24
+        }
+      ],
+      "curriculum": {
+        "source": "S4",
+        "status": "verified",
+        "standards": [
+          "3.2.1(1)",
+          "3.2.1(5)",
+          "3.2.1(6)",
+          "3.2.1(7)",
+          "3.2.1(8)",
+          "3.2.1(9)"
+        ]
+      },
+      "topics": [
+        {
+          "id": "ch1.t1",
+          "name": "Zahlterme",
+          "skills": [
+            {
+              "id": "ch1.numterms.evaluate",
+              "name": "Zahlterme mit rationalen Zahlen berechnen",
+              "description": "Berechne Terme mit Brüchen, Dezimalzahlen und negativen Zahlen in der richtigen Reihenfolge.",
+              "objective": "Evaluate multi-operation numeric terms over the rationals, including mixed representations.",
+              "textbookRef": {
+                "chapter": "I",
+                "section": 1,
+                "title": "Zahlterme mit rationalen Zahlen berechnen",
+                "page": 8,
+                "status": "verified",
+                "sections": [
+                  1
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(1)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "kl6.rational_arithmetic",
+                "kl6.numeric_terms"
+              ],
+              "families": [
+                {
+                  "id": "order_of_operations",
+                  "name": "Punkt vor Strich, Klammern",
+                  "status": "validated"
+                },
+                {
+                  "id": "sign_rules",
+                  "name": "Vorzeichenregeln",
+                  "status": "validated"
+                },
+                {
+                  "id": "mixed_representations",
+                  "name": "Brüche und Dezimalzahlen gemischt",
+                  "status": "validated"
+                },
+                {
+                  "id": "insert_brackets",
+                  "name": "Klammern setzen für einen Zielwert",
+                  "status": "validated"
+                },
+                {
+                  "id": "name_law",
+                  "name": "Rechengesetze benennen (KG, AG, DG, Klammerregeln)",
+                  "status": "validated",
+                  "bookRef": "I.1 Begriffstraining"
+                },
+                {
+                  "id": "compute_cleverly",
+                  "name": "Geschickt rechnen",
+                  "status": "validated",
+                  "bookRef": "I.1"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "strich_vor_punkt",
+                  "category": "order_of_operations",
+                  "description": "Rechnet strikt von links nach rechts statt Punkt vor Strich."
+                },
+                {
+                  "id": "neg_square",
+                  "category": "sign_error",
+                  "description": "Liest −3² als (−3)² = 9."
+                },
+                {
+                  "id": "mixed_repr",
+                  "category": "rounding",
+                  "description": "Wandelt Bruch/Dezimalzahl fehlerhaft oder vorzeitig gerundet um."
+                },
+                {
+                  "id": "product_sign",
+                  "category": "sign_error",
+                  "description": "Vorzeichen eines Produkts negativer Zahlen falsch."
+                },
+                {
+                  "id": "law_confusion",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt Kommutativ- und Assoziativgesetz."
+                },
+                {
+                  "id": "plus_rule_as_dg",
+                  "category": "concept_confusion",
+                  "description": "Nennt das Weglassen einer Plusklammer „Distributivgesetz“."
+                },
+                {
+                  "id": "left_to_right_only",
+                  "category": "concept_confusion",
+                  "description": "Rechnet stur von links nach rechts und nutzt KG, AG oder DG nicht für geschickte Rechenwege."
+                }
+              ],
+              "levels": {
+                "L1": "Ganze Zahlen, höchstens eine Klammer. Rechengesetze benennen.",
+                "L2": "Negative Zahlen, zwei Rechenarten, Vorzeichenregeln. Geschickt rechnen durch Umstellen.",
+                "L3": "Brüche und Dezimalzahlen gemischt, verschachtelte Klammern, Potenzen. Geschickt rechnen durch Ausklammern; zwei Umformungsschritte benennen.",
+                "L4": "Umkehrung: Klammern so setzen, dass ein Zielwert entsteht; Rechenfehler finden. Zwei Rechenwege vergleichen."
+              },
+              "estimatedMinutes": 8,
+              "status": "validated",
+              "templates": [
+                "ch1.numterms.evaluate.order_ops",
+                "ch1.numterms.evaluate.insert_brackets",
+                "ch1.numterms.evaluate.name_law",
+                "ch1.numterms.evaluate.compute_cleverly"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch1.t2",
+          "name": "Terme aufstellen und berechnen",
+          "skills": [
+            {
+              "id": "ch1.terms.translate",
+              "name": "Terme aufstellen",
+              "description": "Übersetze Texte, Figuren und Zahlenfolgen in einen Term mit x.",
+              "objective": "Describe situations, figures and number sequences with a term in one variable.",
+              "textbookRef": {
+                "chapter": "I",
+                "section": 2,
+                "title": "Terme mit einer Variable",
+                "page": 12,
+                "status": "verified",
+                "sections": [
+                  2
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(5)",
+                  "status": "verified",
+                  "source": "S4"
+                },
+                {
+                  "standard": "3.2.1(6)",
+                  "status": "verified",
+                  "source": "S4"
+                }
+              ],
+              "prerequisites": [
+                "ch1.numterms.evaluate"
+              ],
+              "families": [
+                {
+                  "id": "phrase_to_term",
+                  "name": "Text → Term (auch „Denke dir eine Zahl“)",
+                  "status": "validated"
+                },
+                {
+                  "id": "figure_to_term",
+                  "name": "Umfang/Fläche einer Figur → Term",
+                  "status": "validated"
+                },
+                {
+                  "id": "sequence_to_term",
+                  "name": "Zahlenfolge → Term (auch gerade/ungerade Zahlen)",
+                  "status": "validated"
+                },
+                {
+                  "id": "match_term_situation",
+                  "name": "Term und Situation zuordnen",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "less_than_reversed",
+                  "category": "concept_confusion",
+                  "description": "„5 weniger als x“ wird zu 5 − x."
+                },
+                {
+                  "id": "sum_product_confusion",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt „das Doppelte von“ und „um 2 mehr als“."
+                },
+                {
+                  "id": "step_added",
+                  "category": "concept_confusion",
+                  "description": "Bei Zahlenfolgen wird der Abstand zu n addiert statt mit n multipliziert."
+                },
+                {
+                  "id": "off_by_one",
+                  "category": "concept_confusion",
+                  "description": "Term liefert für n = 1 nicht die erste Zahl (z. B. 3n + 4 statt 3n + 1 für 4; 7; 10; …)."
+                },
+                {
+                  "id": "one_time_amount_multiplied",
+                  "category": "order_of_operations",
+                  "description": "Ein einmaliger Betrag (Grundgebühr, Popcorn für die Gruppe) wird mit x multipliziert."
+                },
+                {
+                  "id": "bracket_forgotten_chain",
+                  "category": "order_of_operations",
+                  "description": "In einer Rechenkette wird nur der Teil mit x multipliziert oder geteilt (Klammer vergessen)."
+                }
+              ],
+              "levels": {
+                "L1": "Eine Rechenoperation in Worten.",
+                "L2": "Zwei Operationen, Reihenfolge entscheidend.",
+                "L3": "Figur oder Zahlenmuster.",
+                "L4": "Begründen, dass verschiedene Terme dasselbe Muster beschreiben; „Denke dir eine Zahl“: Zusammenhang zwischen Start- und Endzahl."
+              },
+              "estimatedMinutes": 8,
+              "status": "validated",
+              "templates": [
+                "ch1.terms.translate.phrase_to_term",
+                "ch1.terms.translate.sequence_to_term",
+                "ch1.terms.translate.match_term_situation",
+                "ch1.terms.translate.think_of_number"
+              ]
+            },
+            {
+              "id": "ch1.terms.evaluate",
+              "name": "Termwerte berechnen",
+              "description": "Setze Zahlen für die Variable ein und berechne den Wert des Terms.",
+              "objective": "Evaluate terms with one variable by substitution, including negative and fractional values.",
+              "textbookRef": {
+                "chapter": "I",
+                "section": 2,
+                "title": "Terme mit einer Variable",
+                "page": 12,
+                "status": "verified",
+                "sections": [
+                  2
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(7)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch1.numterms.evaluate"
+              ],
+              "families": [
+                {
+                  "id": "single_value",
+                  "name": "Einen Wert einsetzen",
+                  "status": "validated"
+                },
+                {
+                  "id": "value_table",
+                  "name": "Wertetabelle ausfüllen",
+                  "status": "validated"
+                },
+                {
+                  "id": "compare_terms_table",
+                  "name": "Zwei Terme mit Tabelle vergleichen",
+                  "status": "validated"
+                },
+                {
+                  "id": "find_input",
+                  "name": "Einsetzung für einen Zielwert durch Probieren finden",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "concat_coefficient",
+                  "category": "concept_confusion",
+                  "description": "3x mit x = −2 wird als 3−2 oder 32 gelesen."
+                },
+                {
+                  "id": "neg_power",
+                  "category": "sign_error",
+                  "description": "Verwechselt −x² und (−x)² beim Einsetzen negativer Zahlen."
+                },
+                {
+                  "id": "sign_lost",
+                  "category": "sign_error",
+                  "description": "Negative Zahl ohne Vorzeichen eingesetzt bzw. Lösung mit falschem Vorzeichen."
+                }
+              ],
+              "levels": {
+                "L1": "Positive ganze Zahlen einsetzen.",
+                "L2": "Negative Zahlen einsetzen.",
+                "L3": "Brüche/Dezimalzahlen einsetzen, Potenzen.",
+                "L4": "Rückwärts: x für einen gegebenen Termwert durch systematisches Probieren finden."
+              },
+              "estimatedMinutes": 6,
+              "status": "validated",
+              "templates": [
+                "ch1.terms.evaluate.single_value",
+                "ch1.terms.evaluate.value_table",
+                "ch1.terms.evaluate.find_input"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch1.t3",
+          "name": "Terme umformen",
+          "skills": [
+            {
+              "id": "ch1.terms.collect_like",
+              "name": "Summen mit einer Variable vereinfachen",
+              "description": "Fasse gleichartige Glieder zusammen, z. B. $3x + 5 - x$.",
+              "objective": "Simplify sums by collecting like terms using commutative and associative laws.",
+              "textbookRef": {
+                "chapter": "I",
+                "section": 3,
+                "title": "Summen mit einer Variable vereinfachen",
+                "page": 17,
+                "status": "verified",
+                "sections": [
+                  3
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(8)",
+                  "status": "verified"
+                },
+                {
+                  "standard": "3.2.1(9)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch1.terms.evaluate"
+              ],
+              "families": [
+                {
+                  "id": "collect",
+                  "name": "Gleichartige Glieder zusammenfassen",
+                  "status": "validated"
+                },
+                {
+                  "id": "equivalence_check",
+                  "name": "Gleichwertige Terme erkennen",
+                  "status": "validated"
+                },
+                {
+                  "id": "spot_error",
+                  "name": "Fehler in einer Umformung finden",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "merge_unlike",
+                  "category": "concept_confusion",
+                  "description": "3x + 2 wird zu 5x."
+                },
+                {
+                  "id": "lost_minus",
+                  "category": "sign_error",
+                  "description": "Minuszeichen geht beim Umordnen verloren."
+                },
+                {
+                  "id": "one_value_proof",
+                  "category": "concept_confusion",
+                  "description": "Ein gleicher Wert bei einer Einsetzung wird als Beweis für Gleichwertigkeit genommen."
+                }
+              ],
+              "levels": {
+                "L1": "Zwei gleichartige Glieder.",
+                "L2": "Variablen- und Zahlglieder gemischt.",
+                "L3": "Negative und gebrochene Koeffizienten.",
+                "L4": "Fehler in fremder Rechnung finden und erklären."
+              },
+              "estimatedMinutes": 6,
+              "status": "validated",
+              "templates": [
+                "ch1.terms.collect_like.collect",
+                "ch1.terms.collect_like.spot_error",
+                "ch1.terms.collect_like.equivalence_check"
+              ]
+            },
+            {
+              "id": "ch1.terms.simplify_products",
+              "name": "Produkte mit einer Variable vereinfachen",
+              "description": "Vereinfache Produkte wie $4 \\cdot (-3x)$ und Quotienten wie $(3x):2$.",
+              "objective": "Simplify products of numbers and variable terms, including signs.",
+              "textbookRef": {
+                "chapter": "I",
+                "section": 4,
+                "title": "Produkte mit einer Variable vereinfachen",
+                "page": 21,
+                "status": "verified",
+                "sections": [
+                  4
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(9)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch1.terms.collect_like"
+              ],
+              "families": [
+                {
+                  "id": "number_times_term",
+                  "name": "Zahl mal Variablenterm",
+                  "status": "validated"
+                },
+                {
+                  "id": "term_times_term",
+                  "name": "Variablenterm mal Variablenterm (x², provisional)",
+                  "status": "planned",
+                  "flags": [
+                    "provisional_scope"
+                  ],
+                  "inBookScope": false,
+                  "scopeNote": "x·x steht nicht im Merkkasten von I.4 (Buchabgleich 2026-10-31); nicht im KA-Modus."
+                },
+                {
+                  "id": "area_terms",
+                  "name": "Flächen- und Volumenterme",
+                  "status": "validated"
+                },
+                {
+                  "id": "quotient",
+                  "name": "Quotienten als Produkt schreiben, z. B. (3x):2",
+                  "status": "validated",
+                  "bookRef": "I.4, I.5"
+                },
+                {
+                  "id": "term_type",
+                  "name": "Termart nach der letzten Rechenart (Summe, Differenz, Produkt, Quotient)",
+                  "status": "validated",
+                  "bookRef": "I.4 Begriffstraining"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "x_times_x",
+                  "category": "concept_confusion",
+                  "description": "x · x wird zu 2x."
+                },
+                {
+                  "id": "product_sign",
+                  "category": "sign_error",
+                  "description": "Vorzeichen des Produkts falsch."
+                },
+                {
+                  "id": "add_instead_of_multiply",
+                  "category": "concept_confusion",
+                  "description": "Zahlen in einem Produkt werden addiert statt multipliziert."
+                },
+                {
+                  "id": "forget_half",
+                  "category": "concept_confusion",
+                  "description": "Beim Dreiecksflächeninhalt fehlt der Faktor ½."
+                },
+                {
+                  "id": "divide_first_only",
+                  "category": "concept_confusion",
+                  "description": "Teilt bei (6x + 8):2 nur das erste Glied: 3x + 8."
+                },
+                {
+                  "id": "quotient_reversed",
+                  "category": "concept_confusion",
+                  "description": "Teilt in (3x):2 falsch herum: 2/3·x."
+                },
+                {
+                  "id": "term_type_first_op",
+                  "category": "concept_confusion",
+                  "description": "Benennt einen Term nach der auffälligsten statt nach der letzten Rechenart."
+                }
+              ],
+              "levels": {
+                "L1": "Ganze Zahl mal x; Quotient, bei dem die Division aufgeht; Termart benennen.",
+                "L2": "Negative Faktoren; Quotient mit Bruch als Ergebnis.",
+                "L3": "Brüche als Faktoren; Summe im Zähler eines Quotienten.",
+                "L4": "Terme für Flächen/Volumen aus Figuren."
+              },
+              "estimatedMinutes": 6,
+              "status": "validated",
+              "templates": [
+                "ch1.terms.simplify_products.number_times_term",
+                "ch1.terms.simplify_products.area_terms",
+                "ch1.terms.simplify_products.quotient",
+                "ch1.terms.simplify_products.term_type"
+              ]
+            },
+            {
+              "id": "ch1.terms.expand_factor",
+              "name": "Ausmultiplizieren und Ausklammern",
+              "description": "Löse Klammern mit dem Distributivgesetz auf oder klammere einen gemeinsamen Faktor aus.",
+              "objective": "Apply the distributive law in both directions: expand a(b + c) and factor out a common factor.",
+              "textbookRef": {
+                "chapter": "I",
+                "section": 5,
+                "title": "Ausmultiplizieren und Ausklammern",
+                "page": 24,
+                "status": "verified",
+                "sections": [
+                  5
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(9)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch1.terms.collect_like",
+                "ch1.terms.simplify_products"
+              ],
+              "families": [
+                {
+                  "id": "expand_positive",
+                  "name": "Positiver Faktor vor der Klammer",
+                  "status": "validated"
+                },
+                {
+                  "id": "expand_negative",
+                  "name": "Negativer Faktor, Minus vor der Klammer",
+                  "status": "validated"
+                },
+                {
+                  "id": "expand_collect",
+                  "name": "Ausmultiplizieren und zusammenfassen",
+                  "status": "validated"
+                },
+                {
+                  "id": "factor_out",
+                  "name": "Gemeinsamen Faktor ausklammern",
+                  "status": "validated"
+                },
+                {
+                  "id": "fill_missing",
+                  "name": "Fehlende Zahl ergänzen",
+                  "status": "validated",
+                  "bookRef": "I.5"
+                },
+                {
+                  "id": "sum_times_sum",
+                  "name": "Summe mal Summe",
+                  "status": "planned",
+                  "flags": [
+                    "provisional_scope",
+                    "disabled_by_default"
+                  ],
+                  "inBookScope": false,
+                  "scopeNote": "Summe mal Summe steht nicht im Merkkasten von I.5 (Buchabgleich 2026-10-31); nicht im KA-Modus."
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "distribute_first_only",
+                  "category": "concept_confusion",
+                  "description": "2(x + 3) wird zu 2x + 3."
+                },
+                {
+                  "id": "minus_bracket",
+                  "category": "sign_error",
+                  "description": "−(x − 4) wird zu −x − 4."
+                },
+                {
+                  "id": "incomplete_factoring",
+                  "category": "concept_confusion",
+                  "description": "Klammert nicht den größten gemeinsamen Faktor aus."
+                },
+                {
+                  "id": "divide_one_only",
+                  "category": "concept_confusion",
+                  "description": "Beim Ausklammern wird nur ein Glied durch den Faktor geteilt."
+                },
+                {
+                  "id": "forget_one",
+                  "category": "concept_confusion",
+                  "description": "6x + 6 wird zu 6(x) statt 6(x + 1)."
+                }
+              ],
+              "levels": {
+                "L1": "Positiver ganzzahliger Faktor, eine Klammer. Fehlenden Faktor ergänzen.",
+                "L2": "Negativer Faktor, Minus vor der Klammer. Fehlende Zahl in der Klammer ergänzen.",
+                "L3": "Zwei Klammern ausmultiplizieren und zusammenfassen; x ausklammern.",
+                "L4": "Ausklammern für Rechenvorteile und Begründungen (z. B. Summe dreier aufeinanderfolgender Zahlen)."
+              },
+              "estimatedMinutes": 10,
+              "status": "validated",
+              "templates": [
+                "ch1.terms.expand_factor.expand",
+                "ch1.terms.expand_factor.factor_out",
+                "ch1.terms.expand_factor.fill_missing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "number": 2,
+      "roman": "II",
+      "name": "Proportionalität und Antiproportionalität",
+      "textbookPage": 36,
+      "status": "implemented",
+      "sections": [
+        {
+          "id": "ch2.s1",
+          "number": 1,
+          "title": "Proportionale Zusammenhänge",
+          "page": 38
+        },
+        {
+          "id": "ch2.s2",
+          "number": 2,
+          "title": "Antiproportionale Zusammenhänge",
+          "page": 42
+        }
+      ],
+      "curriculum": {
+        "source": "S4",
+        "status": "verified",
+        "standards": [
+          "3.2.4(1)",
+          "3.2.4(4)"
+        ]
+      },
+      "topics": [
+        {
+          "id": "ch2.t1",
+          "name": "Zuordnungen",
+          "skills": [
+            {
+              "id": "ch2.prop.recognize_compute",
+              "name": "Proportionale Zusammenhänge",
+              "description": "Erkenne proportionale Zuordnungen in Tabellen, Texten und an Punkten einer Ursprungsgeraden und berechne fehlende Werte mit dem Dreisatz.",
+              "objective": "Recognise proportionality in several representations and compute with it.",
+              "textbookRef": {
+                "chapter": "II",
+                "section": 1,
+                "title": "Proportionale Zusammenhänge",
+                "page": 38,
+                "status": "verified",
+                "sections": [
+                  1
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.4(4)",
+                  "status": "verified",
+                  "source": "S4"
+                },
+                {
+                  "standard": "3.2.4(1)",
+                  "status": "verified",
+                  "source": "S4"
+                }
+              ],
+              "prerequisites": [
+                "kl6.dreisatz",
+                "ch1.numterms.evaluate"
+              ],
+              "families": [
+                {
+                  "id": "classify_table",
+                  "name": "Tabelle prüfen (Quotientengleichheit)",
+                  "status": "validated"
+                },
+                {
+                  "id": "fill_table",
+                  "name": "Tabelle ergänzen",
+                  "status": "validated"
+                },
+                {
+                  "id": "dreisatz_context",
+                  "name": "Dreisatz im Sachzusammenhang",
+                  "status": "validated"
+                },
+                {
+                  "id": "graph_type",
+                  "name": "Graph: Ursprungsgerade (ohne Zeichnung, D64)",
+                  "status": "validated"
+                },
+                {
+                  "id": "model_check",
+                  "name": "Passt das proportionale Modell?",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "more_more",
+                  "category": "concept_confusion",
+                  "description": "„Je mehr, desto mehr“ gilt als Beweis für Proportionalität."
+                },
+                {
+                  "id": "units",
+                  "category": "unit_confusion",
+                  "description": "Einheiten werden vermischt."
+                },
+                {
+                  "id": "additive_reasoning",
+                  "category": "concept_confusion",
+                  "description": "Rechnet mit gleichen Differenzen statt mit gleichen Faktoren (additiv statt multiplikativ)."
+                },
+                {
+                  "id": "inverse_dreisatz",
+                  "category": "concept_confusion",
+                  "description": "Rechnet bei proportionalen Daten antiproportional oder multipliziert statt zu teilen."
+                },
+                {
+                  "id": "affine_as_prop",
+                  "category": "concept_confusion",
+                  "description": "Hält eine Zuordnung mit Grundgebühr (Gerade nicht durch den Ursprung) für proportional."
+                },
+                {
+                  "id": "model_overreach",
+                  "category": "concept_confusion",
+                  "description": "Wendet das proportionale Modell an, wo es nicht passt (Wachstum, Ausdauer, Grundgebühr)."
+                }
+              ],
+              "levels": {
+                "L1": "Tabellen mit ganzen Zahlen ergänzen oder auf Proportionalität prüfen.",
+                "L2": "Dreisatz im Sachzusammenhang; Dezimalzahlen in Tabellen; Begründung wählen; Punkte auf einer Ursprungsgeraden.",
+                "L3": "Halbe Werte, Cent-Beträge, rückwärts rechnen; aus einer Wertetabelle die Form des Graphen bestimmen.",
+                "L4": "Plausibilität eines proportionalen Modells beurteilen (Modell und Rechnung)."
+              },
+              "estimatedMinutes": 8,
+              "status": "validated",
+              "templates": [
+                "ch2.prop.recognize_compute.table",
+                "ch2.prop.recognize_compute.dreisatz",
+                "ch2.prop.recognize_compute.graph"
+              ]
+            },
+            {
+              "id": "ch2.antiprop.recognize_compute",
+              "name": "Antiproportionale Zusammenhänge",
+              "description": "Erkenne antiproportionale Zuordnungen und berechne fehlende Werte mit der Produktgleichheit.",
+              "objective": "Recognise inverse proportionality and compute with it.",
+              "textbookRef": {
+                "chapter": "II",
+                "section": 2,
+                "title": "Antiproportionale Zusammenhänge",
+                "page": 42,
+                "status": "verified",
+                "sections": [
+                  2
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.4(4)",
+                  "status": "verified",
+                  "source": "S4"
+                },
+                {
+                  "standard": "3.2.4(1)",
+                  "status": "verified",
+                  "source": "S4"
+                }
+              ],
+              "prerequisites": [
+                "ch2.prop.recognize_compute"
+              ],
+              "families": [
+                {
+                  "id": "classify_table",
+                  "name": "Tabelle prüfen (Produktgleichheit)",
+                  "status": "validated"
+                },
+                {
+                  "id": "fill_table",
+                  "name": "Tabelle ergänzen (Produktgleichheit)",
+                  "status": "validated"
+                },
+                {
+                  "id": "dreisatz_inverse",
+                  "name": "Antiproportionaler Dreisatz",
+                  "status": "validated"
+                },
+                {
+                  "id": "prop_or_antiprop",
+                  "name": "Proportional, antiproportional oder keins?",
+                  "status": "validated"
+                },
+                {
+                  "id": "model_check",
+                  "name": "Grenzen des antiproportionalen Modells",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "wrong_dreisatz",
+                  "category": "concept_confusion",
+                  "description": "Proportionaler Dreisatz bei antiproportionalen Daten."
+                },
+                {
+                  "id": "less_less",
+                  "category": "concept_confusion",
+                  "description": "„Je mehr, desto weniger“ gilt als Beweis für Antiproportionalität (konstante Summe, gleichmäßige Abnahme)."
+                },
+                {
+                  "id": "more_more",
+                  "category": "concept_confusion",
+                  "description": "„Je mehr, desto mehr“ gilt als Beweis für Proportionalität."
+                },
+                {
+                  "id": "additive_reasoning",
+                  "category": "concept_confusion",
+                  "description": "Zieht gleiche Differenzen ab, statt das Produkt konstant zu halten."
+                },
+                {
+                  "id": "model_limits",
+                  "category": "concept_confusion",
+                  "description": "Wendet das antiproportionale Modell an, wo es nicht passt (Orchester, Eier, sehr viele Arbeiter)."
+                }
+              ],
+              "levels": {
+                "L1": "Tabellen mit ganzen Zahlen ergänzen oder prüfen; Situationen in Worten zuordnen.",
+                "L2": "Antiproportionaler Dreisatz im Sachzusammenhang; Fallen wie konstante Summe in Tabellen.",
+                "L3": "Zuordnungstyp selbst entscheiden und rechnen; Dezimalzahlen, rückwärts rechnen.",
+                "L4": "Grenzen des Modells (z. B. Orchester, viele Maler) beurteilen."
+              },
+              "estimatedMinutes": 8,
+              "status": "validated",
+              "templates": [
+                "ch2.antiprop.recognize_compute.table",
+                "ch2.antiprop.recognize_compute.dreisatz",
+                "ch2.antiprop.recognize_compute.decide"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "number": 3,
+      "roman": "III",
+      "name": "Geometrische Figuren konstruieren",
+      "textbookPage": 50,
+      "status": "planned",
+      "sections": [
+        {
+          "id": "ch3.s1",
+          "number": 1,
+          "title": "Abstände von Punkten und Geraden",
+          "page": 52
+        },
+        {
+          "id": "ch3.s2",
+          "number": 2,
+          "title": "Die Mittelsenkrechte",
+          "page": 55
+        },
+        {
+          "id": "ch3.s3",
+          "number": 3,
+          "title": "Die Winkelhalbierende",
+          "page": 59
+        },
+        {
+          "id": "ch3.s4",
+          "number": 4,
+          "title": "Dreiecke konstruieren",
+          "page": 63
+        },
+        {
+          "id": "ch3.s5",
+          "number": 5,
+          "title": "Eindeutigkeit von Konstruktionen",
+          "page": 66
+        },
+        {
+          "id": "ch3.s6",
+          "number": 6,
+          "title": "Größen durch Konstruieren bestimmen",
+          "page": 69
+        }
+      ],
+      "curriculum": {
+        "source": "S4",
+        "status": "verified",
+        "standards": [
+          "3.2.3(5)",
+          "3.2.3(6)",
+          "3.2.3(7)",
+          "3.2.3(8)",
+          "3.2.3(10)"
+        ]
+      },
+      "topics": [
+        {
+          "id": "ch3.t1",
+          "name": "Ortslinien",
+          "skills": [
+            {
+              "id": "ch3.constr.distances",
+              "name": "Abstände von Punkten und Geraden",
+              "description": "Bestimme Abstände zwischen Punkten und Geraden.",
+              "objective": "Determine distances point–point, point–line and between parallels.",
+              "textbookRef": {
+                "chapter": "III",
+                "section": 1,
+                "title": "Abstände von Punkten und Geraden",
+                "page": 52,
+                "status": "verified",
+                "sections": [
+                  1
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.3(8)",
+                  "status": "verified",
+                  "source": "S4"
+                }
+              ],
+              "prerequisites": [
+                "kl6.geometry_basics"
+              ],
+              "families": [
+                {
+                  "id": "distance_concept",
+                  "name": "Abstandsbegriff anwenden",
+                  "status": "planned"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "not_perpendicular",
+                  "category": "concept_confusion",
+                  "description": "Misst den Abstand nicht senkrecht."
+                }
+              ],
+              "levels": {
+                "L1": "Abstand Punkt–Punkt.",
+                "L2": "Abstand Punkt–Gerade.",
+                "L3": "Parallelen, Mittelparallele.",
+                "L4": "Ortslinienproblem mit Abstand."
+              },
+              "estimatedMinutes": 8,
+              "status": "planned"
+            },
+            {
+              "id": "ch3.constr.loci",
+              "name": "Mittelsenkrechte und Winkelhalbierende",
+              "description": "Konstruiere Mittelsenkrechte und Winkelhalbierende und nutze sie als Ortslinien.",
+              "objective": "Construct perpendicular bisectors and angle bisectors and use loci to solve problems.",
+              "textbookRef": {
+                "chapter": "III",
+                "section": 2,
+                "title": "Die Mittelsenkrechte / Die Winkelhalbierende (III.2–3)",
+                "page": 55,
+                "status": "verified",
+                "sections": [
+                  2,
+                  3
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.3(7)",
+                  "status": "verified"
+                },
+                {
+                  "standard": "3.2.3(8)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch3.constr.distances"
+              ],
+              "families": [
+                {
+                  "id": "order_steps",
+                  "name": "Konstruktionsschritte ordnen",
+                  "status": "planned"
+                },
+                {
+                  "id": "choose_locus",
+                  "name": "Passende Ortslinie wählen",
+                  "status": "planned"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "locus_mixup",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt Mittelsenkrechte (gleicher Abstand zu Punkten) und Winkelhalbierende (gleicher Abstand zu Geraden)."
+                }
+              ],
+              "levels": {
+                "L1": "Eigenschaft erkennen.",
+                "L2": "Schritte ordnen.",
+                "L3": "Ortslinie für ein Problem wählen.",
+                "L4": "Mehrere Ortslinien kombinieren."
+              },
+              "estimatedMinutes": 10,
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "ch3.t2",
+          "name": "Dreieckskonstruktionen",
+          "skills": [
+            {
+              "id": "ch3.constr.triangle_feasibility",
+              "name": "Dreiecke konstruieren und Eindeutigkeit",
+              "description": "Entscheide, ob und wie eindeutig ein Dreieck aus gegebenen Stücken konstruierbar ist.",
+              "objective": "Judge constructibility (triangle inequality, angle sum) and the number of solutions.",
+              "textbookRef": {
+                "chapter": "III",
+                "section": 4,
+                "title": "Dreiecke konstruieren / Eindeutigkeit von Konstruktionen (III.4–5)",
+                "page": 63,
+                "status": "verified",
+                "sections": [
+                  4,
+                  5
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.3(5)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch3.constr.loci"
+              ],
+              "families": [
+                {
+                  "id": "triangle_inequality",
+                  "name": "Dreiecksungleichung prüfen",
+                  "status": "planned"
+                },
+                {
+                  "id": "angle_sum_check",
+                  "name": "Winkelsumme prüfen",
+                  "status": "planned"
+                },
+                {
+                  "id": "uniqueness",
+                  "name": "Eindeutig, mehrdeutig, unmöglich?",
+                  "status": "planned"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "ssw_unique",
+                  "category": "concept_confusion",
+                  "description": "Hält jede Angabe von zwei Seiten und einem Winkel für eindeutig."
+                }
+              ],
+              "levels": {
+                "L1": "Dreiecksungleichung mit ganzen Zahlen.",
+                "L2": "Winkel und Seiten.",
+                "L3": "Anzahl der Lösungen.",
+                "L4": "Fehlende Angabe für Eindeutigkeit wählen."
+              },
+              "estimatedMinutes": 10,
+              "status": "planned"
+            },
+            {
+              "id": "ch3.constr.measure_by_drawing",
+              "name": "Größen durch Konstruieren bestimmen",
+              "description": "Bestimme Längen und Winkel durch eine maßstäbliche Zeichnung.",
+              "objective": "Determine lengths and angles via scale drawings (self-check with tolerance).",
+              "textbookRef": {
+                "chapter": "III",
+                "section": 6,
+                "title": "Größen durch Konstruieren bestimmen",
+                "page": 69,
+                "status": "verified",
+                "sections": [
+                  6
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.3(6)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch3.constr.triangle_feasibility"
+              ],
+              "families": [
+                {
+                  "id": "scale_drawing",
+                  "name": "Maßstab und Messung",
+                  "status": "planned"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "scale_error",
+                  "category": "unit_confusion",
+                  "description": "Maßstab falsch umgerechnet."
+                }
+              ],
+              "levels": {
+                "L1": "Maßstab umrechnen.",
+                "L2": "Dreieck zeichnen und messen.",
+                "L3": "Sachkontext.",
+                "L4": "Messgenauigkeit beurteilen."
+              },
+              "estimatedMinutes": 12,
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "number": 4,
+      "roman": "IV",
+      "name": "Lineare Gleichungen",
+      "textbookPage": 80,
+      "status": "implemented",
+      "sections": [
+        {
+          "id": "ch4.s1",
+          "number": 1,
+          "title": "Gleichungen aufstellen und Lösungen finden",
+          "page": 82
+        },
+        {
+          "id": "ch4.s2",
+          "number": 2,
+          "title": "Äquivalenzumformungen von Gleichungen",
+          "page": 85
+        },
+        {
+          "id": "ch4.s3",
+          "number": 3,
+          "title": "Lineare Gleichungen vereinfachen und lösen",
+          "page": 88
+        },
+        {
+          "id": "ch4.s4",
+          "number": 4,
+          "title": "Anzahl der Lösungen einer linearen Gleichung",
+          "page": 92
+        },
+        {
+          "id": "ch4.s5",
+          "number": 5,
+          "title": "Lineare Gleichungen im Sachzusammenhang",
+          "page": 94
+        }
+      ],
+      "curriculum": {
+        "source": "S4",
+        "status": "verified",
+        "standards": [
+          "3.2.1(20)",
+          "3.2.1(22)"
+        ]
+      },
+      "topics": [
+        {
+          "id": "ch4.t1",
+          "name": "Gleichungen lösen",
+          "skills": [
+            {
+              "id": "ch4.eq.setup_trial",
+              "name": "Gleichungen aufstellen und Lösungen finden",
+              "description": "Stelle eine Gleichung auf und finde Lösungen durch Einsetzen und Probieren.",
+              "objective": "Set up equations and check or find solutions by substitution and systematic trial.",
+              "textbookRef": {
+                "chapter": "IV",
+                "section": 1,
+                "title": "Gleichungen aufstellen und Lösungen finden",
+                "page": 82,
+                "status": "verified",
+                "sections": [
+                  1
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(20)",
+                  "status": "verified",
+                  "source": "S4"
+                }
+              ],
+              "prerequisites": [
+                "ch1.terms.evaluate",
+                "ch1.terms.translate"
+              ],
+              "families": [
+                {
+                  "id": "is_solution",
+                  "name": "Ist x eine Lösung? (Einsetzen, Probieren)",
+                  "status": "validated"
+                },
+                {
+                  "id": "text_to_equation",
+                  "name": "Zahlenrätsel → Gleichung",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "equation_vs_term",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt Gleichung und Term."
+                },
+                {
+                  "id": "one_solution_only",
+                  "category": "concept_confusion",
+                  "description": "Hört nach der ersten gefundenen Lösung auf (z. B. bei x² = 16)."
+                },
+                {
+                  "id": "order_in_text",
+                  "category": "order_of_operations",
+                  "description": "Übersetzt die Reihenfolge im Text falsch (Klammer fehlt oder zu viel)."
+                },
+                {
+                  "id": "word_operation",
+                  "category": "concept_confusion",
+                  "description": "Ordnet einem Signalwort die falsche Rechenart zu (das Dreifache, vermindern um)."
+                }
+              ],
+              "levels": {
+                "L1": "Einsetzen prüfen; einfaches Zahlenrätsel mit einer Rechenart.",
+                "L2": "Systematisch probieren (Tabelle); Rätsel mit zwei Rechenarten.",
+                "L3": "Gleichung aus Text mit x auf beiden Seiten.",
+                "L4": "Gleichungen mit x² oder Produkt: alle Lösungen finden."
+              },
+              "estimatedMinutes": 8,
+              "status": "validated",
+              "templates": [
+                "ch4.eq.setup_trial.is_solution",
+                "ch4.eq.setup_trial.text_to_equation"
+              ]
+            },
+            {
+              "id": "ch4.eq.solve_equivalence",
+              "name": "Lineare Gleichungen mit Äquivalenzumformungen lösen",
+              "description": "Löse lineare Gleichungen schrittweise mit Äquivalenzumformungen.",
+              "objective": "Solve linear equations (brackets, variables on both sides, rational coefficients).",
+              "textbookRef": {
+                "chapter": "IV",
+                "section": 2,
+                "title": "Äquivalenzumformungen / Lineare Gleichungen vereinfachen und lösen (IV.2–3)",
+                "page": 85,
+                "status": "verified",
+                "sections": [
+                  2,
+                  3
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(20)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch4.eq.setup_trial",
+                "ch1.terms.expand_factor"
+              ],
+              "families": [
+                {
+                  "id": "one_step",
+                  "name": "Ein Schritt",
+                  "status": "validated"
+                },
+                {
+                  "id": "two_step",
+                  "name": "Zwei Schritte",
+                  "status": "validated"
+                },
+                {
+                  "id": "both_sides",
+                  "name": "x auf beiden Seiten",
+                  "status": "validated"
+                },
+                {
+                  "id": "brackets",
+                  "name": "Mit Klammern",
+                  "status": "validated"
+                },
+                {
+                  "id": "spot_error",
+                  "name": "Umformungsfehler finden",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "sign_when_moving",
+                  "category": "sign_error",
+                  "description": "Vorzeichenfehler beim Umformen."
+                },
+                {
+                  "id": "divide_one_term",
+                  "category": "concept_confusion",
+                  "description": "Dividiert nur ein Glied statt der ganzen Seite."
+                },
+                {
+                  "id": "bracket_expansion",
+                  "category": "concept_confusion",
+                  "description": "Multipliziert beim Ausmultiplizieren nur das erste Glied oder übersieht das Minus vor der Klammer."
+                }
+              ],
+              "levels": {
+                "L1": "x + a = b, a·x = b, a·x + b = c.",
+                "L2": "a·x + b = c·x + d, eine Klammer, Umformungsfehler finden.",
+                "L3": "Zwei Klammern, Bruchkoeffizienten, Bruch als Lösung.",
+                "L4": "Umformungsfehler finden (Bruchkoeffizienten, Minus vor der Klammer)."
+              },
+              "estimatedMinutes": 10,
+              "status": "validated",
+              "templates": [
+                "ch4.eq.solve_equivalence.solve",
+                "ch4.eq.solve_equivalence.spot_error"
+              ]
+            },
+            {
+              "id": "ch4.eq.solution_count",
+              "name": "Anzahl der Lösungen",
+              "description": "Entscheide, ob eine lineare Gleichung keine, genau eine oder unendlich viele Lösungen hat.",
+              "objective": "Determine the number of solutions of a linear equation.",
+              "textbookRef": {
+                "chapter": "IV",
+                "section": 4,
+                "title": "Anzahl der Lösungen einer linearen Gleichung",
+                "page": 92,
+                "status": "verified",
+                "sections": [
+                  4
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(22)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch4.eq.solve_equivalence"
+              ],
+              "families": [
+                {
+                  "id": "classify_count",
+                  "name": "Lösungsanzahl bestimmen",
+                  "status": "validated"
+                },
+                {
+                  "id": "choose_parameter",
+                  "name": "Zahl so wählen, dass …",
+                  "status": "validated"
+                },
+                {
+                  "id": "justify_count",
+                  "name": "Schlussfolgerung begründen",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "zero_eq_zero",
+                  "category": "concept_confusion",
+                  "description": "Deutet 0 = 0 als „keine Lösung“."
+                },
+                {
+                  "id": "false_statement_any",
+                  "category": "concept_confusion",
+                  "description": "Deutet eine falsche Aussage (z. B. 3 = 5) als „jede Zahl ist Lösung“."
+                },
+                {
+                  "id": "param_role",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt den Faktor vor x mit der Zahl ohne x."
+                }
+              ],
+              "levels": {
+                "L1": "Offensichtliche Fälle (gleicher Faktor vor x).",
+                "L2": "Nach Klammerauflösen oder Zusammenfassen.",
+                "L3": "Zahl a so wählen, dass keine, unendlich viele oder eine vorgegebene Lösung entsteht.",
+                "L4": "Richtige Schlussfolgerung mit Begründung auswählen."
+              },
+              "estimatedMinutes": 6,
+              "status": "validated",
+              "templates": [
+                "ch4.eq.solution_count.classify",
+                "ch4.eq.solution_count.parameter",
+                "ch4.eq.solution_count.justify"
+              ]
+            },
+            {
+              "id": "ch4.eq.word_problems",
+              "name": "Lineare Gleichungen im Sachzusammenhang",
+              "description": "Löse Sachaufgaben mit einer linearen Gleichung und deute das Ergebnis.",
+              "objective": "Model contexts with linear equations, solve and interpret.",
+              "textbookRef": {
+                "chapter": "IV",
+                "section": 5,
+                "title": "Lineare Gleichungen im Sachzusammenhang",
+                "page": 94,
+                "status": "verified",
+                "sections": [
+                  5
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(20)",
+                  "status": "verified",
+                  "source": "S4"
+                }
+              ],
+              "prerequisites": [
+                "ch4.eq.solve_equivalence"
+              ],
+              "families": [
+                {
+                  "id": "age_number_problems",
+                  "name": "Zahl-, Alters- und Verteilungsrätsel",
+                  "status": "validated"
+                },
+                {
+                  "id": "geometry_equations",
+                  "name": "Umfang als Gleichung",
+                  "status": "validated",
+                  "notes": "Winkel-Kontexte erst nach Kapitel V (D49)."
+                },
+                {
+                  "id": "check_interpretation",
+                  "name": "Passt die Lösung zur Situation?",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "no_interpretation",
+                  "category": "concept_confusion",
+                  "description": "Lösung wird nicht im Kontext geprüft."
+                },
+                {
+                  "id": "future_age",
+                  "category": "concept_confusion",
+                  "description": "Lässt in Altersrätseln nur eine Person älter werden."
+                },
+                {
+                  "id": "perimeter_half",
+                  "category": "concept_confusion",
+                  "description": "Zählt beim Umfang nur zwei Seiten."
+                },
+                {
+                  "id": "rounding",
+                  "category": "rounding",
+                  "description": "Rundet eine unpassende Lösung, statt „keine Lösung“ zu folgern."
+                },
+                {
+                  "id": "drop_sign",
+                  "category": "sign_error",
+                  "description": "Lässt das Minuszeichen einer negativen Länge weg."
+                }
+              ],
+              "levels": {
+                "L1": "Vorgegebene Gleichung lösen und die Frage beantworten.",
+                "L2": "Gleichung selbst aufstellen.",
+                "L3": "Mehrschrittig oder abgeleitete Größe gefragt.",
+                "L4": "Unpassende Lösungen erkennen."
+              },
+              "estimatedMinutes": 12,
+              "status": "validated",
+              "templates": [
+                "ch4.eq.word_problems.contexts",
+                "ch4.eq.word_problems.interpret"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "number": 5,
+      "roman": "V",
+      "name": "Geometrische Sätze beweisen",
+      "textbookPage": 104,
+      "status": "planned",
+      "sections": [
+        {
+          "id": "ch5.s1",
+          "number": 1,
+          "title": "Winkel an sich schneidenden Geraden",
+          "page": 106
+        },
+        {
+          "id": "ch5.s2",
+          "number": 2,
+          "title": "Winkelsumme im Dreieck",
+          "page": 110
+        },
+        {
+          "id": "ch5.s3",
+          "number": 3,
+          "title": "Mit gleichschenkligen Dreiecken beweisen",
+          "page": 113
+        },
+        {
+          "id": "ch5.s4",
+          "number": 4,
+          "title": "Der Satz des Thales",
+          "page": 116
+        },
+        {
+          "id": "ch5.s5",
+          "number": 5,
+          "title": "Der Umkreis",
+          "page": 121
+        },
+        {
+          "id": "ch5.s6",
+          "number": 6,
+          "title": "Der Inkreis",
+          "page": 124
+        },
+        {
+          "id": "ch5.s7",
+          "number": 7,
+          "title": "Geometrische Probleme lösen",
+          "page": 127
+        }
+      ],
+      "curriculum": {
+        "source": "S4",
+        "status": "verified",
+        "standards": [
+          "3.2.3(1)",
+          "3.2.3(2)",
+          "3.2.3(3)",
+          "3.2.3(4)",
+          "3.2.3(5)",
+          "3.2.3(8)",
+          "3.2.3(9)",
+          "3.2.3(10)"
+        ]
+      },
+      "topics": [
+        {
+          "id": "ch5.t1",
+          "name": "Winkelsätze",
+          "skills": [
+            {
+              "id": "ch5.angles.lines",
+              "name": "Winkel an sich schneidenden Geraden",
+              "description": "Bestimme Winkel mit Scheitel-, Neben-, Stufen- und Wechselwinkeln.",
+              "objective": "Find angles using vertical, supplementary, corresponding and alternate angles.",
+              "textbookRef": {
+                "chapter": "V",
+                "section": 1,
+                "title": "Winkel an sich schneidenden Geraden",
+                "page": 106,
+                "status": "verified",
+                "sections": [
+                  1
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.3(1)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "kl6.geometry_basics"
+              ],
+              "families": [
+                {
+                  "id": "angle_chase",
+                  "name": "Winkel berechnen",
+                  "status": "validated"
+                },
+                {
+                  "id": "name_relation",
+                  "name": "Winkelbeziehung benennen",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "stufen_wechsel",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt Stufen- und Wechselwinkel."
+                },
+                {
+                  "id": "neben_equal",
+                  "category": "concept_confusion",
+                  "description": "Nebenwinkel werden für gleich groß gehalten (oder Scheitelwinkel als Ergänzung zu 180°)."
+                },
+                {
+                  "id": "parallel_by_eye",
+                  "category": "concept_confusion",
+                  "description": "Parallelität wird nach Augenmaß statt mit Stufen- oder Wechselwinkeln entschieden; Voraussetzung „an Parallelen“ fehlt."
+                }
+              ],
+              "levels": {
+                "L1": "Ein Schritt: Scheitel- oder Nebenwinkel; Winkelbeziehung benennen.",
+                "L2": "Zwei Beziehungen an Parallelen (Stufenwinkel, dann Nebenwinkel).",
+                "L3": "Winkel als Terme mit x; Umkehrung: Sind die Geraden parallel?",
+                "L4": "Vollständige Begründung auswählen."
+              },
+              "estimatedMinutes": 8,
+              "status": "validated",
+              "templates": [
+                "ch5.angles.lines.angle_chase",
+                "ch5.angles.lines.name_relation"
+              ]
+            },
+            {
+              "id": "ch5.angles.triangle_sum",
+              "name": "Winkelsumme im Dreieck",
+              "description": "Nutze und begründe die Winkelsumme im Dreieck.",
+              "objective": "Justify and apply the triangle angle sum.",
+              "textbookRef": {
+                "chapter": "V",
+                "section": 2,
+                "title": "Winkelsumme im Dreieck",
+                "page": 110,
+                "status": "verified",
+                "sections": [
+                  2
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.3(2)",
+                  "status": "verified"
+                },
+                {
+                  "standard": "3.2.3(3)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch5.angles.lines"
+              ],
+              "families": [
+                {
+                  "id": "missing_angle",
+                  "name": "Fehlender Winkel",
+                  "status": "validated"
+                },
+                {
+                  "id": "proof_order",
+                  "name": "Beweisschritte ordnen",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "sum_360",
+                  "category": "concept_confusion",
+                  "description": "Verwendet 360° statt 180°."
+                },
+                {
+                  "id": "outer_as_inner",
+                  "category": "concept_confusion",
+                  "description": "Ein Außenwinkel wird wie ein Innenwinkel in die Winkelsumme eingesetzt."
+                },
+                {
+                  "id": "circular_order",
+                  "category": "concept_confusion",
+                  "description": "Im Beweis steht die Behauptung vor den Schritten, aus denen sie folgt, oder die Hilfslinie fehlt am Anfang."
+                }
+              ],
+              "levels": {
+                "L1": "Zwei Winkel gegeben.",
+                "L2": "Alle Winkel als Terme mit x.",
+                "L3": "Kombiniert mit Winkeln an Geraden (Außenwinkel).",
+                "L4": "Beweis des Winkelsummensatzes ordnen."
+              },
+              "estimatedMinutes": 8,
+              "status": "validated",
+              "templates": [
+                "ch5.angles.triangle_sum.missing_angle",
+                "ch5.angles.triangle_sum.proof_order"
+              ]
+            },
+            {
+              "id": "ch5.proof.isosceles",
+              "name": "Mit gleichschenkligen Dreiecken beweisen",
+              "description": "Nutze den Basiswinkelsatz und seinen Kehrsatz in Begründungen.",
+              "objective": "Use the base angle theorem and its converse; distinguish theorem and converse.",
+              "textbookRef": {
+                "chapter": "V",
+                "section": 3,
+                "title": "Mit gleichschenkligen Dreiecken beweisen",
+                "page": 113,
+                "status": "verified",
+                "sections": [
+                  3
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.3(3)",
+                  "status": "verified"
+                },
+                {
+                  "standard": "2.1",
+                  "status": "provisional"
+                }
+              ],
+              "prerequisites": [
+                "ch5.angles.triangle_sum"
+              ],
+              "families": [
+                {
+                  "id": "premise_claim",
+                  "name": "Voraussetzung und Behauptung",
+                  "status": "planned"
+                },
+                {
+                  "id": "converse",
+                  "name": "Satz und Kehrsatz",
+                  "status": "planned"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "converse_assumed",
+                  "category": "concept_confusion",
+                  "description": "Hält den Kehrsatz automatisch für wahr."
+                }
+              ],
+              "levels": {
+                "L1": "Basiswinkel berechnen.",
+                "L2": "Voraussetzung/Behauptung benennen.",
+                "L3": "Beweisschritte ordnen.",
+                "L4": "Fehler im Beweis finden."
+              },
+              "estimatedMinutes": 10,
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "ch5.t2",
+          "name": "Kreise am Dreieck",
+          "skills": [
+            {
+              "id": "ch5.thales",
+              "name": "Der Satz des Thales",
+              "description": "Wende den Satz des Thales an, um rechte Winkel zu erkennen und zu konstruieren.",
+              "objective": "Justify and apply Thales' theorem, especially to conclude orthogonality.",
+              "textbookRef": {
+                "chapter": "V",
+                "section": 4,
+                "title": "Der Satz des Thales",
+                "page": 116,
+                "status": "verified",
+                "sections": [
+                  4
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.3(4)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch5.proof.isosceles"
+              ],
+              "families": [
+                {
+                  "id": "recognize_thales",
+                  "name": "Thales-Situation erkennen",
+                  "status": "planned"
+                },
+                {
+                  "id": "thales_angles",
+                  "name": "Winkel im Thaleskreis",
+                  "status": "planned"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "not_diameter",
+                  "category": "concept_confusion",
+                  "description": "Wendet Thales an, obwohl die Strecke kein Durchmesser ist."
+                }
+              ],
+              "levels": {
+                "L1": "Erkennen.",
+                "L2": "Winkel berechnen.",
+                "L3": "Kombiniert.",
+                "L4": "Umkehrung nutzen."
+              },
+              "estimatedMinutes": 8,
+              "status": "planned"
+            },
+            {
+              "id": "ch5.circles.circum_in",
+              "name": "Umkreis und Inkreis",
+              "description": "Konstruiere Umkreis- und Inkreismittelpunkt und begründe die Konstruktion.",
+              "objective": "Construct circumcentre and incentre and justify the construction.",
+              "textbookRef": {
+                "chapter": "V",
+                "section": 5,
+                "title": "Der Umkreis / Der Inkreis (V.5–6)",
+                "page": 121,
+                "status": "verified",
+                "sections": [
+                  5,
+                  6
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.3(9)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch3.constr.loci"
+              ],
+              "families": [
+                {
+                  "id": "which_lines",
+                  "name": "Welche Linien schneiden sich?",
+                  "status": "planned"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "centres_same",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt Umkreis- und Inkreismittelpunkt."
+                }
+              ],
+              "levels": {
+                "L1": "Zuordnen.",
+                "L2": "Schritte ordnen.",
+                "L3": "Begründung wählen.",
+                "L4": "Lage im stumpfwinkligen Dreieck."
+              },
+              "estimatedMinutes": 10,
+              "status": "planned"
+            },
+            {
+              "id": "ch5.problems",
+              "name": "Geometrische Probleme lösen",
+              "description": "Löse Geometrieprobleme mit Winkelsätzen und Ortslinien.",
+              "objective": "Combine angle theorems and loci to solve problems.",
+              "textbookRef": {
+                "chapter": "V",
+                "section": 7,
+                "title": "Geometrische Probleme lösen",
+                "page": 127,
+                "status": "verified",
+                "sections": [
+                  7
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.3(8)",
+                  "status": "verified",
+                  "source": "S4"
+                },
+                {
+                  "standard": "3.2.3(3)",
+                  "status": "verified",
+                  "source": "S4"
+                }
+              ],
+              "prerequisites": [
+                "ch5.thales",
+                "ch5.circles.circum_in"
+              ],
+              "families": [
+                {
+                  "id": "multi_step_angles",
+                  "name": "Mehrschrittige Winkelprobleme",
+                  "status": "planned"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "unjustified_step",
+                  "category": "concept_confusion",
+                  "description": "Nimmt Eigenschaften aus der Zeichnung ohne Begründung an."
+                }
+              ],
+              "levels": {
+                "L1": "Geführt.",
+                "L2": "Zwei Sätze.",
+                "L3": "Offener.",
+                "L4": "Eigener Lösungsweg."
+              },
+              "estimatedMinutes": 12,
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "number": 6,
+      "roman": "VI",
+      "name": "Prozent- und Zinsrechnung",
+      "textbookPage": 138,
+      "status": "implemented",
+      "sections": [
+        {
+          "id": "ch6.s1",
+          "number": 1,
+          "title": "Anteile vergleichen – Prozente",
+          "page": 140
+        },
+        {
+          "id": "ch6.s2",
+          "number": 2,
+          "title": "Prozentsätze berechnen",
+          "page": 143
+        },
+        {
+          "id": "ch6.s3",
+          "number": 3,
+          "title": "Prozentwerte berechnen",
+          "page": 146
+        },
+        {
+          "id": "ch6.s4",
+          "number": 4,
+          "title": "Grundwerte berechnen",
+          "page": 149
+        },
+        {
+          "id": "ch6.s5",
+          "number": 5,
+          "title": "Zins und Zinseszins",
+          "page": 153
+        },
+        {
+          "id": "ch6.s6",
+          "number": 6,
+          "title": "Kredit und Tilgung",
+          "page": 157
+        }
+      ],
+      "curriculum": {
+        "source": "S4",
+        "status": "verified",
+        "standards": [
+          "3.2.1(2)",
+          "3.2.1(3)",
+          "3.2.1(4)"
+        ]
+      },
+      "topics": [
+        {
+          "id": "ch6.t1",
+          "name": "Prozentrechnung",
+          "skills": [
+            {
+              "id": "ch6.pct.compare",
+              "name": "Anteile vergleichen – Prozente",
+              "description": "Vergleiche Anteile mithilfe von Prozenten.",
+              "objective": "Compare proportions by converting to percentages.",
+              "textbookRef": {
+                "chapter": "VI",
+                "section": 1,
+                "title": "Anteile vergleichen – Prozente",
+                "page": 140,
+                "status": "verified",
+                "sections": [
+                  1
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(2)",
+                  "status": "verified",
+                  "source": "S4"
+                }
+              ],
+              "prerequisites": [
+                "kl6.fraction_decimal_percent"
+              ],
+              "families": [
+                {
+                  "id": "convert",
+                  "name": "Bruch ↔ Dezimalzahl ↔ Prozent",
+                  "status": "validated"
+                },
+                {
+                  "id": "compare_shares",
+                  "name": "Anteile vergleichen",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "absolute_vs_relative",
+                  "category": "concept_confusion",
+                  "description": "Vergleicht absolute statt relative Anteile."
+                },
+                {
+                  "id": "shift_two_places",
+                  "category": "concept_confusion",
+                  "description": "Verschiebt das Komma um eine statt um zwei Stellen oder vergisst mal bzw. geteilt durch 100."
+                },
+                {
+                  "id": "numerator_as_percent",
+                  "category": "concept_confusion",
+                  "description": "Liest den Zähler als Prozentsatz (3/4 → „3 %“)."
+                }
+              ],
+              "levels": {
+                "L1": "Einfache Brüche ↔ ganze Prozent; zwei Anteile mit Nenner 10, 20, 25 oder 50 vergleichen.",
+                "L2": "Prozentsätze mit Komma, über 100 % und unter 1 %; Gruppen verschiedener Größe, bei denen die größere Anzahl den kleineren Anteil hat.",
+                "L3": "Vier Gruppen nach ihrem Anteil ordnen.",
+                "L4": "Aussagen über Anteile beurteilen: richtig und richtig begründet?"
+              },
+              "estimatedMinutes": 6,
+              "status": "validated",
+              "templates": [
+                "ch6.pct.compare.convert",
+                "ch6.pct.compare.shares"
+              ]
+            },
+            {
+              "id": "ch6.pct.basic_tasks",
+              "name": "Prozentsatz, Prozentwert und Grundwert berechnen",
+              "description": "Berechne Prozentsatz, Prozentwert oder Grundwert, auch mit dem Prozentstreifen.",
+              "objective": "Solve the three basic percentage tasks.",
+              "textbookRef": {
+                "chapter": "VI",
+                "section": 2,
+                "title": "Prozentsätze / Prozentwerte / Grundwerte berechnen (VI.2–4)",
+                "page": 143,
+                "status": "verified",
+                "sections": [
+                  2,
+                  3,
+                  4
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(2)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch6.pct.compare"
+              ],
+              "families": [
+                {
+                  "id": "rate",
+                  "name": "Prozentsatz",
+                  "status": "validated"
+                },
+                {
+                  "id": "value",
+                  "name": "Prozentwert",
+                  "status": "validated"
+                },
+                {
+                  "id": "base",
+                  "name": "Grundwert",
+                  "status": "validated"
+                },
+                {
+                  "id": "increase_decrease",
+                  "name": "Erhöhen und Vermindern",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "wrong_base",
+                  "category": "concept_confusion",
+                  "description": "Falscher Grundwert: rechnet nach einer Veränderung mit dem neuen Wert oder behandelt den Prozentwert als Grundwert."
+                },
+                {
+                  "id": "plus_minus_same",
+                  "category": "concept_confusion",
+                  "description": "Meint, +20 % und danach −20 % ergeben wieder den Anfangswert, oder verrechnet Prozentsätze einfach miteinander."
+                },
+                {
+                  "id": "money_rounding",
+                  "category": "rounding",
+                  "description": "Schneidet Geldbeträge ab, statt kaufmännisch auf Cent zu runden."
+                },
+                {
+                  "id": "divide_instead_multiply",
+                  "category": "concept_confusion",
+                  "description": "Teilt durch den Prozentsatz statt mit ihm zu multiplizieren (oder umgekehrt)."
+                },
+                {
+                  "id": "forgot_hundred",
+                  "category": "concept_confusion",
+                  "description": "Vergisst, durch 100 zu teilen bzw. mit 100 zu multiplizieren."
+                },
+                {
+                  "id": "only_change",
+                  "category": "concept_confusion",
+                  "description": "Gibt nur die Veränderung (den Prozentwert) statt des neuen Werts an."
+                }
+              ],
+              "levels": {
+                "L1": "Einfache Prozentsätze (10 %, 25 %, 75 % …) ohne Sachzusammenhang.",
+                "L2": "Grundaufgaben im Sachzusammenhang; Preis um p % erhöhen oder senken.",
+                "L3": "Prozentsätze mit Komma und Runden; Rückrechnen auf den alten Preis; Prozentsatz einer Veränderung.",
+                "L4": "Zwei Veränderungen nacheinander; zwei Angebote vergleichen."
+              },
+              "estimatedMinutes": 10,
+              "status": "validated",
+              "templates": [
+                "ch6.pct.basic_tasks.grundaufgaben",
+                "ch6.pct.basic_tasks.change"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch6.t2",
+          "name": "Zinsrechnung",
+          "skills": [
+            {
+              "id": "ch6.interest.simple_compound",
+              "name": "Zins und Zinseszins",
+              "description": "Berechne Jahreszinsen und Zinseszinsen Jahr für Jahr.",
+              "objective": "Compute simple interest and compound interest iteratively (no closed formula).",
+              "textbookRef": {
+                "chapter": "VI",
+                "section": 5,
+                "title": "Zins und Zinseszins",
+                "page": 153,
+                "status": "verified",
+                "sections": [
+                  5
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(3)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch6.pct.basic_tasks"
+              ],
+              "families": [
+                {
+                  "id": "yearly_interest",
+                  "name": "Jahreszinsen",
+                  "status": "validated"
+                },
+                {
+                  "id": "iterative_table",
+                  "name": "Zinseszins-Tabelle (≤ 5 Jahre)",
+                  "status": "validated"
+                },
+                {
+                  "id": "compare_offers",
+                  "name": "Sparangebote vergleichen",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "simple_for_compound",
+                  "category": "concept_confusion",
+                  "description": "Rechnet Zinseszins wie einfache Zinsen."
+                },
+                {
+                  "id": "cent_rounding",
+                  "category": "rounding",
+                  "description": "Rundet Zwischenergebnisse falsch."
+                },
+                {
+                  "id": "forgot_hundred",
+                  "category": "concept_confusion",
+                  "description": "Vergisst, durch 100 zu teilen bzw. mit 100 zu multiplizieren."
+                },
+                {
+                  "id": "wrong_base",
+                  "category": "concept_confusion",
+                  "description": "Behandelt die Zinsen wie das Kapital (falscher Grundwert)."
+                },
+                {
+                  "id": "only_change",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt Zinsen und Guthaben nach einem Jahr."
+                },
+                {
+                  "id": "add_rates",
+                  "category": "concept_confusion",
+                  "description": "Beurteilt eine Zinstreppe nur nach der Summe der Zinssätze."
+                }
+              ],
+              "levels": {
+                "L1": "Jahreszinsen oder Guthaben nach einem Jahr.",
+                "L2": "Zinssatz oder Kapital rückwärts berechnen.",
+                "L3": "Zinseszins Jahr für Jahr (Tabelle für 2–3 Jahre oder Guthaben nach 2–5 Jahren).",
+                "L4": "Sparangebote vergleichen (Zinstreppe, Zinsen ohne Zinseszins)."
+              },
+              "estimatedMinutes": 12,
+              "status": "validated",
+              "templates": [
+                "ch6.interest.simple_compound.yearly",
+                "ch6.interest.simple_compound.compound"
+              ]
+            },
+            {
+              "id": "ch6.interest.loan",
+              "name": "Kredit und Tilgung",
+              "description": "Verfolge einen Kredit mit einem Tilgungsplan.",
+              "objective": "Track a loan with a fixed yearly payment in a repayment table (spreadsheet-style, year by year).",
+              "textbookRef": {
+                "chapter": "VI",
+                "section": 6,
+                "title": "Kredit und Tilgung",
+                "page": 157,
+                "status": "verified",
+                "sections": [
+                  6
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.1(4)",
+                  "status": "verified",
+                  "source": "S4",
+                  "note": "Tabellenkalkulation nicht modelliert; Laufzeit und Kosten über Jahrestabellen"
+                }
+              ],
+              "prerequisites": [
+                "ch6.interest.simple_compound"
+              ],
+              "families": [
+                {
+                  "id": "repayment_table",
+                  "name": "Tilgungsplan ausfüllen",
+                  "status": "validated"
+                },
+                {
+                  "id": "loan_duration",
+                  "name": "Laufzeit bestimmen",
+                  "status": "validated"
+                },
+                {
+                  "id": "loan_cost",
+                  "name": "Zinskosten eines Kredits",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "interest_on_original",
+                  "category": "concept_confusion",
+                  "description": "Berechnet Zinsen immer auf die ursprüngliche Kreditsumme."
+                },
+                {
+                  "id": "rate_is_repayment",
+                  "category": "concept_confusion",
+                  "description": "Zieht die ganze Rate von der Restschuld ab (Rate = Tilgung)."
+                },
+                {
+                  "id": "ignore_interest",
+                  "category": "concept_confusion",
+                  "description": "Teilt die Kreditsumme durch die Rate und übersieht die Zinsen."
+                },
+                {
+                  "id": "last_payment_full",
+                  "category": "concept_confusion",
+                  "description": "Meint, im letzten Jahr werde die volle Rate gezahlt."
+                }
+              ],
+              "levels": {
+                "L1": "Eine Zeile des Tilgungsplans (Zinsen, Tilgung, Restschuld).",
+                "L2": "Drei Zeilen des Tilgungsplans.",
+                "L3": "Laufzeit bestimmen: Nach wie vielen Jahren ist der Kredit zurückgezahlt?",
+                "L4": "Kosten des Kredits: Zinsen über die ganze Laufzeit."
+              },
+              "estimatedMinutes": 12,
+              "status": "validated",
+              "templates": [
+                "ch6.interest.loan.table",
+                "ch6.interest.loan.duration"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "number": 7,
+      "roman": "VII",
+      "name": "Daten und Zufall",
+      "textbookPage": 168,
+      "status": "implemented",
+      "sections": [
+        {
+          "id": "ch7.s1",
+          "number": 1,
+          "title": "Daten auswerten",
+          "page": 170
+        },
+        {
+          "id": "ch7.s2",
+          "number": 2,
+          "title": "Zufallsexperimente",
+          "page": 174
+        },
+        {
+          "id": "ch7.s3",
+          "number": 3,
+          "title": "Wahrscheinlichkeiten bestimmen",
+          "page": 178
+        },
+        {
+          "id": "ch7.s4",
+          "number": 4,
+          "title": "Versuchsreihen ergeben Wahrscheinlichkeiten",
+          "page": 182
+        },
+        {
+          "id": "ch7.s5",
+          "number": 5,
+          "title": "Laplace-Experimente",
+          "page": 185
+        }
+      ],
+      "curriculum": {
+        "source": "S4",
+        "status": "verified",
+        "standards": [
+          "3.2.5(1)",
+          "3.2.5(2)",
+          "3.2.5(3)",
+          "3.2.5(4)",
+          "3.2.5(5)",
+          "3.2.5(6)",
+          "3.2.5(7)",
+          "3.2.5(8)",
+          "3.2.5(9)",
+          "3.2.5(10)"
+        ]
+      },
+      "topics": [
+        {
+          "id": "ch7.t1",
+          "name": "Daten",
+          "skills": [
+            {
+              "id": "ch7.data.analyze",
+              "name": "Daten auswerten",
+              "description": "Bestimme Spannweite, Median und Mittelwert (auch aus Häufigkeitstabellen und mit Ausreißern) und beurteile Aussagen über Daten.",
+              "objective": "Compute basic statistics on secondary data and judge statements.",
+              "textbookRef": {
+                "chapter": "VII",
+                "section": 1,
+                "title": "Daten auswerten",
+                "page": 170,
+                "status": "verified",
+                "sections": [
+                  1
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.5(1)",
+                  "status": "verified"
+                },
+                {
+                  "standard": "3.2.5(2)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "kl6.statistics_basics"
+              ],
+              "families": [
+                {
+                  "id": "statistics",
+                  "name": "Kenngrößen berechnen",
+                  "status": "validated"
+                },
+                {
+                  "id": "judge_statement",
+                  "name": "Aussagen beurteilen",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "mean_median",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt Mittelwert und Median."
+                },
+                {
+                  "id": "unsorted_median",
+                  "category": "concept_confusion",
+                  "description": "Nimmt den mittleren Wert der unsortierten Liste als Median."
+                },
+                {
+                  "id": "range_as_max",
+                  "category": "concept_confusion",
+                  "description": "Hält das Maximum für die Spannweite."
+                },
+                {
+                  "id": "unweighted_mean",
+                  "category": "concept_confusion",
+                  "description": "Mittelt bei einer Häufigkeitstabelle nur die verschiedenen Werte."
+                },
+                {
+                  "id": "outlier_effect",
+                  "category": "concept_confusion",
+                  "description": "Meint, ein Ausreißer verändere den Median so stark wie den Mittelwert."
+                }
+              ],
+              "levels": {
+                "L1": "Eine Kenngröße (Spannweite, Median oder Mittelwert) aus einer unsortierten Liste.",
+                "L2": "Spannweite, Median und Mittelwert bei gerader Anzahl von Werten.",
+                "L3": "Häufigkeitstabelle (Mittelwert gerundet, Median) oder Liste mit Ausreißer.",
+                "L4": "Aussagen über einen Datensatz beurteilen."
+              },
+              "estimatedMinutes": 8,
+              "status": "validated",
+              "templates": [
+                "ch7.data.analyze.stats",
+                "ch7.data.analyze.judge"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch7.t2",
+          "name": "Wahrscheinlichkeit",
+          "skills": [
+            {
+              "id": "ch7.prob.experiments",
+              "name": "Zufallsexperimente",
+              "description": "Unterscheide Ergebnisse und Ereignisse und beschreibe Ereignisse als Mengen.",
+              "objective": "Distinguish outcomes and events; write events in set notation.",
+              "textbookRef": {
+                "chapter": "VII",
+                "section": 2,
+                "title": "Zufallsexperimente",
+                "page": 174,
+                "status": "verified",
+                "sections": [
+                  2
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.5(4)",
+                  "status": "verified",
+                  "source": "S4"
+                },
+                {
+                  "standard": "3.2.5(5)",
+                  "status": "verified",
+                  "source": "S4"
+                }
+              ],
+              "prerequisites": [
+                "kl6.relative_frequency"
+              ],
+              "families": [
+                {
+                  "id": "outcome_event",
+                  "name": "Ergebnis oder Ereignis? (Ergebnismenge)",
+                  "status": "validated"
+                },
+                {
+                  "id": "set_notation",
+                  "name": "Ereignis als Menge",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "outcome_event_confusion",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt Ergebnis und Ereignis."
+                },
+                {
+                  "id": "order_ignored",
+                  "category": "concept_confusion",
+                  "description": "Hält bei mehrstufigen Experimenten KZ und ZK für dasselbe Ergebnis."
+                },
+                {
+                  "id": "boundary",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt „größer als“ und „mindestens“ (bzw. „kleiner als“ und „höchstens“)."
+                },
+                {
+                  "id": "prime_one",
+                  "category": "concept_confusion",
+                  "description": "Hält 1 für eine Primzahl."
+                },
+                {
+                  "id": "divisor_multiple",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt Teiler und Vielfache."
+                },
+                {
+                  "id": "and_or",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt „und“ und „oder“ bei zusammengesetzten Ereignissen."
+                }
+              ],
+              "levels": {
+                "L1": "Ergebnismenge wählen oder Ergebnisse eines Ereignisses ankreuzen.",
+                "L2": "Mengenschreibweise eines Ereignisses in Worten.",
+                "L3": "Zusammengesetzte Ereignisse mit „und“, „oder“, „nicht“.",
+                "L4": "Zu einer Menge alle passenden Beschreibungen finden."
+              },
+              "estimatedMinutes": 6,
+              "status": "validated",
+              "templates": [
+                "ch7.prob.experiments.events"
+              ]
+            },
+            {
+              "id": "ch7.prob.determine",
+              "name": "Wahrscheinlichkeiten bestimmen",
+              "description": "Bestimme Wahrscheinlichkeiten als Summe, mit dem Gegenereignis und durch Abzählen; beurteile Aussagen aus dem Alltag.",
+              "objective": "Determine probabilities, including via the complementary event and counting.",
+              "textbookRef": {
+                "chapter": "VII",
+                "section": 3,
+                "title": "Wahrscheinlichkeiten bestimmen",
+                "page": 178,
+                "status": "verified",
+                "sections": [
+                  3
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.5(3)",
+                  "status": "verified",
+                  "source": "S4"
+                },
+                {
+                  "standard": "3.2.5(10)",
+                  "status": "verified",
+                  "source": "S4"
+                },
+                {
+                  "standard": "3.2.5(8)",
+                  "status": "verified",
+                  "source": "S4"
+                }
+              ],
+              "prerequisites": [
+                "ch7.prob.experiments"
+              ],
+              "families": [
+                {
+                  "id": "outcome_sum",
+                  "name": "Wahrscheinlichkeiten addieren",
+                  "status": "validated"
+                },
+                {
+                  "id": "complement",
+                  "name": "Gegenereignis",
+                  "status": "validated"
+                },
+                {
+                  "id": "counting",
+                  "name": "Abzählen",
+                  "status": "validated"
+                },
+                {
+                  "id": "judge_claim",
+                  "name": "Alltagsaussagen beurteilen",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "all_equal",
+                  "category": "concept_confusion",
+                  "description": "Hält alle Ergebnisse für gleich wahrscheinlich."
+                },
+                {
+                  "id": "add_vs_multiply",
+                  "category": "concept_confusion",
+                  "description": "Multipliziert Wahrscheinlichkeiten bei „oder“ statt zu addieren."
+                },
+                {
+                  "id": "complement_forgotten",
+                  "category": "concept_confusion",
+                  "description": "Gibt die gegebene Wahrscheinlichkeit statt der des Gegenereignisses an."
+                },
+                {
+                  "id": "sum_not_one",
+                  "category": "concept_confusion",
+                  "description": "Nutzt nicht, dass alle Wahrscheinlichkeiten zusammen 1 ergeben."
+                },
+                {
+                  "id": "counting_sum",
+                  "category": "concept_confusion",
+                  "description": "Addiert beim Abzählen die Möglichkeiten der Stufen, statt zu multiplizieren."
+                },
+                {
+                  "id": "gamblers_fallacy",
+                  "category": "concept_confusion",
+                  "description": "Glaubt, ein Zufallsgerät „erinnere sich“ an frühere Ergebnisse."
+                },
+                {
+                  "id": "prob_as_certainty",
+                  "category": "concept_confusion",
+                  "description": "Deutet eine Wahrscheinlichkeit als sichere oder genaue Vorhersage."
+                },
+                {
+                  "id": "absolute_vs_relative",
+                  "category": "concept_confusion",
+                  "description": "Vergleicht Anzahlen statt Anteile."
+                }
+              ],
+              "levels": {
+                "L1": "Wahrscheinlichkeit eines Ereignisses als Summe aus einer Tabelle.",
+                "L2": "Gegenereignis und fehlender Tabellenwert.",
+                "L3": "Anzahl der Möglichkeiten durch Abzählen (Produktregel).",
+                "L4": "Wahrscheinlichkeitsaussagen aus dem Alltag beurteilen."
+              },
+              "estimatedMinutes": 8,
+              "status": "validated",
+              "templates": [
+                "ch7.prob.determine.compute",
+                "ch7.prob.determine.counting",
+                "ch7.prob.determine.claims"
+              ]
+            },
+            {
+              "id": "ch7.prob.frequency",
+              "name": "Versuchsreihen ergeben Wahrscheinlichkeiten",
+              "description": "Schätze Wahrscheinlichkeiten aus relativen Häufigkeiten langer Versuchsreihen.",
+              "objective": "Interpret relative frequencies as probability estimates (law of large numbers).",
+              "textbookRef": {
+                "chapter": "VII",
+                "section": 4,
+                "title": "Versuchsreihen ergeben Wahrscheinlichkeiten",
+                "page": 182,
+                "status": "verified",
+                "sections": [
+                  4
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.5(7)",
+                  "status": "verified",
+                  "source": "S4"
+                },
+                {
+                  "standard": "3.2.5(6)",
+                  "status": "verified",
+                  "source": "S4",
+                  "note": "nur Auswerten gegebener Versuchsreihen; Durchführen nicht modelliert"
+                }
+              ],
+              "prerequisites": [
+                "ch7.prob.experiments"
+              ],
+              "families": [
+                {
+                  "id": "relative_frequency",
+                  "name": "Relative Häufigkeit berechnen",
+                  "status": "validated"
+                },
+                {
+                  "id": "estimate",
+                  "name": "Schätzen aus Häufigkeiten",
+                  "status": "validated"
+                },
+                {
+                  "id": "compare_series",
+                  "name": "Versuchsreihen zusammenfassen",
+                  "status": "validated"
+                },
+                {
+                  "id": "stabilization",
+                  "name": "Stabilisierung beurteilen",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "small_sample",
+                  "category": "concept_confusion",
+                  "description": "Vertraut kleinen Stichproben zu sehr."
+                },
+                {
+                  "id": "ratio_not_share",
+                  "category": "concept_confusion",
+                  "description": "Teilt durch die Anzahl der übrigen statt aller Versuche."
+                },
+                {
+                  "id": "all_equal",
+                  "category": "concept_confusion",
+                  "description": "Nimmt bei zwei Ergebnissen je 1/2 an."
+                },
+                {
+                  "id": "mean_of_rates",
+                  "category": "concept_confusion",
+                  "description": "Mittelt die relativen Häufigkeiten verschieden langer Reihen."
+                },
+                {
+                  "id": "exact_from_frequency",
+                  "category": "concept_confusion",
+                  "description": "Hält eine relative Häufigkeit für die genaue Wahrscheinlichkeit."
+                }
+              ],
+              "levels": {
+                "L1": "Relative Häufigkeit berechnen.",
+                "L2": "Wahrscheinlichkeit schätzen und erwartete Anzahl berechnen.",
+                "L3": "Versuchsreihen verschiedener Länge zusammenfassen.",
+                "L4": "Stabilisierung relativer Häufigkeiten beurteilen."
+              },
+              "estimatedMinutes": 8,
+              "status": "validated",
+              "templates": [
+                "ch7.prob.frequency.series"
+              ]
+            },
+            {
+              "id": "ch7.prob.laplace",
+              "name": "Laplace-Experimente",
+              "description": "Berechne Wahrscheinlichkeiten bei gleich wahrscheinlichen Ergebnissen.",
+              "objective": "Compute Laplace probabilities as favourable / possible outcomes.",
+              "textbookRef": {
+                "chapter": "VII",
+                "section": 5,
+                "title": "Laplace-Experimente",
+                "page": 185,
+                "status": "verified",
+                "sections": [
+                  5
+                ]
+              },
+              "curriculum": [
+                {
+                  "standard": "3.2.5(9)",
+                  "status": "verified"
+                },
+                {
+                  "standard": "3.2.5(8)",
+                  "status": "verified"
+                }
+              ],
+              "prerequisites": [
+                "ch7.prob.determine"
+              ],
+              "families": [
+                {
+                  "id": "laplace_basic",
+                  "name": "Günstige durch mögliche",
+                  "status": "validated"
+                },
+                {
+                  "id": "is_laplace",
+                  "name": "Laplace oder nicht?",
+                  "status": "validated"
+                }
+              ],
+              "misconceptions": [
+                {
+                  "id": "non_laplace",
+                  "category": "concept_confusion",
+                  "description": "Wendet die Laplace-Regel bei nicht gleich wahrscheinlichen Ergebnissen an."
+                },
+                {
+                  "id": "boundary",
+                  "category": "concept_confusion",
+                  "description": "Verwechselt „größer als“ und „mindestens“."
+                },
+                {
+                  "id": "ratio_not_share",
+                  "category": "concept_confusion",
+                  "description": "Teilt günstige durch ungünstige statt durch alle Ergebnisse."
+                },
+                {
+                  "id": "all_equal",
+                  "category": "concept_confusion",
+                  "description": "Hält Farben oder Augensummen für gleich wahrscheinlich."
+                },
+                {
+                  "id": "order_ignored",
+                  "category": "concept_confusion",
+                  "description": "Zählt bei zwei Würfeln (1; 2) und (2; 1) nur einmal."
+                }
+              ],
+              "levels": {
+                "L1": "Würfel, Glücksrad, Urne mit Nummern.",
+                "L2": "Urne mit Farben, Buchstabenkarten.",
+                "L3": "Zwei Würfel: die 36 Paare abzählen.",
+                "L4": "Laplace-Annahme beurteilen."
+              },
+              "estimatedMinutes": 8,
+              "status": "validated",
+              "templates": [
+                "ch7.prob.laplace.compute",
+                "ch7.prob.laplace.judge"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
