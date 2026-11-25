@@ -31,7 +31,8 @@ function build() {
   }
   fs.mkdirSync(path.join(root, 'dist'), { recursive: true });
   const out = path.join(root, 'dist', 'mathe7.html');
-  fs.writeFileSync(out, html);
+  // atomic write: tests running in parallel may build and read dist/ at the same time
+  const tmp = `${out}.${process.pid}.tmp`; fs.writeFileSync(tmp, html); fs.renameSync(tmp, out);
   return { out, bytes: Buffer.byteLength(html) };
 }
 
